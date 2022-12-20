@@ -20,6 +20,7 @@
     - [Brief](/Linux_Tools_shuf)
     - [syncthing](/Linux_Tools_syncthing)
     - [Reference](/Linux_Tools_tr)
+    - [Brief](/Linux_Tools_sort)
     - [Reference](/Linux_Tools_updatealternatives)
     - [ctags](/Linux_Tools_ctags)
     - [Download](/Linux_Tools_Download)
