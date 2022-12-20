@@ -63,5 +63,8 @@
     - [awk](/Linux_Tools_awk)
     - [Brief](/Linux_Tools_taskset)
     - [Install `openssh-server`](/Linux_Tools_SSH)
+  - [Desktop](/Linux_Desktop)
   - [Install](/Linux_Install)
   - [Driver](/Linux_Driver)
+- Ubuntu
+  - [RemoteDesktop](/Ubuntu_RemoteDesktop)
