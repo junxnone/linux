@@ -11,3 +11,4 @@
   - [AutoSidebar](/Guide_AutoSidebar)
 - [TODO](/TODO)
 - [About](/About)
+- [Linux](/Linux)
