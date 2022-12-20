@@ -14,5 +14,9 @@
 - [Linux](/Linux)
   - Tools
     - [meld](/Linux_Tools_meld)
+    - [Brief](/Linux_Tools_cal)
     - [ffmpeg](/Linux_Tools_ffmpeg)
+    - [script](/Linux_Tools_script)
     - [ctags](/Linux_Tools_ctags)
+    - [Brief](/Linux_Tools_xset)
+  - [Driver](/Linux_Driver)
