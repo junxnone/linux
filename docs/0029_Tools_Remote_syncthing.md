@@ -1,8 +1,8 @@
 ---
-Title | Tools syncthing
+Title | Tools Remote syncthing
 -- | --
 Created @ | `2019-10-12T05:58:55Z`
-Last Modify @| `2022-12-21T10:55:20Z`
+Last Modify @| `2022-12-21T15:04:25Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/29)
 
