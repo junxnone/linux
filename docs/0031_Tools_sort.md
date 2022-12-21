@@ -2,12 +2,14 @@
 Title | Tools sort
 -- | --
 Created @ | `2019-10-25T08:17:04Z`
-Last Modify @| `2022-12-21T10:54:18Z`
+Last Modify @| `2022-12-21T10:54:39Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/31)
 
 ---
-# Brief
+#  sort 排序工具
+
+## Brief
 
 - **`sort` 常用参数**
 
@@ -23,7 +25,7 @@ Edit @| [here](https://github.com/junxnone/linux/issues/31)
   -k  选择以哪个区间进行排序。
 ```
 
-# UseCase
+## UseCase
 - **去重复**
 
 当 ids.txt 里面包含较多重复的行时，可以使用 `sort -u` 去重复
