@@ -73,6 +73,7 @@
 - 2019-03-01   [ulimit](/Linux_Tools_ulimit)
 - 2019-02-28   [Reference](/Linux_Tools_json)
 - 2019-02-20   [Hardware 查看工具](/0068_Tools_HardwareInfo)
+- 2019-02-19   [添加账户 adduser vs useradd](/0069_Tools_添加账户)
 - 2019-01-15   [history](/Linux_Tools_history)
 - 2018-12-14   [rename](/Linux_Tools_rename)
 - 2018-11-29   [awk](/Linux_Tools_awk)
