@@ -1,8 +1,8 @@
 ---
-Title | Tools meld
+Title | Tools TextCompare meld
 -- | --
 Created @ | `2021-12-30T02:51:42Z`
-Last Modify @| `2022-12-21T10:32:49Z`
+Last Modify @| `2022-12-21T15:03:29Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/4)
 
