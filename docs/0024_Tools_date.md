@@ -2,14 +2,14 @@
 Title | Tools date
 -- | --
 Created @ | `2019-08-01T05:38:13Z`
-Last Modify @| `2022-12-21T10:49:25Z`
+Last Modify @| `2022-12-21T10:49:55Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/24)
 
 ---
-# Reference
+## Reference
 
-# Brief
+## Brief
 
 - 显示日期时间
 ```
@@ -172,5 +172,5 @@ sudo date -s 14:00:00
 sudo date -s "$(wget -S  "http://www.google.com/" 2>&1 | grep -E '^[[:space:]]*[dD]ate:' | sed 's/^[[:space:]]*[dD]ate:[[:space:]]*//' | head -1l | awk '{print $1, $3, $2,  $5 ,"GMT", $4 }' | sed 's/,//')"
 ```
 
-# 使用ntp时间
+## 使用ntp时间
 
