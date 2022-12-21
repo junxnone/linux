@@ -54,22 +54,20 @@
   - [ln 链接工具](/0033_Tools_ln)
   - [Hardware 查看工具](/0068_Tools_HardwareInfo)
   - [taskset 设定程序运行在的CPU](/0034_Tools_taskset)
-  - Ubuntu
+- Ubuntu
   - [Download](/0014_Ubuntu_Download)
     - [magnetW 磁力下载工具](/0055_Ubuntu_Download_magnetW)
   - [Ubuntu Install Steam](/0063_Ubuntu_InstallSteam)
   - [APT Ubuntu 包管理工具](/0015_Ubuntu_APT)
 - [Networks](/0060_Networks)
-    - Tools
+  - [Tools](/0056_Networks_Tools)
     - [sar](/0048_Networks_Tools_sar)
-    - Proxy
+  - Proxy
     - [V2Ray](/0066_Networks_Proxy_V2Ray)
     - [ShadowSocks](/0067_Networks_Proxy_shadowsocks)
 - [Driver](/0005_Driver)
 - [Desktop](/0057_Desktop)
-  - Netwroks
-  - [Tools](/0056_Netwroks_Tools)
 - [Linux File System](/0064_FileSystem)
-  - Security
+- Security
   - [PAM - Pluggable Authentication Module](/0065_Security_PAM)
 - [Wiki History](/hist)

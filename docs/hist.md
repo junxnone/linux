@@ -13,7 +13,7 @@
 - 2021-10-13   [scp](/0010_Tools_scp)
 - 2021-10-11   [ssh 远程管理工具](/0011_Tools_ssh)
 - 2021-10-09   [chrt 管理进程属性](/0012_Tools_chrt)
-- 2021-03-04   [Tools](/0056_Netwroks_Tools)
+- 2021-03-04   [Tools](/0056_Networks_Tools)
 - 2021-03-02   [Ubuntu Install Steam](/0063_Ubuntu_InstallSteam)
 - 2021-01-13   [Desktop](/0057_Desktop)
 - 2020-10-09   [snap 软件管理工具](/0021_Tools_snap)
