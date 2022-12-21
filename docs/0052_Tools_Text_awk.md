@@ -1,8 +1,8 @@
 ---
-Title | Tools awk
+Title | Tools Text awk
 -- | --
 Created @ | `2018-11-29T10:51:42Z`
-Last Modify @| `2022-12-21T10:56:38Z`
+Last Modify @| `2022-12-21T15:15:56Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/52)
 
