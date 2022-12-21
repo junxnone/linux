@@ -2,17 +2,19 @@
 Title | Ubuntu APT
 -- | --
 Created @ | `2020-06-03T03:19:10Z`
-Last Modify @| `2022-12-21T10:44:34Z`
+Last Modify @| `2022-12-21T10:45:03Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/15)
 
 ---
-# Reference
+# APT Ubuntu 包管理工具
+
+## Reference
 - [Ubuntu apt man page](http://manpages.ubuntu.com/manpages/bionic/man8/apt.8.html)
 - [Apt Guide](https://www.debian.org/doc/manuals/apt-guide/index.en.html)
 - [apt repo - Github](https://github.com/Debian/apt/tree/master/doc)
 
-# Brief
+## Brief
 - Package Management System
 - apt & apt-get
 - Tools
