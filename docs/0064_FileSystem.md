@@ -2,12 +2,12 @@
 Title | FileSystem
 -- | --
 Created @ | `2019-10-14T03:19:49Z`
-Last Modify @| `2022-12-21T08:44:50Z`
+Last Modify @| `2022-12-21T14:31:47Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/64)
 
 ---
-# Linux File System
+# File System
 
 ## proc
 
