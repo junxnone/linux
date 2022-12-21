@@ -2,15 +2,17 @@
 Title | Tools Vi Plugins
 -- | --
 Created @ | `2020-06-06T07:54:45Z`
-Last Modify @| `2022-12-21T10:43:03Z`
+Last Modify @| `2022-12-21T10:43:29Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/17)
 
 ---
-# Reference
+# Vi 常用插件
+
+## Reference
 - [7款优秀Vim插件帮你打造完美IDE](https://coffee.pmcaff.com/article/z5QnNNrNQq/?newwindow=1&rts=200605122448_13_-4_0)
 
-# Plugins
+## Plugins
 
 plugin name |  Description
 -- | --
