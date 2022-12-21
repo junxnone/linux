@@ -2,12 +2,14 @@
 Title | Tools bc
 -- | --
 Created @ | `2019-10-12T08:18:42Z`
-Last Modify @| `2022-12-21T10:54:52Z`
-Labels | ``
+Last Modify @| `2022-12-21T15:24:45Z`
+Labels | `documentation`
 Edit @| [here](https://github.com/junxnone/linux/issues/30)
 
 ---
-# Brief
+# bc 浮点计算工具
+
+## Brief
 -  shell 中用于浮点计算
 
 ## UseCase
