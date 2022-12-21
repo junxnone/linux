@@ -1,8 +1,8 @@
 ---
-Title | Tools Vi
+Title | Tools Text Vi
 -- | --
 Created @ | `2019-03-07T07:38:27Z`
-Last Modify @| `2022-12-21T10:57:20Z`
+Last Modify @| `2022-12-21T15:15:41Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/39)
 
