@@ -49,6 +49,7 @@
 - 2019-10-12   [Brief](/Linux_Tools_bc)
 - 2019-10-12   [syncthing](/Linux_Tools_syncthing)
 - 2019-09-18   [Brief](/Linux_Tools_shuf)
+- 2019-08-27   [PAM - Pluggable Authentication Module](/0065_Security_PAM)
 - 2019-08-22   [sed](/Linux_Tools_sed)
 - 2019-08-22   [Reference](/Linux_Tools_tr)
 - 2019-08-09   [magnetW](/Linux_Tools_Download_magnetW)

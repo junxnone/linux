@@ -53,15 +53,17 @@
   - [Install `openssh-server`](/Linux_Tools_SSH)
 - [AutoSidebar](/Guide_AutoSidebar)
 - [自动生成 Sidebar](/Features_AutoSidebar)
-  - Linux
-  - [Networks](/0060_Linux_Networks)
+- [MindMap](/Features_MindMap)
+  - Security
+  - [PAM - Pluggable Authentication Module](/0065_Security_PAM)
 - [Linux File System](/0064_FileSystem)
 - [Timeline](/Features_Timeline)
 - [Latex](/Features_Latex)
 - [Include Content](/Features_IncludeContent)
-- [MindMap](/Features_MindMap)
-- [Install](/Linux_Install)
+  - Linux
+  - [Networks](/0060_Linux_Networks)
 - [Mermaid 图表支持](/Features_Mermaid)
+- [Install](/Linux_Install)
   - Ubuntu
   - [Ubuntu Install Steam](/0063_Ubuntu_InstallSteam)
 - [Markdown](/Features_Markdown)
