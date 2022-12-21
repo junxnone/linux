@@ -2,15 +2,18 @@
 Title | Tools ln
 -- | --
 Created @ | `2020-03-08T07:28:08Z`
-Last Modify @| `2022-12-21T10:53:17Z`
+Last Modify @| `2022-12-21T10:53:38Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/33)
 
 ---
-# Reference
+
+# ln 链接工具
+
+## Reference
 - [Linux中软连接和硬连接的区别](https://www.cnblogs.com/loliconinvincible/p/12442230.html)
 
-# Brief
+## Brief
 - 软链接 - `symbolic link`
 - 硬链接 - `hard link`
 
