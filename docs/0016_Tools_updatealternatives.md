@@ -2,15 +2,17 @@
 Title | Tools updatealternatives
 -- | --
 Created @ | `2020-06-03T06:38:33Z`
-Last Modify @| `2022-12-21T10:43:41Z`
+Last Modify @| `2022-12-21T10:44:13Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/16)
 
 ---
-# Reference
+# updatealternatives 多版本软件管理工具
+
+## Reference
 - [update-alternatives使用详解](https://www.jianshu.com/p/4d27fa2dce86)
 
-# Brief
+## Brief
 -  用于软件多版本切换
   - 显示安装应用的多个版本
   - 安装新的应用版本到管理器
