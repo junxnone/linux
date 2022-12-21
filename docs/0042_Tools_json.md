@@ -2,19 +2,19 @@
 Title | Tools json
 -- | --
 Created @ | `2019-02-28T06:51:49Z`
-Last Modify @| `2022-12-21T10:56:55Z`
+Last Modify @| `2022-12-21T10:57:08Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/42)
 
 ---
-# Reference
+## Reference
 - [fx github repo](https://github.com/antonmedv/fx)
 - [jq处理JSON数据, jq Manual (development version)](https://www.cnblogs.com/timxgb/p/6644914.html)
 - [Linux中在命令行中使用JQ来解析修改JSON字符串](https://www.jianshu.com/p/f50c87b7eaea)
 - [jq Manual](https://stedolan.github.io/jq/manual/)
 - [jq Github repo - Command-line JSON processor](https://github.com/stedolan/jq)
 
-# Brief
+## Brief
 - json tools
   - jq
   - fx
