@@ -1,5 +1,7 @@
 - [Tools](/0059_Tools)
   - [Vi](/0039_Tools_Vi)
+    - [Vi 常用插件](/0017_Tools_Vi_Plugins)
+    - [Vi 用例](/0018_Tools_Vi_UseCase)
   - [grep 文本过滤工具](/0025_Tools_grep)
   - [tree 列出文件夹信息工具](/0035_Tools_tree)
   - [tr](/0026_Tools_tr)
@@ -54,11 +56,15 @@
   - [taskset 设定程序运行在的CPU](/0034_Tools_taskset)
   - Ubuntu
   - [Download](/0014_Ubuntu_Download)
+    - [magnetW 磁力下载工具](/0055_Ubuntu_Download_magnetW)
   - [Ubuntu Install Steam](/0063_Ubuntu_InstallSteam)
   - [APT Ubuntu 包管理工具](/0015_Ubuntu_APT)
 - [Networks](/0060_Networks)
     - Tools
+    - [sar](/0048_Networks_Tools_sar)
     - Proxy
+    - [V2Ray](/0066_Networks_Proxy_V2Ray)
+    - [ShadowSocks](/0067_Networks_Proxy_shadowsocks)
 - [Driver](/0005_Driver)
 - [Desktop](/0057_Desktop)
   - Netwroks
