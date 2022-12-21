@@ -1,12 +1,14 @@
 ---
-Title | Tools ffmpeg
+Title | Tools Media ffmpeg
 -- | --
 Created @ | `2022-08-23T03:37:05Z`
-Last Modify @| `2022-12-21T10:32:00Z`
+Last Modify @| `2022-12-21T15:05:29Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/2)
 
 ---
+# ffmpeg 多媒体工具
+
 ## Reference
 - [Remove sequentially duplicate frames when using FFmpeg](https://stackoverflow.com/questions/37088517/remove-sequentially-duplicate-frames-when-using-ffmpeg)
 - [ffmpeg音视频加速](https://www.jianshu.com/p/ea4af542df6a)
