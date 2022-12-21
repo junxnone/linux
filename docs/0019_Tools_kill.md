@@ -2,15 +2,17 @@
 Title | Tools kill
 -- | --
 Created @ | `2020-06-15T06:51:39Z`
-Last Modify @| `2022-12-21T10:41:55Z`
+Last Modify @| `2022-12-21T14:39:50Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/19)
 
 ---
-# Reference
+
+## Reference
+
 - [`kill` 与 `kill -9` 的区别](https://blog.csdn.net/yushouxiang2014/article/details/82876405)
 
-# Brief
+## Brief
 
 ```
 sudo kill PID
