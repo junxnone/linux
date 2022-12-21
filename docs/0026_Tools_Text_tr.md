@@ -1,8 +1,8 @@
 ---
-Title | Tools tr
+Title | Tools Text tr
 -- | --
 Created @ | `2019-08-22T09:40:46Z`
-Last Modify @| `2022-12-21T10:47:59Z`
+Last Modify @| `2022-12-21T15:15:31Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/26)
 
