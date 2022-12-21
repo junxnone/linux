@@ -2,12 +2,15 @@
 Title | Tools Vi UseCase
 -- | --
 Created @ | `2020-06-06T08:04:47Z`
-Last Modify @| `2022-12-21T10:42:15Z`
+Last Modify @| `2022-12-21T10:42:53Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/18)
 
 ---
-# Reference
+
+# Vi 用例
+
+## Reference
 - [vim基础命令，查找和替换](https://www.cnblogs.com/woshimrf/p/vim.html)
 
 ## 简单使用
