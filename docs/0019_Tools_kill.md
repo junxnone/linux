@@ -2,11 +2,13 @@
 Title | Tools kill
 -- | --
 Created @ | `2020-06-15T06:51:39Z`
-Last Modify @| `2022-12-21T14:39:50Z`
+Last Modify @| `2022-12-21T14:41:03Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/19)
 
 ---
+
+# kill 停止进程
 
 ## Reference
 
