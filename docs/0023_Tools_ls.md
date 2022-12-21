@@ -2,12 +2,12 @@
 Title | Tools ls
 -- | --
 Created @ | `2019-07-25T06:28:25Z`
-Last Modify @| `2022-12-21T10:50:03Z`
+Last Modify @| `2022-12-21T10:50:14Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/23)
 
 ---
-# Brief
+## Brief
 - `ls` 列出文件夹下的内容
 
 Target | Command | Comment
@@ -19,7 +19,7 @@ Target | Command | Comment
 列出子目录的完整路径 | `ls */* -d1`
 
 
-# Issues
+## Issues
 
 - home/user 目录下使用 `ls` 命令卡死无响应
 
