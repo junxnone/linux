@@ -2,12 +2,12 @@
 Title | Tools File Archiver
 -- | --
 Created @ | `2020-06-24T03:00:54Z`
-Last Modify @| `2022-12-21T15:23:37Z`
+Last Modify @| `2022-12-21T15:23:53Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/20)
 
 ---
-# tar/zip/7z/rar 压缩解压文件管理工具
+# 压缩解压
 
 ## Tools
 
