@@ -2,16 +2,18 @@
 Title | Tools chrt
 -- | --
 Created @ | `2021-10-09T03:36:01Z`
-Last Modify @| `2022-12-21T10:37:32Z`
+Last Modify @| `2022-12-21T10:38:03Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/12)
 
 ---
-# Brief
+# chrt 管理进程属性
+
+## Brief
 - 管理进程实时属性
 
 
-# UseCase
+## UseCase
 
 UseCase | Cmd
 -- | --
