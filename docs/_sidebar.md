@@ -8,13 +8,14 @@
   - [Reference](/Linux_Tools_date)
   - [script](/Linux_Tools_script)
   - [rsync](/Linux_Tools_rsync)
+  - [Hardware 查看工具](/0068_Tools_HardwareInfo)
   - [TaskSchedule](/Linux_Tools_TaskSchedule)
   - [tmux](/Linux_Tools_tmux)
   - [Reference](/Linux_Tools_APT)
   - [history](/Linux_Tools_history)
-  - [Reference](/Linux_Tools_updatealternatives)
   - [ctags](/Linux_Tools_ctags)
   - [Reference](/Linux_Tools_kill)
+  - [Reference](/Linux_Tools_updatealternatives)
   - [Brief](/Linux_Tools_sort)
   - [Reference](/Linux_Tools_tr)
   - [syncthing](/Linux_Tools_syncthing)
@@ -25,8 +26,8 @@
   - [网络工具 nmap](/0062_Tools_nmap)
   - [atrun uid=1000 gid=1000](/Linux_Tools_at)
   - [Reference](/Linux_Tools_Samba)
-  - [sed](/Linux_Tools_sed)
   - [Brief](/Linux_Tools_ls)
+  - [Reference](/Linux_Tools_tophtop)
   - [Brief](/Linux_Tools_chrt)
   - [xargs](/Linux_Tools_xargs)
   - [find](/Linux_Tools_find)
@@ -39,7 +40,7 @@
   - [Reference](/Linux_Tools_ln)
   - [Brief](/Linux_Tools_top)
   - [Brief](/Linux_Tools_cal)
-  - [Reference](/Linux_Tools_tophtop)
+  - [sed](/Linux_Tools_sed)
   - [jobs](/Linux_Tools_jobs)
   - [Network](/Linux_Tools_Network)
   - [batch](/Linux_Tools_batch)
@@ -53,14 +54,14 @@
   - [Install `openssh-server`](/Linux_Tools_SSH)
 - [AutoSidebar](/Guide_AutoSidebar)
 - [自动生成 Sidebar](/Features_AutoSidebar)
+  - Networks
+    - Proxy
 - [MindMap](/Features_MindMap)
   - Security
   - [PAM - Pluggable Authentication Module](/0065_Security_PAM)
 - [Linux File System](/0064_FileSystem)
 - [Timeline](/Features_Timeline)
 - [Latex](/Features_Latex)
-  - Networks
-    - Proxy
 - [Include Content](/Features_IncludeContent)
   - Linux
   - [Networks](/0060_Linux_Networks)
