@@ -1,8 +1,8 @@
 ---
-Title | Tools Vi Plugins
+Title | Tools Text Vi Plugins
 -- | --
 Created @ | `2020-06-06T07:54:45Z`
-Last Modify @| `2022-12-21T10:43:29Z`
+Last Modify @| `2022-12-21T15:22:18Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/17)
 
