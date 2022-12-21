@@ -2,12 +2,14 @@
 Title | Tools image2string
 -- | --
 Created @ | `2020-04-04T05:38:22Z`
-Last Modify @| `2022-12-21T10:51:31Z`
+Last Modify @| `2022-12-21T10:51:49Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/36)
 
 ---
-# Brief
+# 图像转字符串工具
+
+## Brief
 - 远程 `shell` 查看图片可以把图片转成字符串形式
 - Tools
   - asciiview 
