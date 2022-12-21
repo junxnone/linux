@@ -1,8 +1,8 @@
 ---
-Title | Tools kill
+Title | Tools Process kill
 -- | --
 Created @ | `2020-06-15T06:51:39Z`
-Last Modify @| `2022-12-21T14:41:03Z`
+Last Modify @| `2022-12-21T14:54:00Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/19)
 
