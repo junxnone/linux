@@ -1,8 +1,8 @@
 ---
-Title | Tools sed
+Title | Tools Text sed
 -- | --
 Created @ | `2019-08-22T09:53:38Z`
-Last Modify @| `2022-12-21T10:46:56Z`
+Last Modify @| `2022-12-21T15:15:19Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/27)
 
