@@ -1,8 +1,8 @@
 ---
-Title | Tools Vi UseCase
+Title | Tools Text Vi UseCase
 -- | --
 Created @ | `2020-06-06T08:04:47Z`
-Last Modify @| `2022-12-21T10:42:53Z`
+Last Modify @| `2022-12-21T15:22:28Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/18)
 
