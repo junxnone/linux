@@ -2,17 +2,20 @@
 Title | Tools grep
 -- | --
 Created @ | `2019-08-06T05:13:14Z`
-Last Modify @| `2022-12-21T10:48:59Z`
+Last Modify @| `2022-12-21T10:49:18Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/25)
 
 ---
+# grep 文本过滤工具
+
 ## Brief
 - 过滤出感兴趣的内容
 
 ```
 grep -nr your_word yourfile
 ```
+
 ## UseCase
 
 Usecase | cmd
