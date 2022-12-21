@@ -1,8 +1,8 @@
 ---
-Title | Tools ssh
+Title | Tools Remote ssh
 -- | --
 Created @ | `2021-10-11T03:46:20Z`
-Last Modify @| `2022-12-21T10:37:13Z`
+Last Modify @| `2022-12-21T15:00:40Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/11)
 
