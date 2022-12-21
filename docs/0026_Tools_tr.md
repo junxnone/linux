@@ -2,15 +2,17 @@
 Title | Tools tr
 -- | --
 Created @ | `2019-08-22T09:40:46Z`
-Last Modify @| `2022-12-21T10:47:03Z`
+Last Modify @| `2022-12-21T10:47:59Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/26)
 
 ---
-# Reference
+# tr 
+
+## Reference
 - [Linux tr命令](https://www.runoob.com/linux/linux-comm-tr.html)
 
-# Brief
+## Brief
 - Linux tr 命令用于转换或删除文件中的字符。
 
 tr 指令从标准输入设备读取数据，经过字符串转译后，将结果输出到标准输出设备。
