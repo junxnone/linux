@@ -2,11 +2,13 @@
 Title | Tools script
 -- | --
 Created @ | `2021-11-04T08:32:12Z`
-Last Modify @| `2022-12-21T10:33:25Z`
+Last Modify @| `2022-12-21T10:33:51Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/6)
 
 ---
+# script 记录终端执行命令历史
+
 ## Reference
 - [【Linux学习 】Linux使用Script命令来记录并回放终端会话](https://blog.csdn.net/ouyang_peng/article/details/78818492)
 
