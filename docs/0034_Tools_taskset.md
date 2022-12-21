@@ -2,12 +2,14 @@
 Title | Tools taskset
 -- | --
 Created @ | `2020-03-20T02:55:19Z`
-Last Modify @| `2022-12-21T10:52:37Z`
+Last Modify @| `2022-12-21T10:53:10Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/34)
 
 ---
-# Brief
+# taskset 设定程序运行在的CPU
+
+## Brief
 -  指定运行 cpu
 
 ```
