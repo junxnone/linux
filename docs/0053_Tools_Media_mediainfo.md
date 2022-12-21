@@ -1,8 +1,8 @@
 ---
-Title | Tools mediainfo
+Title | Tools Media mediainfo
 -- | --
 Created @ | `2018-10-16T02:24:52Z`
-Last Modify @| `2022-12-21T10:56:18Z`
+Last Modify @| `2022-12-21T15:05:41Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/53)
 
