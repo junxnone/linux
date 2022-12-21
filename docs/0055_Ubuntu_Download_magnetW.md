@@ -2,11 +2,13 @@
 Title | Ubuntu Download magnetW
 -- | --
 Created @ | `2019-08-09T12:50:28Z`
-Last Modify @| `2022-12-21T10:48:27Z`
+Last Modify @| `2022-12-21T10:48:49Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/55)
 
 ---
+# magnetW 磁力下载工具
+
 ## Reference
 - [Github](https://github.com/dengyuhan/magnetW)
 - [Docker](https://hub.docker.com/r/gowah/magnetw-web)
