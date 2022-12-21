@@ -1,14 +1,13 @@
 ---
-Title | Tools ln
+Title | Tools File ln
 -- | --
 Created @ | `2020-03-08T07:28:08Z`
-Last Modify @| `2022-12-21T10:53:38Z`
+Last Modify @| `2022-12-21T15:13:36Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/33)
 
 ---
-
-# ln 链接工具
+# ln 文件链接工具
 
 ## Reference
 - [Linux中软连接和硬连接的区别](https://www.cnblogs.com/loliconinvincible/p/12442230.html)
