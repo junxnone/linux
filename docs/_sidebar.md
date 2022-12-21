@@ -1,3 +1,4 @@
+- [Linux](/0001_Linux)
 - [Tools](/0059_Tools)
   - [Vi](/0039_Tools_Vi)
     - [Vi 常用插件](/0017_Tools_Vi_Plugins)
@@ -67,7 +68,7 @@
     - [ShadowSocks](/0067_Networks_Proxy_shadowsocks)
 - [Driver](/0005_Driver)
 - [Desktop](/0057_Desktop)
-- [Linux File System](/0064_FileSystem)
+- [File System](/0064_FileSystem)
 - Security
   - [PAM - Pluggable Authentication Module](/0065_Security_PAM)
 - [Wiki History](/hist)
