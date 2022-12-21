@@ -2,16 +2,18 @@
 Title | Tools tree
 -- | --
 Created @ | `2020-04-04T04:39:52Z`
-Last Modify @| `2022-12-21T10:51:56Z`
+Last Modify @| `2022-12-21T10:52:25Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/35)
 
 ---
-# Reference
+# tree 列出文件夹信息工具
+
+## Reference
 - [tree - linux-command](https://wangchujiang.com/linux-command/c/tree.html)
 - [tree - man.linuxde](https://man.linuxde.net/tree)
 
-# Brief
+## Brief
 - 常用 `args`
 
 Args | Description
