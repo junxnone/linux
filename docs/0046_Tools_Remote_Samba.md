@@ -1,8 +1,8 @@
 ---
-Title | Tools Samba
+Title | Tools Remote Samba
 -- | --
 Created @ | `2019-06-12T05:52:01Z`
-Last Modify @| `2022-12-21T14:40:18Z`
+Last Modify @| `2022-12-21T14:59:35Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/46)
 
