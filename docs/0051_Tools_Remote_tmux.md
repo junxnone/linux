@@ -1,8 +1,8 @@
 ---
-Title | Tools tmux
+Title | Tools Remote tmux
 -- | --
 Created @ | `2018-11-29T05:32:54Z`
-Last Modify @| `2022-12-21T10:56:31Z`
+Last Modify @| `2022-12-21T14:59:57Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/51)
 
