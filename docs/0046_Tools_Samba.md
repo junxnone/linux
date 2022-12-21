@@ -2,19 +2,22 @@
 Title | Tools Samba
 -- | --
 Created @ | `2019-06-12T05:52:01Z`
-Last Modify @| `2022-12-21T10:58:54Z`
+Last Modify @| `2022-12-21T14:40:18Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/46)
 
 ---
-# Reference
+# samba 文件共享
+
+
+## Reference
 - [win10访问不了samba共享文件夹解决方法](https://jingyan.baidu.com/article/7c6fb428d62a6e80642c90cc.html) 
 - [Ubuntu下samba配置和使用](https://jingyan.baidu.com/article/3a2f7c2ed314ef26afd611a1.html)
 - [Samba服务安装配置](https://www.cnblogs.com/erick2/p/5877521.html)
 - [Samba+Windows: Allow multiple connections by different users?](https://superuser.com/questions/95872/sambawindows-allow-multiple-connections-by-different-users)
 - [ubuntu samba服务器多用户配置](https://www.cnblogs.com/sky-heaven/p/5181234.html)
 
-# Brief
+## Brief
 
 ## Install & Setup
 - **Install samba**
