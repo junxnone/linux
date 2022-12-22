@@ -1,8 +1,8 @@
 ---
-Title | Tools hostname
+Title | Tools OS hostname
 -- | --
 Created @ | `2018-11-22T06:34:27Z`
-Last Modify @| `2022-12-21T10:27:22Z`
+Last Modify @| `2022-12-22T01:23:22Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/72)
 
