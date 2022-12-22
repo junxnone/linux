@@ -47,6 +47,7 @@
 - 2019-10-14   [File System](/0064_FileSystem)
 - 2019-10-12   [bc 浮点计算工具](/0030_Tools_bc)
 - 2019-10-12   [syncthing](/0029_Tools_Remote_syncthing)
+- 2019-09-04   [Upgrade](/0089_Ubuntu_Upgrade)
 - 2019-08-27   [PAM - Pluggable Authentication Module](/0065_Security_PAM)
 - 2019-08-22   [sed 文件流编辑器](/0027_Tools_Text_sed)
 - 2019-08-22   [tr](/0026_Tools_Text_tr)

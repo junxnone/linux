@@ -76,6 +76,7 @@
 - Ubuntu
   - [Download](/0014_Ubuntu_Download)
     - [magnetW 磁力下载工具](/0055_Ubuntu_Download_magnetW)
+  - [Upgrade](/0089_Ubuntu_Upgrade)
   - [Ubuntu Install Steam](/0063_Ubuntu_InstallSteam)
   - [APT Ubuntu 包管理工具](/0015_Ubuntu_APT)
 - [Driver](/0005_Driver)
