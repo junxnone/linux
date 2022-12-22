@@ -1,8 +1,8 @@
 ---
-Title | Tools updatealternatives
+Title | Tools OS updatealternatives
 -- | --
 Created @ | `2020-06-03T06:38:33Z`
-Last Modify @| `2022-12-21T10:44:13Z`
+Last Modify @| `2022-12-22T01:25:06Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/16)
 
