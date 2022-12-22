@@ -1,8 +1,8 @@
 ---
-Title | Tools ulimit
+Title | Tools OS ulimit
 -- | --
 Created @ | `2019-03-01T16:39:47Z`
-Last Modify @| `2022-12-21T10:57:14Z`
+Last Modify @| `2022-12-22T01:25:21Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/41)
 
