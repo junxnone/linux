@@ -2,7 +2,7 @@
 Title | Tools Media live555
 -- | --
 Created @ | `2018-12-07T14:20:20Z`
-Last Modify @| `2022-12-21T15:05:36Z`
+Last Modify @| `2022-12-22T07:34:43Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/70)
 
@@ -33,7 +33,7 @@ cd mediaServer
 ./live555MediaServer
 ```
 Test tools
-- opencv junxnone/techwiki#185 
+- opencv junxnone/linux#85 
 - vlc **sudo apt install vlc**
 - Android Phone MX player
 
