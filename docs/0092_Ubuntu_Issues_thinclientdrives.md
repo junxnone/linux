@@ -1,8 +1,8 @@
 ---
-Title | Ubuntu thinclient_drives cannot access
+Title | Ubuntu Issues thinclientdrives
 -- | --
 Created @ | `2019-08-14T01:30:26Z`
-Last Modify @| `2022-12-22T07:43:55Z`
+Last Modify @| `2022-12-22T07:47:35Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/92)
 
