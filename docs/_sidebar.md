@@ -80,6 +80,10 @@
   - [Install Goolge Pinyin](/0090_Ubuntu_InstallGooglePinyin)
   - [Upgrade](/0089_Ubuntu_Upgrade)
   - [Ubuntu Install Steam](/0063_Ubuntu_InstallSteam)
+  - thinclient
+    - drives
+      - cannot
+        - [thinclient_drives cannot access](/0092_Ubuntu_thinclient_drives_cannot_access)
   - [APT Ubuntu 包管理工具](/0015_Ubuntu_APT)
 - [Driver](/0005_Driver)
 - [File System](/0064_FileSystem)

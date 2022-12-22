@@ -53,6 +53,7 @@
 - 2019-08-27   [PAM - Pluggable Authentication Module](/0065_Security_PAM)
 - 2019-08-22   [sed 文件流编辑器](/0027_Tools_Text_sed)
 - 2019-08-22   [tr](/0026_Tools_Text_tr)
+- 2019-08-14   [thinclient_drives cannot access](/0092_Ubuntu_thinclient_drives_cannot_access)
 - 2019-08-09   [magnetW 磁力下载工具](/0055_Ubuntu_Download_magnetW)
 - 2019-08-06   [grep 文本过滤工具](/0025_Tools_Text_grep)
 - 2019-08-01   [date](/0024_Tools_date)
