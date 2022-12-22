@@ -86,6 +86,7 @@
     - [thinclient_drives cannot access](/0092_Ubuntu_Issues_thinclientdrives)
     - [桌面不显示](/0095_Ubuntu_Issues_DesktopDisplay)
     - [USB 耳机没声音](/0096_Ubuntu_Issues_USBHeadphoneNoSound)
+    - [NVIDIA GPU Driver 问题](/0110_Ubuntu_Issues_NVIDIAGPUDriver)
     - [前置耳机不工作](/0101_Ubuntu_Issues_FrontHeadPhoneNotWorking)
   - [Download](/0014_Ubuntu_Download)
     - [命令行下载 Google Drive 文件](/0109_Ubuntu_Download_GoogleDriveFilesCMD)

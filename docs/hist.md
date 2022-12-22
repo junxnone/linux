@@ -7,6 +7,7 @@
 - 2022-08-23   [Networks](/0060_Tools_Networks)
 - 2022-08-23   [ffmpeg 多媒体工具](/0002_Tools_Media_ffmpeg)
 - 2022-08-17   [IncreaseSwap](/0083_Linux_IncreaseSwap)
+- 2022-05-24   [NVIDIA GPU Driver 问题](/0110_Ubuntu_Issues_NVIDIAGPUDriver)
 - 2022-05-02   [Linux](/0001_Linux)
 - 2022-02-22   [ctags](/0003_Tools_ctags)
 - 2021-12-30   [meld 文件对比工具](/0004_Tools_TextCompare_meld)
