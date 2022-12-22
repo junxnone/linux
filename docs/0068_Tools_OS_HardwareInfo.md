@@ -1,8 +1,8 @@
 ---
-Title | Tools HardwareInfo
+Title | Tools OS HardwareInfo
 -- | --
 Created @ | `2019-02-20T04:32:30Z`
-Last Modify @| `2022-12-21T10:23:24Z`
+Last Modify @| `2022-12-22T01:18:48Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/68)
 
