@@ -1,8 +1,8 @@
 ---
-Title | Tools snap
+Title | Tools OS snap
 -- | --
 Created @ | `2020-10-09T07:16:58Z`
-Last Modify @| `2022-12-21T10:41:03Z`
+Last Modify @| `2022-12-22T01:23:14Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/21)
 
