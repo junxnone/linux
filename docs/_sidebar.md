@@ -88,6 +88,7 @@
     - [USB 耳机没声音](/0096_Ubuntu_Issues_USBHeadphoneNoSound)
     - [前置耳机不工作](/0101_Ubuntu_Issues_FrontHeadPhoneNotWorking)
   - [Download](/0014_Ubuntu_Download)
+    - [命令行下载 Google Drive 文件](/0109_Ubuntu_Download_GoogleDriveFilesCMD)
     - [magnetW 磁力下载工具](/0055_Ubuntu_Download_magnetW)
     - [aria2](/0091_Ubuntu_Download_aria2)
   - [Install Goolge Pinyin](/0090_Ubuntu_InstallGooglePinyin)

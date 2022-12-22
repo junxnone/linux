@@ -39,6 +39,7 @@
 - 2020-06-03   [APT Ubuntu 包管理工具](/0015_Ubuntu_APT)
 - 2020-05-14   [Download](/0014_Ubuntu_Download)
 - 2020-04-22   [开机相关信息](/0061_Tools_OS_ShowBootInfo)
+- 2020-04-13   [命令行下载 Google Drive 文件](/0109_Ubuntu_Download_GoogleDriveFilesCMD)
 - 2020-04-04   [图像转字符串工具](/0036_Tools_Media_image2string)
 - 2020-04-04   [tree 列出文件夹信息工具](/0035_Tools_File_tree)
 - 2020-03-20   [taskset 设定程序运行在的CPU](/0034_Tools_Process_taskset)
