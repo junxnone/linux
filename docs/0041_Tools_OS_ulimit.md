@@ -2,11 +2,12 @@
 Title | Tools OS ulimit
 -- | --
 Created @ | `2019-03-01T16:39:47Z`
-Last Modify @| `2022-12-22T01:25:21Z`
+Last Modify @| `2022-12-22T01:25:43Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/41)
 
 ---
+# ulimit 多用户 资源限制工具
 
 ## Reference
 - [ulimit: open files: cannot modify limit: Operation not permitted](https://blog.csdn.net/leshami/article/details/8749773)
