@@ -76,6 +76,8 @@
 - Ubuntu
   - [Download](/0014_Ubuntu_Download)
     - [magnetW 磁力下载工具](/0055_Ubuntu_Download_magnetW)
+    - [aria2](/0091_Ubuntu_Download_aria2)
+  - [Install Goolge Pinyin](/0090_Ubuntu_InstallGooglePinyin)
   - [Upgrade](/0089_Ubuntu_Upgrade)
   - [Ubuntu Install Steam](/0063_Ubuntu_InstallSteam)
   - [APT Ubuntu 包管理工具](/0015_Ubuntu_APT)
