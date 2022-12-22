@@ -1,8 +1,8 @@
 ---
-Title | Tools xset
+Title | Tools OS xset
 -- | --
 Created @ | `2021-10-21T08:02:21Z`
-Last Modify @| `2022-12-21T10:35:51Z`
+Last Modify @| `2022-12-22T01:26:16Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/8)
 
