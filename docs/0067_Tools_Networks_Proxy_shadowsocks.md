@@ -1,8 +1,8 @@
 ---
-Title | Networks Proxy shadowsocks
+Title | Tools Networks Proxy shadowsocks
 -- | --
 Created @ | `2019-06-29T08:35:42Z`
-Last Modify @| `2022-12-21T10:20:35Z`
+Last Modify @| `2022-12-22T02:04:10Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/67)
 
