@@ -1,8 +1,8 @@
 ---
-Title | Tools 添加账户
+Title | Tools OS adduser
 -- | --
 Created @ | `2019-02-19T10:38:10Z`
-Last Modify @| `2022-12-21T10:24:39Z`
+Last Modify @| `2022-12-22T01:20:25Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/69)
 
