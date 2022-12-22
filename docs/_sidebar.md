@@ -15,6 +15,7 @@
     - [端口查看工具](/0056_Tools_Networks_Port)
   - OS
     - [开机相关信息](/0061_Tools_OS_ShowBootInfo)
+    - [watch](/0098_Tools_OS_watch)
     - [Hardware 查看工具](/0068_Tools_OS_HardwareInfo)
     - [ulimit 多用户 资源限制工具](/0041_Tools_OS_ulimit)
     - [xset](/0008_Tools_OS_xset)
@@ -75,6 +76,7 @@
   - [网络工具 nmap](/0062_Tools_nmap)
 - Ubuntu
   - Issues
+    - [硬盘大于 2TB](/0099_Ubuntu_Issues_DiskLargerThan2TB)
     - [thinclient_drives cannot access](/0092_Ubuntu_Issues_thinclientdrives)
     - [桌面不显示](/0095_Ubuntu_Issues_DesktopDisplay)
     - [USB 耳机没声音](/0096_Ubuntu_Issues_USBHeadphoneNoSound)
@@ -82,6 +84,7 @@
     - [magnetW 磁力下载工具](/0055_Ubuntu_Download_magnetW)
     - [aria2](/0091_Ubuntu_Download_aria2)
   - [Install Goolge Pinyin](/0090_Ubuntu_InstallGooglePinyin)
+  - [开机自动挂载硬盘](/0097_Ubuntu_AutoMountDisk)
   - [忘记密码](/0093_Ubuntu_ForgetPassword)
   - [Upgrade](/0089_Ubuntu_Upgrade)
   - [Ubuntu Install Steam](/0063_Ubuntu_InstallSteam)
