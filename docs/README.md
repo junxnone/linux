@@ -1,7 +1,7 @@
 ---
 Title | README
 -- | --
-Last Modify @ | `2022-12-22T01:37:38Z`
+Last Modify @ | `2022-12-22T02:01:37Z`
 Edit @ | [here](https://github.com/junxnone/linux/issues/79)
 
 ---
@@ -13,6 +13,6 @@ This is a [Linux] Wiki.  <kbd>[Use this Template](https://github.com/junxnone/tw
 
 [Index](_sidebar.md ':include')
 
-[markmap show](https://junxnone.github.io/linux/markmap.html?md=https://junxnone.github.io/linux/_sidebar.md ':include :type=iframe width=100% height=100%')
+[markmap show](https://junxnone.github.io/linux/markmap.html?md=https://junxnone.github.io/linux/_sidebar.md ':include :type=iframe width=100% height=1000px')
 
 
