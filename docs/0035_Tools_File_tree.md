@@ -2,12 +2,12 @@
 Title | Tools File tree
 -- | --
 Created @ | `2020-04-04T04:39:52Z`
-Last Modify @| `2022-12-21T15:23:12Z`
+Last Modify @| `2022-12-22T09:42:57Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/35)
 
 ---
-# tree 列出文件夹信息工具
+# tree 优雅地列出文件树
 
 ## Reference
 - [tree - linux-command](https://wangchujiang.com/linux-command/c/tree.html)
