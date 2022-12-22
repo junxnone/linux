@@ -77,13 +77,14 @@
   - [Download](/0014_Ubuntu_Download)
     - [magnetW 磁力下载工具](/0055_Ubuntu_Download_magnetW)
     - [aria2](/0091_Ubuntu_Download_aria2)
+  - Issues
+    - [thinclient_drives cannot access](/0092_Ubuntu_Issues_thinclientdrives)
+    - [桌面不显示](/0095_Ubuntu_Issues_DesktopDisplay)
   - [Install Goolge Pinyin](/0090_Ubuntu_InstallGooglePinyin)
+  - [忘记密码](/0093_Ubuntu_ForgetPassword)
   - [Upgrade](/0089_Ubuntu_Upgrade)
   - [Ubuntu Install Steam](/0063_Ubuntu_InstallSteam)
-  - thinclient
-    - drives
-      - cannot
-        - [thinclient_drives cannot access](/0092_Ubuntu_thinclient_drives_cannot_access)
+  - [Server Install Desktop](/0094_Ubuntu_InstallDesktop)
   - [APT Ubuntu 包管理工具](/0015_Ubuntu_APT)
 - [Driver](/0005_Driver)
 - [File System](/0064_FileSystem)
