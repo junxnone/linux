@@ -79,6 +79,7 @@
 - 2019-01-15   [history](/0049_Tools_history)
 - 2018-12-14   [rename](/0050_Tools_File_rename)
 - 2018-12-07   [RTSP Server live555](/0070_Tools_Media_live555)
+- 2018-12-01   [USB 耳机没声音](/0096_Ubuntu_Issues_USBHeadphoneNoSound)
 - 2018-11-30   [Server Install Desktop](/0094_Ubuntu_InstallDesktop)
 - 2018-11-29   [awk](/0052_Tools_Text_awk)
 - 2018-11-29   [tmux](/0051_Tools_Remote_tmux)
