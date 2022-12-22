@@ -1,8 +1,8 @@
 ---
 Title | README
 -- | --
-Last Modify @ | `2022-12-20T08:17:47Z`
-Edit @ | [here](https://github.com/junxnone/twiki/issues/5)
+Last Modify @ | `2022-12-22T01:30:42Z`
+Edit @ | [here](https://github.com/junxnone/linux/issues/79)
 
 ---
 `Le vent se lève, ‌‍‍‌‍​‌‌‍​‍‌‌‌‌​‌‌‍‍‍​‌‍‍‍‍​‌‍‍‍‍​‌‍‍‌‍​‌‌‍​‍‍‌‌‌​‌‌‍‍‍​‌‌‌‍‍​‌‍‍‍‍​‌‍‍‌‍​‌‌‍​‌‌‌‌‍​‌‌‍‌​‍‌‌‌‌​‍‍‍‍‍​‍‍‍​‍‌​‌​‌‌‌​‌‌‌‌​‌‌‍il faut tenter de vivre.`
@@ -17,7 +17,6 @@ This is a [Template] Wiki.  <kbd>[Use this Template](https://github.com/junxnone
 
 [Index](_sidebar.md ':include')
 
-[markmap show](https://junxnone.github.io/twiki/markmap.html?md=https://junxnone.github.io/twiki/_sidebar.md ':include :type=iframe width=100% height=200px')
+[markmap show](https://junxnone.github.io/linux/markmap.html?md=https://junxnone.github.io/linux/_sidebar.md ':include :type=iframe width=100% height=200px')
 
-[About](About.md ':include')
 
