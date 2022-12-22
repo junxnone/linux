@@ -37,6 +37,7 @@
     - [json](/0042_Tools_Text_json)
   - [远程管理工具](/0075_Tools_Remote)
     - [ssh 远程管理工具](/0011_Tools_Remote_ssh)
+      - [WorkUnStable](/0100_Tools_Remote_ssh_WorkUnStable)
     - [tmux](/0051_Tools_Remote_tmux)
     - [rsync](/0044_Tools_Remote_rsync)
     - [scp](/0010_Tools_Remote_scp)
