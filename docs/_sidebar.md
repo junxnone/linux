@@ -109,3 +109,4 @@
   - [PAM - Pluggable Authentication Module](/0065_Security_PAM)
 - [Desktop](/0057_Desktop)
   - [CentOS 安装桌面](/0107_Desktop_CentOS)
+- [Wiki History](/hist)
