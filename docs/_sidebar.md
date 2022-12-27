@@ -6,6 +6,7 @@
   - [IPC](/0086_Linux_IPC)
     - [Semaphore](/0088_Linux_IPC_Semaphore)
     - [Tools](/0087_Linux_IPC_SharedMemory)
+  - [History](/0113_Linux_History)
   - [IncreaseSwap](/0083_Linux_IncreaseSwap)
   - [POSIX VS SystemV](/0082_Linux_POSIX与SystemV)
 - [Tools](/0059_Tools)
