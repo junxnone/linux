@@ -110,3 +110,6 @@
 - [Desktop](/0057_Desktop)
   - [CentOS 安装桌面](/0107_Desktop_CentOS)
 - [Wiki History](/hist)
+
+---
+<kbd>2022.12.27<sub>Junx</sub></kbd>
