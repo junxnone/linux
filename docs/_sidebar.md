@@ -8,6 +8,7 @@
     - [Tools](/0087_Linux_IPC_SharedMemory)
   - [History](/0113_Linux_History)
   - [IncreaseSwap](/0083_Linux_IncreaseSwap)
+  - [Install](/0013_Linux_Install)
   - [POSIX VS SystemV](/0082_Linux_POSIX与SystemV)
 - [Tools](/0059_Tools)
   - [文本编辑](/0078_Tools_Text)
@@ -82,6 +83,7 @@
   - [history](/0049_Tools_history)
   - [网络工具 nmap](/0062_Tools_nmap)
   - [script 记录终端执行命令历史](/0006_Tools_script)
+  - [shuf 随机选取工具](/0028_Tools_shuf)
   - [xargs](/0022_Tools_xargs)
 - Ubuntu
   - [APT Ubuntu 包管理工具](/0015_Ubuntu_APT)
@@ -103,6 +105,7 @@
     - [NVIDIA GPU Driver 问题](/0110_Ubuntu_Issues_NVIDIAGPUDriver)
     - [USB 耳机没声音](/0096_Ubuntu_Issues_USBHeadphoneNoSound)
     - [thinclient_drives cannot access](/0092_Ubuntu_Issues_thinclientdrives)
+  - [RemoteDesktop](/0058_Ubuntu_RemoteDesktop)
 - [Driver](/0005_Driver)
 - [File System](/0064_FileSystem)
   - [文件系统格式](/0081_FileSystem_Format)
