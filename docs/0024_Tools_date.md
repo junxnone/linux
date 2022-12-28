@@ -2,12 +2,11 @@
 Title | Tools date
 -- | --
 Created @ | `2019-08-01T05:38:13Z`
-Updated @| `2022-12-28T05:53:16Z`
+Updated @| `2022-12-28T05:58:57Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/24)
 
 ---
-
 ## 显示日期时间
 
 ```
@@ -15,7 +14,7 @@ $ date
 Thu Aug  1 13:39:48 UTC 2019
 ```
 
-## 格式化显示
+### 格式化显示
 
 ```
 $date  "+%Y-%m-%d  %a  %H:%M:%S"
@@ -64,26 +63,7 @@ hh  | 小时(必要)
 mm  | 分钟(必要)
 ss  | 秒(选择性) 
 
-##  设置时间
-
-```
-$ sudo date -s "13:41:00 2019-08-01"
-2019年 08月 01日 星期四 13:41:00 CST
-```
-
-## 在 `shell` 脚本中插入时间
-
-```
-#!/bin/bash
-mkdir -p backup_config
-cp config.py backup_config/config_$(date "+%Y-%m-%d_%H_%M_%S").py
-```
-```
-$ ls backup_config/
-config_2019-08-01_13_47_02.py
-```
-
-## 查看多久时间前的日期
+### 查看当前时间 `±t` 的日期时间
 
 ```
 $ date -d "-1185 day"
@@ -92,6 +72,13 @@ $ date -d "-1185 day"
 > ±n sec/min/hour/day/month/year
 > 可以用于转换时区
 
+
+##  设置 `OS` 时间
+
+```
+$ sudo date -s "13:41:00 2019-08-01"
+2019年 08月 01日 星期四 13:41:00 CST
+```
 
 ##  校正时区和时间
 
@@ -168,17 +155,25 @@ Tue Nov  5 10:46:52 CST 2019
 > UTC  = GMT  格林尼治标准时
 > CST = China Standard Time UT+8:00
 
-## 设置 OS 时间
+### 通过网络设置 OS 时间
 
-```
-sudo date -s 14:00:00
-```
+#### 使用 `ntp` 时间
 
-- 使用 google http 时间 更新系统时间 - [`ntp` 不同通过 `proxy`]
+#### 使用 `google http` 时间
 
 ```
 sudo date -s "$(wget -S  "http://www.google.com/" 2>&1 | grep -E '^[[:space:]]*[dD]ate:' | sed 's/^[[:space:]]*[dD]ate:[[:space:]]*//' | head -1l | awk '{print $1, $3, $2,  $5 ,"GMT", $4 }' | sed 's/,//')"
 ```
 
-## 设置使用 `ntp` 时间
+## 在 `shell` 脚本中插入时间
+
+```
+#!/bin/bash
+mkdir -p backup_config
+cp config.py backup_config/config_$(date "+%Y-%m-%d_%H_%M_%S").py
+```
+```
+$ ls backup_config/
+config_2019-08-01_13_47_02.py
+```
 
