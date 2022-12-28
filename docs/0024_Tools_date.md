@@ -2,7 +2,7 @@
 Title | Tools date
 -- | --
 Created @ | `2019-08-01T05:38:13Z`
-Updated @| `2022-12-28T05:58:57Z`
+Updated @| `2022-12-28T06:00:24Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/24)
 
@@ -80,7 +80,7 @@ $ sudo date -s "13:41:00 2019-08-01"
 2019年 08月 01日 星期四 13:41:00 CST
 ```
 
-##  校正时区和时间
+###  校正时区和时间
 
 ```
 $ tzselect
