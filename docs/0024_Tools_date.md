@@ -2,7 +2,7 @@
 Title | Tools date
 -- | --
 Created @ | `2019-08-01T05:38:13Z`
-Last Modify @| `2022-12-21T10:49:55Z`
+Last Modify @| `2022-12-28T02:38:23Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/24)
 
@@ -83,7 +83,9 @@ config_2019-08-01_13_47_02.py
 $ date -d "-1185 day"
 2016年 05月 03日 星期二 13:47:51 CST
 ```
-> ±n day/month/year
+> ±n sec/min/hour/day/month/year
+> 可以用于转换时区
+
 
 -  校正时区和时间
 
