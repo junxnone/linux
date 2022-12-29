@@ -2,12 +2,11 @@
 Title | Tools Networks Proxy V2Ray
 -- | --
 Created @ | `2019-07-03T15:39:39Z`
-Last Modify @| `2022-12-22T02:04:02Z`
+Updated @| `2022-12-29T02:46:15Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/66)
 
 ---
-
 # V2Ray
 
 ## Reference
@@ -47,6 +46,7 @@ bash <(curl -L -s https://install.direct/go.sh)
 
 
 ## Docker Install & Setup
+
 ```
 docker pull v2fly/v2fly-core
 ```
@@ -54,12 +54,9 @@ docker pull v2fly/v2fly-core
 
 **Server&Client**
 ```
-docker run -d \
-  --name v2ray \
-  -v /etc/v2ray:/etc/v2ray \
-  -p xxxx:xxxx \
-  v2ray/official  v2ray -config=/etc/v2ray/config.json
+$ sudo docker run -d --name v2ray -e TZ=Asia/Shanghai -v /etc/v2ray:/etc/v2ray -p 8888:8888 --restart always v2fly/v2fly-core run -c /etc/v2ray/config.json
 ```
+
 **polipo 局域网代理**
 同shadowsocks，端口更改为 v2ray 映射的端口即可
 
