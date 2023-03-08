@@ -34,7 +34,7 @@
     - [ffmpeg 多媒体工具](/0002_Tools_Media_ffmpeg)
     - [图像转字符串工具](/0036_Tools_Media_image2string)
     - [RTSP Server live555](/0070_Tools_Media_live555)
-    - [mediainfo](/0053_Tools_Media_mediainfo)
+    - [MediaInfo](/0053_Tools_Media_mediainfo)
   - [远程管理工具](/0075_Tools_Remote)
     - [samba 文件共享](/0046_Tools_Remote_Samba)
     - [rsync](/0044_Tools_Remote_rsync)
@@ -116,4 +116,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.03.08<sub>Junx16</sub></kbd>
+<kbd>2023.03.08<sub>Junx18</sub></kbd>
