@@ -2,7 +2,7 @@
 Title | Ubuntu SetDefaultKernel
 -- | --
 Created @ | `2023-03-20T09:21:31Z`
-Updated @| `2023-03-20T09:21:31Z`
+Updated @| `2023-03-20T09:22:58Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/114)
 
@@ -43,6 +43,18 @@ GRUB_DEFAULT="1> 0"
 > **0**: 第二个菜单第一项
 
 - 更改 `0` 对应的内核,即 `submenu` 中 `menuentry` 对应的位置
+
+## 更新 Grub
+
+```
+sudo update-grub
+```
+
+## Reboot
+
+```
+sudo reboot
+```
 
 
 ## Reference
