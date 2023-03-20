@@ -106,6 +106,7 @@
     - [USB 耳机没声音](/0096_Ubuntu_Issues_USBHeadphoneNoSound)
     - [thinclient_drives cannot access](/0092_Ubuntu_Issues_thinclientdrives)
   - [RemoteDesktop](/0058_Ubuntu_RemoteDesktop)
+  - [设置默认 Kernel](/0114_Ubuntu_SetDefaultKernel)
 - [Driver](/0005_Driver)
 - [File System](/0064_FileSystem)
   - [文件系统格式](/0081_FileSystem_Format)
@@ -116,4 +117,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.03.20<sub>Junx16</sub></kbd>
+<kbd>2023.03.20<sub>Junx17</sub></kbd>
