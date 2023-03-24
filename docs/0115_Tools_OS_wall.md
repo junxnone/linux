@@ -2,7 +2,7 @@
 Title | Tools OS wall
 -- | --
 Created @ | `2023-03-24T02:19:01Z`
-Updated @| `2023-03-24T02:19:01Z`
+Updated @| `2023-03-24T02:21:14Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/115)
 
@@ -57,7 +57,7 @@ $ sudo wall -n "The system will be restarted in 10 minutes."
 ```
 
 
-### 广播到 Group
+### 广播到 Group `-g`
 
 - 向 `devs` group 广播
 
@@ -66,10 +66,8 @@ $ wall -g devs "The system will be restarted in 10 minutes."
 ```
 
 
-### 
 
 
 
 
-## Reference
 
