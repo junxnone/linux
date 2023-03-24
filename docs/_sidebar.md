@@ -57,6 +57,7 @@
     - [snap 软件管理工具](/0021_Tools_OS_snap)
     - [ulimit 多用户 资源限制工具](/0041_Tools_OS_ulimit)
     - [updatealternatives 多版本软件管理工具](/0016_Tools_OS_updatealternatives)
+    - [wall](/0115_Tools_OS_wall)
     - [watch](/0098_Tools_OS_watch)
     - [xset](/0008_Tools_OS_xset)
   - [Networks](/0060_Tools_Networks)
@@ -117,4 +118,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.03.24<sub>Junx08</sub></kbd>
+<kbd>2023.03.24<sub>Junx10</sub></kbd>
