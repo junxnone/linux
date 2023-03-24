@@ -59,6 +59,7 @@
     - [updatealternatives 多版本软件管理工具](/0016_Tools_OS_updatealternatives)
     - [wall](/0115_Tools_OS_wall)
     - [watch](/0098_Tools_OS_watch)
+    - [write](/0116_Tools_OS_write)
     - [xset](/0008_Tools_OS_xset)
   - [Networks](/0060_Tools_Networks)
     - [网络性能测试工具](/0106_Tools_Networks_PerformanceTools)
