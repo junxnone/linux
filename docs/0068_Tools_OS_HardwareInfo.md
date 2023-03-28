@@ -2,17 +2,12 @@
 Title | Tools OS HardwareInfo
 -- | --
 Created @ | `2019-02-20T04:32:30Z`
-Last Modify @| `2022-12-22T01:18:48Z`
+Updated @| `2023-03-28T03:45:29Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/68)
 
 ---
 # Hardware 查看工具
-
-## Reference
-- [在Linux上查询物理机信息-不用去拆机器了](https://www.cnblogs.com/operationhome/p/12486702.html)
-
-## Brief
 
 command | description
 -- | -- 
@@ -26,6 +21,50 @@ lsblk | block Device
 lspci | PCI Device
 lsusb | usb Device
 inxi |
+
+## BIOS
+
+```
+ sudo dmidecode
+```
+```
+ sudo dmidecode -s bios-version
+```
+
+```
+BIOS Information
+        Vendor: American Megatrends International, LLC.
+        Version: 5.19
+        Release Date: 03/25/2021
+        Address: 0xF0000
+        Runtime Size: 64 kB
+        ROM Size: 0 MB
+        Characteristics:
+                PCI is supported
+                BIOS is upgradeable
+                BIOS shadowing is allowed
+                Boot from CD is supported
+                Selectable boot is supported
+                BIOS ROM is socketed
+                EDD is supported
+                Japanese floppy for NEC 9800 1.2 MB is supported (int 13h)
+                Japanese floppy for Toshiba 1.2 MB is supported (int 13h)
+                5.25"/360 kB floppy services are supported (int 13h)
+                5.25"/1.2 MB floppy services are supported (int 13h)
+                3.5"/720 kB floppy services are supported (int 13h)
+                3.5"/2.88 MB floppy services are supported (int 13h)
+                Print screen service is supported (int 5h)
+                Serial services are supported (int 14h)
+                Printer services are supported (int 17h)
+                CGA/mono video services are supported (int 10h)
+                ACPI is supported
+                USB legacy is supported
+                BIOS boot specification is supported
+                Targeted content distribution is supported
+                UEFI is supported
+        BIOS Revision: 5.19
+
+```
 
 ## CPU
 ```
@@ -143,3 +182,7 @@ Sensors:   System Temperatures: cpu: 25.0C mobo: N/A
 Info:      Processes: 590 Uptime: 7 days Memory: 10682.5/273860.6MB Init: systemd runlevel: 5
            Client: Shell (bash) inxi: 2.3.56
 ```
+
+## Reference
+- [在Linux上查询物理机信息-不用去拆机器了](https://www.cnblogs.com/operationhome/p/12486702.html)
+
