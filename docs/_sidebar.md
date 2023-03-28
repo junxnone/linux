@@ -47,7 +47,7 @@
       - [plugins](/0112_Tools_Remote_tmux_plugins)
     - [VNCServer](/0103_Tools_Remote_vncserver)
   - OS
-    - [Hardware 查看工具](/0068_Tools_OS_HardwareInfo)
+    - [Hardware Information  查看工具](/0068_Tools_OS_HardwareInfo)
     - [Kernel 升级管理](/0073_Tools_OS_KernelUpgrade)
     - [开机相关信息](/0061_Tools_OS_ShowBootInfo)
     - [添加账户 adduser vs useradd](/0069_Tools_OS_adduser)
@@ -119,4 +119,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.03.28<sub>Junx10</sub></kbd>
+<kbd>2023.03.28<sub>Junx12</sub></kbd>
