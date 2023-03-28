@@ -2,12 +2,12 @@
 Title | Tools OS HardwareInfo
 -- | --
 Created @ | `2019-02-20T04:32:30Z`
-Updated @| `2023-03-28T03:45:29Z`
+Updated @| `2023-03-28T03:45:56Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/68)
 
 ---
-# Hardware 查看工具
+# Hardware Information  查看工具
 
 command | description
 -- | -- 
