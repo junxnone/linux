@@ -89,7 +89,7 @@
   - [xargs](/0022_Tools_xargs)
 - Ubuntu
   - [APT Ubuntu 包管理工具](/0015_Ubuntu_APT)
-  - [Upgrade](/0089_Ubuntu_Upgrade)
+  - [Ubuntu OS Version Upgrade](/0089_Ubuntu_Upgrade)
   - [添加用户](/0104_Ubuntu_UserAdd)
   - [Install Goolge Pinyin](/0090_Ubuntu_InstallGooglePinyin)
   - [开机自动挂载硬盘](/0097_Ubuntu_AutoMountDisk)
@@ -119,4 +119,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd>2023.05.24<sub>Junx14</sub></kbd>
+<kbd>2023.05.24<sub>Junx16</sub></kbd>
