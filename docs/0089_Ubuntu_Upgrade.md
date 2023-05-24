@@ -2,16 +2,19 @@
 Title | Ubuntu Upgrade
 -- | --
 Created @ | `2019-09-04T05:07:55Z`
-Last Modify @| `2022-12-22T07:41:13Z`
+Updated @| `2023-05-24T07:58:12Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/89)
 
 ---
-## Brief
-- 升级 `Ubuntu 16.04` 到 `18.04`
-- 升级 `Ubuntu 18.04` 到 `20.04`
+# Ubuntu OS Version Upgrade
+- lts 升级 (`16.xx` --> `18.xx` --> `20.xx` --> `22.xx`)
+  - 升级 `Ubuntu 16.04` 到 `18.04`
+  - 升级 `Ubuntu 18.04` 到 `20.04`
+- 小版本号升级 (`20.04` --> `20.06`)
 
 ## Upgrade Major Version
+
 - **1 先更新当前的系统 (16.04/18.04)**
 ```
 sudo apt update && sudo apt dist-upgrade && sudo apt autoremove
@@ -34,6 +37,7 @@ Your python3 install is corrupted. Please fix the '/usr/bin/python3' symlink.
 ```
 
 ## Upgrade Mnior Version
+
 - `20.04.01` --> `20.04.03`
 
 ```
