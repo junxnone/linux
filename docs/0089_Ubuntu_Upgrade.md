@@ -2,7 +2,7 @@
 Title | Ubuntu Upgrade
 -- | --
 Created @ | `2019-09-04T05:07:55Z`
-Updated @| `2023-06-06T07:14:39Z`
+Updated @| `2023-06-06T07:15:15Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/89)
 
@@ -138,4 +138,4 @@ sudo apt upgrade
 ```
 
 ## Reference
-- [[How to fix update problems (Ubuntu 20.04)](https://askubuntu.com/questions/1231849/how-to-fix-update-problems-ubuntu-20-04)](https://askubuntu.com/questions/1231849/how-to-fix-update-problems-ubuntu-20-04)
+- [How to fix update problems (Ubuntu 20.04)](https://askubuntu.com/questions/1231849/how-to-fix-update-problems-ubuntu-20-04)
