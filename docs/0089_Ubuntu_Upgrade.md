@@ -2,7 +2,7 @@
 Title | Ubuntu Upgrade
 -- | --
 Created @ | `2019-09-04T05:07:55Z`
-Updated @| `2023-05-24T07:58:12Z`
+Updated @| `2023-06-06T03:04:34Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/89)
 
@@ -15,30 +15,37 @@ Edit @| [here](https://github.com/junxnone/linux/issues/89)
 
 ## Upgrade Major Version
 
-- **1 先更新当前的系统 (16.04/18.04)**
+### 1 先更新当前的系统
 ```
 sudo apt update && sudo apt dist-upgrade && sudo apt autoremove
 ```
 
-- **2 Reboot OS**
+### 2 Reboot OS
 
-- **3  升级至 lts**
+### 3  升级至 LTS OS
 
 ```
 sudo do-release-upgrade
 ```
-> 时间比较长 ，如果系统可以重装还是重装快
-> `/etc/update-manager/release-upgrades` --> `Prompt=lts` 控制升级版本
---- 
 
-**如果 python 链接为 python3,则会出现如下报错，重新链接回 python2.7 即可**
+### Issues
+
+#### 重装 快于 升级
+- 升级时间比较长 ，如果系统可以重装还是重装快
+
+#### 控制升级版本
+- `/etc/update-manager/release-upgrades` --> `Prompt=lts` 控制升级版本
+
+#### python 相关报错
+- 如果 python 链接为 python3,则会出现如下报错，重新链接回 python2.7 即可
+
 ```
 Your python3 install is corrupted. Please fix the '/usr/bin/python3' symlink.
 ```
 
 ## Upgrade Mnior Version
 
-- `20.04.01` --> `20.04.03`
+- Example : `20.04.01` --> `20.04.03`
 
 ```
 sudo apt update
