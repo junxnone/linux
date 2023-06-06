@@ -2,7 +2,7 @@
 Title | Ubuntu APT
 -- | --
 Created @ | `2020-06-03T03:19:10Z`
-Updated @| `2023-06-06T14:33:13Z`
+Updated @| `2023-06-06T14:34:35Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/15)
 
@@ -33,7 +33,7 @@ apt-ftparchive |  创建用于 `publish` 的 `deb package`
 apt-sortpkgs |  is a Packages/Sources file normalizer
 apt |  is a high-level command-line interface for better interactive usage
 apt-mark | 标记软件包
-`apt policy xxx` | 查看软件仓库/包信息
+`apt policy xxx` | 查看软件仓库/包安装状态信息
 
 Usecase | cmd
 -- | --
