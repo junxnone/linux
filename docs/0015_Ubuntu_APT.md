@@ -2,7 +2,7 @@
 Title | Ubuntu APT
 -- | --
 Created @ | `2020-06-03T03:19:10Z`
-Last Modify @| `2022-12-21T10:45:03Z`
+Updated @| `2023-06-06T14:12:52Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/15)
 
@@ -32,6 +32,8 @@ apt-extracttemplates | 用于 `debconf` 提示配置问题
 apt-ftparchive |  创建用于 `publish` 的 `deb package`
 apt-sortpkgs |  is a Packages/Sources file normalizer
 apt |  is a high-level command-line interface for better interactive usage
+apt-mark | 标记软件包
+
 
 Usecase | cmd
 -- | --
@@ -43,6 +45,17 @@ Search Package | `apt search xxx`
 删除软件相关所有文件 | `apt-get remove --purge xxx`
 建立编译某个软件的环境 | `apt build-dep xxx`
 清除已下载的软件包和旧软件包 | `apt clean` && `apt autoclean`
+
+### apt-mark
+
+subcmd | Description
+-- | --
+auto | 标记为自动安装
+manual | 标记为手动安装
+minimize-manual | 标记所有依赖项为自动安装
+hold | 标记为阻止自动更新
+unhold | 标记为解除自动更新
+... | ...
 
 
 ## Examples
