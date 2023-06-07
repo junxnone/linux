@@ -2,12 +2,12 @@
 Title | Tools Remote vncserver
 -- | --
 Created @ | `2019-01-14T05:35:17Z`
-Updated @| `2023-06-07T10:00:06Z`
+Updated @| `2023-06-07T12:39:22Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/103)
 
 ---
-# VNC
+# VNC Tools
 
 - VNC - `Virtual Network Computing` Linux 远程访问 Desktop
 - VNC 由AT&T 的剑桥研究实验室开发，可实现远程图像显示和控制。
