@@ -2,11 +2,13 @@
 Title | Tools date
 -- | --
 Created @ | `2019-08-01T05:38:13Z`
-Updated @| `2022-12-28T06:00:24Z`
+Updated @| `2023-06-07T12:47:46Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/24)
 
 ---
+# date - 时间管理工具
+
 ## 显示日期时间
 
 ```
