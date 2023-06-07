@@ -2,16 +2,14 @@
 Title | Tools history
 -- | --
 Created @ | `2019-01-15T14:20:09Z`
-Last Modify @| `2022-12-21T10:56:50Z`
+Updated @| `2023-06-07T12:49:05Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/49)
 
 ---
-## Reference
-- [ubuntu history 命令详解](https://blog.csdn.net/sdfgh2046/article/details/5376086)
-
-## Brief
+# history 命令行历史管理
 - `history` 查看历史执行命令
+- 重复执行历史命令
 
 ## UseCase 
 
@@ -39,3 +37,6 @@ export HISTSIZE=10000
 ```
 export HISTCONTROL=ignoredups
 ```
+
+## Reference
+- [ubuntu history 命令详解](https://blog.csdn.net/sdfgh2046/article/details/5376086)
