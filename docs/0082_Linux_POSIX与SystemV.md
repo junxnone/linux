@@ -2,27 +2,20 @@
 Title | Linux POSIX与SystemV
 -- | --
 Created @ | `2021-01-19T08:50:58Z`
-Last Modify @| `2022-12-22T03:30:54Z`
+Updated @| `2023-06-07T12:57:34Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/82)
 
 ---
 # POSIX VS SystemV
+-  System V - `System Five`
+- POSIX - `Portable Operating System Interface`
 
-## Reference
-- [POSIX和System V的比较/IPC函数汇总](https://blog.csdn.net/derkampf/article/details/60958086)
-- [POSIX - wikipedia](https://en.wikipedia.org/wiki/POSIX)
-- [UNIX_System_V - wikipedia](https://en.wikipedia.org/wiki/UNIX_System_V)
-
-
-## Brief
-
-
-## System V - `System Five`
+## System V
 
 - 由 AT&T 开发
 
-## POSIX - `Portable Operating System Interface`
+## POSIX
 
 - 由IEEE 和ISO/IEC 开发
 - 基于现有的UNIX 实践和经验
@@ -39,3 +32,10 @@ POSIX.1-2004 (with two TCs)(IEEE Std 1003.1-2004)
 POSIX.1-2008 (with two TCs))( IEEE Std 1003.1-2008)
 POSIX.1-2017 (with one TC))( IEEE Std 1003.1-2017)
 ```
+
+## Reference
+- [POSIX和System V的比较/IPC函数汇总](https://blog.csdn.net/derkampf/article/details/60958086)
+- [POSIX - wikipedia](https://en.wikipedia.org/wiki/POSIX)
+- [UNIX_System_V - wikipedia](https://en.wikipedia.org/wiki/UNIX_System_V)
+
+
