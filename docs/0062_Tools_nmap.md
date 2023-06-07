@@ -2,20 +2,12 @@
 Title | Tools nmap
 -- | --
 Created @ | `2019-11-20T07:26:06Z`
-Last Modify @| `2022-12-21T08:41:59Z`
+Updated @| `2023-06-07T12:50:06Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/62)
 
 ---
 # 网络工具 nmap
-
-## Reference
-
-- [官网](https://nmap.org/)
-- [Nmap详解](https://blog.csdn.net/qq_36119192/article/details/82079150)
-- [docs - zh](https://nmap.org/man/zh/)
-
-## Brief
 
 Nmap是一款开源免费的网络发现（Network Discovery）和安全审计（Security Auditing）工具。
 
@@ -108,3 +100,10 @@ Nmap done: 1 IP address (1 host up) scanned in 3.74 seconds
 ```
 nmap -sP 192.168.1.0/24
 ```
+
+
+## Reference
+
+- [官网](https://nmap.org/)
+- [Nmap详解](https://blog.csdn.net/qq_36119192/article/details/82079150)
+- [docs - zh](https://nmap.org/man/zh/)
