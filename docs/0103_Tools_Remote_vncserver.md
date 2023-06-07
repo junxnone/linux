@@ -2,20 +2,14 @@
 Title | Tools Remote vncserver
 -- | --
 Created @ | `2019-01-14T05:35:17Z`
-Last Modify @| `2022-12-22T09:40:49Z`
+Updated @| `2023-06-07T09:55:27Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/103)
 
 ---
 # VNCServer
 
-
-## Reference
-- [vncviewer](https://www.realvnc.com/en/connect/download/viewer/)
-
-
-## Brief
-- vnc 远程访问
+- VNC - `Virtual Network Computing` Linux 远程访问 Desktop
 
 ## Ubuntu Install
 ```
@@ -51,3 +45,8 @@ vnc4server -geometry 1920x1080
 
 ## Connect
 - 使用 `vncviewer` 连接 IP:Port  `xxx.xxx.xx.xxx:n`
+
+
+## Reference
+- [vncviewer](https://www.realvnc.com/en/connect/download/viewer/)
+
