@@ -1,8 +1,8 @@
 ---
-Title | Linux Install
+Title | Linux Kernel
 -- | --
 Created @ | `2021-09-19T10:21:17Z`
-Last Modify @| `2022-12-27T05:30:50Z`
+Updated @| `2023-06-07T12:59:19Z`
 Labels | `enhancement`
 Edit @| [here](https://github.com/junxnone/linux/issues/13)
 
