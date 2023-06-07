@@ -2,14 +2,13 @@
 Title | Tools cal
 -- | --
 Created @ | `2021-10-23T11:01:19Z`
-Last Modify @| `2022-12-21T10:34:51Z`
+Updated @| `2023-06-07T12:49:25Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/7)
 
 ---
 # cal 日历小工具
 
-## Brief
 - cal - 显示日历
 
 ## UseCase
