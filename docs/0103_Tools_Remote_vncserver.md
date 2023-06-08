@@ -2,7 +2,7 @@
 Title | Tools Remote vncserver
 -- | --
 Created @ | `2019-01-14T05:35:17Z`
-Updated @| `2023-06-07T12:40:00Z`
+Updated @| `2023-06-08T09:12:48Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/103)
 
@@ -22,42 +22,42 @@ Edit @| [here](https://github.com/junxnone/linux/issues/103)
 - RFB protocol - `remote framebuffer protocol`
 
 
-## Ubuntu Install
+## Ubuntu Install tightvncserver
+
 ```
-sudo apt install vnc4server
-sudo apt install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
+sudo apt install  tightvncserver
 ```
 
-## Setup
+### xfce4 Desktop Setup
+
+```
+sudo apt install xfce4 xfce4-goodies
+```
+
+- `~/.vnc/xstartup`
+
+```
+#!/bin/bash
+xrdb $HOME/.Xresources
+startxfce4 &
+```
+
 ### 设置密码
 ```
 vncpasswd
 ```
 
-## 配置vnc
-```
-# vim ~/.vnc/xstartup
-```
-```
-export XKL_XMODMAP_DISABLE=1
-unset SESSION_MANAGER
-unset DBUS_SESSION_BUS_ADDRESS
-gnome-panel &
-gnmoe-settings-daemon &
-metacity &
-nautilus &
-gnome-terminal &
-```
+
 
 ### 打开一个server 1920 x 1080
 ```
-vnc4server -geometry 1920x1080
+vncserver -geometry 1920x1080
 ```
 
 ### 查看启动的 vncserver
 
 ```
-`ps -ef \|grep vnc`
+ps -ef |grep vnc
 ```
 
 ### Kill VNCServer
@@ -65,7 +65,7 @@ vnc4server -geometry 1920x1080
 ```
 vncserver -kill :1
 ```
-> 1 是 编号
+> 1 是 编号/端口
 
 
 ## Connect
@@ -88,4 +88,5 @@ vncserver -kill :1
 - [vnc简介](https://github.com/levinit/itnotes/blob/main/vnc.md)
 - [Virtual Network Computing - wikipedia](https://en.wikipedia.org/wiki/Virtual_Network_Computing)
 - [RFB protocol](https://en.wikipedia.org/wiki/RFB_protocol)
-
+- [How to Install and Configure VNC on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-22-04)
+- [VNC Server setup on Ubuntu 22.04 LTS](https://gist.github.com/indyfromoz/739cd53d47b91ba1d3b540ab53b1f46c)
