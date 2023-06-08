@@ -114,9 +114,10 @@
   - [文件系统格式](/0081_FileSystem_Format)
 - Security
   - [PAM - Pluggable Authentication Module](/0065_Security_PAM)
-- [Desktop](/0057_Desktop)
+- [Linux Desktop](/0057_Desktop)
   - [CentOS 安装桌面](/0107_Desktop_CentOS)
+  - [KDE](/0117_Desktop_KDE)
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1612460608</sub></kbd>
+<kbd><sub>@2307040608</sub></kbd>
