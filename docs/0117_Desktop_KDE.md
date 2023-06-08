@@ -2,7 +2,7 @@
 Title | Desktop KDE
 -- | --
 Created @ | `2023-06-08T15:06:30Z`
-Updated @| `2023-06-08T15:06:30Z`
+Updated @| `2023-06-08T15:49:50Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/117)
 
@@ -12,6 +12,9 @@ Edit @| [here](https://github.com/junxnone/linux/issues/117)
 - KDE - `Kool Desktop Environment`
 
 ![image](https://github.com/junxnone/linux/assets/2216970/5dd59587-391f-4cc3-aecd-c864415dafdd)
+
+
+![image](https://github.com/junxnone/linux/assets/2216970/3f265652-cce8-4cd0-8af7-07d3c5500a91)
 
 
 ## Reference
