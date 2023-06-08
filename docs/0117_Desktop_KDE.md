@@ -2,7 +2,7 @@
 Title | Desktop KDE
 -- | --
 Created @ | `2023-06-08T15:06:30Z`
-Updated @| `2023-06-08T16:02:08Z`
+Updated @| `2023-06-08T16:06:22Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/117)
 
@@ -10,6 +10,8 @@ Edit @| [here](https://github.com/junxnone/linux/issues/117)
 # KDE
 
 - KDE - `Kool Desktop Environment`
+- 随着 KDE 社区和项目越来越多，`Desktop Environment` 从 KDE 中获得了新的名字 `Plasma`
+- KDE = `Plasma` + `Other Applications`
 - Kubuntu = `Ubuntu` + `KDE` + `Plasma desktop`
 
 ![image](https://github.com/junxnone/linux/assets/2216970/5dd59587-391f-4cc3-aecd-c864415dafdd)
