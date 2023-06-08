@@ -2,7 +2,7 @@
 Title | Desktop KDE
 -- | --
 Created @ | `2023-06-08T15:06:30Z`
-Updated @| `2023-06-08T15:49:50Z`
+Updated @| `2023-06-08T15:55:42Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/117)
 
@@ -21,3 +21,4 @@ Edit @| [here](https://github.com/junxnone/linux/issues/117)
 - [Kool Desktop Environment 14th October 1996 03:00]](https://kde.org/announcements/announcement/)
 - [KDE Wiki](https://userbase.kde.org/Welcome_to_KDE_UserBase)
 - [KDE Timeline](https://timeline.kde.org/zh-cn/)
+- [Code](https://invent.kde.org/explore/groups?sort=name_asc)
