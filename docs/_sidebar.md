@@ -1,14 +1,14 @@
 - [Linux](/0001_Linux)
-  - [VNC](/0105_Linux_VNC)
+  - [VNC System](/0105_Linux_VNC)
   - [bashrc](/0102_Linux_bashrc)
   - [Yocto](/0084_Linux_Yocto)
     - [设置静态IP](/0085_Linux_Yocto_SetStaticIP)
   - [IPC](/0086_Linux_IPC)
     - [Semaphore](/0088_Linux_IPC_Semaphore)
     - [Tools](/0087_Linux_IPC_SharedMemory)
-  - [History](/0113_Linux_History)
-  - [IncreaseSwap](/0083_Linux_IncreaseSwap)
-  - [Install](/0013_Linux_Install)
+  - [Unix History](/0113_Linux_History)
+  - [增加 Swap 分区](/0083_Linux_IncreaseSwap)
+  - [Linux Kernel](/0013_Linux_Kernel)
   - [POSIX VS SystemV](/0082_Linux_POSIX与SystemV)
 - [Tools](/0059_Tools)
   - [文本编辑](/0078_Tools_Text)
@@ -45,7 +45,7 @@
     - [tmux](/0051_Tools_Remote_tmux)
       - [Arch](/0111_Tools_Remote_tmux_Arch)
       - [plugins](/0112_Tools_Remote_tmux_plugins)
-    - [VNCServer](/0103_Tools_Remote_vncserver)
+    - [VNC Tools](/0103_Tools_Remote_vncserver)
   - OS
     - [Hardware Information  查看工具](/0068_Tools_OS_HardwareInfo)
     - [Kernel 升级管理](/0073_Tools_OS_KernelUpgrade)
@@ -81,8 +81,8 @@
   - [cal 日历小工具](/0007_Tools_cal)
   - [chrt 管理进程属性](/0012_Tools_chrt)
   - [ctags](/0003_Tools_ctags)
-  - [date](/0024_Tools_date)
-  - [history](/0049_Tools_history)
+  - [date - 时间管理工具](/0024_Tools_date)
+  - [history 命令行历史管理](/0049_Tools_history)
   - [网络工具 nmap](/0062_Tools_nmap)
   - [script 记录终端执行命令历史](/0006_Tools_script)
   - [shuf 随机选取工具](/0028_Tools_shuf)
@@ -119,4 +119,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1613250607</sub></kbd>
+<kbd><sub>@1612460608</sub></kbd>
