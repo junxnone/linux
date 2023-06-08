@@ -2,12 +2,11 @@
 Title | Desktop
 -- | --
 Created @ | `2021-01-13T08:56:37Z`
-Updated @| `2023-06-08T14:18:52Z`
+Updated @| `2023-06-08T14:49:42Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/57)
 
 ---
-
 # Linux Desktop
 
 - [Linux Desktop History](https://junxnone.github.io/wht/tech/linuxdesktop/)
@@ -55,4 +54,4 @@ Edit @| [here](https://github.com/junxnone/linux/issues/57)
 ## Reference
 - [Linux终端/图形界面与桌面环境](https://www.biaodianfu.com/linux-desktop-environment.html#%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E4%B8%8E%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83)
 - [思维导图](https://naotu.baidu.com/file/0ae1d056daa54e513cc80721dcab3e8a)
-
+- [KDE Timeline](https://timeline.kde.org/zh-cn/)
