@@ -2,7 +2,7 @@
 Title | Desktop KDE
 -- | --
 Created @ | `2023-06-08T15:06:30Z`
-Updated @| `2023-06-08T16:06:22Z`
+Updated @| `2023-06-08T16:22:42Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/117)
 
@@ -19,6 +19,23 @@ Edit @| [here](https://github.com/junxnone/linux/issues/117)
 
 ![image](https://github.com/junxnone/linux/assets/2216970/3f265652-cce8-4cd0-8af7-07d3c5500a91)
 
+
+## Ubuntu
+
+- complete KDE pack
+```
+sudo apt install kde-full
+```
+
+- Plasma desktop with standard set of KDE apps(Kate/Konqueror/Kget/KMail/Dolphin/...)
+```
+sudo apt install kde-standard
+```
+
+- minimal package of KDE
+```
+sudo apt install kde-standard
+```
 
 ## Reference
 - [Kool Desktop Environment 14th October 1996 03:00](https://kde.org/announcements/announcement/)
