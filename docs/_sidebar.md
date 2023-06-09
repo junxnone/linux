@@ -116,8 +116,9 @@
   - [PAM - Pluggable Authentication Module](/0065_Security_PAM)
 - [Linux Desktop](/0057_Desktop)
   - [CentOS 安装桌面](/0107_Desktop_CentOS)
+  - [GNOME](/0118_Desktop_GNOME)
   - [KDE](/0117_Desktop_KDE)
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2307040608</sub></kbd>
+<kbd><sub>@1120350609</sub></kbd>
