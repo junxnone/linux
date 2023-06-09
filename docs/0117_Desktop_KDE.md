@@ -2,7 +2,7 @@
 Title | Desktop KDE
 -- | --
 Created @ | `2023-06-08T15:06:30Z`
-Updated @| `2023-06-08T16:28:03Z`
+Updated @| `2023-06-09T02:38:23Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/117)
 
@@ -25,7 +25,7 @@ Edit @| [here](https://github.com/junxnone/linux/issues/117)
 ![image](https://github.com/junxnone/linux/assets/2216970/3f265652-cce8-4cd0-8af7-07d3c5500a91)
 
 
-## Ubuntu
+## Install KDE On Ubuntu
 
 - complete KDE pack
 ```
