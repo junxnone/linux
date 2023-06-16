@@ -1,7 +1,7 @@
 ---
 Title | README
 -- | --
-Last Modify @ | `2022-12-22T02:01:37Z`
+Updated @ | `2023-06-16T07:08:41Z`
 Edit @ | [here](https://github.com/junxnone/linux/issues/79)
 
 ---
@@ -10,6 +10,7 @@ Edit @ | [here](https://github.com/junxnone/linux/issues/79)
 
 This is a [Linux] Wiki.  <kbd>[Use this Template](https://github.com/junxnone/twiki/generate)</kbd>
 
+[kg](https://junxnone.github.io/linux/kg ':include :type=iframe width=100% height=800px')
 
 [Index](_sidebar.md ':include')
 
