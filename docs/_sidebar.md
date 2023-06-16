@@ -87,7 +87,7 @@
   - [script 记录终端执行命令历史](/0006_Tools_script)
   - [shuf 随机选取工具](/0028_Tools_shuf)
   - [xargs](/0022_Tools_xargs)
-- Ubuntu
+- [Ubuntu](/0120_Ubuntu)
   - [APT Ubuntu 包管理工具](/0015_Ubuntu_APT)
     - [APT Source](/0119_Ubuntu_APT_Source)
   - [Ubuntu OS Version Upgrade](/0089_Ubuntu_Upgrade)
@@ -122,4 +122,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@0807340616</sub></kbd>
+<kbd><sub>@0815350616</sub></kbd>
