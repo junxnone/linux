@@ -2,12 +2,13 @@
 Title | Tools TaskSchedule batch
 -- | --
 Created @ | `2019-03-10T10:03:13Z`
-Last Modify @| `2022-12-21T15:07:26Z`
+Updated @| `2023-06-17T11:26:34Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/38)
 
 ---
-## Brief
+
+# batch 基于 at 任务管理工具
 
 - batch 是利用 at 来执行任务的
 - 安装at的时候就带了batch
