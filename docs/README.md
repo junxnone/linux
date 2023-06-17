@@ -1,7 +1,7 @@
 ---
 Title | README
 -- | --
-Updated @ | `2023-06-16T07:08:41Z`
+Updated @ | `2023-06-17T12:04:00Z`
 Edit @ | [here](https://github.com/junxnone/linux/issues/79)
 
 ---
@@ -10,10 +10,14 @@ Edit @ | [here](https://github.com/junxnone/linux/issues/79)
 
 This is a [Linux] Wiki.  <kbd>[Use this Template](https://github.com/junxnone/twiki/generate)</kbd>
 
-[kg](https://junxnone.github.io/linux/kg ':include :type=iframe width=100% height=800px')
+- [Mindmap - Markmap](https://junxnone.github.io/linux/markmap.html?md=https://junxnone.github.io/linux/_sidebar.md)
+- [3D Knowledge Graph](https://junxnone.github.io/linux/kg)
+
+---
 
 [Index](_sidebar.md ':include')
 
-[markmap show](https://junxnone.github.io/linux/markmap.html?md=https://junxnone.github.io/linux/_sidebar.md ':include :type=iframe width=100% height=1000px')
+[kg](https://junxnone.github.io/linux/kg ':include :type=iframe width=100% height=800px')
+
 
 
