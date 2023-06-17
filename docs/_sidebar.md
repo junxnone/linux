@@ -46,7 +46,7 @@
       - [Arch](/0111_Tools_Remote_tmux_Arch)
       - [plugins](/0112_Tools_Remote_tmux_plugins)
     - [VNC Tools](/0103_Tools_Remote_vncserver)
-  - OS
+  - [OS Tools](/0122_Tools_OS)
     - [Hardware Information  查看工具](/0068_Tools_OS_HardwareInfo)
     - [Kernel 升级管理](/0073_Tools_OS_KernelUpgrade)
     - [开机相关信息](/0061_Tools_OS_ShowBootInfo)
@@ -122,4 +122,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@0021440618</sub></kbd>
+<kbd><sub>@0022420618</sub></kbd>
