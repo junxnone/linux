@@ -2,15 +2,12 @@
 Title | Tools
 -- | --
 Created @ | `2019-04-12T07:23:06Z`
-Last Modify @| `2022-12-21T10:58:03Z`
+Updated @| `2023-06-17T10:22:29Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/59)
 
 ---
-## Reference
-- [linux-command](https://github.com/einverne/linux-command)
-- [搜索](https://wangchujiang.com/linux-command/)
-- [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
+# Linux Tools
 
 ## 文件/内容操作编辑工具
 
@@ -109,3 +106,8 @@ factor | 分解因数
 aafire | 火焰图
 aview | 图片转ascii
 
+
+## Reference
+- [linux-command](https://github.com/einverne/linux-command)
+- [搜索](https://wangchujiang.com/linux-command/)
+- [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
