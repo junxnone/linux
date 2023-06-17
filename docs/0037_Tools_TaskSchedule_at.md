@@ -2,15 +2,13 @@
 Title | Tools TaskSchedule at
 -- | --
 Created @ | `2019-03-10T10:03:14Z`
-Last Modify @| `2022-12-21T15:07:23Z`
+Updated @| `2023-06-17T11:25:28Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/37)
 
 ---
-## Reference
-- [Linux命令之at](https://www.cnblogs.com/diantong/p/9366449.html)
+# at 定时任务管理工具
 
-## Brief
 - at和batch读取标准输入或一个指定文件，at在指定的时间执行命令
 
 ## UseCase
@@ -86,3 +84,5 @@ HH：MM[am|pm] + number [minutes|hours|days|weeks] 例如 now + 10 minutes
                        表示在某个时间点后多久执行任务
 ```
 
+## Reference
+- [Linux命令之at](https://www.cnblogs.com/diantong/p/9366449.html)
