@@ -73,8 +73,8 @@
     - [taskset 设定程序运行在的CPU](/0034_Tools_Process_taskset)
     - [top](/0009_Tools_Process_top)
   - [任务管理工具](/0040_Tools_TaskSchedule)
-    - [atrun uid=1000 gid=1000](/0037_Tools_TaskSchedule_at)
-    - [batch](/0038_Tools_TaskSchedule_batch)
+    - [at 定时任务管理工具](/0037_Tools_TaskSchedule_at)
+    - [batch 基于 at 任务管理工具](/0038_Tools_TaskSchedule_batch)
     - [Task 管理工具 crontab](/0071_Tools_TaskSchedule_crontab)
     - [jobs](/0047_Tools_TaskSchedule_jobs)
   - [bc 浮点计算工具](/0030_Tools_bc)
@@ -101,7 +101,7 @@
   - [忘记密码](/0093_Ubuntu_ForgetPassword)
   - [Server Install Desktop](/0094_Ubuntu_InstallDesktop)
   - [Ubuntu Install Steam](/0063_Ubuntu_InstallSteam)
-  - Issues
+  - [Ubuntu Issues](/0121_Ubuntu_Issues)
     - [桌面不显示](/0095_Ubuntu_Issues_DesktopDisplay)
     - [硬盘大于 2TB](/0099_Ubuntu_Issues_DiskLargerThan2TB)
     - [前置耳机不工作](/0101_Ubuntu_Issues_FrontHeadPhoneNotWorking)
@@ -122,4 +122,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1921340617</sub></kbd>
+<kbd><sub>@0021440618</sub></kbd>
