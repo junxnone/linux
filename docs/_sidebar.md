@@ -7,7 +7,6 @@
     - [Semaphore](/0088_Linux_IPC_Semaphore)
     - [Tools](/0087_Linux_IPC_SharedMemory)
   - [Unix History](/0113_Linux_History)
-  - [增加 Swap 分区](/0083_Linux_IncreaseSwap)
   - [Linux Kernel](/0013_Linux_Kernel)
   - [POSIX VS SystemV](/0082_Linux_POSIX与SystemV)
 - [Linux Tools](/0059_Tools)
@@ -99,6 +98,7 @@
     - [aria2](/0091_Ubuntu_Download_aria2)
     - [magnetW 磁力下载工具](/0055_Ubuntu_Download_magnetW)
   - [忘记密码](/0093_Ubuntu_ForgetPassword)
+  - [增加 Swap 分区](/0083_Ubuntu_IncreaseSwap)
   - [Server Install Desktop](/0094_Ubuntu_InstallDesktop)
   - [Ubuntu Install Steam](/0063_Ubuntu_InstallSteam)
   - [Ubuntu Issues](/0121_Ubuntu_Issues)
@@ -122,4 +122,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1614440627</sub></kbd>
+<kbd><sub>@1446030628</sub></kbd>
