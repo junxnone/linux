@@ -1,8 +1,8 @@
 ---
-Title | Linux IncreaseSwap
+Title | Ubuntu IncreaseSwap
 -- | --
 Created @ | `2022-08-17T08:56:29Z`
-Updated @| `2023-06-07T10:02:26Z`
+Updated @| `2023-06-28T06:45:07Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/83)
 
