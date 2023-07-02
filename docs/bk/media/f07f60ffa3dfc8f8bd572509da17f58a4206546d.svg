@@ -1,0 +1,1509 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<!-- Created with gnuclad 0.2.4 -->
+
+<svg
+  xmlns='http://www.w3.org/2000/svg'
+  xmlns:svg='http://www.w3.org/2000/svg'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape'
+  xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd'
+  xmlns:dc='http://purl.org/dc/elements/1.1/'
+  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  version='1.1'
+  width='1880'
+  height='1072'
+>
+
+<title>Linux Distributions Version Timeline</title>
+
+<defs>
+
+  <linearGradient id='__yearline' x1='0' y1='0' x2='1' y2='0'>
+    <stop stop-color='#00316e' offset='0' stop-opacity='1' />
+    <stop stop-color='#2c72c7' offset='1' stop-opacity='1' />
+  </linearGradient>
+
+  <linearGradient id='__infobox_fill' x1='0' y1='0' x2='0' y2='1'>
+    <stop stop-color='#b9d5ff' offset='0' stop-opacity='1' />
+    <stop stop-color='#70b3f2' offset='1' stop-opacity='1' />
+  </linearGradient>
+  <linearGradient id='__infobox_stroke' x1='0' y1='0' x2='0' y2='1'>
+    <stop stop-color='#70b3f2' offset='0' stop-opacity='1' />
+    <stop stop-color='#b9d5ff' offset='1' stop-opacity='1' />
+  </linearGradient>
+  <filter id='__infobox_shadow' color-interpolation-filters='sRGB'>
+    <feGaussianBlur stdDeviation='5' />
+  </filter>
+
+  <linearGradient id='__domain_Debian' x1='0' y1='0' x2='1' y2='0'>
+    <stop stop-color='#bf1238' offset='0' stop-opacity='0' />
+    <stop stop-color='#bf1238' offset='1' stop-opacity='0.15' />
+  </linearGradient>
+  <linearGradient id='__domain_Slackware' x1='0' y1='0' x2='1' y2='0'>
+    <stop stop-color='#000000' offset='0' stop-opacity='0' />
+    <stop stop-color='#000000' offset='1' stop-opacity='0.15' />
+  </linearGradient>
+  <linearGradient id='__domain_Red__Hat' x1='0' y1='0' x2='1' y2='0'>
+    <stop stop-color='#cc0000' offset='0' stop-opacity='0' />
+    <stop stop-color='#cc0000' offset='1' stop-opacity='0.15' />
+  </linearGradient>
+  <linearGradient id='__domain_S.u.S.E__Linux' x1='0' y1='0' x2='1' y2='0'>
+    <stop stop-color='#4bb679' offset='0' stop-opacity='0' />
+    <stop stop-color='#4bb679' offset='1' stop-opacity='0.22' />
+  </linearGradient>
+  <linearGradient id='__domain_Enoch' x1='0' y1='0' x2='1' y2='0'>
+    <stop stop-color='#a0a0f0' offset='0' stop-opacity='0' />
+    <stop stop-color='#a0a0f0' offset='1' stop-opacity='0.22' />
+  </linearGradient>
+  <linearGradient id='__domain_Arch__Linux' x1='0' y1='0' x2='1' y2='0'>
+    <stop stop-color='#0771a6' offset='0' stop-opacity='0' />
+    <stop stop-color='#0771a6' offset='1' stop-opacity='0.1' />
+  </linearGradient>
+
+  <circle id='__connectors_start' cx='0' cy='0' r='4' stroke='none' />
+<rect id='__fadeout' height='1' width='6' y='-0.5' x='0'/>  <linearGradient id='__fadeout_SLS' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#9c8ac4' offset='0' stop-opacity='1' />
+    <stop stop-color='#9c8ac4' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_SLS' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_SLS)' />
+  </marker>
+  <linearGradient id='__fadeout_S.u.S.E' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#4bb679' offset='0' stop-opacity='1' />
+    <stop stop-color='#4bb679' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_S.u.S.E' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_S.u.S.E)' />
+  </marker>
+  <linearGradient id='__fadeout_Jurix' x1='0' y1='0' x2='6' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#9f9f9f' offset='0' stop-opacity='1' />
+    <stop stop-color='#9f9f9f' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Jurix' markerWidth='6' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Jurix)' />
+  </marker>
+
+<!-- BEGIN additional SVG images - definitions -->
+    <radialGradient
+       id="radialGradient176"
+       xlink:href="#linearGradient172"
+       gradientTransform="matrix(1.0452325,0,0,0.9567249,0.249746,4.0783767)"
+       cx="446.77762"
+       cy="1219.4125"
+       fx="446.77762"
+       fy="1219.4125"
+       r="195.07191"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient172">
+      <stop
+         id="stop173"
+         offset="0.000000"
+         style="stop-color:#3f2600;stop-opacity:0.6;" />
+      <stop
+         id="stop174"
+         offset="1.000000"
+         style="stop-color:#3f2600;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="304.07886"
+       x2="400.84448"
+       y1="369.53015"
+       x1="400.57785"
+       id="linearGradient157"
+       xlink:href="#linearGradient153"
+       gradientTransform="matrix(0.5752618,0,0,1.7383388,-0.2255136,1.1465084)" />
+    <linearGradient
+       id="linearGradient153">
+      <stop
+         id="stop154"
+         offset="0.000000"
+         style="stop-color:#ffeed7;stop-opacity:1;" />
+      <stop
+         id="stop155"
+         offset="1.000000"
+         style="stop-color:#bdbfc2;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="330.09561"
+       x2="297.0856"
+       y1="237.93179"
+       x1="303.01761"
+       id="linearGradient141"
+       xlink:href="#linearGradient138"
+       gradientTransform="matrix(1.1160707,0,0,0.8960006,0.3316981,1.4343374)" />
+    <linearGradient
+       id="linearGradient138">
+      <stop
+         id="stop139"
+         offset="0.000000"
+         style="stop-color:#ffffff;stop-opacity:0.8;" />
+      <stop
+         id="stop140"
+         offset="1.000000"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientTransform="matrix(0.8164969,0,0,1.2247444,0.1962794,1.2709141)"
+       gradientUnits="userSpaceOnUse"
+       y2="243.91606"
+       x2="380.27319"
+       y1="278.60202"
+       x1="378.93771"
+       id="linearGradient159"
+       xlink:href="#linearGradient153" />
+    <linearGradient
+       id="linearGradient4366">
+      <stop
+         id="stop4368"
+         offset="0.000000"
+         style="stop-color:#ffeed7;stop-opacity:1;" />
+      <stop
+         id="stop4370"
+         offset="1.000000"
+         style="stop-color:#bdbfc2;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="245.68338"
+       x2="380.5517"
+       y1="277.495"
+       x1="381.38742"
+       id="linearGradient158"
+       xlink:href="#linearGradient153"
+       gradientTransform="matrix(0.8164969,0,0,1.2247444,-0.1763423,1.0945522)" />
+    <linearGradient
+       id="linearGradient4373">
+      <stop
+         id="stop4375"
+         offset="0.000000"
+         style="stop-color:#ffeed7;stop-opacity:1;" />
+      <stop
+         id="stop4377"
+         offset="1.000000"
+         style="stop-color:#bdbfc2;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0.8164969,0,0,1.2247444,-1.0755061,3.4740223)"
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="281.01636"
+       x2="376.79556"
+       y1="240.92712"
+       x1="379.09573"
+       id="linearGradient143"
+       xlink:href="#linearGradient167" />
+    <linearGradient
+       id="linearGradient167">
+      <stop
+         id="stop168"
+         offset="0.000000"
+         style="stop-color:#ffffff;stop-opacity:0.65098;" />
+      <stop
+         id="stop169"
+         offset="1.000000"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="281.32513"
+       x2="387.06866"
+       y1="242.28218"
+       x1="389.63535"
+       id="linearGradient144"
+       xlink:href="#linearGradient167"
+       gradientTransform="matrix(0.8164969,0,0,1.2247444,0.4946856,4.2948128)" />
+    <linearGradient
+       id="linearGradient4384">
+      <stop
+         id="stop4386"
+         offset="0.000000"
+         style="stop-color:#ffffff;stop-opacity:0.65098;" />
+      <stop
+         id="stop4388"
+         offset="1.000000"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="reflect"
+       gradientUnits="userSpaceOnUse"
+       y2="394.10361"
+       x2="437.57941"
+       y1="528.87177"
+       x1="437.57941"
+       id="linearGradient152"
+       xlink:href="#linearGradient153"
+       gradientTransform="matrix(0.8128545,0,0,1.2302325,0.283241,1.353188)" />
+    <linearGradient
+       id="linearGradient4391">
+      <stop
+         id="stop4393"
+         offset="0.000000"
+         style="stop-color:#ffeed7;stop-opacity:1;" />
+      <stop
+         id="stop4395"
+         offset="1.000000"
+         style="stop-color:#bdbfc2;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="324.03815"
+       x2="377.48541"
+       y1="419.78485"
+       x1="375.17325"
+       id="linearGradient156"
+       xlink:href="#linearGradient153"
+       gradientTransform="matrix(0.6497837,0,0,1.5389736,0.1582702,1.3124492)" />
+    <linearGradient
+       id="linearGradient4398">
+      <stop
+         id="stop4400"
+         offset="0.000000"
+         style="stop-color:#ffeed7;stop-opacity:1;" />
+      <stop
+         id="stop4402"
+         offset="1.000000"
+         style="stop-color:#bdbfc2;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="614.50439"
+       x2="321.32224"
+       y1="498.17776"
+       x1="320.75104"
+       id="linearGradient149"
+       xlink:href="#linearGradient138"
+       gradientTransform="matrix(1.0747977,0,0,0.9304076,0.2719094,1.380454)" />
+    <linearGradient
+       id="linearGradient4405">
+      <stop
+         id="stop4407"
+         offset="0.000000"
+         style="stop-color:#ffffff;stop-opacity:0.8;" />
+      <stop
+         id="stop4409"
+         offset="1.000000"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="488.48251"
+       x2="323.2514"
+       y1="435.26761"
+       x1="322.48257"
+       id="linearGradient148"
+       xlink:href="#linearGradient167"
+       gradientTransform="matrix(1.0770013,0,0,0.928504,0.298332,1.5851737)" />
+    <linearGradient
+       id="linearGradient4412">
+      <stop
+         id="stop4414"
+         offset="0.000000"
+         style="stop-color:#ffffff;stop-opacity:0.65098;" />
+      <stop
+         id="stop4416"
+         offset="1.000000"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="331.44858"
+       x2="411.2215"
+       y1="242.94365"
+       x1="411.2215"
+       id="linearGradient147"
+       xlink:href="#linearGradient167"
+       gradientTransform="matrix(0.5717073,0,0,1.7491467,0.283241,1.353188)" />
+    <linearGradient
+       id="linearGradient4419">
+      <stop
+         id="stop4421"
+         offset="0.000000"
+         style="stop-color:#ffffff;stop-opacity:0.65098;" />
+      <stop
+         id="stop4423"
+         offset="1.000000"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="314.83911"
+       x2="867.33453"
+       y1="234.73897"
+       x1="867.34546"
+       id="linearGradient146"
+       xlink:href="#linearGradient167"
+       gradientTransform="matrix(0.5726674,0,0,1.7462143,0.283241,1.353188)" />
+    <linearGradient
+       id="linearGradient4426">
+      <stop
+         id="stop4428"
+         offset="0.000000"
+         style="stop-color:#ffffff;stop-opacity:0.65098;" />
+      <stop
+         id="stop4430"
+         offset="1.000000"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="737.41229"
+       x2="212.5099"
+       y1="657.11133"
+       x1="236.25362"
+       id="linearGradient165"
+       xlink:href="#linearGradient162"
+       gradientTransform="matrix(1.0115142,0,0,0.9886169,0.283241,1.353188)" />
+    <linearGradient
+       id="linearGradient162">
+      <stop
+         id="stop163"
+         offset="0.000000"
+         style="stop-color:#ffa63f;stop-opacity:1;" />
+      <stop
+         id="stop164"
+         offset="1.000000"
+         style="stop-color:#ffff00;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="386.66583"
+       x2="279.64313"
+       y1="655.73102"
+       x1="381.56607"
+       id="linearGradient178"
+       xlink:href="#linearGradient153"
+       gradientTransform="matrix(1.0654991,0,0,0.9385273,1.4388395,2.1143795)" />
+    <linearGradient
+       id="linearGradient4437">
+      <stop
+         id="stop4439"
+         offset="0.000000"
+         style="stop-color:#ffeed7;stop-opacity:1;" />
+      <stop
+         id="stop4441"
+         offset="1.000000"
+         style="stop-color:#bdbfc2;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="737.8537"
+       x2="203.12654"
+       y1="630.30475"
+       x1="218.11714"
+       id="linearGradient161"
+       xlink:href="#linearGradient162"
+       gradientTransform="matrix(1.0098507,0,0,0.9902454,0.2506227,1.3611134)" />
+    <linearGradient
+       id="linearGradient4444">
+      <stop
+         id="stop4446"
+         offset="0.000000"
+         style="stop-color:#ffa63f;stop-opacity:1;" />
+      <stop
+         id="stop4448"
+         offset="1.000000"
+         style="stop-color:#ffff00;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientTransform="matrix(1.0077239,0,0,0.9923353,0.3609981,1.6394255)"
+       gradientUnits="userSpaceOnUse"
+       y2="704.73077"
+       x2="182.24524"
+       y1="587.23602"
+       x1="117.88966"
+       id="linearGradient150"
+       xlink:href="#linearGradient167" />
+    <linearGradient
+       id="linearGradient4451">
+      <stop
+         id="stop4453"
+         offset="0.000000"
+         style="stop-color:#ffffff;stop-opacity:0.65098;" />
+      <stop
+         id="stop4455"
+         offset="1.000000"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="710.97723"
+       x2="230.53499"
+       y1="570.41809"
+       x1="223.10072"
+       id="linearGradient151"
+       xlink:href="#linearGradient167"
+       gradientTransform="matrix(0.9995042,0,0,1.0004961,0.3808843,1.6365774)" />
+    <linearGradient
+       id="linearGradient4458">
+      <stop
+         id="stop4460"
+         offset="0.000000"
+         style="stop-color:#ffffff;stop-opacity:0.65098;" />
+      <stop
+         id="stop4462"
+         offset="1.000000"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="582.63507"
+       x2="371.60889"
+       y1="474.01779"
+       x1="316.93988"
+       id="linearGradient145"
+       xlink:href="#linearGradient167"
+       gradientTransform="matrix(1.0654991,0,0,0.9385273,2.4272939,3.8684258)" />
+    <linearGradient
+       id="linearGradient4465">
+      <stop
+         id="stop4467"
+         offset="0.000000"
+         style="stop-color:#ffffff;stop-opacity:0.65098;" />
+      <stop
+         id="stop4469"
+         offset="1.000000"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="485.69934"
+       x2="285.45923"
+       y1="410.46326"
+       x1="284.68652"
+       id="linearGradient166"
+       xlink:href="#linearGradient162"
+       gradientTransform="matrix(1.2186844,0,0,0.820557,0.283241,1.353188)" />
+    <linearGradient
+       id="linearGradient4472">
+      <stop
+         id="stop4474"
+         offset="0.000000"
+         style="stop-color:#ffa63f;stop-opacity:1;" />
+      <stop
+         id="stop4476"
+         offset="1.000000"
+         style="stop-color:#ffff00;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       y2="482.55939"
+       x2="288.37628"
+       y1="398.85422"
+       x1="288.82358"
+       id="linearGradient142"
+       xlink:href="#linearGradient167"
+       gradientTransform="matrix(1.2219405,0,0,0.8183704,0.5638931,2.8396095)" />
+    <linearGradient
+       id="linearGradient4479">
+      <stop
+         id="stop4481"
+         offset="0.000000"
+         style="stop-color:#ffffff;stop-opacity:0.65098;" />
+      <stop
+         id="stop4483"
+         offset="1.000000"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       y2="482.55939"
+       x2="288.37628"
+       y1="398.85422"
+       x1="288.82358"
+       spreadMethod="pad"
+       gradientTransform="matrix(1.2219405,0,0,0.8183704,0.5638931,2.8396095)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4514"
+       xlink:href="#linearGradient167" />
+
+<!-- END additional SVG images - definitions -->
+
+</defs>
+
+<g inkscape:label='Background' inkscape:groupmode='layer' id='layer_background' >
+  <rect x='0' y='0' width='1880' height='1072' rx='16' ry='16' fill='#fff' />
+</g>
+
+<g inkscape:label='Year Rulers' inkscape:groupmode='layer' id='layer_yearrulers' stroke-width='0' stroke='#f0f0f0'>
+  <line x1='10' y1='0' x2='10' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='15' y1='0' x2='15' y2='1072' />
+    <line x1='20' y1='0' x2='20' y2='1072' />
+    <line x1='25' y1='0' x2='25' y2='1072' />
+    <line x1='30' y1='0' x2='30' y2='1072' />
+    <line x1='35' y1='0' x2='35' y2='1072' />
+    <line x1='40' y1='0' x2='40' y2='1072' />
+    <line x1='45' y1='0' x2='45' y2='1072' />
+    <line x1='50' y1='0' x2='50' y2='1072' />
+    <line x1='55' y1='0' x2='55' y2='1072' />
+    <line x1='60' y1='0' x2='60' y2='1072' />
+    <line x1='65' y1='0' x2='65' y2='1072' />
+  <line x1='70' y1='0' x2='70' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='75' y1='0' x2='75' y2='1072' />
+    <line x1='80' y1='0' x2='80' y2='1072' />
+    <line x1='85' y1='0' x2='85' y2='1072' />
+    <line x1='90' y1='0' x2='90' y2='1072' />
+    <line x1='95' y1='0' x2='95' y2='1072' />
+    <line x1='100' y1='0' x2='100' y2='1072' />
+    <line x1='105' y1='0' x2='105' y2='1072' />
+    <line x1='110' y1='0' x2='110' y2='1072' />
+    <line x1='115' y1='0' x2='115' y2='1072' />
+    <line x1='120' y1='0' x2='120' y2='1072' />
+    <line x1='125' y1='0' x2='125' y2='1072' />
+  <line x1='130' y1='0' x2='130' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='135' y1='0' x2='135' y2='1072' />
+    <line x1='140' y1='0' x2='140' y2='1072' />
+    <line x1='145' y1='0' x2='145' y2='1072' />
+    <line x1='150' y1='0' x2='150' y2='1072' />
+    <line x1='155' y1='0' x2='155' y2='1072' />
+    <line x1='160' y1='0' x2='160' y2='1072' />
+    <line x1='165' y1='0' x2='165' y2='1072' />
+    <line x1='170' y1='0' x2='170' y2='1072' />
+    <line x1='175' y1='0' x2='175' y2='1072' />
+    <line x1='180' y1='0' x2='180' y2='1072' />
+    <line x1='185' y1='0' x2='185' y2='1072' />
+  <line x1='190' y1='0' x2='190' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='195' y1='0' x2='195' y2='1072' />
+    <line x1='200' y1='0' x2='200' y2='1072' />
+    <line x1='205' y1='0' x2='205' y2='1072' />
+    <line x1='210' y1='0' x2='210' y2='1072' />
+    <line x1='215' y1='0' x2='215' y2='1072' />
+    <line x1='220' y1='0' x2='220' y2='1072' />
+    <line x1='225' y1='0' x2='225' y2='1072' />
+    <line x1='230' y1='0' x2='230' y2='1072' />
+    <line x1='235' y1='0' x2='235' y2='1072' />
+    <line x1='240' y1='0' x2='240' y2='1072' />
+    <line x1='245' y1='0' x2='245' y2='1072' />
+  <line x1='250' y1='0' x2='250' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='255' y1='0' x2='255' y2='1072' />
+    <line x1='260' y1='0' x2='260' y2='1072' />
+    <line x1='265' y1='0' x2='265' y2='1072' />
+    <line x1='270' y1='0' x2='270' y2='1072' />
+    <line x1='275' y1='0' x2='275' y2='1072' />
+    <line x1='280' y1='0' x2='280' y2='1072' />
+    <line x1='285' y1='0' x2='285' y2='1072' />
+    <line x1='290' y1='0' x2='290' y2='1072' />
+    <line x1='295' y1='0' x2='295' y2='1072' />
+    <line x1='300' y1='0' x2='300' y2='1072' />
+    <line x1='305' y1='0' x2='305' y2='1072' />
+  <line x1='310' y1='0' x2='310' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='315' y1='0' x2='315' y2='1072' />
+    <line x1='320' y1='0' x2='320' y2='1072' />
+    <line x1='325' y1='0' x2='325' y2='1072' />
+    <line x1='330' y1='0' x2='330' y2='1072' />
+    <line x1='335' y1='0' x2='335' y2='1072' />
+    <line x1='340' y1='0' x2='340' y2='1072' />
+    <line x1='345' y1='0' x2='345' y2='1072' />
+    <line x1='350' y1='0' x2='350' y2='1072' />
+    <line x1='355' y1='0' x2='355' y2='1072' />
+    <line x1='360' y1='0' x2='360' y2='1072' />
+    <line x1='365' y1='0' x2='365' y2='1072' />
+  <line x1='370' y1='0' x2='370' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='375' y1='0' x2='375' y2='1072' />
+    <line x1='380' y1='0' x2='380' y2='1072' />
+    <line x1='385' y1='0' x2='385' y2='1072' />
+    <line x1='390' y1='0' x2='390' y2='1072' />
+    <line x1='395' y1='0' x2='395' y2='1072' />
+    <line x1='400' y1='0' x2='400' y2='1072' />
+    <line x1='405' y1='0' x2='405' y2='1072' />
+    <line x1='410' y1='0' x2='410' y2='1072' />
+    <line x1='415' y1='0' x2='415' y2='1072' />
+    <line x1='420' y1='0' x2='420' y2='1072' />
+    <line x1='425' y1='0' x2='425' y2='1072' />
+  <line x1='430' y1='0' x2='430' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='435' y1='0' x2='435' y2='1072' />
+    <line x1='440' y1='0' x2='440' y2='1072' />
+    <line x1='445' y1='0' x2='445' y2='1072' />
+    <line x1='450' y1='0' x2='450' y2='1072' />
+    <line x1='455' y1='0' x2='455' y2='1072' />
+    <line x1='460' y1='0' x2='460' y2='1072' />
+    <line x1='465' y1='0' x2='465' y2='1072' />
+    <line x1='470' y1='0' x2='470' y2='1072' />
+    <line x1='475' y1='0' x2='475' y2='1072' />
+    <line x1='480' y1='0' x2='480' y2='1072' />
+    <line x1='485' y1='0' x2='485' y2='1072' />
+  <line x1='490' y1='0' x2='490' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='495' y1='0' x2='495' y2='1072' />
+    <line x1='500' y1='0' x2='500' y2='1072' />
+    <line x1='505' y1='0' x2='505' y2='1072' />
+    <line x1='510' y1='0' x2='510' y2='1072' />
+    <line x1='515' y1='0' x2='515' y2='1072' />
+    <line x1='520' y1='0' x2='520' y2='1072' />
+    <line x1='525' y1='0' x2='525' y2='1072' />
+    <line x1='530' y1='0' x2='530' y2='1072' />
+    <line x1='535' y1='0' x2='535' y2='1072' />
+    <line x1='540' y1='0' x2='540' y2='1072' />
+    <line x1='545' y1='0' x2='545' y2='1072' />
+  <line x1='550' y1='0' x2='550' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='555' y1='0' x2='555' y2='1072' />
+    <line x1='560' y1='0' x2='560' y2='1072' />
+    <line x1='565' y1='0' x2='565' y2='1072' />
+    <line x1='570' y1='0' x2='570' y2='1072' />
+    <line x1='575' y1='0' x2='575' y2='1072' />
+    <line x1='580' y1='0' x2='580' y2='1072' />
+    <line x1='585' y1='0' x2='585' y2='1072' />
+    <line x1='590' y1='0' x2='590' y2='1072' />
+    <line x1='595' y1='0' x2='595' y2='1072' />
+    <line x1='600' y1='0' x2='600' y2='1072' />
+    <line x1='605' y1='0' x2='605' y2='1072' />
+  <line x1='610' y1='0' x2='610' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='615' y1='0' x2='615' y2='1072' />
+    <line x1='620' y1='0' x2='620' y2='1072' />
+    <line x1='625' y1='0' x2='625' y2='1072' />
+    <line x1='630' y1='0' x2='630' y2='1072' />
+    <line x1='635' y1='0' x2='635' y2='1072' />
+    <line x1='640' y1='0' x2='640' y2='1072' />
+    <line x1='645' y1='0' x2='645' y2='1072' />
+    <line x1='650' y1='0' x2='650' y2='1072' />
+    <line x1='655' y1='0' x2='655' y2='1072' />
+    <line x1='660' y1='0' x2='660' y2='1072' />
+    <line x1='665' y1='0' x2='665' y2='1072' />
+  <line x1='670' y1='0' x2='670' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='675' y1='0' x2='675' y2='1072' />
+    <line x1='680' y1='0' x2='680' y2='1072' />
+    <line x1='685' y1='0' x2='685' y2='1072' />
+    <line x1='690' y1='0' x2='690' y2='1072' />
+    <line x1='695' y1='0' x2='695' y2='1072' />
+    <line x1='700' y1='0' x2='700' y2='1072' />
+    <line x1='705' y1='0' x2='705' y2='1072' />
+    <line x1='710' y1='0' x2='710' y2='1072' />
+    <line x1='715' y1='0' x2='715' y2='1072' />
+    <line x1='720' y1='0' x2='720' y2='1072' />
+    <line x1='725' y1='0' x2='725' y2='1072' />
+  <line x1='730' y1='0' x2='730' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='735' y1='0' x2='735' y2='1072' />
+    <line x1='740' y1='0' x2='740' y2='1072' />
+    <line x1='745' y1='0' x2='745' y2='1072' />
+    <line x1='750' y1='0' x2='750' y2='1072' />
+    <line x1='755' y1='0' x2='755' y2='1072' />
+    <line x1='760' y1='0' x2='760' y2='1072' />
+    <line x1='765' y1='0' x2='765' y2='1072' />
+    <line x1='770' y1='0' x2='770' y2='1072' />
+    <line x1='775' y1='0' x2='775' y2='1072' />
+    <line x1='780' y1='0' x2='780' y2='1072' />
+    <line x1='785' y1='0' x2='785' y2='1072' />
+  <line x1='790' y1='0' x2='790' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='795' y1='0' x2='795' y2='1072' />
+    <line x1='800' y1='0' x2='800' y2='1072' />
+    <line x1='805' y1='0' x2='805' y2='1072' />
+    <line x1='810' y1='0' x2='810' y2='1072' />
+    <line x1='815' y1='0' x2='815' y2='1072' />
+    <line x1='820' y1='0' x2='820' y2='1072' />
+    <line x1='825' y1='0' x2='825' y2='1072' />
+    <line x1='830' y1='0' x2='830' y2='1072' />
+    <line x1='835' y1='0' x2='835' y2='1072' />
+    <line x1='840' y1='0' x2='840' y2='1072' />
+    <line x1='845' y1='0' x2='845' y2='1072' />
+  <line x1='850' y1='0' x2='850' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='855' y1='0' x2='855' y2='1072' />
+    <line x1='860' y1='0' x2='860' y2='1072' />
+    <line x1='865' y1='0' x2='865' y2='1072' />
+    <line x1='870' y1='0' x2='870' y2='1072' />
+    <line x1='875' y1='0' x2='875' y2='1072' />
+    <line x1='880' y1='0' x2='880' y2='1072' />
+    <line x1='885' y1='0' x2='885' y2='1072' />
+    <line x1='890' y1='0' x2='890' y2='1072' />
+    <line x1='895' y1='0' x2='895' y2='1072' />
+    <line x1='900' y1='0' x2='900' y2='1072' />
+    <line x1='905' y1='0' x2='905' y2='1072' />
+  <line x1='910' y1='0' x2='910' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='915' y1='0' x2='915' y2='1072' />
+    <line x1='920' y1='0' x2='920' y2='1072' />
+    <line x1='925' y1='0' x2='925' y2='1072' />
+    <line x1='930' y1='0' x2='930' y2='1072' />
+    <line x1='935' y1='0' x2='935' y2='1072' />
+    <line x1='940' y1='0' x2='940' y2='1072' />
+    <line x1='945' y1='0' x2='945' y2='1072' />
+    <line x1='950' y1='0' x2='950' y2='1072' />
+    <line x1='955' y1='0' x2='955' y2='1072' />
+    <line x1='960' y1='0' x2='960' y2='1072' />
+    <line x1='965' y1='0' x2='965' y2='1072' />
+  <line x1='970' y1='0' x2='970' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='975' y1='0' x2='975' y2='1072' />
+    <line x1='980' y1='0' x2='980' y2='1072' />
+    <line x1='985' y1='0' x2='985' y2='1072' />
+    <line x1='990' y1='0' x2='990' y2='1072' />
+    <line x1='995' y1='0' x2='995' y2='1072' />
+    <line x1='1000' y1='0' x2='1000' y2='1072' />
+    <line x1='1005' y1='0' x2='1005' y2='1072' />
+    <line x1='1010' y1='0' x2='1010' y2='1072' />
+    <line x1='1015' y1='0' x2='1015' y2='1072' />
+    <line x1='1020' y1='0' x2='1020' y2='1072' />
+    <line x1='1025' y1='0' x2='1025' y2='1072' />
+  <line x1='1030' y1='0' x2='1030' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1035' y1='0' x2='1035' y2='1072' />
+    <line x1='1040' y1='0' x2='1040' y2='1072' />
+    <line x1='1045' y1='0' x2='1045' y2='1072' />
+    <line x1='1050' y1='0' x2='1050' y2='1072' />
+    <line x1='1055' y1='0' x2='1055' y2='1072' />
+    <line x1='1060' y1='0' x2='1060' y2='1072' />
+    <line x1='1065' y1='0' x2='1065' y2='1072' />
+    <line x1='1070' y1='0' x2='1070' y2='1072' />
+    <line x1='1075' y1='0' x2='1075' y2='1072' />
+    <line x1='1080' y1='0' x2='1080' y2='1072' />
+    <line x1='1085' y1='0' x2='1085' y2='1072' />
+  <line x1='1090' y1='0' x2='1090' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1095' y1='0' x2='1095' y2='1072' />
+    <line x1='1100' y1='0' x2='1100' y2='1072' />
+    <line x1='1105' y1='0' x2='1105' y2='1072' />
+    <line x1='1110' y1='0' x2='1110' y2='1072' />
+    <line x1='1115' y1='0' x2='1115' y2='1072' />
+    <line x1='1120' y1='0' x2='1120' y2='1072' />
+    <line x1='1125' y1='0' x2='1125' y2='1072' />
+    <line x1='1130' y1='0' x2='1130' y2='1072' />
+    <line x1='1135' y1='0' x2='1135' y2='1072' />
+    <line x1='1140' y1='0' x2='1140' y2='1072' />
+    <line x1='1145' y1='0' x2='1145' y2='1072' />
+  <line x1='1150' y1='0' x2='1150' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1155' y1='0' x2='1155' y2='1072' />
+    <line x1='1160' y1='0' x2='1160' y2='1072' />
+    <line x1='1165' y1='0' x2='1165' y2='1072' />
+    <line x1='1170' y1='0' x2='1170' y2='1072' />
+    <line x1='1175' y1='0' x2='1175' y2='1072' />
+    <line x1='1180' y1='0' x2='1180' y2='1072' />
+    <line x1='1185' y1='0' x2='1185' y2='1072' />
+    <line x1='1190' y1='0' x2='1190' y2='1072' />
+    <line x1='1195' y1='0' x2='1195' y2='1072' />
+    <line x1='1200' y1='0' x2='1200' y2='1072' />
+    <line x1='1205' y1='0' x2='1205' y2='1072' />
+  <line x1='1210' y1='0' x2='1210' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1215' y1='0' x2='1215' y2='1072' />
+    <line x1='1220' y1='0' x2='1220' y2='1072' />
+    <line x1='1225' y1='0' x2='1225' y2='1072' />
+    <line x1='1230' y1='0' x2='1230' y2='1072' />
+    <line x1='1235' y1='0' x2='1235' y2='1072' />
+    <line x1='1240' y1='0' x2='1240' y2='1072' />
+    <line x1='1245' y1='0' x2='1245' y2='1072' />
+    <line x1='1250' y1='0' x2='1250' y2='1072' />
+    <line x1='1255' y1='0' x2='1255' y2='1072' />
+    <line x1='1260' y1='0' x2='1260' y2='1072' />
+    <line x1='1265' y1='0' x2='1265' y2='1072' />
+  <line x1='1270' y1='0' x2='1270' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1275' y1='0' x2='1275' y2='1072' />
+    <line x1='1280' y1='0' x2='1280' y2='1072' />
+    <line x1='1285' y1='0' x2='1285' y2='1072' />
+    <line x1='1290' y1='0' x2='1290' y2='1072' />
+    <line x1='1295' y1='0' x2='1295' y2='1072' />
+    <line x1='1300' y1='0' x2='1300' y2='1072' />
+    <line x1='1305' y1='0' x2='1305' y2='1072' />
+    <line x1='1310' y1='0' x2='1310' y2='1072' />
+    <line x1='1315' y1='0' x2='1315' y2='1072' />
+    <line x1='1320' y1='0' x2='1320' y2='1072' />
+    <line x1='1325' y1='0' x2='1325' y2='1072' />
+  <line x1='1330' y1='0' x2='1330' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1335' y1='0' x2='1335' y2='1072' />
+    <line x1='1340' y1='0' x2='1340' y2='1072' />
+    <line x1='1345' y1='0' x2='1345' y2='1072' />
+    <line x1='1350' y1='0' x2='1350' y2='1072' />
+    <line x1='1355' y1='0' x2='1355' y2='1072' />
+    <line x1='1360' y1='0' x2='1360' y2='1072' />
+    <line x1='1365' y1='0' x2='1365' y2='1072' />
+    <line x1='1370' y1='0' x2='1370' y2='1072' />
+    <line x1='1375' y1='0' x2='1375' y2='1072' />
+    <line x1='1380' y1='0' x2='1380' y2='1072' />
+    <line x1='1385' y1='0' x2='1385' y2='1072' />
+  <line x1='1390' y1='0' x2='1390' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1395' y1='0' x2='1395' y2='1072' />
+    <line x1='1400' y1='0' x2='1400' y2='1072' />
+    <line x1='1405' y1='0' x2='1405' y2='1072' />
+    <line x1='1410' y1='0' x2='1410' y2='1072' />
+    <line x1='1415' y1='0' x2='1415' y2='1072' />
+    <line x1='1420' y1='0' x2='1420' y2='1072' />
+    <line x1='1425' y1='0' x2='1425' y2='1072' />
+    <line x1='1430' y1='0' x2='1430' y2='1072' />
+    <line x1='1435' y1='0' x2='1435' y2='1072' />
+    <line x1='1440' y1='0' x2='1440' y2='1072' />
+    <line x1='1445' y1='0' x2='1445' y2='1072' />
+  <line x1='1450' y1='0' x2='1450' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1455' y1='0' x2='1455' y2='1072' />
+    <line x1='1460' y1='0' x2='1460' y2='1072' />
+    <line x1='1465' y1='0' x2='1465' y2='1072' />
+    <line x1='1470' y1='0' x2='1470' y2='1072' />
+    <line x1='1475' y1='0' x2='1475' y2='1072' />
+    <line x1='1480' y1='0' x2='1480' y2='1072' />
+    <line x1='1485' y1='0' x2='1485' y2='1072' />
+    <line x1='1490' y1='0' x2='1490' y2='1072' />
+    <line x1='1495' y1='0' x2='1495' y2='1072' />
+    <line x1='1500' y1='0' x2='1500' y2='1072' />
+    <line x1='1505' y1='0' x2='1505' y2='1072' />
+  <line x1='1510' y1='0' x2='1510' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1515' y1='0' x2='1515' y2='1072' />
+    <line x1='1520' y1='0' x2='1520' y2='1072' />
+    <line x1='1525' y1='0' x2='1525' y2='1072' />
+    <line x1='1530' y1='0' x2='1530' y2='1072' />
+    <line x1='1535' y1='0' x2='1535' y2='1072' />
+    <line x1='1540' y1='0' x2='1540' y2='1072' />
+    <line x1='1545' y1='0' x2='1545' y2='1072' />
+    <line x1='1550' y1='0' x2='1550' y2='1072' />
+    <line x1='1555' y1='0' x2='1555' y2='1072' />
+    <line x1='1560' y1='0' x2='1560' y2='1072' />
+    <line x1='1565' y1='0' x2='1565' y2='1072' />
+  <line x1='1570' y1='0' x2='1570' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1575' y1='0' x2='1575' y2='1072' />
+    <line x1='1580' y1='0' x2='1580' y2='1072' />
+    <line x1='1585' y1='0' x2='1585' y2='1072' />
+    <line x1='1590' y1='0' x2='1590' y2='1072' />
+    <line x1='1595' y1='0' x2='1595' y2='1072' />
+    <line x1='1600' y1='0' x2='1600' y2='1072' />
+    <line x1='1605' y1='0' x2='1605' y2='1072' />
+    <line x1='1610' y1='0' x2='1610' y2='1072' />
+    <line x1='1615' y1='0' x2='1615' y2='1072' />
+    <line x1='1620' y1='0' x2='1620' y2='1072' />
+    <line x1='1625' y1='0' x2='1625' y2='1072' />
+  <line x1='1630' y1='0' x2='1630' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1635' y1='0' x2='1635' y2='1072' />
+    <line x1='1640' y1='0' x2='1640' y2='1072' />
+    <line x1='1645' y1='0' x2='1645' y2='1072' />
+    <line x1='1650' y1='0' x2='1650' y2='1072' />
+    <line x1='1655' y1='0' x2='1655' y2='1072' />
+    <line x1='1660' y1='0' x2='1660' y2='1072' />
+    <line x1='1665' y1='0' x2='1665' y2='1072' />
+    <line x1='1670' y1='0' x2='1670' y2='1072' />
+    <line x1='1675' y1='0' x2='1675' y2='1072' />
+    <line x1='1680' y1='0' x2='1680' y2='1072' />
+    <line x1='1685' y1='0' x2='1685' y2='1072' />
+  <line x1='1690' y1='0' x2='1690' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1695' y1='0' x2='1695' y2='1072' />
+    <line x1='1700' y1='0' x2='1700' y2='1072' />
+    <line x1='1705' y1='0' x2='1705' y2='1072' />
+    <line x1='1710' y1='0' x2='1710' y2='1072' />
+    <line x1='1715' y1='0' x2='1715' y2='1072' />
+    <line x1='1720' y1='0' x2='1720' y2='1072' />
+    <line x1='1725' y1='0' x2='1725' y2='1072' />
+    <line x1='1730' y1='0' x2='1730' y2='1072' />
+    <line x1='1735' y1='0' x2='1735' y2='1072' />
+    <line x1='1740' y1='0' x2='1740' y2='1072' />
+    <line x1='1745' y1='0' x2='1745' y2='1072' />
+  <line x1='1750' y1='0' x2='1750' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1755' y1='0' x2='1755' y2='1072' />
+    <line x1='1760' y1='0' x2='1760' y2='1072' />
+    <line x1='1765' y1='0' x2='1765' y2='1072' />
+    <line x1='1770' y1='0' x2='1770' y2='1072' />
+    <line x1='1775' y1='0' x2='1775' y2='1072' />
+    <line x1='1780' y1='0' x2='1780' y2='1072' />
+    <line x1='1785' y1='0' x2='1785' y2='1072' />
+    <line x1='1790' y1='0' x2='1790' y2='1072' />
+    <line x1='1795' y1='0' x2='1795' y2='1072' />
+    <line x1='1800' y1='0' x2='1800' y2='1072' />
+    <line x1='1805' y1='0' x2='1805' y2='1072' />
+  <line x1='1810' y1='0' x2='1810' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+    <line x1='1815' y1='0' x2='1815' y2='1072' />
+    <line x1='1820' y1='0' x2='1820' y2='1072' />
+    <line x1='1825' y1='0' x2='1825' y2='1072' />
+    <line x1='1830' y1='0' x2='1830' y2='1072' />
+    <line x1='1835' y1='0' x2='1835' y2='1072' />
+    <line x1='1840' y1='0' x2='1840' y2='1072' />
+    <line x1='1845' y1='0' x2='1845' y2='1072' />
+    <line x1='1850' y1='0' x2='1850' y2='1072' />
+    <line x1='1855' y1='0' x2='1855' y2='1072' />
+    <line x1='1860' y1='0' x2='1860' y2='1072' />
+    <line x1='1865' y1='0' x2='1865' y2='1072' />
+  <line x1='1870' y1='0' x2='1870' y2='1072' stroke-width='2' stroke='#e1e1e1' />
+</g>
+
+<g inkscape:label='Domains' inkscape:groupmode='layer' id='layer_domains' >
+  <rect x='107' y='216' width='1763' height='128' rx='16' ry='16' fill='url(#__domain_Debian)' />
+  <rect x='102' y='88' width='1768' height='96' rx='16' ry='16' fill='url(#__domain_Slackware)' />
+  <rect x='180' y='376' width='1690' height='192' rx='16' ry='16' fill='url(#__domain_Red__Hat)' />
+  <rect x='270' y='632' width='1600' height='128' rx='16' ry='16' fill='url(#__domain_S.u.S.E__Linux)' />
+  <rect x='485' y='792' width='1385' height='64' rx='16' ry='16' fill='url(#__domain_Enoch)' />
+  <rect x='621' y='888' width='1249' height='128' rx='16' ry='16' fill='url(#__domain_Arch__Linux)' />
+</g>
+
+<g inkscape:label='Connectors' inkscape:groupmode='layer' id='layer_connectors'
+style='opacity:0.6;' >
+</g>
+
+<g inkscape:label='Lines' inkscape:groupmode='layer' id='layer_lines'
+ style='fill:none;stroke-width:4;' >
+  <path id='__line_S.u.S.E' d='M 102 120 C 130.5,120 111.5,152 140,152 L 140 152 L 270 152' stroke='#4bb679' style='stroke-width:4;' marker-end='url(#__stop_S.u.S.E)' />
+  <path id='__line_Slackware' d='M 42 88 C 87,88 57,120 102,120 L 102 120 L 1865 120' stroke='#000' style='stroke-width:4;' />
+  <path id='__line_SLS' d='M 35 88 L 130 88' stroke='#9c8ac4' style='stroke-width:4;' marker-end='url(#__stop_SLS)' />
+  <path id='__line_Raspbian' d='M 1175 280 C 1220,280 1190,248 1235,248 L 1235 248 L 1865 248' stroke='#c61931' style='stroke-width:4;' />
+  <path id='__line_Ubuntu' d='M 718 280 C 763,280 733,312 778,312 L 778 312 L 1865 312' stroke='#e95420' style='stroke-width:4;' />
+  <path id='__line_Debian' d='M 107 280 L 1865 280' stroke='#bf1238' style='stroke-width:4;' />
+  <path id='__line_Rocky__Linux' d='M 1709 408 C 1754,408 1724,440 1769,440 L 1769 440 L 1865 440' stroke='#7f3386' style='stroke-width:4;' />
+  <path id='__line_CentOS' d='M 665 472 C 710,472 680,408 725,408 L 725 408 L 1865 408' stroke='#6f4376' style='stroke-width:4;' />
+  <path id='__line_Fedora' d='M 660 472 C 705,472 675,536 720,536 L 720 536 L 1865 536' stroke='#362e94' style='stroke-width:4;' />
+  <path id='__line_Oracle__Enterprise' d='M 839 472 C 884,472 854,504 899,504 L 899 504 L 1865 504' stroke='#f00' style='stroke-width:4;' />
+  <path id='__line_Red__Hat' d='M 180 472 L 1865 472' stroke='#cc0000' style='stroke-width:4;' />
+  <path id='__line_SUSE__Linux__Enterprise__Server' d='M 480 696 C 525,696 495,728 540,728 L 540 728 L 1865 728' stroke='#7ad4aa' style='stroke-width:4;' />
+  <path id='__line_Novell__Linux__Desktop' d='M 721 696 C 766,696 736,664 781,664 L 781 664 L 1865 664' stroke='#7ad4aa' style='stroke-width:4;' />
+  <path id='__line_S.u.S.E__Linux' d='M 210 632 C 255,632 225,696 270,696 L 270 696 L 1865 696' stroke='#4bb679' style='stroke-width:4;' />
+  <path id='__line_Jurix' d='M 196 632 L 310 632' stroke='#9f9f9f' style='stroke-width:4;' marker-end='url(#__stop_Jurix)' />
+  <path id='__line_Enoch' d='M 485 824 L 1865 824' stroke='#a0a0f0' style='stroke-width:4;' />
+  <path id='__line_SystemRescueCD__' d='M 1575 952 C 1620,952 1590,920 1635,920 L 1635 920 L 1865 920' stroke='#508fee' style='stroke-width:4;' />
+  <path id='__line_Manjaro' d='M 1121 952 C 1166,952 1136,984 1181,984 L 1181 984 L 1865 984' stroke='#3fbb3f' style='stroke-width:4;' />
+  <path id='__line_Arch__Linux' d='M 621 952 L 1865 952' stroke='#0771a6' style='stroke-width:4;' />
+</g>
+
+<g inkscape:label='Dots' inkscape:groupmode='layer' id='layer_dots'
+ style='stroke:none;' >
+  <circle id='__dot_S.u.S.E' cx='140' cy='152' r='7' fill='#4bb679' stroke='none' />
+  <circle id='__dot_Slackware' cx='102' cy='120' r='7' fill='#000' stroke='none' />
+    <circle cx='102' cy='120' r='5' fill='#000' stroke='none' />
+    <circle cx='160' cy='120' r='5' fill='#000' stroke='none' />
+    <circle cx='244' cy='120' r='5' fill='#000' stroke='none' />
+    <circle cx='452' cy='120' r='5' fill='#000' stroke='none' />
+    <circle cx='479' cy='120' r='5' fill='#000' stroke='none' />
+    <circle cx='580' cy='120' r='5' fill='#000' stroke='none' />
+    <circle cx='683' cy='120' r='5' fill='#000' stroke='none' />
+    <circle cx='758' cy='120' r='5' fill='#000' stroke='none' />
+    <circle cx='895' cy='120' r='5' fill='#000' stroke='none' />
+    <circle cx='940' cy='120' r='5' fill='#000' stroke='none' />
+    <circle cx='1069' cy='120' r='5' fill='#000' stroke='none' />
+    <circle cx='1254' cy='120' r='5' fill='#000' stroke='none' />
+    <circle cx='1815' cy='120' r='5' fill='#000' stroke='none' />
+  <circle id='__dot_SLS' cx='35' cy='88' r='7' fill='#9c8ac4' stroke='none' />
+  <circle id='__dot_Raspbian' cx='1235' cy='248' r='7' fill='#c61931' stroke='none' />
+    <circle cx='1714' cy='248' r='5' fill='#c61931' stroke='none' />
+  <circle id='__dot_Ubuntu' cx='778' cy='312' r='7' fill='#e95420' stroke='none' />
+  <circle id='__dot_Debian' cx='107' cy='280' r='7' fill='#bf1238' stroke='none' />
+    <circle cx='277' cy='280' r='5' fill='#bf1238' stroke='none' />
+    <circle cx='306' cy='280' r='5' fill='#bf1238' stroke='none' />
+    <circle cx='340' cy='280' r='5' fill='#bf1238' stroke='none' />
+    <circle cx='403' cy='280' r='5' fill='#bf1238' stroke='none' />
+    <circle cx='441' cy='280' r='5' fill='#bf1238' stroke='none' />
+    <circle cx='527' cy='280' r='5' fill='#bf1238' stroke='none' />
+    <circle cx='643' cy='280' r='5' fill='#bf1238' stroke='none' />
+    <circle cx='815' cy='280' r='5' fill='#bf1238' stroke='none' />
+    <circle cx='926' cy='280' r='5' fill='#bf1238' stroke='none' />
+    <circle cx='1037' cy='280' r='5' fill='#bf1238' stroke='none' />
+    <circle cx='1155' cy='280' r='5' fill='#bf1238' stroke='none' />
+    <circle cx='1290' cy='280' r='5' fill='#bf1238' stroke='none' />
+    <circle cx='1409' cy='280' r='5' fill='#bf1238' stroke='none' />
+    <circle cx='1537' cy='280' r='5' fill='#bf1238' stroke='none' />
+    <circle cx='1660' cy='280' r='5' fill='#bf1238' stroke='none' />
+    <circle cx='1787' cy='280' r='5' fill='#bf1238' stroke='none' />
+  <circle id='__dot_Rocky__Linux' cx='1769' cy='440' r='7' fill='#7f3386' stroke='none' />
+  <circle id='__dot_CentOS' cx='725' cy='408' r='7' fill='#6f4376' stroke='none' />
+    <circle cx='743' cy='408' r='5' fill='#6f4376' stroke='none' />
+    <circle cx='801' cy='408' r='5' fill='#6f4376' stroke='none' />
+    <circle cx='926' cy='408' r='5' fill='#6f4376' stroke='none' />
+    <circle cx='1204' cy='408' r='5' fill='#6f4376' stroke='none' />
+    <circle cx='1361' cy='408' r='5' fill='#6f4376' stroke='none' />
+    <circle cx='1673' cy='408' r='5' fill='#6f4376' stroke='none' />
+  <circle id='__dot_Fedora' cx='720' cy='536' r='7' fill='#362e94' stroke='none' />
+    <circle cx='720' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='752' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='781' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='817' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='863' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='898' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='935' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='961' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='992' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1024' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1056' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1082' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1114' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1140' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1173' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1201' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1234' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1272' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1300' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1327' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1386' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1414' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1440' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1478' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1503' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1541' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1562' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1590' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1619' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1651' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1679' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1709' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1739' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1769' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1800' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1831' cy='536' r='5' fill='#362e94' stroke='none' />
+    <circle cx='1862' cy='536' r='5' fill='#362e94' stroke='none' />
+  <circle id='__dot_Oracle__Enterprise' cx='899' cy='504' r='7' fill='#f00' stroke='none' />
+    <circle cx='939' cy='504' r='5' fill='#f00' stroke='none' />
+  <circle id='__dot_Red__Hat' cx='180' cy='472' r='7' fill='#cc0000' stroke='none' />
+    <circle cx='624' cy='472' r='5' fill='#cc0000' stroke='none' />
+  <circle id='__dot_SUSE__Linux__Enterprise__Server' cx='540' cy='728' r='7' fill='#7ad4aa' stroke='none' />
+  <circle id='__dot_Novell__Linux__Desktop' cx='781' cy='664' r='7' fill='#7ad4aa' stroke='none' />
+    <circle cx='882' cy='664' r='5' fill='#7ad4aa' stroke='none' />
+  <circle id='__dot_S.u.S.E__Linux' cx='270' cy='696' r='7' fill='#4bb679' stroke='none' />
+    <circle cx='428' cy='696' r='5' fill='#4bb679' stroke='none' />
+    <circle cx='717' cy='696' r='5' fill='#4bb679' stroke='none' />
+    <circle cx='906' cy='696' r='5' fill='#4bb679' stroke='none' />
+  <circle id='__dot_Jurix' cx='196' cy='632' r='7' fill='#9f9f9f' stroke='none' />
+  <circle id='__dot_Enoch' cx='485' cy='824' r='7' fill='#a0a0f0' stroke='none' />
+    <circle cx='625' cy='824' r='5' fill='#a0a0f0' stroke='none' />
+  <circle id='__dot_SystemRescueCD__' cx='1635' cy='920' r='7' fill='#508fee' stroke='none' />
+    <circle cx='1737' cy='920' r='5' fill='#508fee' stroke='none' />
+  <circle id='__dot_Manjaro' cx='1181' cy='984' r='7' fill='#3fbb3f' stroke='none' />
+  <circle id='__dot_Arch__Linux' cx='621' cy='952' r='7' fill='#0771a6' stroke='none' />
+</g>
+
+<g inkscape:label='Icons' inkscape:groupmode='layer' id='layer_icons'>
+</g>
+
+<g inkscape:label='Labels' inkscape:groupmode='layer' id='layer_labels' 
+ style='font-size:14px;stroke:none;fill:#000;font-family:Liberation Sans, Arial, Helvetica;-inkscape-font-specification:Liberation Sans, Arial, Helvetica;' >
+  <rect x='145' y='135' width='49' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='147' y='147'  >S.u.S.E</text></a>
+  <rect x='107' y='103' width='69' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='109' y='115'  >Slackware</text></a>
+    <rect x='184' y='103' width='7' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='186' y='115' >1</text></a>
+    <rect x='184' y='103' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='186' y='115' >2</text></a>
+    <rect x='247' y='103' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='249' y='115' >3</text></a>
+    <rect x='455' y='103' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='457' y='115' >4</text></a>
+    <rect x='482' y='103' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='484' y='115' >7</text></a>
+    <rect x='583' y='103' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='585' y='115' >8</text></a>
+    <rect x='686' y='103' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='688' y='115' >9</text></a>
+    <rect x='761' y='103' width='15' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='763' y='115' >10</text></a>
+    <rect x='898' y='103' width='14' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='900' y='115' >11</text></a>
+    <rect x='943' y='103' width='15' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='945' y='115' >12</text></a>
+    <rect x='1072' y='103' width='15' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1074' y='115' >13</text></a>
+    <rect x='1257' y='103' width='15' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1259' y='115' >14</text></a>
+    <rect x='1818' y='103' width='15' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1820' y='115' >15</text></a>
+  <rect x='40' y='71' width='28' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='42' y='83'  >SLS</text></a>
+  <rect x='1240' y='231' width='63' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='1242' y='243'  >Raspbian</text></a>
+    <rect x='1717' y='231' width='112' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1719' y='243' >Raspberry Pi OS</text></a>
+  <rect x='783' y='295' width='47' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='785' y='307'  >Ubuntu</text></a>
+  <rect x='112' y='263' width='47' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='114' y='275'  >Debian</text></a>
+    <rect x='280' y='263' width='55' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='282' y='275' >1.1 Buzz</text></a>
+    <rect x='309' y='263' width='50' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='311' y='275' >1.2 Rex</text></a>
+    <rect x='372' y='263' width='42' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='374' y='275' >1.3 Bo</text></a>
+    <rect x='430' y='263' width='68' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='432' y='275' >2.0 Hamm</text></a>
+    <rect x='480' y='263' width='56' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='482' y='275' >2.1 Slink</text></a>
+    <rect x='556' y='263' width='68' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='558' y='275' >2.2 Potato</text></a>
+    <rect x='646' y='263' width='70' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='648' y='275' >3.0 Woody</text></a>
+    <rect x='818' y='263' width='64' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='820' y='275' >3.1 Sarge</text></a>
+    <rect x='929' y='263' width='54' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='931' y='275' >4.0 Etch</text></a>
+    <rect x='1040' y='263' width='66' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1042' y='275' >5.0 Lenny</text></a>
+    <rect x='1158' y='263' width='84' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1160' y='275' >6.0 Squeeze</text></a>
+    <rect x='1293' y='263' width='65' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1295' y='275' >7 Wheezy</text></a>
+    <rect x='1412' y='263' width='55' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1414' y='275' >8 Jessie</text></a>
+    <rect x='1540' y='263' width='59' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1542' y='275' >9 Stretch</text></a>
+    <rect x='1663' y='263' width='63' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1665' y='275' >10 Buster</text></a>
+    <rect x='1790' y='263' width='75' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1792' y='275' >11 Bullseye</text></a>
+  <rect x='1774' y='423' width='81' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='1776' y='435'  >Rocky Linux</text></a>
+  <rect x='730' y='391' width='51' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='732' y='403'  >CentOS</text></a>
+    <rect x='789' y='391' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='791' y='403' >3</text></a>
+    <rect x='804' y='391' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='806' y='403' >4</text></a>
+    <rect x='929' y='391' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='931' y='403' >5</text></a>
+    <rect x='1207' y='391' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1209' y='403' >6</text></a>
+    <rect x='1364' y='391' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1366' y='403' >7</text></a>
+    <rect x='1676' y='391' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1678' y='403' >8</text></a>
+  <rect x='725' y='519' width='47' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='727' y='531'  >Fedora</text></a>
+    <rect x='780' y='519' width='7' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='782' y='531' >1</text></a>
+    <rect x='780' y='519' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='782' y='531' >2</text></a>
+    <rect x='795' y='519' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='797' y='531' >3</text></a>
+    <rect x='820' y='519' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='822' y='531' >4</text></a>
+    <rect x='866' y='519' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='868' y='531' >5</text></a>
+    <rect x='901' y='519' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='903' y='531' >6</text></a>
+    <rect x='938' y='519' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='940' y='531' >7</text></a>
+    <rect x='964' y='519' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='966' y='531' >8</text></a>
+    <rect x='995' y='519' width='8' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='997' y='531' >9</text></a>
+    <rect x='1027' y='519' width='15' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1029' y='531' >10</text></a>
+    <rect x='1059' y='519' width='14' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1061' y='531' >11</text></a>
+    <rect x='1085' y='519' width='15' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1087' y='531' >12</text></a>
+    <rect x='1117' y='519' width='15' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1119' y='531' >13</text></a>
+    <rect x='1143' y='519' width='15' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1145' y='531' >14</text></a>
+    <rect x='1176' y='519' width='15' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1178' y='531' >15</text></a>
+    <rect x='1204' y='519' width='15' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1206' y='531' >16</text></a>
+    <rect x='1237' y='519' width='15' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1239' y='531' >17</text></a>
+    <rect x='1275' y='519' width='15' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1277' y='531' >18</text></a>
+    <rect x='1303' y='519' width='15' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1305' y='531' >19</text></a>
+    <rect x='1330' y='519' width='16' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1332' y='531' >20</text></a>
+    <rect x='1389' y='519' width='15' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1391' y='531' >21</text></a>
+    <rect x='1417' y='519' width='16' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1419' y='531' >22</text></a>
+    <rect x='1443' y='519' width='16' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1445' y='531' >23</text></a>
+    <rect x='1481' y='519' width='16' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1483' y='531' >24</text></a>
+    <rect x='1506' y='519' width='16' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1508' y='531' >25</text></a>
+    <rect x='1544' y='519' width='16' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1546' y='531' >26</text></a>
+    <rect x='1568' y='519' width='16' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1570' y='531' >27</text></a>
+    <rect x='1593' y='519' width='16' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1595' y='531' >28</text></a>
+    <rect x='1622' y='519' width='16' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1624' y='531' >29</text></a>
+    <rect x='1654' y='519' width='16' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1656' y='531' >30</text></a>
+    <rect x='1682' y='519' width='15' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1684' y='531' >31</text></a>
+    <rect x='1712' y='519' width='16' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1714' y='531' >32</text></a>
+    <rect x='1742' y='519' width='16' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1744' y='531' >33</text></a>
+    <rect x='1772' y='519' width='16' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1774' y='531' >34</text></a>
+    <rect x='1803' y='519' width='16' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1805' y='531' >35</text></a>
+    <rect x='1834' y='519' width='16' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1836' y='531' >36</text></a>
+    <rect x='1865' y='519' width='16' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1867' y='531' >37</text></a>
+  <rect x='904' y='487' width='116' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='906' y='499'  >Oracle Enterprise</text></a>
+    <rect x='1028' y='487' width='84' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1030' y='499' >Oracle Linux</text></a>
+  <rect x='185' y='455' width='54' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='187' y='467'  >Red Hat</text></a>
+    <rect x='627' y='455' width='128' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='629' y='467' >Red Hat Enterprise</text></a>
+  <rect x='545' y='711' width='203' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='547' y='723'  >SUSE Linux Enterprise Server</text></a>
+  <rect x='786' y='647' width='141' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='788' y='659'  >Novell Linux Desktop</text></a>
+    <rect x='935' y='647' width='212' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='937' y='659' >SUSE Linux Enterprise Desktop</text></a>
+  <rect x='275' y='679' width='90' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='277' y='691'  >S.u.S.E Linux</text></a>
+    <rect x='431' y='679' width='78' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='433' y='691' >SuSE Linux</text></a>
+    <rect x='720' y='679' width='80' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='722' y='691' >SUSE Linux</text></a>
+    <rect x='909' y='679' width='73' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='911' y='691' >openSUSE</text></a>
+  <rect x='201' y='615' width='31' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='203' y='627'  >Jurix</text></a>
+  <rect x='490' y='807' width='42' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='492' y='819'  >Enoch</text></a>
+    <rect x='628' y='807' width='48' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='630' y='819' >Gentoo</text></a>
+  <rect x='1640' y='903' width='124' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='1642' y='915'  >SystemRescueCD </text></a>
+    <rect x='1772' y='903' width='98' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+    <a xlink:href=''><text x='1774' y='915' >SystemRescue</text></a>
+  <rect x='1186' y='967' width='54' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='1188' y='979'  >Manjaro</text></a>
+  <rect x='626' y='935' width='71' height='14' fill='#fff' opacity='0.6'  rx='5' ry='5' />
+  <a xlink:href=''><text x='628' y='947'  >Arch Linux</text></a>
+</g>
+
+<g inkscape:label='Yearlines' inkscape:groupmode='layer' id='layer_yearlines' 
+ style='stroke:none;fill:url(#__yearline);' >
+  <rect x='0' y='0' rx='5' ry='5' width='1880' height='40' />
+  <rect x='0' y='1032' rx='5' ry='5' width='1880' height='40' />
+  <g style='font-size:22px;stroke:none;fill:#fff;font-family:Liberation Sans, Arial, Helvetica;-inkscape-font-specification:Liberation Sans, Arial, Helvetica;text-anchor:middle;' >
+    <text x='40' y='28'><tspan>1992</tspan></text>
+    <text x='40' y='1060'><tspan>1992</tspan></text>
+    <text x='100' y='28'><tspan>1993</tspan></text>
+    <text x='100' y='1060'><tspan>1993</tspan></text>
+    <text x='160' y='28'><tspan>1994</tspan></text>
+    <text x='160' y='1060'><tspan>1994</tspan></text>
+    <text x='220' y='28'><tspan>1995</tspan></text>
+    <text x='220' y='1060'><tspan>1995</tspan></text>
+    <text x='280' y='28'><tspan>1996</tspan></text>
+    <text x='280' y='1060'><tspan>1996</tspan></text>
+    <text x='340' y='28'><tspan>1997</tspan></text>
+    <text x='340' y='1060'><tspan>1997</tspan></text>
+    <text x='400' y='28'><tspan>1998</tspan></text>
+    <text x='400' y='1060'><tspan>1998</tspan></text>
+    <text x='460' y='28'><tspan>1999</tspan></text>
+    <text x='460' y='1060'><tspan>1999</tspan></text>
+    <text x='520' y='28'><tspan>2000</tspan></text>
+    <text x='520' y='1060'><tspan>2000</tspan></text>
+    <text x='580' y='28'><tspan>2001</tspan></text>
+    <text x='580' y='1060'><tspan>2001</tspan></text>
+    <text x='640' y='28'><tspan>2002</tspan></text>
+    <text x='640' y='1060'><tspan>2002</tspan></text>
+    <text x='700' y='28'><tspan>2003</tspan></text>
+    <text x='700' y='1060'><tspan>2003</tspan></text>
+    <text x='760' y='28'><tspan>2004</tspan></text>
+    <text x='760' y='1060'><tspan>2004</tspan></text>
+    <text x='820' y='28'><tspan>2005</tspan></text>
+    <text x='820' y='1060'><tspan>2005</tspan></text>
+    <text x='880' y='28'><tspan>2006</tspan></text>
+    <text x='880' y='1060'><tspan>2006</tspan></text>
+    <text x='940' y='28'><tspan>2007</tspan></text>
+    <text x='940' y='1060'><tspan>2007</tspan></text>
+    <text x='1000' y='28'><tspan>2008</tspan></text>
+    <text x='1000' y='1060'><tspan>2008</tspan></text>
+    <text x='1060' y='28'><tspan>2009</tspan></text>
+    <text x='1060' y='1060'><tspan>2009</tspan></text>
+    <text x='1120' y='28'><tspan>2010</tspan></text>
+    <text x='1120' y='1060'><tspan>2010</tspan></text>
+    <text x='1180' y='28'><tspan>2011</tspan></text>
+    <text x='1180' y='1060'><tspan>2011</tspan></text>
+    <text x='1240' y='28'><tspan>2012</tspan></text>
+    <text x='1240' y='1060'><tspan>2012</tspan></text>
+    <text x='1300' y='28'><tspan>2013</tspan></text>
+    <text x='1300' y='1060'><tspan>2013</tspan></text>
+    <text x='1360' y='28'><tspan>2014</tspan></text>
+    <text x='1360' y='1060'><tspan>2014</tspan></text>
+    <text x='1420' y='28'><tspan>2015</tspan></text>
+    <text x='1420' y='1060'><tspan>2015</tspan></text>
+    <text x='1480' y='28'><tspan>2016</tspan></text>
+    <text x='1480' y='1060'><tspan>2016</tspan></text>
+    <text x='1540' y='28'><tspan>2017</tspan></text>
+    <text x='1540' y='1060'><tspan>2017</tspan></text>
+    <text x='1600' y='28'><tspan>2018</tspan></text>
+    <text x='1600' y='1060'><tspan>2018</tspan></text>
+    <text x='1660' y='28'><tspan>2019</tspan></text>
+    <text x='1660' y='1060'><tspan>2019</tspan></text>
+    <text x='1720' y='28'><tspan>2020</tspan></text>
+    <text x='1720' y='1060'><tspan>2020</tspan></text>
+    <text x='1780' y='28'><tspan>2021</tspan></text>
+    <text x='1780' y='1060'><tspan>2021</tspan></text>
+    <text x='1840' y='28'><tspan>2022</tspan></text>
+    <text x='1840' y='1060'><tspan>2022</tspan></text>
+  </g>
+</g>
+
+<g inkscape:label='Infobox' inkscape:groupmode='layer' id='layer_infobox'
+ style='stroke:none;fill:#000;font-family:Liberation Sans, Arial, Helvetica;-inkscape-font-specification:Liberation Sans, Arial, Helvetica;' >
+  <rect x='20' y='850' width='300' height='80' rx='10' ry='10' fill='#000' filter='url(#__infobox_shadow)' opacity='0.6' />
+  <rect x='20' y='850' width='300' height='80' rx='10' ry='10' fill='url(#__infobox_fill)' stroke='url(#__infobox_stroke)' stroke-width='2' />
+  <text x='25' y='868'><tspan style='font-size:16px;font-weight:bold;'>Linux Distributions Version Timeline</tspan></text>
+  <text x='25' y='879'><tspan style='font-size:8px;'></tspan></text>
+  <text x='25' y='889'><tspan style='font-size:8px;'>Published under the GNU Free Documentation License</tspan></text>
+  <text x='25' y='899'><tspan style='font-size:8px;'></tspan></text>
+  <text x='25' y='909'><tspan style='font-size:8px;'><tspan style='font-weight:bold'>Version 2023-02-19</tspan></tspan></text>
+  <text x='25' y='919'><tspan style='font-size:8px;'></tspan></text>
+</g>
+
+<!-- BEGIN additional images -->
+
+<g inkscape:label='Included PNG Images' inkscape:groupmode='layer' id='layer_included_png'>
+</g>
+
+<g inkscape:label='Included SVG Images' inkscape:groupmode='layer' id='layer_included_svg'>
+  <g transform='translate(260,808)' >
+
+    <g id="tux_new_crystal" transform="scale(0.30) translate(-350, -90)" inkscape:label="#g2222">
+      <path
+         style="fill:url(#radialGradient176);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         id="path175"
+         d="m 670.88202,1166.6423 c 0,103.073 -91.28713,186.6302 -203.89551,186.6302 -112.60838,0 -203.89551,-83.5572 -203.89551,-186.6302 0,-103.073 91.28713,-186.63012 203.89551,-186.63012 112.60838,0 203.89551,83.55712 203.89551,186.63012 z"
+         transform="matrix(1.4177,0,0,0.414745,-38.7944,222.194)" />
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         d="m 223.627,632.24 c -22.388,-32.223 -26.754,-136.984 25.487,-201.43 25.886,-30.918 32.49,-52.465 34.531,-81.393 1.389,-32.979 -23.325,-131.442 69.883,-138.944 94.406,-7.532 89.336,85.66 88.793,134.975 -0.451,41.64 30.574,65.241 51.796,97.695 39.279,59.63 35.957,162.3 -7.399,217.872 -54.917,69.568 -101.953,39.398 -133.19,41.93 -58.493,3.202 -60.427,34.391 -129.901,-70.705 z"
+         id="path106"
+         transform="matrix(1.25,0,0,1.25,185.454,-167.505)" />
+      <path
+         style="fill:url(#linearGradient157);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         d="m 246.571,470.864 c -12.239,12.496 -44.396,69.092 4.869,105.36 17.369,12.633 -16.377,59.495 -32.005,36.308 -27.57,-41.618 -8.831,-106.941 8.315,-130.188 11.652,-16.487 29.23,-22.676 18.821,-11.48 z"
+         id="path113"
+         transform="matrix(-1.67739,-0.0224516,-0.0211236,1.4709,1173.58,-293.017)" />
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.977;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none;"
+         d="m 256.513,459.837 c -19.915,17.717 -56.176,80.091 -3.288,120.606 17.37,12.632 -15.393,52.463 -33.79,32.089 -63.963,-70.82 1.669,-152.254 24.262,-180.25 20.192,-24.347 38.078,5.752 12.816,27.555 z"
+         id="path111"
+         transform="matrix(-1.678,0,0,1.524,1174.62,-318.082)" />
+      <path
+         style="fill:url(#linearGradient141);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         id="path114"
+         d="m 399.56879,258.15753 c 0,25.88173 -26.13459,46.86302 -58.37323,46.86302 -32.23865,0 -58.37323,-20.98129 -58.37323,-46.86302 0,-25.88173 26.13458,-46.86302 58.37323,-46.86302 32.23864,0 58.37323,20.98129 58.37323,46.86302 z"
+         transform="matrix(1.26626,-0.0713667,-0.0459795,1.19574,202.143,-125.761)" />
+      <path
+         style="fill:url(#linearGradient159);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         id="path115"
+         d="m 328.86324,320.64151 c 0,14.98415 -8.09804,27.1312 -18.08748,27.1312 -9.98944,0 -18.08748,-12.14705 -18.08748,-27.1312 0,-14.98415 8.09804,-27.1312 18.08748,-27.1312 9.98944,0 18.08748,12.14705 18.08748,27.1312 z"
+         transform="matrix(1.30445,-0.0755326,0.0771251,1.34257,144.757,-177.617)" />
+      <path
+         style="fill:url(#linearGradient158);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         id="path116"
+         d="m 328.86324,320.64151 c 0,14.98415 -8.09804,27.1312 -18.08748,27.1312 -9.98944,0 -18.08748,-12.14705 -18.08748,-27.1312 0,-14.98415 8.09804,-27.1312 18.08748,-27.1312 9.98944,0 18.08748,12.14705 18.08748,27.1312 z"
+         transform="matrix(-1.81082,0.0495107,0.0317324,1.55333,1207.46,-284.777)" />
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         id="path117"
+         d="m 328.86324,320.64151 c 0,14.98415 -8.09804,27.1312 -18.08748,27.1312 -9.98944,0 -18.08748,-12.14705 -18.08748,-27.1312 0,-14.98415 8.09804,-27.1312 18.08748,-27.1312 9.98944,0 18.08748,12.14705 18.08748,27.1312 z"
+         transform="matrix(-0.823196,-0.00176123,-0.0182321,0.852662,913.674,-37.9902)" />
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         id="path118"
+         d="m 328.86324,320.64151 c 0,14.98415 -8.09804,27.1312 -18.08748,27.1312 -9.98944,0 -18.08748,-12.14705 -18.08748,-27.1312 0,-14.98415 8.09804,-27.1312 18.08748,-27.1312 9.98944,0 18.08748,12.14705 18.08748,27.1312 z"
+         transform="matrix(0.59438,-0.0722959,0.0688176,0.705838,367.448,32.4186)" />
+      <path
+         style="fill:url(#linearGradient143);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         id="path121"
+         d="m 328.86324,320.64151 c 0,14.98415 -8.09804,27.1312 -18.08748,27.1312 -9.98944,0 -18.08748,-12.14705 -18.08748,-27.1312 0,-14.98415 8.09804,-27.1312 18.08748,-27.1312 9.98944,0 18.08748,12.14705 18.08748,27.1312 z"
+         transform="matrix(-0.480323,-0.036454,-0.0467935,0.475606,813.496,87.0124)" />
+      <path
+         style="fill:url(#linearGradient144);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         id="path122"
+         d="m 328.86324,320.64151 c 0,14.98415 -8.09804,27.1312 -18.08748,27.1312 -9.98944,0 -18.08748,-12.14705 -18.08748,-27.1312 0,-14.98415 8.09804,-27.1312 18.08748,-27.1312 9.98944,0 18.08748,12.14705 18.08748,27.1312 z"
+         transform="matrix(0.35691,-0.0408211,0.0413232,0.398544,449.334,114.991)" />
+      <path
+         style="fill:url(#linearGradient152);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         d="m 258.702,495.425 c 12.836,-29.103 40.114,-80.226 40.695,-119.758 0,-31.442 94.179,-38.951 101.737,-7.558 7.558,31.393 26.741,78.483 38.95,101.156 12.208,22.672 47.809,94.695 9.884,157.546 -34.157,55.644 -137.725,99.666 -193.01,-7.557 -18.603,-37.207 -15.285,-83.315 1.744,-123.829 z"
+         id="path128"
+         transform="matrix(1.25,0,0,1.25,185.454,-168.23)" />
+      <path
+         style="fill:url(#linearGradient156);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         d="m 242.905,473.815 c -11.263,18.967 -35.5,69.309 12.137,102.047 51.311,34.82 46.473,97.062 -15.607,61.955 -56.777,-31.789 -22.845,-137.778 -4.51,-162.266 12.107,-17.214 29.897,-38.031 7.98,-1.736 z"
+         id="path112"
+         transform="matrix(1.38936,-0.111074,0.102211,1.30214,108.413,-165.938)" />
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none;"
+         d="m 256.513,449.72 c -17.465,28.508 -59.377,95.813 -3.288,130.723 75.569,46.355 54.173,92.711 -14.799,50.974 -97.109,-58.264 -11.825,-175.616 27.131,-220.338 44.444,-50.2 8.554,9.087 -9.044,38.641 z"
+         id="path109"
+         transform="matrix(1.25,0,0,1.25,185.454,-167.505)" />
+      <path
+         transform="matrix(1.30209,0,0,1.22525,170.042,-153.557)"
+         style="fill:url(#linearGradient149);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         d="m 421.481,504.727 c 0,32.412 -29.272,74.516 -79.528,74.138 -51.828,0.455 -73.949,-41.726 -73.949,-74.138 0,-32.412 34.379,-58.717 76.739,-58.717 42.359,0 76.738,26.305 76.738,58.717 z"
+         id="path125" />
+      <path
+         transform="matrix(1.1868,0,0,1.06708,210.623,-100.078)"
+         style="fill:url(#linearGradient148);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         d="m 398.227,412.292 c -0.612,38.572 -23.18,47.671 -51.74,47.671 -28.561,0 -49.292,-5.694 -51.741,-47.671 0,-26.314 23.18,-41.542 51.741,-41.542 28.56,0 51.74,15.228 51.74,41.542 z"
+         id="path127" />
+      <path
+         style="fill:url(#linearGradient147);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         d="m 234.285,456.475 c 17.716,-26.996 55.015,-68.364 6.977,5.813 -38.951,61.043 -14.403,100.273 -1.744,111.039 36.527,32.562 34.966,54.349 6.395,37.206 -61.625,-36.626 -48.835,-98.248 -11.628,-154.058 z"
+         id="path129"
+         transform="matrix(1.25,0,0,1.25,185.454,-167.505)" />
+      <path
+         style="fill:url(#linearGradient146);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         d="m 490.662,467.52 c -15.319,-31.701 -64.134,-111.902 2.326,-18.603 60.461,84.297 18.022,143.013 10.464,148.827 -7.557,5.813 -33.137,17.44 -25.579,-2.907 7.557,-20.347 45.234,-58.973 12.789,-127.317 z"
+         id="path131"
+         transform="matrix(1.25,0,0,1.25,185.454,-167.505)" />
+      <path
+         style="fill:url(#linearGradient165);fill-opacity:1;fill-rule:evenodd;stroke:#e68c3f;stroke-width:6.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none;"
+         d="m 220.915,716.921 c -40.442,-21.416 -99.252,4.124 -77.902,-54.066 4.276,-13.238 -6.375,-33.008 0.581,-45.926 8.139,-15.698 25.58,-12.209 36.045,-22.674 10.318,-10.891 16.859,-29.649 36.044,-26.742 19.184,2.907 31.945,26.461 45.344,55.229 9.883,20.638 44.941,49.664 42.65,72.758 -2.696,35.5 -43.027,42.19 -82.762,21.421 z"
+         id="path132"
+         transform="matrix(1.25,0,0,1.25,185.454,-167.505)" />
+      <path
+         transform="matrix(0.598206,0.268584,-0.239623,0.617213,700.568,140.464)"
+         style="fill:url(#linearGradient178);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         d="m 415.072,495.764 c -3.007,24.906 -35.813,76.627 -69.518,81.534 -34.26,5.336 -66.432,-34.06 -74.147,-71.114 -9.889,-41.206 22.587,-57.6 71.938,-56.627 53.301,1.654 74.121,13.891 71.727,46.207 z"
+         id="path177" />
+      <path
+         style="fill:url(#linearGradient161);fill-opacity:1;fill-rule:evenodd;stroke:#e68c3f;stroke-width:6.25067997;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none;"
+         d="m 220.274,718.402 c -41.327,-23.59 -99.894,5.605 -77.261,-55.547 4.736,-13.068 -6.596,-33.552 0.36,-46.47 8.139,-15.698 25.801,-11.665 36.266,-22.13 10.318,-10.891 18.827,-27.868 38.012,-24.961 19.184,2.907 29.977,24.68 43.376,53.448 9.883,20.638 43.415,48.971 41.124,72.065 -2.696,35.5 -42.724,45.471 -81.877,23.595 z"
+         id="path133"
+         transform="matrix(-1.1685,0.423145,0.475283,1.16478,728.343,-213.821)" />
+      <path
+         style="fill:url(#linearGradient150);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         d="m 216.482,675.68 c -86.531,-57.503 -47.308,-70.96 -36.843,-81.425 10.318,-10.891 18.827,-27.868 38.012,-24.961 19.184,2.907 29.977,24.68 43.376,53.448 9.883,20.638 43.06,48.918 41.124,72.065 -2.616,27.11 -48.19,5.487 -85.669,-19.127 z"
+         id="path134"
+         transform="matrix(-0.945096,0.343745,0.424076,0.956058,714.328,-64.342)" />
+      <path
+         style="fill:url(#linearGradient151);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         d="m 216.506,677.071 c -86.531,-57.503 -46.797,-73.57 -33.946,-81.28 15.399,-9.942 15.158,-30.831 34.343,-27.924 19.184,2.907 30.725,26.107 44.124,54.875 9.883,20.638 43.06,48.918 41.124,72.065 -2.616,27.11 -48.166,6.878 -85.645,-17.736 z"
+         id="path135"
+         transform="matrix(1.00431,-0.052286,-0.0174,1.04575,244.191,-28.4653)" />
+      <path
+         transform="matrix(0.515584,0.215259,-0.206526,0.49467,713.3,222.559)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         d="m 415.072,495.764 c -3.007,24.906 -35.813,76.627 -69.518,81.534 -34.26,5.336 -66.432,-34.06 -74.147,-71.114 -9.889,-41.206 22.587,-57.6 71.938,-56.627 53.301,1.654 74.121,13.891 71.727,46.207 z"
+         id="path136" />
+      <path
+         transform="matrix(0.351231,0.149463,-0.128856,0.343469,724.522,318.291)"
+         style="fill:url(#linearGradient145);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         d="m 415.072,495.764 c -3.007,24.906 -35.813,76.627 -69.518,81.534 -34.26,5.336 -66.432,-34.06 -74.147,-71.114 -9.889,-41.206 22.587,-57.6 71.938,-56.627 53.301,1.654 74.121,13.891 71.727,46.207 z"
+         id="path137" />
+      <path
+         style="fill:url(#linearGradient166);fill-opacity:1;fill-rule:evenodd;stroke:#e68c3f;stroke-width:3.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none;"
+         d="m 309.954,338.729 c 7.147,-6.77 24.811,-27.066 57.961,-5.755 6.162,4.01 11.162,4.377 23.021,9.455 23.726,9.749 12.382,33.259 -12.744,41.108 -10.758,3.489 -20.536,16.556 -40.129,15.439 -16.734,-0.977 -21.119,-11.874 -31.398,-17.906 -18.269,-10.311 -20.965,-24.254 -11.1,-31.653 9.866,-7.399 13.725,-10.059 14.389,-10.688 z"
+         id="path119"
+         transform="matrix(1.25,0,0,1.25,185.454,-167.505)" />
+      <path
+         style="fill:none;stroke:#e68c3f;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none;"
+         d="m 391.251,357.645 c -9.883,0.581 -31.393,22.091 -54.066,22.091 -22.673,0 -36.044,-20.929 -39.532,-20.929"
+         id="path120"
+         transform="matrix(1.25,0,0,1.25,185.454,-167.505)" />
+      <path
+         style="fill:url(#linearGradient4514);fill-opacity:1;fill-rule:evenodd;stroke:none;"
+         d="m 309.954,338.729 c 7.147,-6.77 29.691,-25.348 59.588,-6.328 6.299,3.766 12.804,7.865 22.478,13.464 19.162,11.748 9.671,28.678 -13.286,39.39 -10.418,4.495 -27.593,14.415 -40.671,13.721 -14.533,-1.408 -23.935,-11.399 -33.567,-17.906 -17.67,-12.303 -16.597,-22.237 -8.389,-30.508 6.205,-5.679 13.183,-11.204 13.847,-11.833 z"
+         id="path123"
+         transform="matrix(0.627885,0,0,0.595666,392.366,51.8173)" />
+    </g>
+
+  </g>
+</g>
+
+<!-- END additional images -->
+
+</svg>
