@@ -2,7 +2,7 @@
 Title | Tools Text sed
 -- | --
 Created @ | `2019-08-22T09:53:38Z`
-Updated @| `2023-07-07T02:19:02Z`
+Updated @| `2023-07-07T03:21:54Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/27)
 
@@ -61,6 +61,14 @@ Edit @| [here](https://github.com/junxnone/linux/issues/27)
 ```
 '"$var"'
 ```
+
+### 在指定字符前后添加内容
+- 通过 `&` 代指 搜索关键字位置
+
+前后 | Commands
+-- | --
+指定字符之前添加 | `sed -i 's/search_word/insert_word&/' your_file`
+指定字符之后添加 | `sed -i 's/search_word/&insert_word/' your_file`
 
 
 ## Reference
