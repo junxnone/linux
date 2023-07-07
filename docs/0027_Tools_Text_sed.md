@@ -2,7 +2,7 @@
 Title | Tools Text sed
 -- | --
 Created @ | `2019-08-22T09:53:38Z`
-Updated @| `2023-07-07T02:05:09Z`
+Updated @| `2023-07-07T02:19:02Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/27)
 
@@ -53,6 +53,14 @@ Edit @| [here](https://github.com/junxnone/linux/issues/27)
 查找关键字并替换 `xxx` | `sed -i '/keyword/s/xxx/ooo/'  input.txt` 
 
 > 用于labelimg pascal voc 标记文件中 去掉 local path 
+
+
+### sed 使用变量
+- 外单引号，内双引号
+
+```
+'"$var"'
+```
 
 
 ## Reference
