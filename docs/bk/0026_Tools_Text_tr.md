@@ -1,29 +1,28 @@
 -----
 
-| Title         | Tools Text tr                                       |
-| ------------- | --------------------------------------------------- |
-| Created @     | `2019-08-22T09:40:46Z`                              |
-| Last Modify @ | `2022-12-21T15:15:31Z`                              |
-| Labels        | \`\`                                                |
-| Edit @        | [here](https://github.com/junxnone/linux/issues/26) |
+| Title     | Tools Text tr                                       |
+| --------- | --------------------------------------------------- |
+| Created @ | `2019-08-22T09:40:46Z`                              |
+| Updated @ | `2023-07-07T03:17:21Z`                              |
+| Labels    | \`\`                                                |
+| Edit @    | [here](https://github.com/junxnone/linux/issues/26) |
 
 -----
 
 # tr
 
-## Reference
-
-  - [Linux tr命令](https://www.runoob.com/linux/linux-comm-tr.html)
-
-## Brief
-
+  - tr 指令从标准输入设备读取数据，经过字符串转译后，将结果输出到标准输出设备。
   - Linux tr 命令用于转换或删除文件中的字符。
-
-tr 指令从标准输入设备读取数据，经过字符串转译后，将结果输出到标准输出设备。
 
 ## UseCase
 
-| Usecase | cmd                          |
-| ------- | ---------------------------- |
-| 替换大小写   | `cat testfile \| tr a-z A-Z` |
-| 替换空格为逗号 | `cat log.txt \| tr ' ' ','`  |
+| Usecase        | cmd                          |
+| -------------- | ---------------------------- |
+| 替换大小写          | `cat testfile \| tr a-z A-Z` |
+| 替换空格为逗号        | `cat log.txt \| tr ' ' ','`  |
+| 删除 Linux 换行符   | `cat testfile`               |
+| 删除 Windows 换行符 | `cat testfile`               |
+
+## Reference
+
+  - [Linux tr命令](https://www.runoob.com/linux/linux-comm-tr.html)
