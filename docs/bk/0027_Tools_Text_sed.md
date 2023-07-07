@@ -1,24 +1,15 @@
 -----
 
-| Title         | Tools Text sed                                      |
-| ------------- | --------------------------------------------------- |
-| Created @     | `2019-08-22T09:53:38Z`                              |
-| Last Modify @ | `2022-12-21T15:15:19Z`                              |
-| Labels        | \`\`                                                |
-| Edit @        | [here](https://github.com/junxnone/linux/issues/27) |
+| Title     | Tools Text sed                                      |
+| --------- | --------------------------------------------------- |
+| Created @ | `2019-08-22T09:53:38Z`                              |
+| Updated @ | `2023-07-07T02:05:09Z`                              |
+| Labels    | \`\`                                                |
+| Edit @    | [here](https://github.com/junxnone/linux/issues/27) |
 
 -----
 
 # sed 文件流编辑器
-
-## Reference
-
-  - [sed](https://wangchujiang.com/linux-command/c/sed.html)
-  - [sed 删除文本中的内容](https://www.cnblogs.com/crazymagic/p/11147988.html)
-  - [sed
-    正则表达式](https://www.twle.cn/c/yufei/sed/sed-basic-regular-expressions.html)
-
-## Brief
 
   - sed 是一种流编辑器
       - 完美的配合正则表达式使用
@@ -67,3 +58,10 @@
 | 查找关键字并替换 `xxx`                      | `sed -i '/keyword/s/xxx/ooo/'  input.txt`   |
 
 > 用于labelimg pascal voc 标记文件中 去掉 local path
+
+## Reference
+
+  - [sed](https://wangchujiang.com/linux-command/c/sed.html)
+  - [sed 删除文本中的内容](https://www.cnblogs.com/crazymagic/p/11147988.html)
+  - [sed
+    正则表达式](https://www.twle.cn/c/yufei/sed/sed-basic-regular-expressions.html)
