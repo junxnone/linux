@@ -3,7 +3,7 @@
 | Title     | Tools Remote vncserver                               |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2019-01-14T05:35:17Z`                               |
-| Updated @ | `2023-06-19T17:58:29Z`                               |
+| Updated @ | `2023-08-01T02:49:29Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/linux/issues/103) |
 
@@ -40,6 +40,8 @@
     #!/bin/bash
     xrdb $HOME/.Xresources
     startxfce4 &
+
+    sudo chmod +x ~/.vnc/xstartup
 
 ### Gnome
 
