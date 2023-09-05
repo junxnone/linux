@@ -82,6 +82,7 @@
   - [ctags](/0003_Tools_ctags)
   - [date - 时间管理工具](/0024_Tools_date)
   - [history 命令行历史管理](/0049_Tools_history)
+  - [ldd](/0124_Tools_ldd)
   - [网络工具 nmap](/0062_Tools_nmap)
   - [script 记录终端执行命令历史](/0006_Tools_script)
   - [shuf 随机选取工具](/0028_Tools_shuf)
@@ -122,4 +123,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1613230904</sub></kbd>
+<kbd><sub>@1613170905</sub></kbd>
