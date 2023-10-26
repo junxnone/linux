@@ -2,7 +2,7 @@
 Title | Tools OS Memory
 -- | --
 Created @ | `2023-10-26T02:45:07Z`
-Updated @| `2023-10-26T02:45:07Z`
+Updated @| `2023-10-26T02:47:10Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/125)
 
@@ -11,6 +11,10 @@ Edit @| [here](https://github.com/junxnone/linux/issues/125)
 - top
 - htop
 - free
+
+## VSS/RSS/PSS/USS
+
+
 
 ## 查看应用最大使用内存
 
@@ -47,5 +51,8 @@ Edit @| [here](https://github.com/junxnone/linux/issues/125)
         Exit status: 0
 ```
 
-- **Maximum resident set size** : 实际使用物理内存（包含共享库占用的全部内存）
+- **Maximum resident set size** : 该应用实际使用最大物理内存（包含共享库占用的全部内存）
 
+
+## Reference
+- [Linux 内存中VSS、RSS、PSS、USS 介绍](https://segmentfault.com/a/1190000040077427)
