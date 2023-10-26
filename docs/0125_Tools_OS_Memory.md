@@ -2,7 +2,7 @@
 Title | Tools OS Memory
 -- | --
 Created @ | `2023-10-26T02:45:07Z`
-Updated @| `2023-10-26T02:50:20Z`
+Updated @| `2023-10-26T02:57:28Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/125)
 
@@ -48,7 +48,7 @@ PSS 明确的表示了单个进程在系统总内存中的实际使用量。
 
 
 ## 查看应用最大使用内存
-
+- 这里用的是 GNU time `/usr/bin/time`，不是 built-in function `time`
 
 ```
 /usr/bin/time --verbose [your_app]
