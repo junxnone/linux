@@ -48,6 +48,7 @@
   - [OS Tools](/0122_Tools_OS)
     - [Hardware Information  查看工具](/0068_Tools_OS_HardwareInfo)
     - [Kernel 升级管理](/0073_Tools_OS_KernelUpgrade)
+    - [Memory 监测工具](/0125_Tools_OS_Memory)
     - [开机相关信息](/0061_Tools_OS_ShowBootInfo)
     - [添加账户 adduser vs useradd](/0069_Tools_OS_adduser)
     - [hostname 管理](/0072_Tools_OS_hostname)
@@ -123,4 +124,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1613321025</sub></kbd>
+<kbd><sub>@1046061026</sub></kbd>
