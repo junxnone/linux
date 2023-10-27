@@ -110,7 +110,7 @@
     - [NVIDIA GPU Driver 问题](/0110_Ubuntu_Issues_NVIDIAGPUDriver)
     - [USB 耳机没声音](/0096_Ubuntu_Issues_USBHeadphoneNoSound)
     - [thinclient_drives cannot access](/0092_Ubuntu_Issues_thinclientdrives)
-  - [RemoteDesktop](/0058_Ubuntu_RemoteDesktop)
+  - [Ubuntu Remote Desktop](/0058_Ubuntu_RemoteDesktop)
   - [设置默认 Kernel](/0114_Ubuntu_SetDefaultKernel)
 - [Driver](/0005_Driver)
 - [File System](/0064_FileSystem)
@@ -124,4 +124,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1612421026</sub></kbd>
+<kbd><sub>@1602521027</sub></kbd>
