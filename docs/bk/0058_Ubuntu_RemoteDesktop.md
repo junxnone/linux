@@ -1,28 +1,18 @@
 -----
 
-| Title         | Ubuntu RemoteDesktop                                |
-| ------------- | --------------------------------------------------- |
-| Created @     | `2021-01-06T03:05:58Z`                              |
-| Last Modify @ | `2022-12-27T05:31:42Z`                              |
-| Labels        | `enhancement`                                       |
-| Edit @        | [here](https://github.com/junxnone/linux/issues/58) |
+| Title     | Ubuntu RemoteDesktop                                |
+| --------- | --------------------------------------------------- |
+| Created @ | `2021-01-06T03:05:58Z`                              |
+| Updated @ | `2023-10-27T07:47:25Z`                              |
+| Labels    | `enhancement`                                       |
+| Edit @    | [here](https://github.com/junxnone/linux/issues/58) |
 
 -----
 
-## Reference
+# Ubuntu Remote Desktop
 
-  - [Issues with xRDP and Ubuntu 18.04.2 – How to fix
-    it](http://c-nergy.be/blog/?p=13390)
-  - [配置 VNC](https://www.mobibrw.com/2019/19379)
-  - [xRDP Installation Script](https://c-nergy.be/repository.html)
-  - [realvnc](https://www.realvnc.com/en/connect/download/viewer/)
-  - [TightVNC](https://www.tightvnc.com/download-old.php)
-
-## Brief
-
+  - [vncserver](./0103_Tools_Remote_vncserver)
   - xrdp 方式 windows 访问 Linux
-  - [VNC](/VNC) 通用方式访问
-  - [vncserver](./vncserver)
 
 ## xrdp
 
@@ -84,3 +74,12 @@
     sudo systemctl daemon-reload
     sudo systemctl enable x11vnc
     sudo systemctl start x11vnc
+
+## Reference
+
+  - [Issues with xRDP and Ubuntu 18.04.2 – How to fix
+    it](http://c-nergy.be/blog/?p=13390)
+  - [配置 VNC](https://www.mobibrw.com/2019/19379)
+  - [xRDP Installation Script](https://c-nergy.be/repository.html)
+  - [realvnc](https://www.realvnc.com/en/connect/download/viewer/)
+  - [TightVNC](https://www.tightvnc.com/download-old.php)
