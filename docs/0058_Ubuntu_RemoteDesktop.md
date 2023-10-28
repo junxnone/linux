@@ -2,7 +2,7 @@
 Title | Ubuntu RemoteDesktop
 -- | --
 Created @ | `2021-01-06T03:05:58Z`
-Updated @| `2023-10-28T06:17:59Z`
+Updated @| `2023-10-28T06:39:14Z`
 Labels | `enhancement`
 Edit @| [here](https://github.com/junxnone/linux/issues/58)
 
@@ -80,5 +80,5 @@ sudo systemctl start x11vnc
 - [realvnc](https://www.realvnc.com/en/connect/download/viewer/)
 - [TightVNC](https://www.tightvnc.com/download-old.php)
 - [[Ubuntu Server 22.04] 　Ubuntu Desktop RDP grdctl](https://qiita.com/QiitaYkuyo/items/c8e700da451e894e5d53)
-
-
+- [grdctl manpages](https://manpages.ubuntu.com/manpages/lunar/en/man1/grdctl.1.html)
+- [How To Install XRDP (Remote Desktop) on Ubuntu 20.04](https://tecadmin.net/how-to-install-xrdp-on-ubuntu-20-04/)
