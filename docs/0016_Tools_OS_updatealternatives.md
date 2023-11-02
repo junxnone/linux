@@ -2,17 +2,12 @@
 Title | Tools OS updatealternatives
 -- | --
 Created @ | `2020-06-03T06:38:33Z`
-Last Modify @| `2022-12-22T01:25:06Z`
+Updated @| `2023-11-02T05:55:52Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/16)
 
 ---
 # updatealternatives 多版本软件管理工具
-
-## Reference
-- [update-alternatives使用详解](https://www.jianshu.com/p/4d27fa2dce86)
-
-## Brief
 -  用于软件多版本切换
   - 显示安装应用的多个版本
   - 安装新的应用版本到管理器
@@ -70,4 +65,9 @@ $ update-alternatives –remove python /usr/bin/python2.7
 
 - Python
 - GCC
+
+
+## Reference
+- [update-alternatives使用详解](https://www.jianshu.com/p/4d27fa2dce86)
+
 
