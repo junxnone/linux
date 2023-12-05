@@ -53,6 +53,7 @@
     - [添加账户 adduser vs useradd](/0069_Tools_OS_adduser)
     - [hostname 管理](/0072_Tools_OS_hostname)
     - [iostat IO性能监控](/0045_Tools_OS_iostat)
+    - [log 相关工具](/0127_Tools_OS_log)
     - [netdata](/0108_Tools_OS_netdata)
     - [snap 软件管理工具](/0021_Tools_OS_snap)
     - [ulimit 多用户 资源限制工具](/0041_Tools_OS_ulimit)
@@ -125,4 +126,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1623381204</sub></kbd>
+<kbd><sub>@1115421205</sub></kbd>
