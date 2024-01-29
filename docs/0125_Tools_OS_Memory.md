@@ -2,7 +2,7 @@
 Title | Tools OS Memory
 -- | --
 Created @ | `2023-10-26T02:45:07Z`
-Updated @| `2023-10-26T02:57:28Z`
+Updated @| `2024-01-29T08:15:09Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/125)
 
@@ -11,6 +11,8 @@ Edit @| [here](https://github.com/junxnone/linux/issues/125)
 - top
 - htop
 - free
+- [Valgrind ](https://valgrind.org/)
+- [vtune]
 
 ## VSS/RSS/PSS/USS
 - VSS >= RSS >= PSS >= USS
