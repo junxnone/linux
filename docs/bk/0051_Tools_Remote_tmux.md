@@ -1,31 +1,15 @@
 -----
 
-| Title         | Tools Remote tmux                                   |
-| ------------- | --------------------------------------------------- |
-| Created @     | `2018-11-29T05:32:54Z`                              |
-| Last Modify @ | `2022-12-21T14:59:57Z`                              |
-| Labels        | \`\`                                                |
-| Edit @        | [here](https://github.com/junxnone/linux/issues/51) |
+| Title     | Tools Remote tmux                                   |
+| --------- | --------------------------------------------------- |
+| Created @ | `2018-11-29T05:32:54Z`                              |
+| Updated @ | `2024-02-27T03:07:37Z`                              |
+| Labels    | \`\`                                                |
+| Edit @    | [here](https://github.com/junxnone/linux/issues/51) |
 
 -----
 
-## Reference
-
-  - [Tmux 快捷键 &
-    速查表](https://blog.csdn.net/xiaxuesong666/article/details/80579945)
-  - [no support for other mouse
-    config](https://superuser.com/questions/210125/scroll-shell-output-with-mouse-in-tmux)
-  - [tmux：打造精致与实用并存的终端](https://segmentfault.com/a/1190000008188987)
-  - [man -tmux](http://man.openbsd.org/OpenBSD-current/man1/tmux.1)
-  - [The Tao of
-    tmux](https://leanpub.com/the-tao-of-tmux/read#leanpub-auto-creating-windows)
-  - [参考配置文件](https://github.com/einverne/dotfiles/blob/master/tmux/.tmux.conf)
-  - [Tmux Resurrect & Continuum: 持久保存 Tmux
-    会话](https://linuxtoy.org/archives/tmux-resurrect-and-continuum.html)
-  - [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
-  - [tmux conf - gpakosz](https://github.com/gpakosz/.tmux)
-
-## Brief
+# tmux
 
   - tmux 是服务器开发的工具
   - [tmux arch](./tmux_arch)
@@ -103,3 +87,19 @@ set -g mouse on
 ，或者：
 
     tmux attach -d
+
+## Reference
+
+  - [Tmux 快捷键 &
+    速查表](https://blog.csdn.net/xiaxuesong666/article/details/80579945)
+  - [no support for other mouse
+    config](https://superuser.com/questions/210125/scroll-shell-output-with-mouse-in-tmux)
+  - [tmux：打造精致与实用并存的终端](https://segmentfault.com/a/1190000008188987)
+  - [man -tmux](http://man.openbsd.org/OpenBSD-current/man1/tmux.1)
+  - [The Tao of
+    tmux](https://leanpub.com/the-tao-of-tmux/read#leanpub-auto-creating-windows)
+  - [参考配置文件](https://github.com/einverne/dotfiles/blob/master/tmux/.tmux.conf)
+  - [Tmux Resurrect & Continuum: 持久保存 Tmux
+    会话](https://linuxtoy.org/archives/tmux-resurrect-and-continuum.html)
+  - [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
+  - [tmux conf - gpakosz](https://github.com/gpakosz/.tmux)
