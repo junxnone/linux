@@ -1,26 +1,21 @@
 -----
 
-| Title         | Tools Text Vi                                       |
-| ------------- | --------------------------------------------------- |
-| Created @     | `2019-03-07T07:38:27Z`                              |
-| Last Modify @ | `2022-12-21T15:15:41Z`                              |
-| Labels        | \`\`                                                |
-| Edit @        | [here](https://github.com/junxnone/linux/issues/39) |
+| Title     | Tools Text Vi                                       |
+| --------- | --------------------------------------------------- |
+| Created @ | `2019-03-07T07:38:27Z`                              |
+| Updated @ | `2024-03-12T15:35:32Z`                              |
+| Labels    | \`\`                                                |
+| Edit @    | [here](https://github.com/junxnone/linux/issues/39) |
 
 -----
 
-## Reference
+# Vi
 
-  - [vim-deprecated](https://github.com/ma6174/vim-deprecated)
-  - [安装 YouCompleteMe](https://www.cnblogs.com/feiyuhuo/p/10274236.html)
+  - [Install and Setup](#Install_and_Setup)
+  - [UseCase](./0018_Tools_Text_Vi_UseCase)
+  - [Plugins](./0017_Tools_Text_Vi_Plugins)
 
-## Brief
-
-  - Install/Setup
-  - [UseCase](./Vi_Usecase)
-  - [Plugins](./Vi_plugins)
-
-## Install and Setup - 自动安装插件
+## Install and Setup
 
 ### 1 使用自动化脚本获取插件并安装
 
@@ -41,3 +36,8 @@
       - `:so%`
       - `:q`
   - **3.3** 添加 `map <F4>: TagbarToggle<CR>` 到 `~/.vimrc`:
+
+## Reference
+
+  - [vim-deprecated](https://github.com/ma6174/vim-deprecated)
+  - [安装 YouCompleteMe](https://www.cnblogs.com/feiyuhuo/p/10274236.html)
