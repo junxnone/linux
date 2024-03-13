@@ -22,6 +22,7 @@
     - [tr](/0026_Tools_Text_tr)
   - [文件管理](/0077_Tools_File)
     - [压缩解压](/0020_Tools_File_Archiver)
+      - [7z](/0128_Tools_File_Archiver_7z)
     - [find](/0043_Tools_File_find)
     - [ln 文件链接工具](/0033_Tools_File_ln)
     - [ls](/0023_Tools_File_ls)
@@ -126,4 +127,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2343110312</sub></kbd>
+<kbd><sub>@1015570313</sub></kbd>
