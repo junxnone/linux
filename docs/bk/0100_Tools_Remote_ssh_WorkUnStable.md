@@ -1,19 +1,19 @@
 -----
 
-| Title         | Tools Remote ssh WorkUnStable                        |
-| ------------- | ---------------------------------------------------- |
-| Created @     | `2019-07-10T06:44:57Z`                               |
-| Last Modify @ | `2022-12-22T07:53:25Z`                               |
-| Labels        | \`\`                                                 |
-| Edit @        | [here](https://github.com/junxnone/linux/issues/100) |
+| Title     | Tools Remote ssh WorkUnStable                        |
+| --------- | ---------------------------------------------------- |
+| Created @ | `2019-07-10T06:44:57Z`                               |
+| Updated @ | `2024-04-06T04:36:40Z`                               |
+| Labels    | \`\`                                                 |
+| Edit @    | [here](https://github.com/junxnone/linux/issues/100) |
 
 -----
 
-## SSH 不稳定
+# SSH 连接不稳定
 
   - ssh 不稳定，经常断开
   - 有时候会连接不上
-  - mac地址 ： 88:88:88:88:87:88
+  - mac地址 ： `88:88:88:88:87:88`
 
 ## Root Cause
 
