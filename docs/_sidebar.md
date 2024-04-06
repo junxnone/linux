@@ -40,7 +40,7 @@
     - [rsync](/0044_Tools_Remote_rsync)
     - [scp](/0010_Tools_Remote_scp)
     - [ssh 远程管理工具](/0011_Tools_Remote_ssh)
-      - [WorkUnStable](/0100_Tools_Remote_ssh_WorkUnStable)
+      - [SSH 连接不稳定](/0100_Tools_Remote_ssh_WorkUnStable)
     - [syncthing](/0029_Tools_Remote_syncthing)
     - [tmux](/0051_Tools_Remote_tmux)
       - [Arch](/0111_Tools_Remote_tmux_Arch)
@@ -128,4 +128,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1237270406</sub></kbd>
+<kbd><sub>@1238190406</sub></kbd>
