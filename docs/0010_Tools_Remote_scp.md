@@ -2,16 +2,13 @@
 Title | Tools Remote scp
 -- | --
 Created @ | `2021-10-13T15:16:48Z`
-Last Modify @| `2022-12-21T15:00:30Z`
+Updated @| `2024-04-06T04:34:29Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/10)
 
 ---
-## Reference
-- [scp通过代理proxy代理传输文件](https://www.appblog.cn/2020/04/26/scp%E9%80%9A%E8%BF%87%E4%BB%A3%E7%90%86proxy%E4%BB%A3%E7%90%86%E4%BC%A0%E8%BE%93%E6%96%87%E4%BB%B6/)
-- [在shell脚本中scp自动输入密码](https://blog.csdn.net/qq_35975447/article/details/108064795)
 
-## Brief
+# scp
 - scp - `secure copy`
 
 ```
@@ -43,5 +40,10 @@ UseCase | cmd
 copy 远程文件夹到本地 | `scp -r username@IP:/test_directory ./`
 通过代理服务器连接的远程主机copy | `scp -ro ProxyCommand="ncat --proxy-type socks4 --proxy proxy_ip_url:proxy_port %h %p" -P tgt_ssh_port tgt_username@tgt_IP:~/your_files/ .`
 自动输入密码 | `sshpass -p 'password' scp [-r] src_file_path  tgt_file_path`
+
+
+## Reference
+- [scp通过代理proxy代理传输文件](https://www.appblog.cn/2020/04/26/scp%E9%80%9A%E8%BF%87%E4%BB%A3%E7%90%86proxy%E4%BB%A3%E7%90%86%E4%BC%A0%E8%BE%93%E6%96%87%E4%BB%B6/)
+- [在shell脚本中scp自动输入密码](https://blog.csdn.net/qq_35975447/article/details/108064795)
 
 
