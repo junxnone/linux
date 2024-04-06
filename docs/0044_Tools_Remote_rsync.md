@@ -2,20 +2,13 @@
 Title | Tools Remote rsync
 -- | --
 Created @ | `2019-07-11T09:46:59Z`
-Last Modify @| `2022-12-21T15:02:12Z`
+Updated @| `2024-04-06T04:35:17Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/44)
 
 ---
-## Reference
-- [rsync命令比对文件及增量同步](https://www.cnblogs.com/keithtt/p/7293733.html)
-- [rsync man](https://www.cnblogs.com/f-ck-need-u/p/7221713.html) 
-- [rsync(一)：基本命令和用法](https://www.cnblogs.com/f-ck-need-u/p/7220009.html)
-- [服务器间同步inotify+rsync+supervisor](https://blog.csdn.net/liy819/article/details/52125769)
-- [rsync+sersync单向文件实时同步配置详解](http://www.madown.com/2017/05/10/47/)
-- [每天学习一个命令：使用 rsync 增量同步备份文件 ](https://einverne.github.io/post/2017/07/rsync-introduction.html)
- 
-## Brief
+
+# rsync
 - rsync基于ssh协议实现的同步工具
 - **三种常用同步方式**
   - 本地文件同步
@@ -88,3 +81,12 @@ rsync --daemon
   - cron
   - supervisord
 
+
+## Reference
+- [rsync命令比对文件及增量同步](https://www.cnblogs.com/keithtt/p/7293733.html)
+- [rsync man](https://www.cnblogs.com/f-ck-need-u/p/7221713.html) 
+- [rsync(一)：基本命令和用法](https://www.cnblogs.com/f-ck-need-u/p/7220009.html)
+- [服务器间同步inotify+rsync+supervisor](https://blog.csdn.net/liy819/article/details/52125769)
+- [rsync+sersync单向文件实时同步配置详解](http://www.madown.com/2017/05/10/47/)
+- [每天学习一个命令：使用 rsync 增量同步备份文件 ](https://einverne.github.io/post/2017/07/rsync-introduction.html)
+ 
