@@ -36,7 +36,7 @@
     - [RTSP Server live555](/0070_Tools_Media_live555)
     - [MediaInfo](/0053_Tools_Media_mediainfo)
   - [远程管理工具](/0075_Tools_Remote)
-    - [samba 文件共享](/0046_Tools_Remote_Samba)
+    - [samba](/0046_Tools_Remote_Samba)
     - [rsync](/0044_Tools_Remote_rsync)
     - [scp](/0010_Tools_Remote_scp)
     - [ssh 远程管理工具](/0011_Tools_Remote_ssh)
@@ -128,4 +128,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1236040406</sub></kbd>
+<kbd><sub>@1237270406</sub></kbd>
