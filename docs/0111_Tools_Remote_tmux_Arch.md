@@ -2,16 +2,13 @@
 Title | Tools Remote tmux Arch
 -- | --
 Created @ | `2019-08-27T03:40:09Z`
-Last Modify @| `2022-12-27T05:24:26Z`
+Updated @| `2024-04-06T04:37:13Z`
 Labels | `enhancement`
 Edit @| [here](https://github.com/junxnone/linux/issues/111)
 
 ---
-## Reference
-- [为什么使用tmux](https://www.cnblogs.com/itech/archive/2012/12/17/2822170.html)
-- [tmux wiki](https://github.com/tmux/tmux/wiki)
- 
-## Brief
+
+## tmux 架构
 
 - C/S架构 确保任务可以继续执行
 
@@ -40,4 +37,7 @@ Edit @| [here](https://github.com/junxnone/linux/issues/111)
   - `Windows` - `Task`
   - `Pane` - `Details`
 
-
+## Reference
+- [为什么使用tmux](https://www.cnblogs.com/itech/archive/2012/12/17/2822170.html)
+- [tmux wiki](https://github.com/tmux/tmux/wiki)
+ 
