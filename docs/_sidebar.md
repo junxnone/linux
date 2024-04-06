@@ -44,7 +44,7 @@
     - [syncthing](/0029_Tools_Remote_syncthing)
     - [tmux](/0051_Tools_Remote_tmux)
       - [Arch](/0111_Tools_Remote_tmux_Arch)
-      - [plugins](/0112_Tools_Remote_tmux_plugins)
+      - [Tmux Plugins](/0112_Tools_Remote_tmux_plugins)
     - [VNC Tools](/0103_Tools_Remote_vncserver)
   - [OS Tools](/0122_Tools_OS)
     - [Hardware Information  查看工具](/0068_Tools_OS_HardwareInfo)
@@ -128,4 +128,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1238190406</sub></kbd>
+<kbd><sub>@1612560406</sub></kbd>
