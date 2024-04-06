@@ -1,21 +1,15 @@
 -----
 
-| Title         | Tools Remote tmux plugins                            |
-| ------------- | ---------------------------------------------------- |
-| Created @     | `2019-08-27T06:23:23Z`                               |
-| Last Modify @ | `2022-12-22T08:45:59Z`                               |
-| Labels        | \`\`                                                 |
-| Edit @        | [here](https://github.com/junxnone/linux/issues/112) |
+| Title     | Tools Remote tmux plugins                            |
+| --------- | ---------------------------------------------------- |
+| Created @ | `2019-08-27T06:23:23Z`                               |
+| Updated @ | `2024-04-06T04:37:37Z`                               |
+| Labels    | \`\`                                                 |
+| Edit @    | [here](https://github.com/junxnone/linux/issues/112) |
 
 -----
 
-## Reference
-
-  - [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
-  - [Tmux Resurrect](https://github.com/tmux-plugins/tmux-resurrect)
-  - [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum)
-
-## Plugins
+# Tmux Plugins
 
 | Plugins        | Description |
 | -------------- | ----------- |
@@ -83,3 +77,9 @@
 
   - 恢复现场 : <kbd>ctrl</kbd> + <kbd>b</kbd> -\> <kbd>ctrl</kbd> +
     <kbd>r</kbd>
+
+## Reference
+
+  - [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
+  - [Tmux Resurrect](https://github.com/tmux-plugins/tmux-resurrect)
+  - [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum)
