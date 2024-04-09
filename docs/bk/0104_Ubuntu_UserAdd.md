@@ -1,21 +1,15 @@
 -----
 
-| Title         | Ubuntu UserAdd                                       |
-| ------------- | ---------------------------------------------------- |
-| Created @     | `2018-12-01T13:58:08Z`                               |
-| Last Modify @ | `2022-12-22T07:56:53Z`                               |
-| Labels        | \`\`                                                 |
-| Edit @        | [here](https://github.com/junxnone/linux/issues/104) |
+| Title     | Ubuntu UserAdd                                       |
+| --------- | ---------------------------------------------------- |
+| Created @ | `2018-12-01T13:58:08Z`                               |
+| Updated @ | `2024-04-09T02:56:48Z`                               |
+| Labels    | \`\`                                                 |
+| Edit @    | [here](https://github.com/junxnone/linux/issues/104) |
 
 -----
 
 # 添加用户
-
-## Reference
-
-  - [Ubuntu 16.04下添加新用户](https://www.linuxidc.com/Linux/2017-04/142690.htm)
-
-## Brief
 
   - [adduser vs useradd](./adduser_vs_useradd)
 
@@ -54,3 +48,7 @@ vi /etc/sudoers
 
   - 无 `.bashrc`
       - 从其他用户 copy `.bashrc`/`.profile` 到 当前用户，重新登录即可
+
+## Reference
+
+  - [Ubuntu 16.04下添加新用户](https://www.linuxidc.com/Linux/2017-04/142690.htm)
