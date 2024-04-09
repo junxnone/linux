@@ -2,7 +2,7 @@
 Title | Ubuntu UserAdd
 -- | --
 Created @ | `2018-12-01T13:58:08Z`
-Updated @| `2024-04-09T02:56:48Z`
+Updated @| `2024-04-09T02:57:37Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/104)
 
@@ -10,7 +10,7 @@ Edit @| [here](https://github.com/junxnone/linux/issues/104)
 # 添加用户
 
 
-- [adduser vs useradd](./adduser_vs_useradd)
+- [adduser vs useradd](./0069_Tools_OS_adduser)
 
 ## UseCase
 
