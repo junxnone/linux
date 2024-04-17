@@ -2,7 +2,7 @@
 Title | Tools File Archiver
 -- | --
 Created @ | `2020-06-24T03:00:54Z`
-Last Modify @| `2022-12-21T15:23:53Z`
+Updated @| `2024-04-17T06:30:37Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/20)
 
@@ -21,7 +21,7 @@ Edit @| [here](https://github.com/junxnone/linux/issues/20)
 - *.tar
 - *.tar.gz
 - *.tar.bz2
-
+- *.tar.xz
 
 用法 | command
 -- | --
@@ -32,6 +32,8 @@ Edit @| [here](https://github.com/junxnone/linux/issues/20)
 解压 `tar.bz2` | `tar jvxf data.tar.bz2`
 查看 `tar.bz2` | `tar jtvf data.trar.bz2`
 解压到指定文件夹 | `tar zvxf data.targ.gz -C output_dir`<br> > `output_dir` 需要手动创建
+解压 `tar.xz` | `tar -xf data.tar.xz`
+
 
 ## zip/unzip
 
