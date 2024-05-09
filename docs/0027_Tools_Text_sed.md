@@ -2,7 +2,7 @@
 Title | Tools Text sed
 -- | --
 Created @ | `2019-08-22T09:53:38Z`
-Updated @| `2023-07-07T03:21:54Z`
+Updated @| `2024-05-09T16:46:42Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/27)
 
@@ -48,7 +48,7 @@ Edit @| [here](https://github.com/junxnone/linux/issues/27)
 替换以 `1` 开头的字符串 为 `0`  | `sed -i 's/^1/0/g' filename`
 替换特殊字符 使用 `\` 转义 | `sed -i #s/\“aab/bbc/g' filenam`
 替换以`<path`开头，任意字符后跟着`\`的字符串为`path>` | `sed -i 's/\<path.*\\/path\>/g' *`
-替换文件夹下的文件 | ``` sed -i s#old#new#g `grep -rl "old" .` ```
+替换当前文件夹下的所有文件 | ``` sed -i s#old#new#g `grep -rl "old" .` ```
 查找关键字并删除`#` | `sed -i '/keyword/s/^#//'  input.txt` 
 查找关键字并替换 `xxx` | `sed -i '/keyword/s/xxx/ooo/'  input.txt` 
 
