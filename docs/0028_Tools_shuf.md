@@ -2,7 +2,7 @@
 Title | Tools shuf
 -- | --
 Created @ | `2019-09-18T08:15:08Z`
-Updated @| `2024-05-12T12:14:40Z`
+Updated @| `2024-05-12T12:16:32Z`
 Labels | `enhancement`
 Edit @| [here](https://github.com/junxnone/linux/issues/28)
 
@@ -27,8 +27,15 @@ Edit @| [here](https://github.com/junxnone/linux/issues/28)
 
 ## UseCase
 
-- **随机选取三张图片**
+### 随机选取三张图片
 
 ```
 ls images/* |shuf -n 3
+```
+
+### 生成随机数
+
+
+```
+shuf -i 1-100 -n 1
 ```
