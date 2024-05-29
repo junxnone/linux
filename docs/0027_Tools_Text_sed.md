@@ -2,7 +2,7 @@
 Title | Tools Text sed
 -- | --
 Created @ | `2019-08-22T09:53:38Z`
-Updated @| `2024-05-09T16:46:42Z`
+Updated @| `2024-05-29T00:58:03Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/27)
 
@@ -17,6 +17,10 @@ Edit @| [here](https://github.com/junxnone/linux/issues/27)
 
 
 ## UseCase
+- 一般以 `/` 为分隔符
+- 当修改内容中包含 `/` 时，可以使用 `@` `#` `|` 作为分隔符
+
+
 ### 插入
 
 插入方式 | cmd
