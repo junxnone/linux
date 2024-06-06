@@ -2,7 +2,7 @@
 Title | Tools File Archiver
 -- | --
 Created @ | `2020-06-24T03:00:54Z`
-Updated @| `2024-04-17T06:30:37Z`
+Updated @| `2024-06-06T07:28:29Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/20)
 
@@ -41,6 +41,8 @@ Edit @| [here](https://github.com/junxnone/linux/issues/20)
 -- | --
 压缩 | `zip -q -r data.zip data/`
 解压  | `unzip data.zip`<br>`unzip data.zip -d tmp`
+
+> `jar xvf data.zip`
 
 - zip
 
