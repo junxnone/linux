@@ -2,18 +2,12 @@
 Title | Tools Text awk
 -- | --
 Created @ | `2018-11-29T10:51:42Z`
-Last Modify @| `2022-12-21T15:15:56Z`
+Updated @| `2024-06-12T09:44:21Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/52)
 
 ---
-## Reference
-- [AWK用法入门详解](https://www.cnblogs.com/losbyday/p/5854707.html)
-- [The GNU Awk User’s Guide](http://www.gnu.org/software/gawk/manual/gawk.html)
-- [awk匹配案例](https://blog.csdn.net/qq_42224274/article/details/82584801)
-- [awk用法之：文本替换](https://www.jianshu.com/p/d90f8a2ecd62)
-
-## Brief
+# awk
 
 **awk是一个强大的文本分析工具**
 
@@ -69,3 +63,10 @@ ls */*|awk -F '/' '{print "mv "$1"/"$2" "$1"_"$2}'|bash
 ```
 awk -F '/' '{for(i=2;i<NF;++i) printf $i"/";printf "\n"}'
 ```
+
+## Reference
+- [AWK用法入门详解](https://www.cnblogs.com/losbyday/p/5854707.html)
+- [The GNU Awk User’s Guide](http://www.gnu.org/software/gawk/manual/gawk.html)
+- [awk匹配案例](https://blog.csdn.net/qq_42224274/article/details/82584801)
+- [awk用法之：文本替换](https://www.jianshu.com/p/d90f8a2ecd62)
+
