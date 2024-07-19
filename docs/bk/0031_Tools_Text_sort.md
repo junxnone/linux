@@ -1,17 +1,15 @@
 -----
 
-| Title         | Tools Text sort                                     |
-| ------------- | --------------------------------------------------- |
-| Created @     | `2019-10-25T08:17:04Z`                              |
-| Last Modify @ | `2022-12-21T15:16:37Z`                              |
-| Labels        | \`\`                                                |
-| Edit @        | [here](https://github.com/junxnone/linux/issues/31) |
+| Title     | Tools Text sort                                     |
+| --------- | --------------------------------------------------- |
+| Created @ | `2019-10-25T08:17:04Z`                              |
+| Updated @ | `2024-07-19T02:05:29Z`                              |
+| Labels    | \`\`                                                |
+| Edit @    | [here](https://github.com/junxnone/linux/issues/31) |
 
 -----
 
 # sort 排序工具
-
-## Brief
 
   - **`sort` 常用参数**
 
@@ -31,7 +29,7 @@
 
 ## UseCase
 
-  - **去重复**
+### 去重复
 
 当 ids.txt 里面包含较多重复的行时，可以使用 `sort -u` 去重复
 
@@ -42,3 +40,7 @@ cat ids.txt|sort -u
 > sort 参数：  
 > \-u, --unique with -c, check for strict ordering; without -c, output
 > only the first of an equal run
+
+### 文件大小排序
+
+    du -h -d 1 .|sort -hr
