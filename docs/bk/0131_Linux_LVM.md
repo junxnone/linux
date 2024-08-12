@@ -3,7 +3,7 @@
 | Title     | Linux LVM                                            |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2024-08-12T00:45:48Z`                               |
-| Updated @ | `2024-08-12T00:45:48Z`                               |
+| Updated @ | `2024-08-12T00:50:11Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/linux/issues/131) |
 
@@ -20,3 +20,8 @@
   - **LV** 相当于在 VG 之上真正创建出来的分区，这个分区最终挂载到文件系统中来直接使用
 
 ![image](media/ca9c74fc0bc428c91e6583a87bb3d9af35019a49.png)
+
+## Reference
+
+  - [安装 Linux 系统（如 Ubuntu）时将 LVM
+    改为使用所有磁盘空间](https://blog.vgot.net/archives/installl-linux-with-lvm-all-disk-space.html)

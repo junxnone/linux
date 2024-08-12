@@ -2,7 +2,7 @@
 Title | Linux LVM
 -- | --
 Created @ | `2024-08-12T00:45:48Z`
-Updated @| `2024-08-12T00:45:48Z`
+Updated @| `2024-08-12T00:50:11Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/131)
 
@@ -15,3 +15,6 @@ Edit @| [here](https://github.com/junxnone/linux/issues/131)
 
 ![image](https://github.com/user-attachments/assets/4dbc8938-1def-4f9c-9ad4-9fc06de13292)
 
+
+## Reference
+- [安装 Linux 系统（如 Ubuntu）时将 LVM 改为使用所有磁盘空间](https://blog.vgot.net/archives/installl-linux-with-lvm-all-disk-space.html)
