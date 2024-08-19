@@ -1,21 +1,15 @@
 -----
 
-| Title         | Tools File ln                                       |
-| ------------- | --------------------------------------------------- |
-| Created @     | `2020-03-08T07:28:08Z`                              |
-| Last Modify @ | `2022-12-21T15:13:36Z`                              |
-| Labels        | \`\`                                                |
-| Edit @        | [here](https://github.com/junxnone/linux/issues/33) |
+| Title     | Tools File ln                                       |
+| --------- | --------------------------------------------------- |
+| Created @ | `2020-03-08T07:28:08Z`                              |
+| Updated @ | `2024-08-19T08:46:37Z`                              |
+| Labels    | \`\`                                                |
+| Edit @    | [here](https://github.com/junxnone/linux/issues/33) |
 
 -----
 
 # ln 文件链接工具
-
-## Reference
-
-  - [Linux中软连接和硬连接的区别](https://www.cnblogs.com/loliconinvincible/p/12442230.html)
-
-## Brief
 
   - 软链接 - `symbolic link`
   - 硬链接 - `hard link`
@@ -73,3 +67,7 @@
     lrwxrwxrwx  1 xxx xx      4 Mar  8 15:34 test_2 -> test
     -rw-r--r--  2 xxx xx     29 Mar  8 15:33 test_3
     -rw-r--r--  2 xxx xx     29 Mar  8 15:33 test_4
+
+## Reference
+
+  - [Linux中软连接和硬连接的区别](https://www.cnblogs.com/loliconinvincible/p/12442230.html)
