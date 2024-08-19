@@ -3,7 +3,7 @@
 | Title     | Tools OS HardwareInfo                               |
 | --------- | --------------------------------------------------- |
 | Created @ | `2019-02-20T04:32:30Z`                              |
-| Updated @ | `2023-03-28T03:45:56Z`                              |
+| Updated @ | `2024-08-19T08:51:53Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/linux/issues/68) |
 
@@ -130,6 +130,28 @@ sudo  dmidecode --type memory |head
     df -h
 
     sudo smartctl --all /dev/sda
+
+    smartctl 7.2 2020-12-30 r5155 [x86_64-linux-6.5.0-44-generic] (local build)
+    Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+    
+    === START OF INFORMATION SECTION ===
+    Device Model:     Samsung SSD 870 EVO 1TB
+    Serial Number:    S75DNX0W810483F
+    LU WWN Device Id: 5 002538 f43810ed1
+    Firmware Version: SVT03B6Q
+    User Capacity:    1,000,204,886,016 bytes [1.00 TB]
+    Sector Size:      512 bytes logical/physical
+    Rotation Rate:    Solid State Device
+    Form Factor:      2.5 inches
+    TRIM Command:     Available, deterministic, zeroed
+    Device is:        Not in smartctl database [for details use: -P showall]
+    ATA Version is:   ACS-4 T13/BSR INCITS 529 revision 5
+    SATA Version is:  SATA 3.3, 6.0 Gb/s (current: 6.0 Gb/s)
+    Local Time is:    Tue Aug 20 08:54:37 2024 CST
+    SMART support is: Available - device has SMART capability.
+    SMART support is: Enabled
+    
+    ......
 
     sudo smartctl --all /dev/sda -d megaraid,N
 
