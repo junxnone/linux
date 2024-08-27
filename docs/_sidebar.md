@@ -114,6 +114,7 @@
     - [前置耳机不工作](/0101_Ubuntu_Issues_FrontHeadPhoneNotWorking)
     - [NVIDIA GPU Driver 问题](/0110_Ubuntu_Issues_NVIDIAGPUDriver)
     - [USB 耳机没声音](/0096_Ubuntu_Issues_USBHeadphoneNoSound)
+    - [Linux 系统过载 无法通过 ssh 连接](/0132_Ubuntu_Issues_sshd)
     - [Terminal 按 tab 键卡死一段时间](/0126_Ubuntu_Issues_tabdelay)
     - [thinclient_drives cannot access](/0092_Ubuntu_Issues_thinclientdrives)
   - [Ubuntu Remote Desktop](/0058_Ubuntu_RemoteDesktop)
@@ -130,4 +131,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1617120826</sub></kbd>
+<kbd><sub>@1608080827</sub></kbd>
