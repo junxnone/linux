@@ -111,7 +111,7 @@
 - 2019-02-20&nbsp;&nbsp; [Hardware Information  查看工具](/0068_Tools_OS_HardwareInfo)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:HardwareInfo
 - 2019-02-19&nbsp;&nbsp; [添加账户 adduser vs useradd](/0069_Tools_OS_adduser)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:adduser
 - 2019-02-19&nbsp;&nbsp; [bashrc](/0102_Linux_bashrc)&nbsp;&nbsp; :bookmark:Linux :bookmark:bashrc
-- 2019-01-29&nbsp;&nbsp; [netdata](/0108_Tools_OS_netdata)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:netdata
+- 2019-01-29&nbsp;&nbsp; [netdata web资源监控工具](/0108_Tools_OS_netdata)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:netdata
 - 2019-01-15&nbsp;&nbsp; [history 命令行历史管理](/0049_Tools_history)&nbsp;&nbsp; :bookmark:Tools :bookmark:history
 - 2019-01-14&nbsp;&nbsp; [VNC Tools](/0103_Tools_Remote_vncserver)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:vncserver
 - 2018-12-14&nbsp;&nbsp; [rename](/0050_Tools_File_rename)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:rename

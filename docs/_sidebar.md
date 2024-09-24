@@ -58,7 +58,7 @@
     - [hostname 管理](/0072_Tools_OS_hostname)
     - [iostat IO性能监控](/0045_Tools_OS_iostat)
     - [log 相关工具](/0127_Tools_OS_log)
-    - [netdata](/0108_Tools_OS_netdata)
+    - [netdata web资源监控工具](/0108_Tools_OS_netdata)
     - [snap 软件管理工具](/0021_Tools_OS_snap)
     - [ulimit 多用户 资源限制工具](/0041_Tools_OS_ulimit)
     - [updatealternatives 多版本软件管理工具](/0016_Tools_OS_updatealternatives)
@@ -132,4 +132,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2252150923</sub></kbd>
+<kbd><sub>@1000120924</sub></kbd>
