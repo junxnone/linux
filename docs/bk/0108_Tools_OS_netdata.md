@@ -1,17 +1,15 @@
 -----
 
-| Title         | Tools OS netdata                                     |
-| ------------- | ---------------------------------------------------- |
-| Created @     | `2019-01-29T07:38:15Z`                               |
-| Last Modify @ | `2022-12-22T08:04:37Z`                               |
-| Labels        | \`\`                                                 |
-| Edit @        | [here](https://github.com/junxnone/linux/issues/108) |
+| Title     | Tools OS netdata                                     |
+| --------- | ---------------------------------------------------- |
+| Created @ | `2019-01-29T07:38:15Z`                               |
+| Updated @ | `2024-09-24T01:59:25Z`                               |
+| Labels    | \`\`                                                 |
+| Edit @    | [here](https://github.com/junxnone/linux/issues/108) |
 
 -----
 
-## Reference
-
-## Breif
+# netdata web资源监控工具
 
   - 资源监控工具
       - CPU
@@ -36,3 +34,7 @@
       netdata/netdata
 
 > 访问 xxx.xxx.xxx.xxx:19999 即可
+
+## Reference
+
+  - [Github](https://github.com/netdata/netdata)
