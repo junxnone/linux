@@ -78,6 +78,7 @@
     - [kill 停止进程](/0019_Tools_Process_kill)
     - [taskset 设定程序运行在的CPU](/0034_Tools_Process_taskset)
     - [top](/0009_Tools_Process_top)
+  - [Shell](/0134_Tools_Shell)
   - [任务管理工具](/0040_Tools_TaskSchedule)
     - [at 定时任务管理工具](/0037_Tools_TaskSchedule_at)
     - [batch 基于 at 任务管理工具](/0038_Tools_TaskSchedule_batch)
@@ -132,4 +133,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1618100924</sub></kbd>
+<kbd><sub>@1125070925</sub></kbd>
