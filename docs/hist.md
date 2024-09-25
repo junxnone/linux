@@ -1,6 +1,7 @@
 # Wiki History
 
 - 2024-09-25&nbsp;&nbsp; [Shell](/0134_Tools_Shell)&nbsp;&nbsp; :bookmark:Tools :bookmark:Shell
+- 2024-09-25&nbsp;&nbsp; [Shell 快捷键](/0135_Tools_Shell_hotkey)&nbsp;&nbsp; :bookmark:Tools :bookmark:Shell :bookmark:hotkey
 - 2024-09-23&nbsp;&nbsp; [端口占用](/0133_Tools_OS_Port)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Port
 - 2024-08-27&nbsp;&nbsp; [Linux 系统过载 无法通过 ssh 连接](/0132_Ubuntu_Issues_sshd)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:sshd
 - 2024-08-12&nbsp;&nbsp; [LVM](/0131_Linux_LVM)&nbsp;&nbsp; :bookmark:Linux :bookmark:LVM
@@ -11,22 +12,22 @@
 - 2023-11-06&nbsp;&nbsp; [Terminal 按 tab 键卡死一段时间](/0126_Ubuntu_Issues_tabdelay)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:tabdelay
 - 2023-10-26&nbsp;&nbsp; [Memory 监测工具](/0125_Tools_OS_Memory)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Memory
 - 2023-09-04&nbsp;&nbsp; [ldd](/0124_Tools_ldd)&nbsp;&nbsp; :bookmark:Tools :bookmark:ldd
-- 2023-06-17&nbsp;&nbsp; [Ubuntu Issues](/0121_Ubuntu_Issues)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues
 - 2023-06-17&nbsp;&nbsp; [OS Tools](/0122_Tools_OS)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS
+- 2023-06-17&nbsp;&nbsp; [Ubuntu Issues](/0121_Ubuntu_Issues)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues
 - 2023-06-17&nbsp;&nbsp; [Linux Security](/0123_Security)&nbsp;&nbsp; :bookmark:Security
 - 2023-06-16&nbsp;&nbsp; [Ubuntu](/0120_Ubuntu)&nbsp;&nbsp; :bookmark:Ubuntu
-- 2023-06-09&nbsp;&nbsp; [GNOME](/0118_Desktop_GNOME)&nbsp;&nbsp; :bookmark:Desktop :bookmark:GNOME
 - 2023-06-09&nbsp;&nbsp; [APT Source](/0119_Ubuntu_APT_Source)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:APT :bookmark:Source
+- 2023-06-09&nbsp;&nbsp; [GNOME](/0118_Desktop_GNOME)&nbsp;&nbsp; :bookmark:Desktop :bookmark:GNOME
 - 2023-06-08&nbsp;&nbsp; [KDE](/0117_Desktop_KDE)&nbsp;&nbsp; :bookmark:Desktop :bookmark:KDE
 - 2023-03-24&nbsp;&nbsp; [wall](/0115_Tools_OS_wall)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:wall
 - 2023-03-24&nbsp;&nbsp; [write](/0116_Tools_OS_write)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:write
 - 2023-03-20&nbsp;&nbsp; [设置默认 Kernel](/0114_Ubuntu_SetDefaultKernel)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:SetDefaultKernel
-- 2022-12-21&nbsp;&nbsp; [文本编辑](/0078_Tools_Text)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text
-- 2022-12-21&nbsp;&nbsp; [多媒体工具](/0076_Tools_Media)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media
 - 2022-12-21&nbsp;&nbsp; [远程管理工具](/0075_Tools_Remote)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote
 - 2022-12-21&nbsp;&nbsp; [文件管理](/0077_Tools_File)&nbsp;&nbsp; :bookmark:Tools :bookmark:File
-- 2022-08-23&nbsp;&nbsp; [ffmpeg 多媒体工具](/0002_Tools_Media_ffmpeg)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:ffmpeg
+- 2022-12-21&nbsp;&nbsp; [多媒体工具](/0076_Tools_Media)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media
+- 2022-12-21&nbsp;&nbsp; [文本编辑](/0078_Tools_Text)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text
 - 2022-08-23&nbsp;&nbsp; [Networks](/0060_Tools_Networks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks
+- 2022-08-23&nbsp;&nbsp; [ffmpeg 多媒体工具](/0002_Tools_Media_ffmpeg)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:ffmpeg
 - 2022-08-17&nbsp;&nbsp; [增加 Swap 分区](/0083_Ubuntu_IncreaseSwap)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:IncreaseSwap
 - 2022-05-24&nbsp;&nbsp; [NVIDIA GPU Driver 问题](/0110_Ubuntu_Issues_NVIDIAGPUDriver)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:NVIDIAGPUDriver
 - 2022-05-02&nbsp;&nbsp; [Linux](/0001_Linux)&nbsp;&nbsp; :bookmark:Linux
@@ -65,8 +66,8 @@
 - 2020-05-14&nbsp;&nbsp; [Download](/0014_Ubuntu_Download)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download
 - 2020-04-22&nbsp;&nbsp; [开机相关信息](/0061_Tools_OS_ShowBootInfo)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:ShowBootInfo
 - 2020-04-13&nbsp;&nbsp; [命令行下载 Google Drive 文件](/0109_Ubuntu_Download_GoogleDriveFilesCMD)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download :bookmark:GoogleDriveFilesCMD
-- 2020-04-04&nbsp;&nbsp; [tree 优雅地列出文件树](/0035_Tools_File_tree)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:tree
 - 2020-04-04&nbsp;&nbsp; [图像转字符串工具](/0036_Tools_Media_image2string)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:image2string
+- 2020-04-04&nbsp;&nbsp; [tree 优雅地列出文件树](/0035_Tools_File_tree)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:tree
 - 2020-03-20&nbsp;&nbsp; [taskset 设定程序运行在的CPU](/0034_Tools_Process_taskset)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process :bookmark:taskset
 - 2020-03-08&nbsp;&nbsp; [ln 文件链接工具](/0033_Tools_File_ln)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:ln
 - 2020-02-01&nbsp;&nbsp; [文件系统格式](/0081_FileSystem_Format)&nbsp;&nbsp; :bookmark:FileSystem :bookmark:Format
@@ -79,9 +80,9 @@
 - 2019-09-23&nbsp;&nbsp; [Install Goolge Pinyin](/0090_Ubuntu_InstallGooglePinyin)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:InstallGooglePinyin
 - 2019-09-18&nbsp;&nbsp; [shuf 随机选取工具](/0028_Tools_shuf)&nbsp;&nbsp; :bookmark:Tools :bookmark:shuf
 - 2019-09-04&nbsp;&nbsp; [Ubuntu OS Version Upgrade](/0089_Ubuntu_Upgrade)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Upgrade
-- 2019-08-27&nbsp;&nbsp; [PAM - Pluggable Authentication Module](/0065_Security_PAM)&nbsp;&nbsp; :bookmark:Security :bookmark:PAM
-- 2019-08-27&nbsp;&nbsp; [Arch](/0111_Tools_Remote_tmux_Arch)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux :bookmark:Arch
 - 2019-08-27&nbsp;&nbsp; [Tmux Plugins](/0112_Tools_Remote_tmux_plugins)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux :bookmark:plugins
+- 2019-08-27&nbsp;&nbsp; [Arch](/0111_Tools_Remote_tmux_Arch)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux :bookmark:Arch
+- 2019-08-27&nbsp;&nbsp; [PAM - Pluggable Authentication Module](/0065_Security_PAM)&nbsp;&nbsp; :bookmark:Security :bookmark:PAM
 - 2019-08-22&nbsp;&nbsp; [sed 文件流编辑器](/0027_Tools_Text_sed)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:sed
 - 2019-08-22&nbsp;&nbsp; [tr](/0026_Tools_Text_tr)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:tr
 - 2019-08-14&nbsp;&nbsp; [thinclient_drives cannot access](/0092_Ubuntu_Issues_thinclientdrives)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:thinclientdrives
@@ -102,9 +103,9 @@
 - 2019-04-30&nbsp;&nbsp; [硬盘大于 2TB](/0099_Ubuntu_Issues_DiskLargerThan2TB)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:DiskLargerThan2TB
 - 2019-04-21&nbsp;&nbsp; [前置耳机不工作](/0101_Ubuntu_Issues_FrontHeadPhoneNotWorking)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:FrontHeadPhoneNotWorking
 - 2019-04-12&nbsp;&nbsp; [Linux Tools](/0059_Tools)&nbsp;&nbsp; :bookmark:Tools
-- 2019-03-10&nbsp;&nbsp; [batch 基于 at 任务管理工具](/0038_Tools_TaskSchedule_batch)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:batch
 - 2019-03-10&nbsp;&nbsp; [at 定时任务管理工具](/0037_Tools_TaskSchedule_at)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:at
 - 2019-03-10&nbsp;&nbsp; [任务管理工具](/0040_Tools_TaskSchedule)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule
+- 2019-03-10&nbsp;&nbsp; [batch 基于 at 任务管理工具](/0038_Tools_TaskSchedule_batch)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:batch
 - 2019-03-07&nbsp;&nbsp; [Vi](/0039_Tools_Text_Vi)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:Vi
 - 2019-03-05&nbsp;&nbsp; [watch](/0098_Tools_OS_watch)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:watch
 - 2019-03-01&nbsp;&nbsp; [ulimit 多用户 资源限制工具](/0041_Tools_OS_ulimit)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:ulimit
