@@ -3,7 +3,7 @@
 | Title     | Ubuntu UserAdd                                       |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2018-12-01T13:58:08Z`                               |
-| Updated @ | `2024-04-09T02:57:37Z`                               |
+| Updated @ | `2024-10-13T11:59:19Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/linux/issues/104) |
 
@@ -28,7 +28,9 @@ chmod +w /etc/sudoers
 vi /etc/sudoers 
 ```
 
-添加如下内容：
+  - 添加如下内容：
+
+<!-- end list -->
 
     gpu ALL=(ALL:ALL) ALL
 
