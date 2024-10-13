@@ -2,7 +2,7 @@
 Title | Ubuntu UserAdd
 -- | --
 Created @ | `2018-12-01T13:58:08Z`
-Updated @| `2024-10-13T12:00:43Z`
+Updated @| `2024-10-13T12:01:20Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/104)
 
@@ -33,7 +33,7 @@ vi /etc/sudoers
 gpu ALL=(ALL:ALL) ALL
 ```
 
-### 方法二 为用户添加 `sudo` 权限
+### 方法二 把用户添加到 `sudo` Group
 
 ```
 sudo usermod -a -G sudo newuser
