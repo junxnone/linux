@@ -2,7 +2,7 @@
 Title | Ubuntu UserAdd
 -- | --
 Created @ | `2018-12-01T13:58:08Z`
-Updated @| `2024-10-13T11:59:19Z`
+Updated @| `2024-10-13T12:00:43Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/104)
 
@@ -22,6 +22,7 @@ Create new user with home folder | `sudo useradd  -r -m  -s /bin/bash gpu` <br>`
 
 
 ## 为用户添加 `root` 权限
+### 方法一 修改 `/etc/sudoers` 文件
 
 ```
 chmod +w /etc/sudoers 
@@ -32,7 +33,8 @@ vi /etc/sudoers
 gpu ALL=(ALL:ALL) ALL
 ```
 
-- 为用户 `newuser` 添加 `sudo` 权限
+### 方法二 为用户添加 `sudo` 权限
+
 ```
 sudo usermod -a -G sudo newuser
 ```
