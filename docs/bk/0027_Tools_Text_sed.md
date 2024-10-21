@@ -3,7 +3,7 @@
 | Title     | Tools Text sed                                      |
 | --------- | --------------------------------------------------- |
 | Created @ | `2019-08-22T09:53:38Z`                              |
-| Updated @ | `2024-05-29T00:58:03Z`                              |
+| Updated @ | `2024-10-21T07:33:53Z`                              |
 | Labels    | \`\`                                                |
 | Edit @    | [here](https://github.com/junxnone/linux/issues/27) |
 
@@ -78,6 +78,22 @@
 | -------- | ------------------------------------------------ |
 | 指定字符之前添加 | `sed -i 's/search_word/insert_word&/' your_file` |
 | 指定字符之后添加 | `sed -i 's/search_word/&insert_word/' your_file` |
+
+### 取文件中某行的内容
+
+  - **取第 N 行到 第 X 行内容**
+
+<!-- end list -->
+
+    sed -n 'N, Xp' file_name
+
+  - **取第 N 行到结尾内容**
+
+<!-- end list -->
+
+    sed -n 'N, $p' file_name
+
+> `-n` 只输出符合条件的行
 
 ## Reference
 
