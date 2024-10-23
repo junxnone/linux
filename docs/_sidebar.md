@@ -131,7 +131,8 @@
   - [CentOS 安装桌面](/0107_Desktop_CentOS)
   - [GNOME](/0118_Desktop_GNOME)
   - [KDE](/0117_Desktop_KDE)
+- [Linux Logs](/0136_Logs)
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1617501022</sub></kbd>
+<kbd><sub>@1604221023</sub></kbd>
