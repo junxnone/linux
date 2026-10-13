@@ -1,5 +1,6 @@
 # Wiki History
 
+- 2026-10-13&nbsp;&nbsp; [ncdu](/0137_Tools_OS_Disk_ncdu)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Disk :bookmark:ncdu
 - 2024-10-23&nbsp;&nbsp; [Linux Logs](/0136_Logs)&nbsp;&nbsp; :bookmark:Logs
 - 2024-09-25&nbsp;&nbsp; [Shell 快捷键](/0135_Tools_Shell_hotkey)&nbsp;&nbsp; :bookmark:Tools :bookmark:Shell :bookmark:hotkey
 - 2024-09-25&nbsp;&nbsp; [Shell](/0134_Tools_Shell)&nbsp;&nbsp; :bookmark:Tools :bookmark:Shell
@@ -17,16 +18,16 @@
 - 2023-06-17&nbsp;&nbsp; [Linux Security](/0123_Security)&nbsp;&nbsp; :bookmark:Security
 - 2023-06-17&nbsp;&nbsp; [Ubuntu Issues](/0121_Ubuntu_Issues)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues
 - 2023-06-16&nbsp;&nbsp; [Ubuntu](/0120_Ubuntu)&nbsp;&nbsp; :bookmark:Ubuntu
-- 2023-06-09&nbsp;&nbsp; [GNOME](/0118_Desktop_GNOME)&nbsp;&nbsp; :bookmark:Desktop :bookmark:GNOME
 - 2023-06-09&nbsp;&nbsp; [APT Source](/0119_Ubuntu_APT_Source)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:APT :bookmark:Source
+- 2023-06-09&nbsp;&nbsp; [GNOME](/0118_Desktop_GNOME)&nbsp;&nbsp; :bookmark:Desktop :bookmark:GNOME
 - 2023-06-08&nbsp;&nbsp; [KDE](/0117_Desktop_KDE)&nbsp;&nbsp; :bookmark:Desktop :bookmark:KDE
 - 2023-03-24&nbsp;&nbsp; [write](/0116_Tools_OS_write)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:write
 - 2023-03-24&nbsp;&nbsp; [wall](/0115_Tools_OS_wall)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:wall
 - 2023-03-20&nbsp;&nbsp; [设置默认 Kernel](/0114_Ubuntu_SetDefaultKernel)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:SetDefaultKernel
 - 2022-12-21&nbsp;&nbsp; [文件管理](/0077_Tools_File)&nbsp;&nbsp; :bookmark:Tools :bookmark:File
-- 2022-12-21&nbsp;&nbsp; [多媒体工具](/0076_Tools_Media)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media
-- 2022-12-21&nbsp;&nbsp; [远程管理工具](/0075_Tools_Remote)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote
 - 2022-12-21&nbsp;&nbsp; [文本编辑](/0078_Tools_Text)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text
+- 2022-12-21&nbsp;&nbsp; [远程管理工具](/0075_Tools_Remote)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote
+- 2022-12-21&nbsp;&nbsp; [多媒体工具](/0076_Tools_Media)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media
 - 2022-08-23&nbsp;&nbsp; [Networks](/0060_Tools_Networks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks
 - 2022-08-23&nbsp;&nbsp; [ffmpeg 多媒体工具](/0002_Tools_Media_ffmpeg)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:ffmpeg
 - 2022-08-17&nbsp;&nbsp; [增加 Swap 分区](/0083_Ubuntu_IncreaseSwap)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:IncreaseSwap
@@ -59,9 +60,9 @@
 - 2020-10-09&nbsp;&nbsp; [snap 软件管理工具](/0021_Tools_OS_snap)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:snap
 - 2020-06-24&nbsp;&nbsp; [压缩解压](/0020_Tools_File_Archiver)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:Archiver
 - 2020-06-15&nbsp;&nbsp; [kill 停止进程](/0019_Tools_Process_kill)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process :bookmark:kill
-- 2020-06-06&nbsp;&nbsp; [aria2](/0091_Ubuntu_Download_aria2)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download :bookmark:aria2
 - 2020-06-06&nbsp;&nbsp; [Vi 用例](/0018_Tools_Text_Vi_UseCase)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:Vi :bookmark:UseCase
 - 2020-06-06&nbsp;&nbsp; [Vi 常用插件](/0017_Tools_Text_Vi_Plugins)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:Vi :bookmark:Plugins
+- 2020-06-06&nbsp;&nbsp; [aria2](/0091_Ubuntu_Download_aria2)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download :bookmark:aria2
 - 2020-06-03&nbsp;&nbsp; [APT Ubuntu 包管理工具](/0015_Ubuntu_APT)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:APT
 - 2020-06-03&nbsp;&nbsp; [updatealternatives 多版本软件管理工具](/0016_Tools_OS_updatealternatives)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:updatealternatives
 - 2020-05-14&nbsp;&nbsp; [Download](/0014_Ubuntu_Download)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download
@@ -76,16 +77,16 @@
 - 2019-11-20&nbsp;&nbsp; [网络工具 nmap](/0062_Tools_nmap)&nbsp;&nbsp; :bookmark:Tools :bookmark:nmap
 - 2019-10-25&nbsp;&nbsp; [sort 排序工具](/0031_Tools_Text_sort)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:sort
 - 2019-10-14&nbsp;&nbsp; [File System](/0064_FileSystem)&nbsp;&nbsp; :bookmark:FileSystem
-- 2019-10-12&nbsp;&nbsp; [bc 浮点计算工具](/0030_Tools_bc)&nbsp;&nbsp; :bookmark:Tools :bookmark:bc
 - 2019-10-12&nbsp;&nbsp; [syncthing](/0029_Tools_Remote_syncthing)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:syncthing
+- 2019-10-12&nbsp;&nbsp; [bc 浮点计算工具](/0030_Tools_bc)&nbsp;&nbsp; :bookmark:Tools :bookmark:bc
 - 2019-09-23&nbsp;&nbsp; [Install Goolge Pinyin](/0090_Ubuntu_InstallGooglePinyin)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:InstallGooglePinyin
 - 2019-09-18&nbsp;&nbsp; [shuf 随机选取工具](/0028_Tools_shuf)&nbsp;&nbsp; :bookmark:Tools :bookmark:shuf
 - 2019-09-04&nbsp;&nbsp; [Ubuntu OS Version Upgrade](/0089_Ubuntu_Upgrade)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Upgrade
-- 2019-08-27&nbsp;&nbsp; [Tmux Plugins](/0112_Tools_Remote_tmux_plugins)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux :bookmark:plugins
 - 2019-08-27&nbsp;&nbsp; [PAM - Pluggable Authentication Module](/0065_Security_PAM)&nbsp;&nbsp; :bookmark:Security :bookmark:PAM
+- 2019-08-27&nbsp;&nbsp; [Tmux Plugins](/0112_Tools_Remote_tmux_plugins)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux :bookmark:plugins
 - 2019-08-27&nbsp;&nbsp; [Arch](/0111_Tools_Remote_tmux_Arch)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux :bookmark:Arch
-- 2019-08-22&nbsp;&nbsp; [sed 文件流编辑器](/0027_Tools_Text_sed)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:sed
 - 2019-08-22&nbsp;&nbsp; [tr](/0026_Tools_Text_tr)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:tr
+- 2019-08-22&nbsp;&nbsp; [sed 文件流编辑器](/0027_Tools_Text_sed)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:sed
 - 2019-08-14&nbsp;&nbsp; [thinclient_drives cannot access](/0092_Ubuntu_Issues_thinclientdrives)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:thinclientdrives
 - 2019-08-09&nbsp;&nbsp; [magnetW 磁力下载工具](/0055_Ubuntu_Download_magnetW)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download :bookmark:magnetW
 - 2019-08-06&nbsp;&nbsp; [grep 文本过滤工具](/0025_Tools_Text_grep)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:grep
