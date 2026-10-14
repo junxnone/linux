@@ -1,6 +1,6 @@
 - [Linux](/0001_Linux)
   - [VNC System](/0105_Linux_VNC)
-  - [bashrc](/0102_Linux_bashrc)
+  - [Linux bashrc](/0102_Linux_bashrc)
   - [Yocto](/0084_Linux_Yocto)
     - [设置静态IP](/0085_Linux_Yocto_SetStaticIP)
   - [IPC](/0086_Linux_IPC)
@@ -137,4 +137,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@2330341013</sub></kbd>
+<kbd><sub>@0934411014</sub></kbd>

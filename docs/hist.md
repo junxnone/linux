@@ -113,7 +113,7 @@
 - 2019-03-01&nbsp;&nbsp; [ulimit 多用户 资源限制工具](/0041_Tools_OS_ulimit)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:ulimit
 - 2019-02-28&nbsp;&nbsp; [json](/0042_Tools_Text_json)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:json
 - 2019-02-20&nbsp;&nbsp; [Hardware Information  查看工具](/0068_Tools_OS_HardwareInfo)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:HardwareInfo
-- 2019-02-19&nbsp;&nbsp; [bashrc](/0102_Linux_bashrc)&nbsp;&nbsp; :bookmark:Linux :bookmark:bashrc
+- 2019-02-19&nbsp;&nbsp; [Linux bashrc](/0102_Linux_bashrc)&nbsp;&nbsp; :bookmark:Linux :bookmark:bashrc
 - 2019-02-19&nbsp;&nbsp; [添加账户 adduser vs useradd](/0069_Tools_OS_adduser)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:adduser
 - 2019-01-29&nbsp;&nbsp; [netdata web资源监控工具](/0108_Tools_OS_netdata)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:netdata
 - 2019-01-15&nbsp;&nbsp; [history 命令行历史管理](/0049_Tools_history)&nbsp;&nbsp; :bookmark:Tools :bookmark:history
