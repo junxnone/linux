@@ -2,7 +2,7 @@
 Title | Tools Networks Proxy
 -- | --
 Created @ | `2021-11-15T19:15:17Z`
-Updated @| `2026-11-26T08:41:58Z`
+Updated @| `2026-11-26T10:27:57Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/80)
 
@@ -142,10 +142,10 @@ Name | Description
 -- | --
 [shadowsocks](0067_Tools_Networks_Proxy_shadowsocks) | 基于 SOCKS5 的加密代理，轻量，有 Python 版和 libev 版；本地端是 SOCKS5，服务端是加密中继
 [V2Ray](0066_Tools_Networks_Proxy_V2Ray) | 支持多种协议（VMess、Shadowsocks、SOCKS、HTTP 等）和灵活的路由规则，可按域名或 IP 分流；社区维护版本为 v2fly，另有 Xray 等分支
-dev-sidecar [[gitee](https://gitee.com/docmirror/dev-sidecar)] [[github](https://github.com/docmirror/dev-sidecar)] | 面向开发者的本地加速工具，通过本地代理和 DNS/hosts 优化改善 GitHub 等开发资源的访问；HTTPS 加速依赖安装它生成的根证书，使用前应了解其对 HTTPS 流量的影响
-Squid | 经典的 HTTP 缓存/正向代理服务，企业内网里常见，可做认证、缓存和访问控制
+[dev-sidecar](0138_Tools_Networks_Proxy_dev_sidecar) [[github](https://github.com/docmirror/dev-sidecar)] | 面向开发者的本地加速工具，通过本地代理和 DNS/hosts 优化改善 GitHub 等开发资源的访问；HTTPS 加速依赖安装它生成的根证书，使用前应了解其对 HTTPS 流量的影响
+[Squid](0141_Tools_Networks_Proxy_Squid) | 经典的 HTTP 缓存/正向代理服务，企业内网里常见，可做认证、缓存和访问控制
 Nginx | 常用作反向代理和负载均衡；配合模块也可做简单的正向代理
-proxychains-ng | 命令行强制应用走代理的工具，见上文
+[proxychains-ng](0140_Tools_Networks_Proxy_proxychains) | 命令行强制应用走代理的工具，见上文
 
 表中第一列是软件名，第二列是它的定位和特点。选择建议：只想让命令行工具通过公司代理出网，不需要装任何代理软件，配置环境变量、apt、git、docker 即可；需要自己搭中继并按规则分流时再选 shadowsocks 或 V2Ray。
 
@@ -164,6 +164,26 @@ proxychains-ng | 命令行强制应用走代理的工具，见上文
 - 代理的认证信息和订阅/节点配置属于敏感信息，不要写进脚本或提交到公开仓库。
 - 经过第三方代理的明文流量对代理是可见的，敏感数据应使用 HTTPS 等加密协议。
 
+## 系列文章
+
+**协议与组成部分**
+
+- 总览：[Protocol](0182_Tools_Networks_Proxy_Protocol)、[Transport](0181_Tools_Networks_Proxy_Transport)、[Comparison](0180_Tools_Networks_Proxy_Comparison)
+- 代理协议：[VMess](0142_Tools_Networks_Proxy_Protocol_VMess)、[VLESS](0143_Tools_Networks_Proxy_Protocol_VLESS)、[Shadowsocks](0144_Tools_Networks_Proxy_Protocol_Shadowsocks)、[Trojan](0145_Tools_Networks_Proxy_Protocol_Trojan)、[Socks](0146_Tools_Networks_Proxy_Protocol_Socks)、[HTTP](0147_Tools_Networks_Proxy_Protocol_HTTP)、[MTProto](0148_Tools_Networks_Proxy_Protocol_MTProto)、[WireGuard](0152_Tools_Networks_Proxy_Protocol_WireGuard)
+- 内置处理器：[Freedom](0149_Tools_Networks_Proxy_Protocol_Freedom)、[Blackhole](0150_Tools_Networks_Proxy_Protocol_Blackhole)、[DokodemoDoor](0151_Tools_Networks_Proxy_Protocol_DokodemoDoor)、[Loopback](0153_Tools_Networks_Proxy_Protocol_Loopback)
+- 传输：[TCP](0154_Tools_Networks_Proxy_Transport_TCP)、[WebSocket](0155_Tools_Networks_Proxy_Transport_WebSocket)、[HTTP2](0156_Tools_Networks_Proxy_Transport_HTTP2)、[gRPC](0157_Tools_Networks_Proxy_Transport_gRPC)、[mKCP](0158_Tools_Networks_Proxy_Transport_mKCP)、[QUIC](0159_Tools_Networks_Proxy_Transport_QUIC)、[DomainSocket](0160_Tools_Networks_Proxy_Transport_DomainSocket)
+- 安全层：[TLS](0161_Tools_Networks_Proxy_Security_TLS)、[XTLS](0162_Tools_Networks_Proxy_Security_XTLS)、[Reality](0163_Tools_Networks_Proxy_Security_Reality)
+
+**V2Ray 功能模块与部署**
+
+- 功能模块：[Routing](0164_Tools_Networks_Proxy_V2Ray_Routing)、[DNS](0165_Tools_Networks_Proxy_V2Ray_DNS)、[Sniffing](0166_Tools_Networks_Proxy_V2Ray_Sniffing)、[Mux](0167_Tools_Networks_Proxy_V2Ray_Mux)、[Policy](0168_Tools_Networks_Proxy_V2Ray_Policy)、[API](0169_Tools_Networks_Proxy_V2Ray_API)
+- 部署与使用：[Transparent](0170_Tools_Networks_Proxy_V2Ray_Transparent)、[Systemd](0171_Tools_Networks_Proxy_V2Ray_Systemd)、[Nginx](0172_Tools_Networks_Proxy_V2Ray_Nginx)、[Client](0173_Tools_Networks_Proxy_V2Ray_Client)、[Troubleshooting](0174_Tools_Networks_Proxy_V2Ray_Troubleshooting)
+
+**工具**
+
+- [shadowsocks](0067_Tools_Networks_Proxy_shadowsocks)、[V2Ray](0066_Tools_Networks_Proxy_V2Ray)、[Xray](0175_Tools_Networks_Proxy_Xray)、[sing-box](0176_Tools_Networks_Proxy_sing_box)、[Clash](0177_Tools_Networks_Proxy_Clash)、[Hysteria](0178_Tools_Networks_Proxy_Hysteria)、[TUIC](0179_Tools_Networks_Proxy_TUIC)
+- [Privoxy](0139_Tools_Networks_Proxy_Privoxy)、[proxychains](0140_Tools_Networks_Proxy_proxychains)、[Squid](0141_Tools_Networks_Proxy_Squid)、[dev-sidecar](0138_Tools_Networks_Proxy_dev_sidecar)
+
 ## Reference
 
 - [dev-sidecar - gitee](https://gitee.com/docmirror/dev-sidecar)
@@ -176,4 +196,5 @@ proxychains-ng | 命令行强制应用走代理的工具，见上文
 - [Git - http.proxy](https://git-scm.com/docs/git-config#Documentation/git-config.txt-httpproxy)
 - [proxychains-ng - Github](https://github.com/rofl0r/proxychains-ng)
 - [Squid](http://www.squid-cache.org/)
+
 
