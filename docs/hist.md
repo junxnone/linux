@@ -4,368 +4,368 @@
 
 #### **Created**
 
-- 2026-11-26&nbsp;&nbsp; [Protocol](/0182_Tools_Networks_Proxy_Protocol)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol
-- 2026-11-26&nbsp;&nbsp; [Transport](/0181_Tools_Networks_Proxy_Transport)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport
-- 2026-11-26&nbsp;&nbsp; [Comparison](/0180_Tools_Networks_Proxy_Comparison)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Comparison
-- 2026-11-26&nbsp;&nbsp; [TUIC](/0179_Tools_Networks_Proxy_TUIC)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:TUIC
-- 2026-11-26&nbsp;&nbsp; [Hysteria](/0178_Tools_Networks_Proxy_Hysteria)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Hysteria
-- 2026-11-26&nbsp;&nbsp; [Clash](/0177_Tools_Networks_Proxy_Clash)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Clash
-- 2026-11-26&nbsp;&nbsp; [sing-box](/0176_Tools_Networks_Proxy_sing_box)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:sing :bookmark:box
-- 2026-11-26&nbsp;&nbsp; [Xray](/0175_Tools_Networks_Proxy_Xray)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Xray
-- 2026-11-26&nbsp;&nbsp; [Troubleshooting](/0174_Tools_Networks_Proxy_V2Ray_Troubleshooting)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Troubleshooting
-- 2026-11-26&nbsp;&nbsp; [Client](/0173_Tools_Networks_Proxy_V2Ray_Client)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Client
-- 2026-11-26&nbsp;&nbsp; [Nginx](/0172_Tools_Networks_Proxy_V2Ray_Nginx)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Nginx
-- 2026-11-26&nbsp;&nbsp; [Systemd](/0171_Tools_Networks_Proxy_V2Ray_Systemd)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Systemd
-- 2026-11-26&nbsp;&nbsp; [Transparent](/0170_Tools_Networks_Proxy_V2Ray_Transparent)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Transparent
-- 2026-11-26&nbsp;&nbsp; [API](/0169_Tools_Networks_Proxy_V2Ray_API)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:API
-- 2026-11-26&nbsp;&nbsp; [Policy](/0168_Tools_Networks_Proxy_V2Ray_Policy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Policy
-- 2026-11-26&nbsp;&nbsp; [Mux](/0167_Tools_Networks_Proxy_V2Ray_Mux)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Mux
-- 2026-11-26&nbsp;&nbsp; [Sniffing](/0166_Tools_Networks_Proxy_V2Ray_Sniffing)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Sniffing
-- 2026-11-26&nbsp;&nbsp; [DNS](/0165_Tools_Networks_Proxy_V2Ray_DNS)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:DNS
-- 2026-11-26&nbsp;&nbsp; [Routing](/0164_Tools_Networks_Proxy_V2Ray_Routing)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Routing
-- 2026-11-26&nbsp;&nbsp; [Reality](/0163_Tools_Networks_Proxy_Security_Reality)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Security :bookmark:Reality
-- 2026-11-26&nbsp;&nbsp; [XTLS](/0162_Tools_Networks_Proxy_Security_XTLS)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Security :bookmark:XTLS
-- 2026-11-26&nbsp;&nbsp; [TLS](/0161_Tools_Networks_Proxy_Security_TLS)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Security :bookmark:TLS
-- 2026-11-26&nbsp;&nbsp; [DomainSocket](/0160_Tools_Networks_Proxy_Transport_DomainSocket)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:DomainSocket
-- 2026-11-26&nbsp;&nbsp; [QUIC](/0159_Tools_Networks_Proxy_Transport_QUIC)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:QUIC
-- 2026-11-26&nbsp;&nbsp; [mKCP](/0158_Tools_Networks_Proxy_Transport_mKCP)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:mKCP
-- 2026-11-26&nbsp;&nbsp; [gRPC](/0157_Tools_Networks_Proxy_Transport_gRPC)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:gRPC
-- 2026-11-26&nbsp;&nbsp; [HTTP2](/0156_Tools_Networks_Proxy_Transport_HTTP2)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:HTTP2
-- 2026-11-26&nbsp;&nbsp; [WebSocket](/0155_Tools_Networks_Proxy_Transport_WebSocket)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:WebSocket
-- 2026-11-26&nbsp;&nbsp; [TCP](/0154_Tools_Networks_Proxy_Transport_TCP)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:TCP
-- 2026-11-26&nbsp;&nbsp; [Loopback](/0153_Tools_Networks_Proxy_Protocol_Loopback)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Loopback
-- 2026-11-26&nbsp;&nbsp; [WireGuard](/0152_Tools_Networks_Proxy_Protocol_WireGuard)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:WireGuard
-- 2026-11-26&nbsp;&nbsp; [DokodemoDoor](/0151_Tools_Networks_Proxy_Protocol_DokodemoDoor)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:DokodemoDoor
-- 2026-11-26&nbsp;&nbsp; [Blackhole](/0150_Tools_Networks_Proxy_Protocol_Blackhole)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Blackhole
-- 2026-11-26&nbsp;&nbsp; [Freedom](/0149_Tools_Networks_Proxy_Protocol_Freedom)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Freedom
-- 2026-11-26&nbsp;&nbsp; [MTProto](/0148_Tools_Networks_Proxy_Protocol_MTProto)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:MTProto
-- 2026-11-26&nbsp;&nbsp; [HTTP](/0147_Tools_Networks_Proxy_Protocol_HTTP)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:HTTP
-- 2026-11-26&nbsp;&nbsp; [Socks](/0146_Tools_Networks_Proxy_Protocol_Socks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Socks
-- 2026-11-26&nbsp;&nbsp; [Trojan](/0145_Tools_Networks_Proxy_Protocol_Trojan)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Trojan
-- 2026-11-26&nbsp;&nbsp; [Shadowsocks](/0144_Tools_Networks_Proxy_Protocol_Shadowsocks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Shadowsocks
-- 2026-11-26&nbsp;&nbsp; [VLESS](/0143_Tools_Networks_Proxy_Protocol_VLESS)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:VLESS
-- 2026-11-26&nbsp;&nbsp; [VMess](/0142_Tools_Networks_Proxy_Protocol_VMess)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:VMess
-- 2026-11-26&nbsp;&nbsp; [Squid](/0141_Tools_Networks_Proxy_Squid)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Squid
-- 2026-11-26&nbsp;&nbsp; [proxychains](/0140_Tools_Networks_Proxy_proxychains)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:proxychains
-- 2026-11-26&nbsp;&nbsp; [Privoxy](/0139_Tools_Networks_Proxy_Privoxy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Privoxy
-- 2026-11-26&nbsp;&nbsp; [dev-sidecar](/0138_Tools_Networks_Proxy_dev_sidecar)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:dev :bookmark:sidecar
-- 2026-10-13&nbsp;&nbsp; [ncdu](/0137_Tools_OS_Disk_ncdu)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Disk :bookmark:ncdu
-- 2024-10-23&nbsp;&nbsp; [Linux Logs](/0136_Logs)&nbsp;&nbsp; :bookmark:Logs
-- 2024-09-25&nbsp;&nbsp; [Shell 快捷键](/0135_Tools_Shell_hotkey)&nbsp;&nbsp; :bookmark:Tools :bookmark:Shell :bookmark:hotkey
-- 2024-09-25&nbsp;&nbsp; [Shell](/0134_Tools_Shell)&nbsp;&nbsp; :bookmark:Tools :bookmark:Shell
-- 2024-09-23&nbsp;&nbsp; [端口占用](/0133_Tools_OS_Port)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Port
-- 2024-08-27&nbsp;&nbsp; [Linux 系统过载 无法通过 ssh 连接](/0132_Ubuntu_Issues_sshd)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:sshd
-- 2024-08-12&nbsp;&nbsp; [LVM](/0131_Linux_LVM)&nbsp;&nbsp; :bookmark:Linux :bookmark:LVM
-- 2024-06-21&nbsp;&nbsp; [RoadMap](/0130_Linux_RoadMap)&nbsp;&nbsp; :bookmark:Linux :bookmark:RoadMap
-- 2024-03-13&nbsp;&nbsp; [Benchmark Tools](/0129_Tools_Benchmark)&nbsp;&nbsp; :bookmark:Tools :bookmark:Benchmark
-- 2024-03-12&nbsp;&nbsp; [7z](/0128_Tools_File_Archiver_7z)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:Archiver :bookmark:7z
-- 2023-12-05&nbsp;&nbsp; [log 相关工具](/0127_Tools_OS_log)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:log
-- 2023-11-06&nbsp;&nbsp; [Terminal 按 tab 键卡死一段时间](/0126_Ubuntu_Issues_tabdelay)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:tabdelay
-- 2023-10-26&nbsp;&nbsp; [Memory 监测工具](/0125_Tools_OS_Memory)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Memory
-- 2023-09-04&nbsp;&nbsp; [ldd](/0124_Tools_ldd)&nbsp;&nbsp; :bookmark:Tools :bookmark:ldd
-- 2023-06-17&nbsp;&nbsp; [Linux Security](/0123_Security)&nbsp;&nbsp; :bookmark:Security
-- 2023-06-17&nbsp;&nbsp; [OS Tools](/0122_Tools_OS)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS
-- 2023-06-17&nbsp;&nbsp; [Ubuntu Issues](/0121_Ubuntu_Issues)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues
-- 2023-06-16&nbsp;&nbsp; [Ubuntu](/0120_Ubuntu)&nbsp;&nbsp; :bookmark:Ubuntu
-- 2023-06-09&nbsp;&nbsp; [APT Source](/0119_Ubuntu_APT_Source)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:APT :bookmark:Source
-- 2023-06-09&nbsp;&nbsp; [GNOME](/0118_Desktop_GNOME)&nbsp;&nbsp; :bookmark:Desktop :bookmark:GNOME
-- 2023-06-08&nbsp;&nbsp; [KDE](/0117_Desktop_KDE)&nbsp;&nbsp; :bookmark:Desktop :bookmark:KDE
-- 2023-03-24&nbsp;&nbsp; [write](/0116_Tools_OS_write)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:write
-- 2023-03-24&nbsp;&nbsp; [wall](/0115_Tools_OS_wall)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:wall
-- 2023-03-20&nbsp;&nbsp; [设置默认 Kernel](/0114_Ubuntu_SetDefaultKernel)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:SetDefaultKernel
-- 2022-12-21&nbsp;&nbsp; [文本编辑](/0078_Tools_Text)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text
-- 2022-12-21&nbsp;&nbsp; [文件管理](/0077_Tools_File)&nbsp;&nbsp; :bookmark:Tools :bookmark:File
-- 2022-12-21&nbsp;&nbsp; [多媒体工具](/0076_Tools_Media)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media
-- 2022-12-21&nbsp;&nbsp; [远程管理工具](/0075_Tools_Remote)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote
-- 2022-08-23&nbsp;&nbsp; [Networks](/0060_Tools_Networks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks
-- 2022-08-23&nbsp;&nbsp; [ffmpeg 多媒体工具](/0002_Tools_Media_ffmpeg)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:ffmpeg
-- 2022-08-17&nbsp;&nbsp; [增加 Swap 分区](/0083_Ubuntu_IncreaseSwap)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:IncreaseSwap
-- 2022-05-24&nbsp;&nbsp; [NVIDIA GPU Driver 问题](/0110_Ubuntu_Issues_NVIDIAGPUDriver)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:NVIDIAGPUDriver
-- 2022-05-02&nbsp;&nbsp; [Linux](/0001_Linux)&nbsp;&nbsp; :bookmark:Linux
-- 2022-02-22&nbsp;&nbsp; [ctags](/0003_Tools_ctags)&nbsp;&nbsp; :bookmark:Tools :bookmark:ctags
-- 2021-12-30&nbsp;&nbsp; [meld 文件对比工具](/0004_Tools_TextCompare_meld)&nbsp;&nbsp; :bookmark:Tools :bookmark:TextCompare :bookmark:meld
-- 2021-11-15&nbsp;&nbsp; [Proxy](/0080_Tools_Networks_Proxy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy
-- 2021-11-09&nbsp;&nbsp; [Driver](/0005_Driver)&nbsp;&nbsp; :bookmark:Driver
-- 2021-11-04&nbsp;&nbsp; [script 记录终端执行命令历史](/0006_Tools_script)&nbsp;&nbsp; :bookmark:Tools :bookmark:script
-- 2021-10-26&nbsp;&nbsp; [VNC System](/0105_Linux_VNC)&nbsp;&nbsp; :bookmark:Linux :bookmark:VNC
-- 2021-10-23&nbsp;&nbsp; [cal 日历小工具](/0007_Tools_cal)&nbsp;&nbsp; :bookmark:Tools :bookmark:cal
-- 2021-10-21&nbsp;&nbsp; [xset](/0008_Tools_OS_xset)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:xset
-- 2021-10-19&nbsp;&nbsp; [Yocto](/0084_Linux_Yocto)&nbsp;&nbsp; :bookmark:Linux :bookmark:Yocto
-- 2021-10-18&nbsp;&nbsp; [top](/0009_Tools_Process_top)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process :bookmark:top
-- 2021-10-13&nbsp;&nbsp; [scp](/0010_Tools_Remote_scp)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:scp
-- 2021-10-11&nbsp;&nbsp; [ssh 远程管理工具](/0011_Tools_Remote_ssh)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:ssh
-- 2021-10-09&nbsp;&nbsp; [chrt 管理进程属性](/0012_Tools_chrt)&nbsp;&nbsp; :bookmark:Tools :bookmark:chrt
-- 2021-09-22&nbsp;&nbsp; [Unix History](/0113_Linux_History)&nbsp;&nbsp; :bookmark:Linux :bookmark:History
-- 2021-09-19&nbsp;&nbsp; [Linux Kernel](/0013_Linux_Kernel)&nbsp;&nbsp; :bookmark:Linux :bookmark:Kernel
-- 2021-03-04&nbsp;&nbsp; [查看端口](/0056_Tools_Networks_Port)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Port
-- 2021-03-02&nbsp;&nbsp; [Ubuntu Install Steam](/0063_Ubuntu_InstallSteam)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:InstallSteam
-- 2021-01-19&nbsp;&nbsp; [Semaphore](/0088_Linux_IPC_Semaphore)&nbsp;&nbsp; :bookmark:Linux :bookmark:IPC :bookmark:Semaphore
-- 2021-01-19&nbsp;&nbsp; [POSIX VS SystemV](/0082_Linux_POSIX与SystemV)&nbsp;&nbsp; :bookmark:Linux :bookmark:POSIX与SystemV
-- 2021-01-13&nbsp;&nbsp; [Linux Desktop](/0057_Desktop)&nbsp;&nbsp; :bookmark:Desktop
-- 2021-01-12&nbsp;&nbsp; [Tools](/0087_Linux_IPC_SharedMemory)&nbsp;&nbsp; :bookmark:Linux :bookmark:IPC :bookmark:SharedMemory
-- 2021-01-12&nbsp;&nbsp; [IPC](/0086_Linux_IPC)&nbsp;&nbsp; :bookmark:Linux :bookmark:IPC
-- 2021-01-06&nbsp;&nbsp; [Ubuntu Remote Desktop](/0058_Ubuntu_RemoteDesktop)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:RemoteDesktop
-- 2020-12-18&nbsp;&nbsp; [网络性能测试工具](/0106_Tools_Networks_PerformanceTools)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:PerformanceTools
-- 2020-10-09&nbsp;&nbsp; [snap 软件管理工具](/0021_Tools_OS_snap)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:snap
-- 2020-06-24&nbsp;&nbsp; [压缩解压](/0020_Tools_File_Archiver)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:Archiver
-- 2020-06-15&nbsp;&nbsp; [kill 停止进程](/0019_Tools_Process_kill)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process :bookmark:kill
-- 2020-06-06&nbsp;&nbsp; [aria2](/0091_Ubuntu_Download_aria2)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download :bookmark:aria2
-- 2020-06-06&nbsp;&nbsp; [Vi 用例](/0018_Tools_Text_Vi_UseCase)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:Vi :bookmark:UseCase
-- 2020-06-06&nbsp;&nbsp; [Vi 常用插件](/0017_Tools_Text_Vi_Plugins)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:Vi :bookmark:Plugins
-- 2020-06-03&nbsp;&nbsp; [updatealternatives 多版本软件管理工具](/0016_Tools_OS_updatealternatives)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:updatealternatives
-- 2020-06-03&nbsp;&nbsp; [APT Ubuntu 包管理工具](/0015_Ubuntu_APT)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:APT
-- 2020-05-14&nbsp;&nbsp; [Download](/0014_Ubuntu_Download)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download
-- 2020-04-22&nbsp;&nbsp; [开机相关信息](/0061_Tools_OS_ShowBootInfo)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:ShowBootInfo
-- 2020-04-13&nbsp;&nbsp; [命令行下载 Google Drive 文件](/0109_Ubuntu_Download_GoogleDriveFilesCMD)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download :bookmark:GoogleDriveFilesCMD
-- 2020-04-04&nbsp;&nbsp; [图像转字符串工具](/0036_Tools_Media_image2string)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:image2string
-- 2020-04-04&nbsp;&nbsp; [tree 优雅地列出文件树](/0035_Tools_File_tree)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:tree
-- 2020-03-20&nbsp;&nbsp; [taskset 设定程序运行在的CPU](/0034_Tools_Process_taskset)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process :bookmark:taskset
-- 2020-03-08&nbsp;&nbsp; [ln 文件链接工具](/0033_Tools_File_ln)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:ln
-- 2020-02-01&nbsp;&nbsp; [文件系统格式](/0081_FileSystem_Format)&nbsp;&nbsp; :bookmark:FileSystem :bookmark:Format
-- 2019-12-27&nbsp;&nbsp; [进程管理工具](/0032_Tools_Process)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process
-- 2019-11-20&nbsp;&nbsp; [网络工具 nmap](/0062_Tools_nmap)&nbsp;&nbsp; :bookmark:Tools :bookmark:nmap
-- 2019-10-25&nbsp;&nbsp; [sort 排序工具](/0031_Tools_Text_sort)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:sort
-- 2019-10-14&nbsp;&nbsp; [File System](/0064_FileSystem)&nbsp;&nbsp; :bookmark:FileSystem
-- 2019-10-12&nbsp;&nbsp; [bc 浮点计算工具](/0030_Tools_bc)&nbsp;&nbsp; :bookmark:Tools :bookmark:bc
-- 2019-10-12&nbsp;&nbsp; [syncthing](/0029_Tools_Remote_syncthing)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:syncthing
-- 2019-09-23&nbsp;&nbsp; [Install Goolge Pinyin](/0090_Ubuntu_InstallGooglePinyin)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:InstallGooglePinyin
-- 2019-09-18&nbsp;&nbsp; [shuf 随机选取工具](/0028_Tools_shuf)&nbsp;&nbsp; :bookmark:Tools :bookmark:shuf
-- 2019-09-04&nbsp;&nbsp; [Ubuntu OS Version Upgrade](/0089_Ubuntu_Upgrade)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Upgrade
-- 2019-08-27&nbsp;&nbsp; [Tmux Plugins](/0112_Tools_Remote_tmux_plugins)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux :bookmark:plugins
-- 2019-08-27&nbsp;&nbsp; [Arch](/0111_Tools_Remote_tmux_Arch)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux :bookmark:Arch
-- 2019-08-27&nbsp;&nbsp; [PAM - Pluggable Authentication Module](/0065_Security_PAM)&nbsp;&nbsp; :bookmark:Security :bookmark:PAM
-- 2019-08-22&nbsp;&nbsp; [sed 文件流编辑器](/0027_Tools_Text_sed)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:sed
-- 2019-08-22&nbsp;&nbsp; [tr](/0026_Tools_Text_tr)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:tr
-- 2019-08-14&nbsp;&nbsp; [thinclient_drives cannot access](/0092_Ubuntu_Issues_thinclientdrives)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:thinclientdrives
-- 2019-08-09&nbsp;&nbsp; [magnetW 磁力下载工具](/0055_Ubuntu_Download_magnetW)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download :bookmark:magnetW
-- 2019-08-06&nbsp;&nbsp; [grep 文本过滤工具](/0025_Tools_Text_grep)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:grep
-- 2019-08-01&nbsp;&nbsp; [date - 时间管理工具](/0024_Tools_date)&nbsp;&nbsp; :bookmark:Tools :bookmark:date
-- 2019-07-25&nbsp;&nbsp; [ls](/0023_Tools_File_ls)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:ls
-- 2019-07-12&nbsp;&nbsp; [xargs](/0022_Tools_xargs)&nbsp;&nbsp; :bookmark:Tools :bookmark:xargs
-- 2019-07-11&nbsp;&nbsp; [rsync](/0044_Tools_Remote_rsync)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:rsync
-- 2019-07-10&nbsp;&nbsp; [SSH 连接不稳定](/0100_Tools_Remote_ssh_WorkUnStable)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:ssh :bookmark:WorkUnStable
-- 2019-07-03&nbsp;&nbsp; [V2Ray](/0066_Tools_Networks_Proxy_V2Ray)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray
-- 2019-07-02&nbsp;&nbsp; [find](/0043_Tools_File_find)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:find
-- 2019-06-29&nbsp;&nbsp; [ShadowSocks](/0067_Tools_Networks_Proxy_shadowsocks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:shadowsocks
-- 2019-06-12&nbsp;&nbsp; [samba](/0046_Tools_Remote_Samba)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:Samba
-- 2019-05-27&nbsp;&nbsp; [iostat IO性能监控](/0045_Tools_OS_iostat)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:iostat
-- 2019-05-09&nbsp;&nbsp; [sar](/0048_Tools_Networks_sar)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:sar
-- 2019-05-07&nbsp;&nbsp; [jobs](/0047_Tools_TaskSchedule_jobs)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:jobs
-- 2019-04-30&nbsp;&nbsp; [硬盘大于 2TB](/0099_Ubuntu_Issues_DiskLargerThan2TB)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:DiskLargerThan2TB
-- 2019-04-21&nbsp;&nbsp; [前置耳机不工作](/0101_Ubuntu_Issues_FrontHeadPhoneNotWorking)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:FrontHeadPhoneNotWorking
-- 2019-04-12&nbsp;&nbsp; [Linux Tools](/0059_Tools)&nbsp;&nbsp; :bookmark:Tools
-- 2019-03-10&nbsp;&nbsp; [任务管理工具](/0040_Tools_TaskSchedule)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule
-- 2019-03-10&nbsp;&nbsp; [batch 基于 at 任务管理工具](/0038_Tools_TaskSchedule_batch)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:batch
-- 2019-03-10&nbsp;&nbsp; [at 定时任务管理工具](/0037_Tools_TaskSchedule_at)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:at
-- 2019-03-07&nbsp;&nbsp; [Vi](/0039_Tools_Text_Vi)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:Vi
-- 2019-03-05&nbsp;&nbsp; [watch](/0098_Tools_OS_watch)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:watch
-- 2019-03-01&nbsp;&nbsp; [ulimit 多用户 资源限制工具](/0041_Tools_OS_ulimit)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:ulimit
-- 2019-02-28&nbsp;&nbsp; [json](/0042_Tools_Text_json)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:json
-- 2019-02-20&nbsp;&nbsp; [Hardware Information  查看工具](/0068_Tools_OS_HardwareInfo)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:HardwareInfo
-- 2019-02-19&nbsp;&nbsp; [Linux bashrc](/0102_Linux_bashrc)&nbsp;&nbsp; :bookmark:Linux :bookmark:bashrc
-- 2019-02-19&nbsp;&nbsp; [添加账户 adduser vs useradd](/0069_Tools_OS_adduser)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:adduser
-- 2019-01-29&nbsp;&nbsp; [netdata web资源监控工具](/0108_Tools_OS_netdata)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:netdata
-- 2019-01-15&nbsp;&nbsp; [history 命令行历史管理](/0049_Tools_history)&nbsp;&nbsp; :bookmark:Tools :bookmark:history
-- 2019-01-14&nbsp;&nbsp; [VNC Tools](/0103_Tools_Remote_vncserver)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:vncserver
-- 2018-12-14&nbsp;&nbsp; [rename](/0050_Tools_File_rename)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:rename
-- 2018-12-07&nbsp;&nbsp; [RTSP Server live555](/0070_Tools_Media_live555)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:live555
-- 2018-12-02&nbsp;&nbsp; [开机自动挂载硬盘](/0097_Ubuntu_AutoMountDisk)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:AutoMountDisk
-- 2018-12-01&nbsp;&nbsp; [添加用户](/0104_Ubuntu_UserAdd)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:UserAdd
-- 2018-12-01&nbsp;&nbsp; [USB 耳机没声音](/0096_Ubuntu_Issues_USBHeadphoneNoSound)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:USBHeadphoneNoSound
-- 2018-11-30&nbsp;&nbsp; [Server Install Desktop](/0094_Ubuntu_InstallDesktop)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:InstallDesktop
-- 2018-11-29&nbsp;&nbsp; [CentOS 安装桌面](/0107_Desktop_CentOS)&nbsp;&nbsp; :bookmark:Desktop :bookmark:CentOS
-- 2018-11-29&nbsp;&nbsp; [awk](/0052_Tools_Text_awk)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:awk
-- 2018-11-29&nbsp;&nbsp; [tmux](/0051_Tools_Remote_tmux)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux
-- 2018-11-23&nbsp;&nbsp; [Task 管理工具 crontab](/0071_Tools_TaskSchedule_crontab)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:crontab
-- 2018-11-22&nbsp;&nbsp; [hostname 管理](/0072_Tools_OS_hostname)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:hostname
-- 2018-11-06&nbsp;&nbsp; [桌面不显示](/0095_Ubuntu_Issues_DesktopDisplay)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:DesktopDisplay
-- 2018-10-26&nbsp;&nbsp; [设置静态IP](/0085_Linux_Yocto_SetStaticIP)&nbsp;&nbsp; :bookmark:Linux :bookmark:Yocto :bookmark:SetStaticIP
-- 2018-10-17&nbsp;&nbsp; [文本对比工具](/0054_Tools_TextCompare)&nbsp;&nbsp; :bookmark:Tools :bookmark:TextCompare
-- 2018-10-16&nbsp;&nbsp; [MediaInfo](/0053_Tools_Media_mediainfo)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:mediainfo
-- 2018-10-09&nbsp;&nbsp; [忘记密码](/0093_Ubuntu_ForgetPassword)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:ForgetPassword
-- 2018-09-28&nbsp;&nbsp; [Kernel 升级管理](/0073_Tools_OS_KernelUpgrade)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:KernelUpgrade
+- 2026-11-26 18:27&nbsp;&nbsp; [Protocol](/0182_Tools_Networks_Proxy_Protocol)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol
+- 2026-11-26 18:26&nbsp;&nbsp; [Transport](/0181_Tools_Networks_Proxy_Transport)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport
+- 2026-11-26 18:25&nbsp;&nbsp; [Comparison](/0180_Tools_Networks_Proxy_Comparison)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Comparison
+- 2026-11-26 18:25&nbsp;&nbsp; [TUIC](/0179_Tools_Networks_Proxy_TUIC)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:TUIC
+- 2026-11-26 18:25&nbsp;&nbsp; [Hysteria](/0178_Tools_Networks_Proxy_Hysteria)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Hysteria
+- 2026-11-26 18:25&nbsp;&nbsp; [Clash](/0177_Tools_Networks_Proxy_Clash)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Clash
+- 2026-11-26 18:25&nbsp;&nbsp; [sing-box](/0176_Tools_Networks_Proxy_sing_box)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:sing :bookmark:box
+- 2026-11-26 18:25&nbsp;&nbsp; [Xray](/0175_Tools_Networks_Proxy_Xray)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Xray
+- 2026-11-26 18:22&nbsp;&nbsp; [Troubleshooting](/0174_Tools_Networks_Proxy_V2Ray_Troubleshooting)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Troubleshooting
+- 2026-11-26 18:22&nbsp;&nbsp; [Client](/0173_Tools_Networks_Proxy_V2Ray_Client)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Client
+- 2026-11-26 18:22&nbsp;&nbsp; [Nginx](/0172_Tools_Networks_Proxy_V2Ray_Nginx)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Nginx
+- 2026-11-26 18:22&nbsp;&nbsp; [Systemd](/0171_Tools_Networks_Proxy_V2Ray_Systemd)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Systemd
+- 2026-11-26 18:22&nbsp;&nbsp; [Transparent](/0170_Tools_Networks_Proxy_V2Ray_Transparent)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Transparent
+- 2026-11-26 18:20&nbsp;&nbsp; [API](/0169_Tools_Networks_Proxy_V2Ray_API)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:API
+- 2026-11-26 18:20&nbsp;&nbsp; [Policy](/0168_Tools_Networks_Proxy_V2Ray_Policy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Policy
+- 2026-11-26 18:20&nbsp;&nbsp; [Mux](/0167_Tools_Networks_Proxy_V2Ray_Mux)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Mux
+- 2026-11-26 18:19&nbsp;&nbsp; [Sniffing](/0166_Tools_Networks_Proxy_V2Ray_Sniffing)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Sniffing
+- 2026-11-26 18:19&nbsp;&nbsp; [DNS](/0165_Tools_Networks_Proxy_V2Ray_DNS)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:DNS
+- 2026-11-26 18:19&nbsp;&nbsp; [Routing](/0164_Tools_Networks_Proxy_V2Ray_Routing)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Routing
+- 2026-11-26 18:17&nbsp;&nbsp; [Reality](/0163_Tools_Networks_Proxy_Security_Reality)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Security :bookmark:Reality
+- 2026-11-26 18:17&nbsp;&nbsp; [XTLS](/0162_Tools_Networks_Proxy_Security_XTLS)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Security :bookmark:XTLS
+- 2026-11-26 18:17&nbsp;&nbsp; [TLS](/0161_Tools_Networks_Proxy_Security_TLS)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Security :bookmark:TLS
+- 2026-11-26 18:16&nbsp;&nbsp; [DomainSocket](/0160_Tools_Networks_Proxy_Transport_DomainSocket)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:DomainSocket
+- 2026-11-26 18:16&nbsp;&nbsp; [QUIC](/0159_Tools_Networks_Proxy_Transport_QUIC)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:QUIC
+- 2026-11-26 18:16&nbsp;&nbsp; [mKCP](/0158_Tools_Networks_Proxy_Transport_mKCP)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:mKCP
+- 2026-11-26 18:16&nbsp;&nbsp; [gRPC](/0157_Tools_Networks_Proxy_Transport_gRPC)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:gRPC
+- 2026-11-26 18:16&nbsp;&nbsp; [HTTP2](/0156_Tools_Networks_Proxy_Transport_HTTP2)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:HTTP2
+- 2026-11-26 18:16&nbsp;&nbsp; [WebSocket](/0155_Tools_Networks_Proxy_Transport_WebSocket)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:WebSocket
+- 2026-11-26 18:16&nbsp;&nbsp; [TCP](/0154_Tools_Networks_Proxy_Transport_TCP)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:TCP
+- 2026-11-26 18:13&nbsp;&nbsp; [Loopback](/0153_Tools_Networks_Proxy_Protocol_Loopback)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Loopback
+- 2026-11-26 18:13&nbsp;&nbsp; [WireGuard](/0152_Tools_Networks_Proxy_Protocol_WireGuard)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:WireGuard
+- 2026-11-26 18:13&nbsp;&nbsp; [DokodemoDoor](/0151_Tools_Networks_Proxy_Protocol_DokodemoDoor)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:DokodemoDoor
+- 2026-11-26 18:13&nbsp;&nbsp; [Blackhole](/0150_Tools_Networks_Proxy_Protocol_Blackhole)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Blackhole
+- 2026-11-26 18:13&nbsp;&nbsp; [Freedom](/0149_Tools_Networks_Proxy_Protocol_Freedom)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Freedom
+- 2026-11-26 18:13&nbsp;&nbsp; [MTProto](/0148_Tools_Networks_Proxy_Protocol_MTProto)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:MTProto
+- 2026-11-26 18:13&nbsp;&nbsp; [HTTP](/0147_Tools_Networks_Proxy_Protocol_HTTP)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:HTTP
+- 2026-11-26 18:13&nbsp;&nbsp; [Socks](/0146_Tools_Networks_Proxy_Protocol_Socks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Socks
+- 2026-11-26 18:10&nbsp;&nbsp; [Trojan](/0145_Tools_Networks_Proxy_Protocol_Trojan)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Trojan
+- 2026-11-26 18:10&nbsp;&nbsp; [Shadowsocks](/0144_Tools_Networks_Proxy_Protocol_Shadowsocks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Shadowsocks
+- 2026-11-26 18:10&nbsp;&nbsp; [VLESS](/0143_Tools_Networks_Proxy_Protocol_VLESS)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:VLESS
+- 2026-11-26 18:10&nbsp;&nbsp; [VMess](/0142_Tools_Networks_Proxy_Protocol_VMess)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:VMess
+- 2026-11-26 17:26&nbsp;&nbsp; [Squid](/0141_Tools_Networks_Proxy_Squid)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Squid
+- 2026-11-26 17:26&nbsp;&nbsp; [proxychains](/0140_Tools_Networks_Proxy_proxychains)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:proxychains
+- 2026-11-26 17:26&nbsp;&nbsp; [Privoxy](/0139_Tools_Networks_Proxy_Privoxy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Privoxy
+- 2026-11-26 17:26&nbsp;&nbsp; [dev-sidecar](/0138_Tools_Networks_Proxy_dev_sidecar)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:dev :bookmark:sidecar
+- 2026-10-13 15:45&nbsp;&nbsp; [ncdu](/0137_Tools_OS_Disk_ncdu)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Disk :bookmark:ncdu
+- 2024-10-23 16:03&nbsp;&nbsp; [Linux Logs](/0136_Logs)&nbsp;&nbsp; :bookmark:Logs
+- 2024-09-25 14:32&nbsp;&nbsp; [Shell 快捷键](/0135_Tools_Shell_hotkey)&nbsp;&nbsp; :bookmark:Tools :bookmark:Shell :bookmark:hotkey
+- 2024-09-25 11:24&nbsp;&nbsp; [Shell](/0134_Tools_Shell)&nbsp;&nbsp; :bookmark:Tools :bookmark:Shell
+- 2024-09-23 22:51&nbsp;&nbsp; [端口占用](/0133_Tools_OS_Port)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Port
+- 2024-08-27 16:07&nbsp;&nbsp; [Linux 系统过载 无法通过 ssh 连接](/0132_Ubuntu_Issues_sshd)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:sshd
+- 2024-08-12 08:45&nbsp;&nbsp; [LVM](/0131_Linux_LVM)&nbsp;&nbsp; :bookmark:Linux :bookmark:LVM
+- 2024-06-22 02:04&nbsp;&nbsp; [RoadMap](/0130_Linux_RoadMap)&nbsp;&nbsp; :bookmark:Linux :bookmark:RoadMap
+- 2024-03-13 10:14&nbsp;&nbsp; [Benchmark Tools](/0129_Tools_Benchmark)&nbsp;&nbsp; :bookmark:Tools :bookmark:Benchmark
+- 2024-03-12 23:42&nbsp;&nbsp; [7z](/0128_Tools_File_Archiver_7z)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:Archiver :bookmark:7z
+- 2023-12-05 11:05&nbsp;&nbsp; [log 相关工具](/0127_Tools_OS_log)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:log
+- 2023-11-06 10:30&nbsp;&nbsp; [Terminal 按 tab 键卡死一段时间](/0126_Ubuntu_Issues_tabdelay)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:tabdelay
+- 2023-10-26 10:45&nbsp;&nbsp; [Memory 监测工具](/0125_Tools_OS_Memory)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Memory
+- 2023-09-04 22:14&nbsp;&nbsp; [ldd](/0124_Tools_ldd)&nbsp;&nbsp; :bookmark:Tools :bookmark:ldd
+- 2023-06-18 00:24&nbsp;&nbsp; [Linux Security](/0123_Security)&nbsp;&nbsp; :bookmark:Security
+- 2023-06-18 00:22&nbsp;&nbsp; [OS Tools](/0122_Tools_OS)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS
+- 2023-06-18 00:21&nbsp;&nbsp; [Ubuntu Issues](/0121_Ubuntu_Issues)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues
+- 2023-06-16 08:15&nbsp;&nbsp; [Ubuntu](/0120_Ubuntu)&nbsp;&nbsp; :bookmark:Ubuntu
+- 2023-06-09 11:58&nbsp;&nbsp; [APT Source](/0119_Ubuntu_APT_Source)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:APT :bookmark:Source
+- 2023-06-09 11:19&nbsp;&nbsp; [GNOME](/0118_Desktop_GNOME)&nbsp;&nbsp; :bookmark:Desktop :bookmark:GNOME
+- 2023-06-08 23:06&nbsp;&nbsp; [KDE](/0117_Desktop_KDE)&nbsp;&nbsp; :bookmark:Desktop :bookmark:KDE
+- 2023-03-24 10:27&nbsp;&nbsp; [write](/0116_Tools_OS_write)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:write
+- 2023-03-24 10:19&nbsp;&nbsp; [wall](/0115_Tools_OS_wall)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:wall
+- 2023-03-20 17:21&nbsp;&nbsp; [设置默认 Kernel](/0114_Ubuntu_SetDefaultKernel)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:SetDefaultKernel
+- 2022-12-21 23:16&nbsp;&nbsp; [文本编辑](/0078_Tools_Text)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text
+- 2022-12-21 23:14&nbsp;&nbsp; [文件管理](/0077_Tools_File)&nbsp;&nbsp; :bookmark:Tools :bookmark:File
+- 2022-12-21 23:06&nbsp;&nbsp; [多媒体工具](/0076_Tools_Media)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media
+- 2022-12-21 23:01&nbsp;&nbsp; [远程管理工具](/0075_Tools_Remote)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote
+- 2022-08-23 11:45&nbsp;&nbsp; [Networks](/0060_Tools_Networks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks
+- 2022-08-23 11:37&nbsp;&nbsp; [ffmpeg 多媒体工具](/0002_Tools_Media_ffmpeg)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:ffmpeg
+- 2022-08-17 16:56&nbsp;&nbsp; [增加 Swap 分区](/0083_Ubuntu_IncreaseSwap)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:IncreaseSwap
+- 2022-05-24 10:51&nbsp;&nbsp; [NVIDIA GPU Driver 问题](/0110_Ubuntu_Issues_NVIDIAGPUDriver)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:NVIDIAGPUDriver
+- 2022-05-02 22:04&nbsp;&nbsp; [Linux](/0001_Linux)&nbsp;&nbsp; :bookmark:Linux
+- 2022-02-22 10:43&nbsp;&nbsp; [ctags](/0003_Tools_ctags)&nbsp;&nbsp; :bookmark:Tools :bookmark:ctags
+- 2021-12-30 10:51&nbsp;&nbsp; [meld 文件对比工具](/0004_Tools_TextCompare_meld)&nbsp;&nbsp; :bookmark:Tools :bookmark:TextCompare :bookmark:meld
+- 2021-11-16 03:15&nbsp;&nbsp; [Proxy](/0080_Tools_Networks_Proxy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy
+- 2021-11-09 21:32&nbsp;&nbsp; [Driver](/0005_Driver)&nbsp;&nbsp; :bookmark:Driver
+- 2021-11-04 16:32&nbsp;&nbsp; [script 记录终端执行命令历史](/0006_Tools_script)&nbsp;&nbsp; :bookmark:Tools :bookmark:script
+- 2021-10-26 17:06&nbsp;&nbsp; [VNC System](/0105_Linux_VNC)&nbsp;&nbsp; :bookmark:Linux :bookmark:VNC
+- 2021-10-23 19:01&nbsp;&nbsp; [cal 日历小工具](/0007_Tools_cal)&nbsp;&nbsp; :bookmark:Tools :bookmark:cal
+- 2021-10-21 16:02&nbsp;&nbsp; [xset](/0008_Tools_OS_xset)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:xset
+- 2021-10-19 23:46&nbsp;&nbsp; [Yocto](/0084_Linux_Yocto)&nbsp;&nbsp; :bookmark:Linux :bookmark:Yocto
+- 2021-10-18 10:45&nbsp;&nbsp; [top](/0009_Tools_Process_top)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process :bookmark:top
+- 2021-10-13 23:16&nbsp;&nbsp; [scp](/0010_Tools_Remote_scp)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:scp
+- 2021-10-11 11:46&nbsp;&nbsp; [ssh 远程管理工具](/0011_Tools_Remote_ssh)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:ssh
+- 2021-10-09 11:36&nbsp;&nbsp; [chrt 管理进程属性](/0012_Tools_chrt)&nbsp;&nbsp; :bookmark:Tools :bookmark:chrt
+- 2021-09-22 13:58&nbsp;&nbsp; [Unix History](/0113_Linux_History)&nbsp;&nbsp; :bookmark:Linux :bookmark:History
+- 2021-09-19 18:21&nbsp;&nbsp; [Linux Kernel](/0013_Linux_Kernel)&nbsp;&nbsp; :bookmark:Linux :bookmark:Kernel
+- 2021-03-04 11:10&nbsp;&nbsp; [查看端口](/0056_Tools_Networks_Port)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Port
+- 2021-03-02 20:27&nbsp;&nbsp; [Ubuntu Install Steam](/0063_Ubuntu_InstallSteam)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:InstallSteam
+- 2021-01-19 16:50&nbsp;&nbsp; [POSIX VS SystemV](/0082_Linux_POSIX与SystemV)&nbsp;&nbsp; :bookmark:Linux :bookmark:POSIX与SystemV
+- 2021-01-19 11:09&nbsp;&nbsp; [Semaphore](/0088_Linux_IPC_Semaphore)&nbsp;&nbsp; :bookmark:Linux :bookmark:IPC :bookmark:Semaphore
+- 2021-01-13 16:56&nbsp;&nbsp; [Linux Desktop](/0057_Desktop)&nbsp;&nbsp; :bookmark:Desktop
+- 2021-01-12 14:59&nbsp;&nbsp; [Tools](/0087_Linux_IPC_SharedMemory)&nbsp;&nbsp; :bookmark:Linux :bookmark:IPC :bookmark:SharedMemory
+- 2021-01-12 14:17&nbsp;&nbsp; [IPC](/0086_Linux_IPC)&nbsp;&nbsp; :bookmark:Linux :bookmark:IPC
+- 2021-01-06 11:05&nbsp;&nbsp; [Ubuntu Remote Desktop](/0058_Ubuntu_RemoteDesktop)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:RemoteDesktop
+- 2020-12-18 20:02&nbsp;&nbsp; [网络性能测试工具](/0106_Tools_Networks_PerformanceTools)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:PerformanceTools
+- 2020-10-09 15:16&nbsp;&nbsp; [snap 软件管理工具](/0021_Tools_OS_snap)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:snap
+- 2020-06-24 11:00&nbsp;&nbsp; [压缩解压](/0020_Tools_File_Archiver)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:Archiver
+- 2020-06-15 14:51&nbsp;&nbsp; [kill 停止进程](/0019_Tools_Process_kill)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process :bookmark:kill
+- 2020-06-06 23:32&nbsp;&nbsp; [aria2](/0091_Ubuntu_Download_aria2)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download :bookmark:aria2
+- 2020-06-06 16:04&nbsp;&nbsp; [Vi 用例](/0018_Tools_Text_Vi_UseCase)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:Vi :bookmark:UseCase
+- 2020-06-06 15:54&nbsp;&nbsp; [Vi 常用插件](/0017_Tools_Text_Vi_Plugins)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:Vi :bookmark:Plugins
+- 2020-06-03 14:38&nbsp;&nbsp; [updatealternatives 多版本软件管理工具](/0016_Tools_OS_updatealternatives)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:updatealternatives
+- 2020-06-03 11:19&nbsp;&nbsp; [APT Ubuntu 包管理工具](/0015_Ubuntu_APT)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:APT
+- 2020-05-14 16:27&nbsp;&nbsp; [Download](/0014_Ubuntu_Download)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download
+- 2020-04-22 18:18&nbsp;&nbsp; [开机相关信息](/0061_Tools_OS_ShowBootInfo)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:ShowBootInfo
+- 2020-04-13 18:12&nbsp;&nbsp; [命令行下载 Google Drive 文件](/0109_Ubuntu_Download_GoogleDriveFilesCMD)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download :bookmark:GoogleDriveFilesCMD
+- 2020-04-04 13:38&nbsp;&nbsp; [图像转字符串工具](/0036_Tools_Media_image2string)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:image2string
+- 2020-04-04 12:39&nbsp;&nbsp; [tree 优雅地列出文件树](/0035_Tools_File_tree)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:tree
+- 2020-03-20 10:55&nbsp;&nbsp; [taskset 设定程序运行在的CPU](/0034_Tools_Process_taskset)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process :bookmark:taskset
+- 2020-03-08 15:28&nbsp;&nbsp; [ln 文件链接工具](/0033_Tools_File_ln)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:ln
+- 2020-02-01 17:01&nbsp;&nbsp; [文件系统格式](/0081_FileSystem_Format)&nbsp;&nbsp; :bookmark:FileSystem :bookmark:Format
+- 2019-12-27 15:36&nbsp;&nbsp; [进程管理工具](/0032_Tools_Process)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process
+- 2019-11-20 15:26&nbsp;&nbsp; [网络工具 nmap](/0062_Tools_nmap)&nbsp;&nbsp; :bookmark:Tools :bookmark:nmap
+- 2019-10-25 16:17&nbsp;&nbsp; [sort 排序工具](/0031_Tools_Text_sort)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:sort
+- 2019-10-14 11:19&nbsp;&nbsp; [File System](/0064_FileSystem)&nbsp;&nbsp; :bookmark:FileSystem
+- 2019-10-12 16:18&nbsp;&nbsp; [bc 浮点计算工具](/0030_Tools_bc)&nbsp;&nbsp; :bookmark:Tools :bookmark:bc
+- 2019-10-12 13:58&nbsp;&nbsp; [syncthing](/0029_Tools_Remote_syncthing)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:syncthing
+- 2019-09-23 14:39&nbsp;&nbsp; [Install Goolge Pinyin](/0090_Ubuntu_InstallGooglePinyin)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:InstallGooglePinyin
+- 2019-09-18 16:15&nbsp;&nbsp; [shuf 随机选取工具](/0028_Tools_shuf)&nbsp;&nbsp; :bookmark:Tools :bookmark:shuf
+- 2019-09-04 13:07&nbsp;&nbsp; [Ubuntu OS Version Upgrade](/0089_Ubuntu_Upgrade)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Upgrade
+- 2019-08-27 14:23&nbsp;&nbsp; [Tmux Plugins](/0112_Tools_Remote_tmux_plugins)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux :bookmark:plugins
+- 2019-08-27 11:40&nbsp;&nbsp; [Arch](/0111_Tools_Remote_tmux_Arch)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux :bookmark:Arch
+- 2019-08-27 10:14&nbsp;&nbsp; [PAM - Pluggable Authentication Module](/0065_Security_PAM)&nbsp;&nbsp; :bookmark:Security :bookmark:PAM
+- 2019-08-22 17:53&nbsp;&nbsp; [sed 文件流编辑器](/0027_Tools_Text_sed)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:sed
+- 2019-08-22 17:40&nbsp;&nbsp; [tr](/0026_Tools_Text_tr)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:tr
+- 2019-08-14 09:30&nbsp;&nbsp; [thinclient_drives cannot access](/0092_Ubuntu_Issues_thinclientdrives)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:thinclientdrives
+- 2019-08-09 20:50&nbsp;&nbsp; [magnetW 磁力下载工具](/0055_Ubuntu_Download_magnetW)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download :bookmark:magnetW
+- 2019-08-06 13:13&nbsp;&nbsp; [grep 文本过滤工具](/0025_Tools_Text_grep)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:grep
+- 2019-08-01 13:38&nbsp;&nbsp; [date - 时间管理工具](/0024_Tools_date)&nbsp;&nbsp; :bookmark:Tools :bookmark:date
+- 2019-07-25 14:28&nbsp;&nbsp; [ls](/0023_Tools_File_ls)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:ls
+- 2019-07-12 17:44&nbsp;&nbsp; [xargs](/0022_Tools_xargs)&nbsp;&nbsp; :bookmark:Tools :bookmark:xargs
+- 2019-07-11 17:46&nbsp;&nbsp; [rsync](/0044_Tools_Remote_rsync)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:rsync
+- 2019-07-10 14:44&nbsp;&nbsp; [SSH 连接不稳定](/0100_Tools_Remote_ssh_WorkUnStable)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:ssh :bookmark:WorkUnStable
+- 2019-07-03 23:39&nbsp;&nbsp; [V2Ray](/0066_Tools_Networks_Proxy_V2Ray)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray
+- 2019-07-02 10:39&nbsp;&nbsp; [find](/0043_Tools_File_find)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:find
+- 2019-06-29 16:35&nbsp;&nbsp; [ShadowSocks](/0067_Tools_Networks_Proxy_shadowsocks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:shadowsocks
+- 2019-06-12 13:52&nbsp;&nbsp; [samba](/0046_Tools_Remote_Samba)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:Samba
+- 2019-05-27 10:27&nbsp;&nbsp; [iostat IO性能监控](/0045_Tools_OS_iostat)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:iostat
+- 2019-05-09 10:19&nbsp;&nbsp; [sar](/0048_Tools_Networks_sar)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:sar
+- 2019-05-07 13:19&nbsp;&nbsp; [jobs](/0047_Tools_TaskSchedule_jobs)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:jobs
+- 2019-04-30 16:32&nbsp;&nbsp; [硬盘大于 2TB](/0099_Ubuntu_Issues_DiskLargerThan2TB)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:DiskLargerThan2TB
+- 2019-04-21 12:40&nbsp;&nbsp; [前置耳机不工作](/0101_Ubuntu_Issues_FrontHeadPhoneNotWorking)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:FrontHeadPhoneNotWorking
+- 2019-04-12 15:23&nbsp;&nbsp; [Linux Tools](/0059_Tools)&nbsp;&nbsp; :bookmark:Tools
+- 2019-03-10 18:03&nbsp;&nbsp; [任务管理工具](/0040_Tools_TaskSchedule)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule
+- 2019-03-10 18:03&nbsp;&nbsp; [at 定时任务管理工具](/0037_Tools_TaskSchedule_at)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:at
+- 2019-03-10 18:03&nbsp;&nbsp; [batch 基于 at 任务管理工具](/0038_Tools_TaskSchedule_batch)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:batch
+- 2019-03-07 15:38&nbsp;&nbsp; [Vi](/0039_Tools_Text_Vi)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:Vi
+- 2019-03-05 13:16&nbsp;&nbsp; [watch](/0098_Tools_OS_watch)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:watch
+- 2019-03-02 00:39&nbsp;&nbsp; [ulimit 多用户 资源限制工具](/0041_Tools_OS_ulimit)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:ulimit
+- 2019-02-28 14:51&nbsp;&nbsp; [json](/0042_Tools_Text_json)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:json
+- 2019-02-20 12:32&nbsp;&nbsp; [Hardware Information  查看工具](/0068_Tools_OS_HardwareInfo)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:HardwareInfo
+- 2019-02-19 18:38&nbsp;&nbsp; [添加账户 adduser vs useradd](/0069_Tools_OS_adduser)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:adduser
+- 2019-02-19 17:53&nbsp;&nbsp; [Linux bashrc](/0102_Linux_bashrc)&nbsp;&nbsp; :bookmark:Linux :bookmark:bashrc
+- 2019-01-29 15:38&nbsp;&nbsp; [netdata web资源监控工具](/0108_Tools_OS_netdata)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:netdata
+- 2019-01-15 22:20&nbsp;&nbsp; [history 命令行历史管理](/0049_Tools_history)&nbsp;&nbsp; :bookmark:Tools :bookmark:history
+- 2019-01-14 13:35&nbsp;&nbsp; [VNC Tools](/0103_Tools_Remote_vncserver)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:vncserver
+- 2018-12-14 15:28&nbsp;&nbsp; [rename](/0050_Tools_File_rename)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:rename
+- 2018-12-07 22:20&nbsp;&nbsp; [RTSP Server live555](/0070_Tools_Media_live555)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:live555
+- 2018-12-02 17:42&nbsp;&nbsp; [开机自动挂载硬盘](/0097_Ubuntu_AutoMountDisk)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:AutoMountDisk
+- 2018-12-02 02:03&nbsp;&nbsp; [USB 耳机没声音](/0096_Ubuntu_Issues_USBHeadphoneNoSound)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:USBHeadphoneNoSound
+- 2018-12-01 21:58&nbsp;&nbsp; [添加用户](/0104_Ubuntu_UserAdd)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:UserAdd
+- 2018-11-30 17:39&nbsp;&nbsp; [Server Install Desktop](/0094_Ubuntu_InstallDesktop)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:InstallDesktop
+- 2018-11-29 18:51&nbsp;&nbsp; [awk](/0052_Tools_Text_awk)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:awk
+- 2018-11-29 13:32&nbsp;&nbsp; [tmux](/0051_Tools_Remote_tmux)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux
+- 2018-11-29 12:59&nbsp;&nbsp; [CentOS 安装桌面](/0107_Desktop_CentOS)&nbsp;&nbsp; :bookmark:Desktop :bookmark:CentOS
+- 2018-11-23 12:31&nbsp;&nbsp; [Task 管理工具 crontab](/0071_Tools_TaskSchedule_crontab)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:crontab
+- 2018-11-22 14:34&nbsp;&nbsp; [hostname 管理](/0072_Tools_OS_hostname)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:hostname
+- 2018-11-06 14:43&nbsp;&nbsp; [桌面不显示](/0095_Ubuntu_Issues_DesktopDisplay)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:DesktopDisplay
+- 2018-10-26 14:35&nbsp;&nbsp; [设置静态IP](/0085_Linux_Yocto_SetStaticIP)&nbsp;&nbsp; :bookmark:Linux :bookmark:Yocto :bookmark:SetStaticIP
+- 2018-10-17 14:58&nbsp;&nbsp; [文本对比工具](/0054_Tools_TextCompare)&nbsp;&nbsp; :bookmark:Tools :bookmark:TextCompare
+- 2018-10-16 10:24&nbsp;&nbsp; [MediaInfo](/0053_Tools_Media_mediainfo)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:mediainfo
+- 2018-10-09 10:41&nbsp;&nbsp; [忘记密码](/0093_Ubuntu_ForgetPassword)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:ForgetPassword
+- 2018-09-28 14:29&nbsp;&nbsp; [Kernel 升级管理](/0073_Tools_OS_KernelUpgrade)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:KernelUpgrade
 
 #### **Updated**
 
-- 2026-11-26&nbsp;&nbsp; [Protocol](/0182_Tools_Networks_Proxy_Protocol)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol
-- 2026-11-26&nbsp;&nbsp; [Transport](/0181_Tools_Networks_Proxy_Transport)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport
-- 2026-11-26&nbsp;&nbsp; [Comparison](/0180_Tools_Networks_Proxy_Comparison)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Comparison
-- 2026-11-26&nbsp;&nbsp; [TUIC](/0179_Tools_Networks_Proxy_TUIC)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:TUIC
-- 2026-11-26&nbsp;&nbsp; [Hysteria](/0178_Tools_Networks_Proxy_Hysteria)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Hysteria
-- 2026-11-26&nbsp;&nbsp; [Clash](/0177_Tools_Networks_Proxy_Clash)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Clash
-- 2026-11-26&nbsp;&nbsp; [sing-box](/0176_Tools_Networks_Proxy_sing_box)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:sing :bookmark:box
-- 2026-11-26&nbsp;&nbsp; [Xray](/0175_Tools_Networks_Proxy_Xray)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Xray
-- 2026-11-26&nbsp;&nbsp; [Troubleshooting](/0174_Tools_Networks_Proxy_V2Ray_Troubleshooting)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Troubleshooting
-- 2026-11-26&nbsp;&nbsp; [Client](/0173_Tools_Networks_Proxy_V2Ray_Client)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Client
-- 2026-11-26&nbsp;&nbsp; [Nginx](/0172_Tools_Networks_Proxy_V2Ray_Nginx)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Nginx
-- 2026-11-26&nbsp;&nbsp; [Systemd](/0171_Tools_Networks_Proxy_V2Ray_Systemd)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Systemd
-- 2026-11-26&nbsp;&nbsp; [Transparent](/0170_Tools_Networks_Proxy_V2Ray_Transparent)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Transparent
-- 2026-11-26&nbsp;&nbsp; [API](/0169_Tools_Networks_Proxy_V2Ray_API)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:API
-- 2026-11-26&nbsp;&nbsp; [Policy](/0168_Tools_Networks_Proxy_V2Ray_Policy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Policy
-- 2026-11-26&nbsp;&nbsp; [Mux](/0167_Tools_Networks_Proxy_V2Ray_Mux)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Mux
-- 2026-11-26&nbsp;&nbsp; [Sniffing](/0166_Tools_Networks_Proxy_V2Ray_Sniffing)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Sniffing
-- 2026-11-26&nbsp;&nbsp; [DNS](/0165_Tools_Networks_Proxy_V2Ray_DNS)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:DNS
-- 2026-11-26&nbsp;&nbsp; [Routing](/0164_Tools_Networks_Proxy_V2Ray_Routing)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Routing
-- 2026-11-26&nbsp;&nbsp; [Reality](/0163_Tools_Networks_Proxy_Security_Reality)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Security :bookmark:Reality
-- 2026-11-26&nbsp;&nbsp; [XTLS](/0162_Tools_Networks_Proxy_Security_XTLS)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Security :bookmark:XTLS
-- 2026-11-26&nbsp;&nbsp; [TLS](/0161_Tools_Networks_Proxy_Security_TLS)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Security :bookmark:TLS
-- 2026-11-26&nbsp;&nbsp; [DomainSocket](/0160_Tools_Networks_Proxy_Transport_DomainSocket)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:DomainSocket
-- 2026-11-26&nbsp;&nbsp; [QUIC](/0159_Tools_Networks_Proxy_Transport_QUIC)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:QUIC
-- 2026-11-26&nbsp;&nbsp; [mKCP](/0158_Tools_Networks_Proxy_Transport_mKCP)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:mKCP
-- 2026-11-26&nbsp;&nbsp; [gRPC](/0157_Tools_Networks_Proxy_Transport_gRPC)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:gRPC
-- 2026-11-26&nbsp;&nbsp; [HTTP2](/0156_Tools_Networks_Proxy_Transport_HTTP2)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:HTTP2
-- 2026-11-26&nbsp;&nbsp; [WebSocket](/0155_Tools_Networks_Proxy_Transport_WebSocket)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:WebSocket
-- 2026-11-26&nbsp;&nbsp; [TCP](/0154_Tools_Networks_Proxy_Transport_TCP)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:TCP
-- 2026-11-26&nbsp;&nbsp; [Loopback](/0153_Tools_Networks_Proxy_Protocol_Loopback)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Loopback
-- 2026-11-26&nbsp;&nbsp; [WireGuard](/0152_Tools_Networks_Proxy_Protocol_WireGuard)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:WireGuard
-- 2026-11-26&nbsp;&nbsp; [DokodemoDoor](/0151_Tools_Networks_Proxy_Protocol_DokodemoDoor)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:DokodemoDoor
-- 2026-11-26&nbsp;&nbsp; [Blackhole](/0150_Tools_Networks_Proxy_Protocol_Blackhole)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Blackhole
-- 2026-11-26&nbsp;&nbsp; [Freedom](/0149_Tools_Networks_Proxy_Protocol_Freedom)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Freedom
-- 2026-11-26&nbsp;&nbsp; [MTProto](/0148_Tools_Networks_Proxy_Protocol_MTProto)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:MTProto
-- 2026-11-26&nbsp;&nbsp; [HTTP](/0147_Tools_Networks_Proxy_Protocol_HTTP)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:HTTP
-- 2026-11-26&nbsp;&nbsp; [Socks](/0146_Tools_Networks_Proxy_Protocol_Socks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Socks
-- 2026-11-26&nbsp;&nbsp; [Trojan](/0145_Tools_Networks_Proxy_Protocol_Trojan)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Trojan
-- 2026-11-26&nbsp;&nbsp; [Shadowsocks](/0144_Tools_Networks_Proxy_Protocol_Shadowsocks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Shadowsocks
-- 2026-11-26&nbsp;&nbsp; [VLESS](/0143_Tools_Networks_Proxy_Protocol_VLESS)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:VLESS
-- 2026-11-26&nbsp;&nbsp; [VMess](/0142_Tools_Networks_Proxy_Protocol_VMess)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:VMess
-- 2026-11-26&nbsp;&nbsp; [Squid](/0141_Tools_Networks_Proxy_Squid)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Squid
-- 2026-11-26&nbsp;&nbsp; [proxychains](/0140_Tools_Networks_Proxy_proxychains)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:proxychains
-- 2026-11-26&nbsp;&nbsp; [Privoxy](/0139_Tools_Networks_Proxy_Privoxy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Privoxy
-- 2026-11-26&nbsp;&nbsp; [dev-sidecar](/0138_Tools_Networks_Proxy_dev_sidecar)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:dev :bookmark:sidecar
-- 2026-11-26&nbsp;&nbsp; [Proxy](/0080_Tools_Networks_Proxy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy
-- 2026-11-26&nbsp;&nbsp; [ShadowSocks](/0067_Tools_Networks_Proxy_shadowsocks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:shadowsocks
-- 2026-11-26&nbsp;&nbsp; [V2Ray](/0066_Tools_Networks_Proxy_V2Ray)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray
-- 2026-10-14&nbsp;&nbsp; [Linux bashrc](/0102_Linux_bashrc)&nbsp;&nbsp; :bookmark:Linux :bookmark:bashrc
-- 2026-10-13&nbsp;&nbsp; [ncdu](/0137_Tools_OS_Disk_ncdu)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Disk :bookmark:ncdu
-- 2026-01-22&nbsp;&nbsp; [SSH 连接不稳定](/0100_Tools_Remote_ssh_WorkUnStable)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:ssh :bookmark:WorkUnStable
-- 2025-05-29&nbsp;&nbsp; [Kernel 升级管理](/0073_Tools_OS_KernelUpgrade)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:KernelUpgrade
-- 2024-10-23&nbsp;&nbsp; [Linux Logs](/0136_Logs)&nbsp;&nbsp; :bookmark:Logs
-- 2024-10-21&nbsp;&nbsp; [sed 文件流编辑器](/0027_Tools_Text_sed)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:sed
-- 2024-10-13&nbsp;&nbsp; [添加用户](/0104_Ubuntu_UserAdd)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:UserAdd
-- 2024-09-25&nbsp;&nbsp; [Shell 快捷键](/0135_Tools_Shell_hotkey)&nbsp;&nbsp; :bookmark:Tools :bookmark:Shell :bookmark:hotkey
-- 2024-09-25&nbsp;&nbsp; [Shell](/0134_Tools_Shell)&nbsp;&nbsp; :bookmark:Tools :bookmark:Shell
-- 2024-09-24&nbsp;&nbsp; [netdata web资源监控工具](/0108_Tools_OS_netdata)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:netdata
-- 2024-09-23&nbsp;&nbsp; [端口占用](/0133_Tools_OS_Port)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Port
-- 2024-09-23&nbsp;&nbsp; [OS Tools](/0122_Tools_OS)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS
-- 2024-08-27&nbsp;&nbsp; [Linux 系统过载 无法通过 ssh 连接](/0132_Ubuntu_Issues_sshd)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:sshd
-- 2024-08-19&nbsp;&nbsp; [Hardware Information  查看工具](/0068_Tools_OS_HardwareInfo)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:HardwareInfo
-- 2024-08-19&nbsp;&nbsp; [ln 文件链接工具](/0033_Tools_File_ln)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:ln
-- 2024-08-12&nbsp;&nbsp; [LVM](/0131_Linux_LVM)&nbsp;&nbsp; :bookmark:Linux :bookmark:LVM
-- 2024-07-19&nbsp;&nbsp; [sort 排序工具](/0031_Tools_Text_sort)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:sort
-- 2024-07-13&nbsp;&nbsp; [CentOS 安装桌面](/0107_Desktop_CentOS)&nbsp;&nbsp; :bookmark:Desktop :bookmark:CentOS
-- 2024-06-21&nbsp;&nbsp; [RoadMap](/0130_Linux_RoadMap)&nbsp;&nbsp; :bookmark:Linux :bookmark:RoadMap
-- 2024-06-21&nbsp;&nbsp; [hostname 管理](/0072_Tools_OS_hostname)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:hostname
-- 2024-06-12&nbsp;&nbsp; [awk](/0052_Tools_Text_awk)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:awk
-- 2024-06-06&nbsp;&nbsp; [压缩解压](/0020_Tools_File_Archiver)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:Archiver
-- 2024-05-12&nbsp;&nbsp; [shuf 随机选取工具](/0028_Tools_shuf)&nbsp;&nbsp; :bookmark:Tools :bookmark:shuf
-- 2024-04-09&nbsp;&nbsp; [添加账户 adduser vs useradd](/0069_Tools_OS_adduser)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:adduser
-- 2024-04-06&nbsp;&nbsp; [Tmux Plugins](/0112_Tools_Remote_tmux_plugins)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux :bookmark:plugins
-- 2024-04-06&nbsp;&nbsp; [Arch](/0111_Tools_Remote_tmux_Arch)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux :bookmark:Arch
-- 2024-04-06&nbsp;&nbsp; [samba](/0046_Tools_Remote_Samba)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:Samba
-- 2024-04-06&nbsp;&nbsp; [rsync](/0044_Tools_Remote_rsync)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:rsync
-- 2024-04-06&nbsp;&nbsp; [scp](/0010_Tools_Remote_scp)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:scp
-- 2024-03-13&nbsp;&nbsp; [Benchmark Tools](/0129_Tools_Benchmark)&nbsp;&nbsp; :bookmark:Tools :bookmark:Benchmark
-- 2024-03-12&nbsp;&nbsp; [7z](/0128_Tools_File_Archiver_7z)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:Archiver :bookmark:7z
-- 2024-03-12&nbsp;&nbsp; [Vi](/0039_Tools_Text_Vi)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:Vi
-- 2024-02-27&nbsp;&nbsp; [tmux](/0051_Tools_Remote_tmux)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux
-- 2024-01-29&nbsp;&nbsp; [Memory 监测工具](/0125_Tools_OS_Memory)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Memory
-- 2023-12-05&nbsp;&nbsp; [log 相关工具](/0127_Tools_OS_log)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:log
-- 2023-11-06&nbsp;&nbsp; [Terminal 按 tab 键卡死一段时间](/0126_Ubuntu_Issues_tabdelay)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:tabdelay
-- 2023-11-06&nbsp;&nbsp; [Ubuntu Issues](/0121_Ubuntu_Issues)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues
-- 2023-11-02&nbsp;&nbsp; [updatealternatives 多版本软件管理工具](/0016_Tools_OS_updatealternatives)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:updatealternatives
-- 2023-10-28&nbsp;&nbsp; [Ubuntu Remote Desktop](/0058_Ubuntu_RemoteDesktop)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:RemoteDesktop
-- 2023-10-13&nbsp;&nbsp; [查看端口](/0056_Tools_Networks_Port)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Port
-- 2023-09-04&nbsp;&nbsp; [ldd](/0124_Tools_ldd)&nbsp;&nbsp; :bookmark:Tools :bookmark:ldd
-- 2023-08-16&nbsp;&nbsp; [tr](/0026_Tools_Text_tr)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:tr
-- 2023-08-01&nbsp;&nbsp; [VNC Tools](/0103_Tools_Remote_vncserver)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:vncserver
-- 2023-07-22&nbsp;&nbsp; [ffmpeg 多媒体工具](/0002_Tools_Media_ffmpeg)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:ffmpeg
-- 2023-06-28&nbsp;&nbsp; [增加 Swap 分区](/0083_Ubuntu_IncreaseSwap)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:IncreaseSwap
-- 2023-06-20&nbsp;&nbsp; [开机相关信息](/0061_Tools_OS_ShowBootInfo)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:ShowBootInfo
-- 2023-06-17&nbsp;&nbsp; [Linux Security](/0123_Security)&nbsp;&nbsp; :bookmark:Security
-- 2023-06-17&nbsp;&nbsp; [Linux Tools](/0059_Tools)&nbsp;&nbsp; :bookmark:Tools
-- 2023-06-17&nbsp;&nbsp; [batch 基于 at 任务管理工具](/0038_Tools_TaskSchedule_batch)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:batch
-- 2023-06-17&nbsp;&nbsp; [at 定时任务管理工具](/0037_Tools_TaskSchedule_at)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:at
-- 2023-06-16&nbsp;&nbsp; [Ubuntu](/0120_Ubuntu)&nbsp;&nbsp; :bookmark:Ubuntu
-- 2023-06-09&nbsp;&nbsp; [APT Source](/0119_Ubuntu_APT_Source)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:APT :bookmark:Source
-- 2023-06-09&nbsp;&nbsp; [GNOME](/0118_Desktop_GNOME)&nbsp;&nbsp; :bookmark:Desktop :bookmark:GNOME
-- 2023-06-09&nbsp;&nbsp; [KDE](/0117_Desktop_KDE)&nbsp;&nbsp; :bookmark:Desktop :bookmark:KDE
-- 2023-06-08&nbsp;&nbsp; [Linux Desktop](/0057_Desktop)&nbsp;&nbsp; :bookmark:Desktop
-- 2023-06-07&nbsp;&nbsp; [Unix History](/0113_Linux_History)&nbsp;&nbsp; :bookmark:Linux :bookmark:History
-- 2023-06-07&nbsp;&nbsp; [VNC System](/0105_Linux_VNC)&nbsp;&nbsp; :bookmark:Linux :bookmark:VNC
-- 2023-06-07&nbsp;&nbsp; [Yocto](/0084_Linux_Yocto)&nbsp;&nbsp; :bookmark:Linux :bookmark:Yocto
-- 2023-06-07&nbsp;&nbsp; [POSIX VS SystemV](/0082_Linux_POSIX与SystemV)&nbsp;&nbsp; :bookmark:Linux :bookmark:POSIX与SystemV
-- 2023-06-07&nbsp;&nbsp; [网络工具 nmap](/0062_Tools_nmap)&nbsp;&nbsp; :bookmark:Tools :bookmark:nmap
-- 2023-06-07&nbsp;&nbsp; [history 命令行历史管理](/0049_Tools_history)&nbsp;&nbsp; :bookmark:Tools :bookmark:history
-- 2023-06-07&nbsp;&nbsp; [date - 时间管理工具](/0024_Tools_date)&nbsp;&nbsp; :bookmark:Tools :bookmark:date
-- 2023-06-07&nbsp;&nbsp; [Linux Kernel](/0013_Linux_Kernel)&nbsp;&nbsp; :bookmark:Linux :bookmark:Kernel
-- 2023-06-07&nbsp;&nbsp; [chrt 管理进程属性](/0012_Tools_chrt)&nbsp;&nbsp; :bookmark:Tools :bookmark:chrt
-- 2023-06-07&nbsp;&nbsp; [cal 日历小工具](/0007_Tools_cal)&nbsp;&nbsp; :bookmark:Tools :bookmark:cal
-- 2023-06-07&nbsp;&nbsp; [ctags](/0003_Tools_ctags)&nbsp;&nbsp; :bookmark:Tools :bookmark:ctags
-- 2023-06-06&nbsp;&nbsp; [Ubuntu OS Version Upgrade](/0089_Ubuntu_Upgrade)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Upgrade
-- 2023-06-06&nbsp;&nbsp; [APT Ubuntu 包管理工具](/0015_Ubuntu_APT)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:APT
-- 2023-03-24&nbsp;&nbsp; [write](/0116_Tools_OS_write)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:write
-- 2023-03-24&nbsp;&nbsp; [wall](/0115_Tools_OS_wall)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:wall
-- 2023-03-20&nbsp;&nbsp; [设置默认 Kernel](/0114_Ubuntu_SetDefaultKernel)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:SetDefaultKernel
-- 2023-03-08&nbsp;&nbsp; [MediaInfo](/0053_Tools_Media_mediainfo)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:mediainfo
-- 2023-01-17&nbsp;&nbsp; [NVIDIA GPU Driver 问题](/0110_Ubuntu_Issues_NVIDIAGPUDriver)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:NVIDIAGPUDriver
-- 2022-12-21&nbsp;&nbsp; [文本编辑](/0078_Tools_Text)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text
-- 2022-12-21&nbsp;&nbsp; [文件管理](/0077_Tools_File)&nbsp;&nbsp; :bookmark:Tools :bookmark:File
-- 2022-12-21&nbsp;&nbsp; [多媒体工具](/0076_Tools_Media)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media
-- 2022-12-21&nbsp;&nbsp; [远程管理工具](/0075_Tools_Remote)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote
-- 2022-08-23&nbsp;&nbsp; [Networks](/0060_Tools_Networks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks
-- 2022-05-02&nbsp;&nbsp; [Linux](/0001_Linux)&nbsp;&nbsp; :bookmark:Linux
-- 2021-12-30&nbsp;&nbsp; [meld 文件对比工具](/0004_Tools_TextCompare_meld)&nbsp;&nbsp; :bookmark:Tools :bookmark:TextCompare :bookmark:meld
-- 2021-11-09&nbsp;&nbsp; [Driver](/0005_Driver)&nbsp;&nbsp; :bookmark:Driver
-- 2021-11-04&nbsp;&nbsp; [script 记录终端执行命令历史](/0006_Tools_script)&nbsp;&nbsp; :bookmark:Tools :bookmark:script
-- 2021-10-21&nbsp;&nbsp; [xset](/0008_Tools_OS_xset)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:xset
-- 2021-10-18&nbsp;&nbsp; [top](/0009_Tools_Process_top)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process :bookmark:top
-- 2021-10-11&nbsp;&nbsp; [ssh 远程管理工具](/0011_Tools_Remote_ssh)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:ssh
-- 2021-03-02&nbsp;&nbsp; [Ubuntu Install Steam](/0063_Ubuntu_InstallSteam)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:InstallSteam
-- 2021-01-19&nbsp;&nbsp; [Semaphore](/0088_Linux_IPC_Semaphore)&nbsp;&nbsp; :bookmark:Linux :bookmark:IPC :bookmark:Semaphore
-- 2021-01-12&nbsp;&nbsp; [Tools](/0087_Linux_IPC_SharedMemory)&nbsp;&nbsp; :bookmark:Linux :bookmark:IPC :bookmark:SharedMemory
-- 2021-01-12&nbsp;&nbsp; [IPC](/0086_Linux_IPC)&nbsp;&nbsp; :bookmark:Linux :bookmark:IPC
-- 2020-12-18&nbsp;&nbsp; [网络性能测试工具](/0106_Tools_Networks_PerformanceTools)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:PerformanceTools
-- 2020-10-09&nbsp;&nbsp; [snap 软件管理工具](/0021_Tools_OS_snap)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:snap
-- 2020-06-15&nbsp;&nbsp; [kill 停止进程](/0019_Tools_Process_kill)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process :bookmark:kill
-- 2020-06-06&nbsp;&nbsp; [aria2](/0091_Ubuntu_Download_aria2)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download :bookmark:aria2
-- 2020-06-06&nbsp;&nbsp; [Vi 用例](/0018_Tools_Text_Vi_UseCase)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:Vi :bookmark:UseCase
-- 2020-06-06&nbsp;&nbsp; [Vi 常用插件](/0017_Tools_Text_Vi_Plugins)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:Vi :bookmark:Plugins
-- 2020-05-14&nbsp;&nbsp; [Download](/0014_Ubuntu_Download)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download
-- 2020-04-13&nbsp;&nbsp; [命令行下载 Google Drive 文件](/0109_Ubuntu_Download_GoogleDriveFilesCMD)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download :bookmark:GoogleDriveFilesCMD
-- 2020-04-04&nbsp;&nbsp; [图像转字符串工具](/0036_Tools_Media_image2string)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:image2string
-- 2020-04-04&nbsp;&nbsp; [tree 优雅地列出文件树](/0035_Tools_File_tree)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:tree
-- 2020-03-20&nbsp;&nbsp; [taskset 设定程序运行在的CPU](/0034_Tools_Process_taskset)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process :bookmark:taskset
-- 2020-02-01&nbsp;&nbsp; [文件系统格式](/0081_FileSystem_Format)&nbsp;&nbsp; :bookmark:FileSystem :bookmark:Format
-- 2019-12-27&nbsp;&nbsp; [进程管理工具](/0032_Tools_Process)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process
-- 2019-10-14&nbsp;&nbsp; [File System](/0064_FileSystem)&nbsp;&nbsp; :bookmark:FileSystem
-- 2019-10-12&nbsp;&nbsp; [bc 浮点计算工具](/0030_Tools_bc)&nbsp;&nbsp; :bookmark:Tools :bookmark:bc
-- 2019-10-12&nbsp;&nbsp; [syncthing](/0029_Tools_Remote_syncthing)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:syncthing
-- 2019-09-23&nbsp;&nbsp; [Install Goolge Pinyin](/0090_Ubuntu_InstallGooglePinyin)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:InstallGooglePinyin
-- 2019-08-27&nbsp;&nbsp; [PAM - Pluggable Authentication Module](/0065_Security_PAM)&nbsp;&nbsp; :bookmark:Security :bookmark:PAM
-- 2019-08-14&nbsp;&nbsp; [thinclient_drives cannot access](/0092_Ubuntu_Issues_thinclientdrives)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:thinclientdrives
-- 2019-08-09&nbsp;&nbsp; [magnetW 磁力下载工具](/0055_Ubuntu_Download_magnetW)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download :bookmark:magnetW
-- 2019-08-06&nbsp;&nbsp; [grep 文本过滤工具](/0025_Tools_Text_grep)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:grep
-- 2019-07-25&nbsp;&nbsp; [ls](/0023_Tools_File_ls)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:ls
-- 2019-07-12&nbsp;&nbsp; [xargs](/0022_Tools_xargs)&nbsp;&nbsp; :bookmark:Tools :bookmark:xargs
-- 2019-07-02&nbsp;&nbsp; [find](/0043_Tools_File_find)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:find
-- 2019-05-27&nbsp;&nbsp; [iostat IO性能监控](/0045_Tools_OS_iostat)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:iostat
-- 2019-05-09&nbsp;&nbsp; [sar](/0048_Tools_Networks_sar)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:sar
-- 2019-05-07&nbsp;&nbsp; [jobs](/0047_Tools_TaskSchedule_jobs)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:jobs
-- 2019-04-30&nbsp;&nbsp; [硬盘大于 2TB](/0099_Ubuntu_Issues_DiskLargerThan2TB)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:DiskLargerThan2TB
-- 2019-04-21&nbsp;&nbsp; [前置耳机不工作](/0101_Ubuntu_Issues_FrontHeadPhoneNotWorking)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:FrontHeadPhoneNotWorking
-- 2019-03-10&nbsp;&nbsp; [任务管理工具](/0040_Tools_TaskSchedule)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule
-- 2019-03-05&nbsp;&nbsp; [watch](/0098_Tools_OS_watch)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:watch
-- 2019-03-01&nbsp;&nbsp; [ulimit 多用户 资源限制工具](/0041_Tools_OS_ulimit)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:ulimit
-- 2019-02-28&nbsp;&nbsp; [json](/0042_Tools_Text_json)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:json
-- 2018-12-14&nbsp;&nbsp; [rename](/0050_Tools_File_rename)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:rename
-- 2018-12-07&nbsp;&nbsp; [RTSP Server live555](/0070_Tools_Media_live555)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:live555
-- 2018-12-02&nbsp;&nbsp; [开机自动挂载硬盘](/0097_Ubuntu_AutoMountDisk)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:AutoMountDisk
-- 2018-12-01&nbsp;&nbsp; [USB 耳机没声音](/0096_Ubuntu_Issues_USBHeadphoneNoSound)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:USBHeadphoneNoSound
-- 2018-11-30&nbsp;&nbsp; [Server Install Desktop](/0094_Ubuntu_InstallDesktop)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:InstallDesktop
-- 2018-11-23&nbsp;&nbsp; [Task 管理工具 crontab](/0071_Tools_TaskSchedule_crontab)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:crontab
-- 2018-11-06&nbsp;&nbsp; [桌面不显示](/0095_Ubuntu_Issues_DesktopDisplay)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:DesktopDisplay
-- 2018-10-26&nbsp;&nbsp; [设置静态IP](/0085_Linux_Yocto_SetStaticIP)&nbsp;&nbsp; :bookmark:Linux :bookmark:Yocto :bookmark:SetStaticIP
-- 2018-10-17&nbsp;&nbsp; [文本对比工具](/0054_Tools_TextCompare)&nbsp;&nbsp; :bookmark:Tools :bookmark:TextCompare
-- 2018-10-09&nbsp;&nbsp; [忘记密码](/0093_Ubuntu_ForgetPassword)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:ForgetPassword
+- 2026-11-26 18:28&nbsp;&nbsp; [ShadowSocks](/0067_Tools_Networks_Proxy_shadowsocks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:shadowsocks
+- 2026-11-26 18:28&nbsp;&nbsp; [V2Ray](/0066_Tools_Networks_Proxy_V2Ray)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray
+- 2026-11-26 18:28&nbsp;&nbsp; [Transport](/0181_Tools_Networks_Proxy_Transport)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport
+- 2026-11-26 18:27&nbsp;&nbsp; [Proxy](/0080_Tools_Networks_Proxy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy
+- 2026-11-26 18:27&nbsp;&nbsp; [Protocol](/0182_Tools_Networks_Proxy_Protocol)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol
+- 2026-11-26 18:25&nbsp;&nbsp; [Comparison](/0180_Tools_Networks_Proxy_Comparison)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Comparison
+- 2026-11-26 18:25&nbsp;&nbsp; [TUIC](/0179_Tools_Networks_Proxy_TUIC)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:TUIC
+- 2026-11-26 18:25&nbsp;&nbsp; [Hysteria](/0178_Tools_Networks_Proxy_Hysteria)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Hysteria
+- 2026-11-26 18:25&nbsp;&nbsp; [Clash](/0177_Tools_Networks_Proxy_Clash)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Clash
+- 2026-11-26 18:25&nbsp;&nbsp; [sing-box](/0176_Tools_Networks_Proxy_sing_box)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:sing :bookmark:box
+- 2026-11-26 18:25&nbsp;&nbsp; [Xray](/0175_Tools_Networks_Proxy_Xray)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Xray
+- 2026-11-26 18:22&nbsp;&nbsp; [Troubleshooting](/0174_Tools_Networks_Proxy_V2Ray_Troubleshooting)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Troubleshooting
+- 2026-11-26 18:22&nbsp;&nbsp; [Client](/0173_Tools_Networks_Proxy_V2Ray_Client)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Client
+- 2026-11-26 18:22&nbsp;&nbsp; [Nginx](/0172_Tools_Networks_Proxy_V2Ray_Nginx)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Nginx
+- 2026-11-26 18:22&nbsp;&nbsp; [Systemd](/0171_Tools_Networks_Proxy_V2Ray_Systemd)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Systemd
+- 2026-11-26 18:22&nbsp;&nbsp; [Transparent](/0170_Tools_Networks_Proxy_V2Ray_Transparent)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Transparent
+- 2026-11-26 18:20&nbsp;&nbsp; [API](/0169_Tools_Networks_Proxy_V2Ray_API)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:API
+- 2026-11-26 18:20&nbsp;&nbsp; [Policy](/0168_Tools_Networks_Proxy_V2Ray_Policy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Policy
+- 2026-11-26 18:20&nbsp;&nbsp; [Mux](/0167_Tools_Networks_Proxy_V2Ray_Mux)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Mux
+- 2026-11-26 18:19&nbsp;&nbsp; [Sniffing](/0166_Tools_Networks_Proxy_V2Ray_Sniffing)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Sniffing
+- 2026-11-26 18:19&nbsp;&nbsp; [DNS](/0165_Tools_Networks_Proxy_V2Ray_DNS)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:DNS
+- 2026-11-26 18:19&nbsp;&nbsp; [Routing](/0164_Tools_Networks_Proxy_V2Ray_Routing)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray :bookmark:Routing
+- 2026-11-26 18:17&nbsp;&nbsp; [Reality](/0163_Tools_Networks_Proxy_Security_Reality)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Security :bookmark:Reality
+- 2026-11-26 18:17&nbsp;&nbsp; [XTLS](/0162_Tools_Networks_Proxy_Security_XTLS)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Security :bookmark:XTLS
+- 2026-11-26 18:17&nbsp;&nbsp; [TLS](/0161_Tools_Networks_Proxy_Security_TLS)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Security :bookmark:TLS
+- 2026-11-26 18:16&nbsp;&nbsp; [DomainSocket](/0160_Tools_Networks_Proxy_Transport_DomainSocket)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:DomainSocket
+- 2026-11-26 18:16&nbsp;&nbsp; [QUIC](/0159_Tools_Networks_Proxy_Transport_QUIC)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:QUIC
+- 2026-11-26 18:16&nbsp;&nbsp; [mKCP](/0158_Tools_Networks_Proxy_Transport_mKCP)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:mKCP
+- 2026-11-26 18:16&nbsp;&nbsp; [gRPC](/0157_Tools_Networks_Proxy_Transport_gRPC)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:gRPC
+- 2026-11-26 18:16&nbsp;&nbsp; [HTTP2](/0156_Tools_Networks_Proxy_Transport_HTTP2)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:HTTP2
+- 2026-11-26 18:16&nbsp;&nbsp; [WebSocket](/0155_Tools_Networks_Proxy_Transport_WebSocket)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:WebSocket
+- 2026-11-26 18:16&nbsp;&nbsp; [TCP](/0154_Tools_Networks_Proxy_Transport_TCP)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport :bookmark:TCP
+- 2026-11-26 18:13&nbsp;&nbsp; [Loopback](/0153_Tools_Networks_Proxy_Protocol_Loopback)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Loopback
+- 2026-11-26 18:13&nbsp;&nbsp; [WireGuard](/0152_Tools_Networks_Proxy_Protocol_WireGuard)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:WireGuard
+- 2026-11-26 18:13&nbsp;&nbsp; [DokodemoDoor](/0151_Tools_Networks_Proxy_Protocol_DokodemoDoor)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:DokodemoDoor
+- 2026-11-26 18:13&nbsp;&nbsp; [Blackhole](/0150_Tools_Networks_Proxy_Protocol_Blackhole)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Blackhole
+- 2026-11-26 18:13&nbsp;&nbsp; [Freedom](/0149_Tools_Networks_Proxy_Protocol_Freedom)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Freedom
+- 2026-11-26 18:13&nbsp;&nbsp; [MTProto](/0148_Tools_Networks_Proxy_Protocol_MTProto)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:MTProto
+- 2026-11-26 18:13&nbsp;&nbsp; [HTTP](/0147_Tools_Networks_Proxy_Protocol_HTTP)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:HTTP
+- 2026-11-26 18:13&nbsp;&nbsp; [Socks](/0146_Tools_Networks_Proxy_Protocol_Socks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Socks
+- 2026-11-26 18:10&nbsp;&nbsp; [Trojan](/0145_Tools_Networks_Proxy_Protocol_Trojan)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Trojan
+- 2026-11-26 18:10&nbsp;&nbsp; [Shadowsocks](/0144_Tools_Networks_Proxy_Protocol_Shadowsocks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:Shadowsocks
+- 2026-11-26 18:10&nbsp;&nbsp; [VLESS](/0143_Tools_Networks_Proxy_Protocol_VLESS)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:VLESS
+- 2026-11-26 18:10&nbsp;&nbsp; [VMess](/0142_Tools_Networks_Proxy_Protocol_VMess)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Protocol :bookmark:VMess
+- 2026-11-26 17:26&nbsp;&nbsp; [Squid](/0141_Tools_Networks_Proxy_Squid)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Squid
+- 2026-11-26 17:26&nbsp;&nbsp; [proxychains](/0140_Tools_Networks_Proxy_proxychains)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:proxychains
+- 2026-11-26 17:26&nbsp;&nbsp; [Privoxy](/0139_Tools_Networks_Proxy_Privoxy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Privoxy
+- 2026-11-26 17:26&nbsp;&nbsp; [dev-sidecar](/0138_Tools_Networks_Proxy_dev_sidecar)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:dev :bookmark:sidecar
+- 2026-10-14 09:33&nbsp;&nbsp; [Linux bashrc](/0102_Linux_bashrc)&nbsp;&nbsp; :bookmark:Linux :bookmark:bashrc
+- 2026-10-13 15:45&nbsp;&nbsp; [ncdu](/0137_Tools_OS_Disk_ncdu)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Disk :bookmark:ncdu
+- 2026-01-22 13:31&nbsp;&nbsp; [SSH 连接不稳定](/0100_Tools_Remote_ssh_WorkUnStable)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:ssh :bookmark:WorkUnStable
+- 2025-05-29 16:55&nbsp;&nbsp; [Kernel 升级管理](/0073_Tools_OS_KernelUpgrade)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:KernelUpgrade
+- 2024-10-23 16:05&nbsp;&nbsp; [Linux Logs](/0136_Logs)&nbsp;&nbsp; :bookmark:Logs
+- 2024-10-21 15:33&nbsp;&nbsp; [sed 文件流编辑器](/0027_Tools_Text_sed)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:sed
+- 2024-10-13 20:01&nbsp;&nbsp; [添加用户](/0104_Ubuntu_UserAdd)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:UserAdd
+- 2024-09-25 14:32&nbsp;&nbsp; [Shell 快捷键](/0135_Tools_Shell_hotkey)&nbsp;&nbsp; :bookmark:Tools :bookmark:Shell :bookmark:hotkey
+- 2024-09-25 11:24&nbsp;&nbsp; [Shell](/0134_Tools_Shell)&nbsp;&nbsp; :bookmark:Tools :bookmark:Shell
+- 2024-09-24 09:59&nbsp;&nbsp; [netdata web资源监控工具](/0108_Tools_OS_netdata)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:netdata
+- 2024-09-23 22:51&nbsp;&nbsp; [端口占用](/0133_Tools_OS_Port)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Port
+- 2024-09-23 10:56&nbsp;&nbsp; [OS Tools](/0122_Tools_OS)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS
+- 2024-08-27 16:07&nbsp;&nbsp; [Linux 系统过载 无法通过 ssh 连接](/0132_Ubuntu_Issues_sshd)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:sshd
+- 2024-08-19 16:51&nbsp;&nbsp; [Hardware Information  查看工具](/0068_Tools_OS_HardwareInfo)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:HardwareInfo
+- 2024-08-19 16:46&nbsp;&nbsp; [ln 文件链接工具](/0033_Tools_File_ln)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:ln
+- 2024-08-12 08:50&nbsp;&nbsp; [LVM](/0131_Linux_LVM)&nbsp;&nbsp; :bookmark:Linux :bookmark:LVM
+- 2024-07-19 10:05&nbsp;&nbsp; [sort 排序工具](/0031_Tools_Text_sort)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:sort
+- 2024-07-13 11:42&nbsp;&nbsp; [CentOS 安装桌面](/0107_Desktop_CentOS)&nbsp;&nbsp; :bookmark:Desktop :bookmark:CentOS
+- 2024-06-22 02:04&nbsp;&nbsp; [RoadMap](/0130_Linux_RoadMap)&nbsp;&nbsp; :bookmark:Linux :bookmark:RoadMap
+- 2024-06-21 09:24&nbsp;&nbsp; [hostname 管理](/0072_Tools_OS_hostname)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:hostname
+- 2024-06-12 17:44&nbsp;&nbsp; [awk](/0052_Tools_Text_awk)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:awk
+- 2024-06-06 15:28&nbsp;&nbsp; [压缩解压](/0020_Tools_File_Archiver)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:Archiver
+- 2024-05-12 20:16&nbsp;&nbsp; [shuf 随机选取工具](/0028_Tools_shuf)&nbsp;&nbsp; :bookmark:Tools :bookmark:shuf
+- 2024-04-09 10:57&nbsp;&nbsp; [添加账户 adduser vs useradd](/0069_Tools_OS_adduser)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:adduser
+- 2024-04-06 12:37&nbsp;&nbsp; [Tmux Plugins](/0112_Tools_Remote_tmux_plugins)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux :bookmark:plugins
+- 2024-04-06 12:37&nbsp;&nbsp; [Arch](/0111_Tools_Remote_tmux_Arch)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux :bookmark:Arch
+- 2024-04-06 12:35&nbsp;&nbsp; [samba](/0046_Tools_Remote_Samba)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:Samba
+- 2024-04-06 12:35&nbsp;&nbsp; [rsync](/0044_Tools_Remote_rsync)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:rsync
+- 2024-04-06 12:34&nbsp;&nbsp; [scp](/0010_Tools_Remote_scp)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:scp
+- 2024-03-13 10:14&nbsp;&nbsp; [Benchmark Tools](/0129_Tools_Benchmark)&nbsp;&nbsp; :bookmark:Tools :bookmark:Benchmark
+- 2024-03-12 23:42&nbsp;&nbsp; [7z](/0128_Tools_File_Archiver_7z)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:Archiver :bookmark:7z
+- 2024-03-12 23:35&nbsp;&nbsp; [Vi](/0039_Tools_Text_Vi)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:Vi
+- 2024-02-27 11:33&nbsp;&nbsp; [tmux](/0051_Tools_Remote_tmux)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:tmux
+- 2024-01-29 16:15&nbsp;&nbsp; [Memory 监测工具](/0125_Tools_OS_Memory)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Memory
+- 2023-12-05 15:03&nbsp;&nbsp; [log 相关工具](/0127_Tools_OS_log)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:log
+- 2023-11-06 10:30&nbsp;&nbsp; [Terminal 按 tab 键卡死一段时间](/0126_Ubuntu_Issues_tabdelay)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:tabdelay
+- 2023-11-06 10:24&nbsp;&nbsp; [Ubuntu Issues](/0121_Ubuntu_Issues)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues
+- 2023-11-02 13:56&nbsp;&nbsp; [updatealternatives 多版本软件管理工具](/0016_Tools_OS_updatealternatives)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:updatealternatives
+- 2023-10-28 14:39&nbsp;&nbsp; [Ubuntu Remote Desktop](/0058_Ubuntu_RemoteDesktop)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:RemoteDesktop
+- 2023-10-13 22:02&nbsp;&nbsp; [查看端口](/0056_Tools_Networks_Port)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Port
+- 2023-09-04 22:14&nbsp;&nbsp; [ldd](/0124_Tools_ldd)&nbsp;&nbsp; :bookmark:Tools :bookmark:ldd
+- 2023-08-16 22:35&nbsp;&nbsp; [tr](/0026_Tools_Text_tr)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:tr
+- 2023-08-01 10:50&nbsp;&nbsp; [VNC Tools](/0103_Tools_Remote_vncserver)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:vncserver
+- 2023-07-22 23:16&nbsp;&nbsp; [ffmpeg 多媒体工具](/0002_Tools_Media_ffmpeg)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:ffmpeg
+- 2023-06-28 14:45&nbsp;&nbsp; [增加 Swap 分区](/0083_Ubuntu_IncreaseSwap)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:IncreaseSwap
+- 2023-06-20 16:45&nbsp;&nbsp; [开机相关信息](/0061_Tools_OS_ShowBootInfo)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:ShowBootInfo
+- 2023-06-18 00:24&nbsp;&nbsp; [Linux Security](/0123_Security)&nbsp;&nbsp; :bookmark:Security
+- 2023-06-17 19:26&nbsp;&nbsp; [batch 基于 at 任务管理工具](/0038_Tools_TaskSchedule_batch)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:batch
+- 2023-06-17 19:25&nbsp;&nbsp; [at 定时任务管理工具](/0037_Tools_TaskSchedule_at)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:at
+- 2023-06-17 18:22&nbsp;&nbsp; [Linux Tools](/0059_Tools)&nbsp;&nbsp; :bookmark:Tools
+- 2023-06-16 08:15&nbsp;&nbsp; [Ubuntu](/0120_Ubuntu)&nbsp;&nbsp; :bookmark:Ubuntu
+- 2023-06-09 14:35&nbsp;&nbsp; [GNOME](/0118_Desktop_GNOME)&nbsp;&nbsp; :bookmark:Desktop :bookmark:GNOME
+- 2023-06-09 11:58&nbsp;&nbsp; [APT Source](/0119_Ubuntu_APT_Source)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:APT :bookmark:Source
+- 2023-06-09 10:38&nbsp;&nbsp; [KDE](/0117_Desktop_KDE)&nbsp;&nbsp; :bookmark:Desktop :bookmark:KDE
+- 2023-06-08 22:49&nbsp;&nbsp; [Linux Desktop](/0057_Desktop)&nbsp;&nbsp; :bookmark:Desktop
+- 2023-06-08 00:46&nbsp;&nbsp; [Linux Kernel](/0013_Linux_Kernel)&nbsp;&nbsp; :bookmark:Linux :bookmark:Kernel
+- 2023-06-07 21:37&nbsp;&nbsp; [Unix History](/0113_Linux_History)&nbsp;&nbsp; :bookmark:Linux :bookmark:History
+- 2023-06-07 20:57&nbsp;&nbsp; [POSIX VS SystemV](/0082_Linux_POSIX与SystemV)&nbsp;&nbsp; :bookmark:Linux :bookmark:POSIX与SystemV
+- 2023-06-07 20:50&nbsp;&nbsp; [网络工具 nmap](/0062_Tools_nmap)&nbsp;&nbsp; :bookmark:Tools :bookmark:nmap
+- 2023-06-07 20:49&nbsp;&nbsp; [chrt 管理进程属性](/0012_Tools_chrt)&nbsp;&nbsp; :bookmark:Tools :bookmark:chrt
+- 2023-06-07 20:49&nbsp;&nbsp; [cal 日历小工具](/0007_Tools_cal)&nbsp;&nbsp; :bookmark:Tools :bookmark:cal
+- 2023-06-07 20:49&nbsp;&nbsp; [history 命令行历史管理](/0049_Tools_history)&nbsp;&nbsp; :bookmark:Tools :bookmark:history
+- 2023-06-07 20:47&nbsp;&nbsp; [date - 时间管理工具](/0024_Tools_date)&nbsp;&nbsp; :bookmark:Tools :bookmark:date
+- 2023-06-07 20:47&nbsp;&nbsp; [ctags](/0003_Tools_ctags)&nbsp;&nbsp; :bookmark:Tools :bookmark:ctags
+- 2023-06-07 20:38&nbsp;&nbsp; [VNC System](/0105_Linux_VNC)&nbsp;&nbsp; :bookmark:Linux :bookmark:VNC
+- 2023-06-07 18:01&nbsp;&nbsp; [Yocto](/0084_Linux_Yocto)&nbsp;&nbsp; :bookmark:Linux :bookmark:Yocto
+- 2023-06-06 22:34&nbsp;&nbsp; [APT Ubuntu 包管理工具](/0015_Ubuntu_APT)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:APT
+- 2023-06-06 15:15&nbsp;&nbsp; [Ubuntu OS Version Upgrade](/0089_Ubuntu_Upgrade)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Upgrade
+- 2023-03-24 10:27&nbsp;&nbsp; [write](/0116_Tools_OS_write)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:write
+- 2023-03-24 10:21&nbsp;&nbsp; [wall](/0115_Tools_OS_wall)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:wall
+- 2023-03-20 17:22&nbsp;&nbsp; [设置默认 Kernel](/0114_Ubuntu_SetDefaultKernel)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:SetDefaultKernel
+- 2023-03-08 17:43&nbsp;&nbsp; [MediaInfo](/0053_Tools_Media_mediainfo)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:mediainfo
+- 2023-01-17 20:35&nbsp;&nbsp; [NVIDIA GPU Driver 问题](/0110_Ubuntu_Issues_NVIDIAGPUDriver)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:NVIDIAGPUDriver
+- 2022-12-21 23:16&nbsp;&nbsp; [文本编辑](/0078_Tools_Text)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text
+- 2022-12-21 23:14&nbsp;&nbsp; [文件管理](/0077_Tools_File)&nbsp;&nbsp; :bookmark:Tools :bookmark:File
+- 2022-12-21 23:06&nbsp;&nbsp; [多媒体工具](/0076_Tools_Media)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media
+- 2022-12-21 23:01&nbsp;&nbsp; [远程管理工具](/0075_Tools_Remote)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote
+- 2022-08-23 11:45&nbsp;&nbsp; [Networks](/0060_Tools_Networks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks
+- 2022-05-02 22:04&nbsp;&nbsp; [Linux](/0001_Linux)&nbsp;&nbsp; :bookmark:Linux
+- 2021-12-30 10:51&nbsp;&nbsp; [meld 文件对比工具](/0004_Tools_TextCompare_meld)&nbsp;&nbsp; :bookmark:Tools :bookmark:TextCompare :bookmark:meld
+- 2021-11-09 21:32&nbsp;&nbsp; [Driver](/0005_Driver)&nbsp;&nbsp; :bookmark:Driver
+- 2021-11-04 16:32&nbsp;&nbsp; [script 记录终端执行命令历史](/0006_Tools_script)&nbsp;&nbsp; :bookmark:Tools :bookmark:script
+- 2021-10-21 16:02&nbsp;&nbsp; [xset](/0008_Tools_OS_xset)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:xset
+- 2021-10-18 10:45&nbsp;&nbsp; [top](/0009_Tools_Process_top)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process :bookmark:top
+- 2021-10-11 11:46&nbsp;&nbsp; [ssh 远程管理工具](/0011_Tools_Remote_ssh)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:ssh
+- 2021-03-02 20:27&nbsp;&nbsp; [Ubuntu Install Steam](/0063_Ubuntu_InstallSteam)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:InstallSteam
+- 2021-01-19 11:09&nbsp;&nbsp; [Semaphore](/0088_Linux_IPC_Semaphore)&nbsp;&nbsp; :bookmark:Linux :bookmark:IPC :bookmark:Semaphore
+- 2021-01-12 14:59&nbsp;&nbsp; [Tools](/0087_Linux_IPC_SharedMemory)&nbsp;&nbsp; :bookmark:Linux :bookmark:IPC :bookmark:SharedMemory
+- 2021-01-12 14:17&nbsp;&nbsp; [IPC](/0086_Linux_IPC)&nbsp;&nbsp; :bookmark:Linux :bookmark:IPC
+- 2020-12-18 20:02&nbsp;&nbsp; [网络性能测试工具](/0106_Tools_Networks_PerformanceTools)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:PerformanceTools
+- 2020-10-09 15:16&nbsp;&nbsp; [snap 软件管理工具](/0021_Tools_OS_snap)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:snap
+- 2020-06-15 14:51&nbsp;&nbsp; [kill 停止进程](/0019_Tools_Process_kill)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process :bookmark:kill
+- 2020-06-06 23:32&nbsp;&nbsp; [aria2](/0091_Ubuntu_Download_aria2)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download :bookmark:aria2
+- 2020-06-06 16:04&nbsp;&nbsp; [Vi 用例](/0018_Tools_Text_Vi_UseCase)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:Vi :bookmark:UseCase
+- 2020-06-06 15:54&nbsp;&nbsp; [Vi 常用插件](/0017_Tools_Text_Vi_Plugins)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:Vi :bookmark:Plugins
+- 2020-05-14 16:27&nbsp;&nbsp; [Download](/0014_Ubuntu_Download)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download
+- 2020-04-13 18:12&nbsp;&nbsp; [命令行下载 Google Drive 文件](/0109_Ubuntu_Download_GoogleDriveFilesCMD)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download :bookmark:GoogleDriveFilesCMD
+- 2020-04-04 13:38&nbsp;&nbsp; [图像转字符串工具](/0036_Tools_Media_image2string)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:image2string
+- 2020-04-04 12:39&nbsp;&nbsp; [tree 优雅地列出文件树](/0035_Tools_File_tree)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:tree
+- 2020-03-20 10:55&nbsp;&nbsp; [taskset 设定程序运行在的CPU](/0034_Tools_Process_taskset)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process :bookmark:taskset
+- 2020-02-01 17:01&nbsp;&nbsp; [文件系统格式](/0081_FileSystem_Format)&nbsp;&nbsp; :bookmark:FileSystem :bookmark:Format
+- 2019-12-27 15:36&nbsp;&nbsp; [进程管理工具](/0032_Tools_Process)&nbsp;&nbsp; :bookmark:Tools :bookmark:Process
+- 2019-10-14 11:19&nbsp;&nbsp; [File System](/0064_FileSystem)&nbsp;&nbsp; :bookmark:FileSystem
+- 2019-10-12 16:18&nbsp;&nbsp; [bc 浮点计算工具](/0030_Tools_bc)&nbsp;&nbsp; :bookmark:Tools :bookmark:bc
+- 2019-10-12 13:58&nbsp;&nbsp; [syncthing](/0029_Tools_Remote_syncthing)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:syncthing
+- 2019-09-23 14:39&nbsp;&nbsp; [Install Goolge Pinyin](/0090_Ubuntu_InstallGooglePinyin)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:InstallGooglePinyin
+- 2019-08-27 10:14&nbsp;&nbsp; [PAM - Pluggable Authentication Module](/0065_Security_PAM)&nbsp;&nbsp; :bookmark:Security :bookmark:PAM
+- 2019-08-14 09:30&nbsp;&nbsp; [thinclient_drives cannot access](/0092_Ubuntu_Issues_thinclientdrives)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:thinclientdrives
+- 2019-08-09 20:50&nbsp;&nbsp; [magnetW 磁力下载工具](/0055_Ubuntu_Download_magnetW)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Download :bookmark:magnetW
+- 2019-08-06 13:13&nbsp;&nbsp; [grep 文本过滤工具](/0025_Tools_Text_grep)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:grep
+- 2019-07-25 14:28&nbsp;&nbsp; [ls](/0023_Tools_File_ls)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:ls
+- 2019-07-12 17:44&nbsp;&nbsp; [xargs](/0022_Tools_xargs)&nbsp;&nbsp; :bookmark:Tools :bookmark:xargs
+- 2019-07-02 10:39&nbsp;&nbsp; [find](/0043_Tools_File_find)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:find
+- 2019-05-27 10:27&nbsp;&nbsp; [iostat IO性能监控](/0045_Tools_OS_iostat)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:iostat
+- 2019-05-09 10:19&nbsp;&nbsp; [sar](/0048_Tools_Networks_sar)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:sar
+- 2019-05-07 13:19&nbsp;&nbsp; [jobs](/0047_Tools_TaskSchedule_jobs)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:jobs
+- 2019-04-30 16:32&nbsp;&nbsp; [硬盘大于 2TB](/0099_Ubuntu_Issues_DiskLargerThan2TB)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:DiskLargerThan2TB
+- 2019-04-21 12:40&nbsp;&nbsp; [前置耳机不工作](/0101_Ubuntu_Issues_FrontHeadPhoneNotWorking)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:FrontHeadPhoneNotWorking
+- 2019-03-10 18:03&nbsp;&nbsp; [任务管理工具](/0040_Tools_TaskSchedule)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule
+- 2019-03-05 13:16&nbsp;&nbsp; [watch](/0098_Tools_OS_watch)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:watch
+- 2019-03-02 00:39&nbsp;&nbsp; [ulimit 多用户 资源限制工具](/0041_Tools_OS_ulimit)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:ulimit
+- 2019-02-28 14:51&nbsp;&nbsp; [json](/0042_Tools_Text_json)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:json
+- 2018-12-14 15:28&nbsp;&nbsp; [rename](/0050_Tools_File_rename)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:rename
+- 2018-12-07 22:20&nbsp;&nbsp; [RTSP Server live555](/0070_Tools_Media_live555)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:live555
+- 2018-12-02 17:42&nbsp;&nbsp; [开机自动挂载硬盘](/0097_Ubuntu_AutoMountDisk)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:AutoMountDisk
+- 2018-12-02 02:03&nbsp;&nbsp; [USB 耳机没声音](/0096_Ubuntu_Issues_USBHeadphoneNoSound)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:USBHeadphoneNoSound
+- 2018-11-30 17:39&nbsp;&nbsp; [Server Install Desktop](/0094_Ubuntu_InstallDesktop)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:InstallDesktop
+- 2018-11-23 12:31&nbsp;&nbsp; [Task 管理工具 crontab](/0071_Tools_TaskSchedule_crontab)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:crontab
+- 2018-11-06 14:43&nbsp;&nbsp; [桌面不显示](/0095_Ubuntu_Issues_DesktopDisplay)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:DesktopDisplay
+- 2018-10-26 14:35&nbsp;&nbsp; [设置静态IP](/0085_Linux_Yocto_SetStaticIP)&nbsp;&nbsp; :bookmark:Linux :bookmark:Yocto :bookmark:SetStaticIP
+- 2018-10-17 14:58&nbsp;&nbsp; [文本对比工具](/0054_Tools_TextCompare)&nbsp;&nbsp; :bookmark:Tools :bookmark:TextCompare
+- 2018-10-09 10:41&nbsp;&nbsp; [忘记密码](/0093_Ubuntu_ForgetPassword)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:ForgetPassword
 
 <!-- tabs:end -->
