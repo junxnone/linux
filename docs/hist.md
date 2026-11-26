@@ -142,6 +142,7 @@
 
 #### **Updated**
 
+- 2026-11-26&nbsp;&nbsp; [Proxy](/0080_Tools_Networks_Proxy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy
 - 2026-10-14&nbsp;&nbsp; [Linux bashrc](/0102_Linux_bashrc)&nbsp;&nbsp; :bookmark:Linux :bookmark:bashrc
 - 2026-10-13&nbsp;&nbsp; [ncdu](/0137_Tools_OS_Disk_ncdu)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Disk :bookmark:ncdu
 - 2026-01-22&nbsp;&nbsp; [SSH 连接不稳定](/0100_Tools_Remote_ssh_WorkUnStable)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:ssh :bookmark:WorkUnStable
@@ -223,7 +224,6 @@
 - 2022-08-23&nbsp;&nbsp; [Networks](/0060_Tools_Networks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks
 - 2022-05-02&nbsp;&nbsp; [Linux](/0001_Linux)&nbsp;&nbsp; :bookmark:Linux
 - 2021-12-30&nbsp;&nbsp; [meld 文件对比工具](/0004_Tools_TextCompare_meld)&nbsp;&nbsp; :bookmark:Tools :bookmark:TextCompare :bookmark:meld
-- 2021-11-15&nbsp;&nbsp; [Proxy](/0080_Tools_Networks_Proxy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy
 - 2021-11-09&nbsp;&nbsp; [Driver](/0005_Driver)&nbsp;&nbsp; :bookmark:Driver
 - 2021-11-04&nbsp;&nbsp; [script 记录终端执行命令历史](/0006_Tools_script)&nbsp;&nbsp; :bookmark:Tools :bookmark:script
 - 2021-10-21&nbsp;&nbsp; [xset](/0008_Tools_OS_xset)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:xset
