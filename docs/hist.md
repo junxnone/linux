@@ -4,6 +4,10 @@
 
 #### **Created**
 
+- 2026-11-26&nbsp;&nbsp; [Squid](/0141_Tools_Networks_Proxy_Squid)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Squid
+- 2026-11-26&nbsp;&nbsp; [proxychains](/0140_Tools_Networks_Proxy_proxychains)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:proxychains
+- 2026-11-26&nbsp;&nbsp; [Privoxy](/0139_Tools_Networks_Proxy_Privoxy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Privoxy
+- 2026-11-26&nbsp;&nbsp; [dev-sidecar](/0138_Tools_Networks_Proxy_dev_sidecar)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:dev :bookmark:sidecar
 - 2026-10-13&nbsp;&nbsp; [ncdu](/0137_Tools_OS_Disk_ncdu)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Disk :bookmark:ncdu
 - 2024-10-23&nbsp;&nbsp; [Linux Logs](/0136_Logs)&nbsp;&nbsp; :bookmark:Logs
 - 2024-09-25&nbsp;&nbsp; [Shell 快捷键](/0135_Tools_Shell_hotkey)&nbsp;&nbsp; :bookmark:Tools :bookmark:Shell :bookmark:hotkey
@@ -142,6 +146,10 @@
 
 #### **Updated**
 
+- 2026-11-26&nbsp;&nbsp; [Squid](/0141_Tools_Networks_Proxy_Squid)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Squid
+- 2026-11-26&nbsp;&nbsp; [proxychains](/0140_Tools_Networks_Proxy_proxychains)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:proxychains
+- 2026-11-26&nbsp;&nbsp; [Privoxy](/0139_Tools_Networks_Proxy_Privoxy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Privoxy
+- 2026-11-26&nbsp;&nbsp; [dev-sidecar](/0138_Tools_Networks_Proxy_dev_sidecar)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:dev :bookmark:sidecar
 - 2026-11-26&nbsp;&nbsp; [Proxy](/0080_Tools_Networks_Proxy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy
 - 2026-11-26&nbsp;&nbsp; [ShadowSocks](/0067_Tools_Networks_Proxy_shadowsocks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:shadowsocks
 - 2026-11-26&nbsp;&nbsp; [V2Ray](/0066_Tools_Networks_Proxy_V2Ray)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray

@@ -72,7 +72,12 @@
     - [网络性能测试工具](/0106_Tools_Networks_PerformanceTools)
     - [查看端口](/0056_Tools_Networks_Port)
     - [Proxy](/0080_Tools_Networks_Proxy)
+      - [Privoxy](/0139_Tools_Networks_Proxy_Privoxy)
+      - [Squid](/0141_Tools_Networks_Proxy_Squid)
       - [V2Ray](/0066_Tools_Networks_Proxy_V2Ray)
+      - dev
+        - [dev-sidecar](/0138_Tools_Networks_Proxy_dev_sidecar)
+      - [proxychains](/0140_Tools_Networks_Proxy_proxychains)
       - [ShadowSocks](/0067_Tools_Networks_Proxy_shadowsocks)
     - [sar](/0048_Tools_Networks_sar)
   - [Benchmark Tools](/0129_Tools_Benchmark)
@@ -137,4 +142,4 @@
 - [Wiki History](/hist)
 
 ---
-<kbd><sub>@1711031126</sub></kbd>
+<kbd><sub>@1726571126</sub></kbd>

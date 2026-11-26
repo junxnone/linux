@@ -1223,6 +1223,42 @@
       "visible": true,
       "expand": true,
       "childLinks": []
+    },
+    {
+      "id": "linux Tools Networks Proxy Privoxy",
+      "group": 4,
+      "title": "Privoxy",
+      "url": "https://junxnone.github.io/linux/#/0139_Tools_Networks_Proxy_Privoxy",
+      "visible": true,
+      "expand": true,
+      "childLinks": []
+    },
+    {
+      "id": "linux Tools Networks Proxy proxychains",
+      "group": 4,
+      "title": "proxychains",
+      "url": "https://junxnone.github.io/linux/#/0140_Tools_Networks_Proxy_proxychains",
+      "visible": true,
+      "expand": true,
+      "childLinks": []
+    },
+    {
+      "id": "linux Tools Networks Proxy Squid",
+      "group": 4,
+      "title": "Squid",
+      "url": "https://junxnone.github.io/linux/#/0141_Tools_Networks_Proxy_Squid",
+      "visible": true,
+      "expand": true,
+      "childLinks": []
+    },
+    {
+      "id": "linux Tools Networks Proxy dev sidecar",
+      "group": 5,
+      "title": "dev-sidecar",
+      "url": "https://junxnone.github.io/linux/#/0138_Tools_Networks_Proxy_dev_sidecar",
+      "visible": true,
+      "expand": true,
+      "childLinks": []
     }
   ],
   "links": [
@@ -2167,6 +2203,27 @@
     {
       "source": "linux Tools Networks Proxy",
       "target": "linux Tools Networks Proxy shadowsocks",
+      "value": 4,
+      "visible": true,
+      "expand": true
+    },
+    {
+      "source": "linux Tools Networks Proxy",
+      "target": "linux Tools Networks Proxy Privoxy",
+      "value": 4,
+      "visible": true,
+      "expand": true
+    },
+    {
+      "source": "linux Tools Networks Proxy",
+      "target": "linux Tools Networks Proxy proxychains",
+      "value": 4,
+      "visible": true,
+      "expand": true
+    },
+    {
+      "source": "linux Tools Networks Proxy",
+      "target": "linux Tools Networks Proxy Squid",
       "value": 4,
       "visible": true,
       "expand": true
