@@ -2,7 +2,7 @@
 Title | Tools Networks Proxy shadowsocks
 -- | --
 Created @ | `2019-06-29T08:35:42Z`
-Updated @| `2026-11-26T09:10:21Z`
+Updated @| `2026-11-26T10:28:08Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/67)
 
@@ -197,6 +197,26 @@ find /usr/lib/x86_64-linux-gnu/ -name libsodium.*|xargs sudo rm
 - 密码是整条链路的唯一凭据，应使用足够长的随机串，并避免提交到公开仓库。
 - 不要再使用旧的流加密方式（如 rc4-md5、aes-*-cfb）。
 
+## 相关文章
+
+**协议与组成部分**
+
+- 总览：[Protocol](0182_Tools_Networks_Proxy_Protocol)、[Transport](0181_Tools_Networks_Proxy_Transport)、[Comparison](0180_Tools_Networks_Proxy_Comparison)
+- 代理协议：[VMess](0142_Tools_Networks_Proxy_Protocol_VMess)、[VLESS](0143_Tools_Networks_Proxy_Protocol_VLESS)、[Shadowsocks](0144_Tools_Networks_Proxy_Protocol_Shadowsocks)、[Trojan](0145_Tools_Networks_Proxy_Protocol_Trojan)、[Socks](0146_Tools_Networks_Proxy_Protocol_Socks)、[HTTP](0147_Tools_Networks_Proxy_Protocol_HTTP)、[MTProto](0148_Tools_Networks_Proxy_Protocol_MTProto)、[WireGuard](0152_Tools_Networks_Proxy_Protocol_WireGuard)
+- 内置处理器：[Freedom](0149_Tools_Networks_Proxy_Protocol_Freedom)、[Blackhole](0150_Tools_Networks_Proxy_Protocol_Blackhole)、[DokodemoDoor](0151_Tools_Networks_Proxy_Protocol_DokodemoDoor)、[Loopback](0153_Tools_Networks_Proxy_Protocol_Loopback)
+- 传输：[TCP](0154_Tools_Networks_Proxy_Transport_TCP)、[WebSocket](0155_Tools_Networks_Proxy_Transport_WebSocket)、[HTTP2](0156_Tools_Networks_Proxy_Transport_HTTP2)、[gRPC](0157_Tools_Networks_Proxy_Transport_gRPC)、[mKCP](0158_Tools_Networks_Proxy_Transport_mKCP)、[QUIC](0159_Tools_Networks_Proxy_Transport_QUIC)、[DomainSocket](0160_Tools_Networks_Proxy_Transport_DomainSocket)
+- 安全层：[TLS](0161_Tools_Networks_Proxy_Security_TLS)、[XTLS](0162_Tools_Networks_Proxy_Security_XTLS)、[Reality](0163_Tools_Networks_Proxy_Security_Reality)
+
+**V2Ray 功能模块与部署**
+
+- 功能模块：[Routing](0164_Tools_Networks_Proxy_V2Ray_Routing)、[DNS](0165_Tools_Networks_Proxy_V2Ray_DNS)、[Sniffing](0166_Tools_Networks_Proxy_V2Ray_Sniffing)、[Mux](0167_Tools_Networks_Proxy_V2Ray_Mux)、[Policy](0168_Tools_Networks_Proxy_V2Ray_Policy)、[API](0169_Tools_Networks_Proxy_V2Ray_API)
+- 部署与使用：[Transparent](0170_Tools_Networks_Proxy_V2Ray_Transparent)、[Systemd](0171_Tools_Networks_Proxy_V2Ray_Systemd)、[Nginx](0172_Tools_Networks_Proxy_V2Ray_Nginx)、[Client](0173_Tools_Networks_Proxy_V2Ray_Client)、[Troubleshooting](0174_Tools_Networks_Proxy_V2Ray_Troubleshooting)
+
+**工具**
+
+- [shadowsocks](0067_Tools_Networks_Proxy_shadowsocks)、[V2Ray](0066_Tools_Networks_Proxy_V2Ray)、[Xray](0175_Tools_Networks_Proxy_Xray)、[sing-box](0176_Tools_Networks_Proxy_sing_box)、[Clash](0177_Tools_Networks_Proxy_Clash)、[Hysteria](0178_Tools_Networks_Proxy_Hysteria)、[TUIC](0179_Tools_Networks_Proxy_TUIC)
+- [Privoxy](0139_Tools_Networks_Proxy_Privoxy)、[proxychains](0140_Tools_Networks_Proxy_proxychains)、[Squid](0141_Tools_Networks_Proxy_Squid)、[dev-sidecar](0138_Tools_Networks_Proxy_dev_sidecar)
+
 ## Reference
 
 - [shadowsocks readme](https://github.com/shadowsocks/shadowsocks/tree/master#install)
@@ -204,4 +224,5 @@ find /usr/lib/x86_64-linux-gnu/ -name libsodium.*|xargs sudo rm
 - [shadowsocks-libev - Github](https://github.com/shadowsocks/shadowsocks-libev)
 - [shadowsocks-rust - Github](https://github.com/shadowsocks/shadowsocks-rust)
 - [Shadowsocks 官方网站与 SIP 规范](https://shadowsocks.org/)
+
 
