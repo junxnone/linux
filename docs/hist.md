@@ -143,6 +143,8 @@
 #### **Updated**
 
 - 2026-11-26&nbsp;&nbsp; [Proxy](/0080_Tools_Networks_Proxy)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy
+- 2026-11-26&nbsp;&nbsp; [ShadowSocks](/0067_Tools_Networks_Proxy_shadowsocks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:shadowsocks
+- 2026-11-26&nbsp;&nbsp; [V2Ray](/0066_Tools_Networks_Proxy_V2Ray)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray
 - 2026-10-14&nbsp;&nbsp; [Linux bashrc](/0102_Linux_bashrc)&nbsp;&nbsp; :bookmark:Linux :bookmark:bashrc
 - 2026-10-13&nbsp;&nbsp; [ncdu](/0137_Tools_OS_Disk_ncdu)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Disk :bookmark:ncdu
 - 2026-01-22&nbsp;&nbsp; [SSH 连接不稳定](/0100_Tools_Remote_ssh_WorkUnStable)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote :bookmark:ssh :bookmark:WorkUnStable
@@ -216,7 +218,6 @@
 - 2023-03-20&nbsp;&nbsp; [设置默认 Kernel](/0114_Ubuntu_SetDefaultKernel)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:SetDefaultKernel
 - 2023-03-08&nbsp;&nbsp; [MediaInfo](/0053_Tools_Media_mediainfo)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media :bookmark:mediainfo
 - 2023-01-17&nbsp;&nbsp; [NVIDIA GPU Driver 问题](/0110_Ubuntu_Issues_NVIDIAGPUDriver)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:NVIDIAGPUDriver
-- 2022-12-29&nbsp;&nbsp; [V2Ray](/0066_Tools_Networks_Proxy_V2Ray)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray
 - 2022-12-21&nbsp;&nbsp; [文本编辑](/0078_Tools_Text)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text
 - 2022-12-21&nbsp;&nbsp; [文件管理](/0077_Tools_File)&nbsp;&nbsp; :bookmark:Tools :bookmark:File
 - 2022-12-21&nbsp;&nbsp; [多媒体工具](/0076_Tools_Media)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media
@@ -257,7 +258,6 @@
 - 2019-07-25&nbsp;&nbsp; [ls](/0023_Tools_File_ls)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:ls
 - 2019-07-12&nbsp;&nbsp; [xargs](/0022_Tools_xargs)&nbsp;&nbsp; :bookmark:Tools :bookmark:xargs
 - 2019-07-02&nbsp;&nbsp; [find](/0043_Tools_File_find)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:find
-- 2019-06-29&nbsp;&nbsp; [ShadowSocks](/0067_Tools_Networks_Proxy_shadowsocks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:shadowsocks
 - 2019-05-27&nbsp;&nbsp; [iostat IO性能监控](/0045_Tools_OS_iostat)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:iostat
 - 2019-05-09&nbsp;&nbsp; [sar](/0048_Tools_Networks_sar)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:sar
 - 2019-05-07&nbsp;&nbsp; [jobs](/0047_Tools_TaskSchedule_jobs)&nbsp;&nbsp; :bookmark:Tools :bookmark:TaskSchedule :bookmark:jobs
