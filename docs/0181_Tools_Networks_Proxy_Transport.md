@@ -2,14 +2,14 @@
 Title | Tools Networks Proxy Transport
 -- | --
 Created @ | `2026-11-26T10:26:34Z`
-Updated @| `2026-11-26T10:26:34Z`
+Updated @| `2026-11-26T10:28:01Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/181)
 
 ---
 # Transport
 
-在 V2Ray/Xray 里，**传输（transport）**指的是当前节点与其他节点之间"线上"如何传递数据：代理协议（VMess、VLESS 等）只描述"请求是什么"，而传输层决定"这些字节通过什么方式发出去"。这种拆分让协议和传输可以自由组合——同一个 VLESS，可以跑在 TCP 上，也可以跑在 WebSocket、gRPC 或 mKCP 上。两端的传输方式必须一致。总览见 [Proxy](0080_Tools_Networks_Proxy)，协议部分见 [Protocol 总览](0080_Tools_Networks_Proxy)，工具本身见 [V2Ray](0066_Tools_Networks_Proxy_V2Ray)。
+在 V2Ray/Xray 里，**传输（transport）**指的是当前节点与其他节点之间"线上"如何传递数据：代理协议（VMess、VLESS 等）只描述"请求是什么"，而传输层决定"这些字节通过什么方式发出去"。这种拆分让协议和传输可以自由组合——同一个 VLESS，可以跑在 TCP 上，也可以跑在 WebSocket、gRPC 或 mKCP 上。两端的传输方式必须一致。总览见 [Proxy](0080_Tools_Networks_Proxy)，协议部分见 [Protocol 总览](0182_Tools_Networks_Proxy_Protocol)，工具本身见 [V2Ray](0066_Tools_Networks_Proxy_V2Ray)。
 
 ## 分层模型
 
@@ -95,4 +95,5 @@ Xray 还引入了 XHTTP、HTTPUpgrade 等新传输，见其官方文档。
 
 - [Transport - V2Fly 配置文档](https://github.com/v2fly/v2fly-github-io/blob/master/docs/en_US/config/transport.md)
 - [Transport - Xray 文档](https://github.com/XTLS/Xray-docs-next/blob/main/docs/config/transport.md)
+
 
