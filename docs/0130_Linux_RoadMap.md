@@ -2,7 +2,7 @@
 Title | Linux RoadMap
 -- | --
 Created @ | `2024-06-21T18:04:04Z`
-Updated @| `2026-11-27T01:53:26Z`
+Updated @| `2026-11-27T01:56:24Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/130)
 
@@ -78,20 +78,20 @@ flowchart TB
     classDef done fill:#b7e4c7,stroke:#2d6a4f,color:#1b4332;
     classDef todo fill:#ffe699,stroke:#bf9000,color:#5c4400;
 
-    click a1 "/0001_Linux"
-    click a2 "/0120_Ubuntu"
-    click a3 "/0015_Ubuntu_APT"
-    click b1 "/0077_Tools_File"
-    click b2 "/0078_Tools_Text"
-    click b3 "/0075_Tools_Remote"
-    click c1 "/0032_Tools_Process"
-    click c2 "/0064_FileSystem"
-    click c3 "/0060_Tools_Networks"
-    click d1 "/0125_Tools_OS_Memory"
-    click e1 "/0086_Linux_IPC"
-    click e2 "/0073_Tools_OS_KernelUpgrade"
-    click f1 "/0005_Driver"
-    click f4 "/0084_Linux_Yocto"
+    click a1 "https://junxnone.github.io/linux/#/0001_Linux"
+    click a2 "https://junxnone.github.io/linux/#/0120_Ubuntu"
+    click a3 "https://junxnone.github.io/linux/#/0015_Ubuntu_APT"
+    click b1 "https://junxnone.github.io/linux/#/0077_Tools_File"
+    click b2 "https://junxnone.github.io/linux/#/0078_Tools_Text"
+    click b3 "https://junxnone.github.io/linux/#/0075_Tools_Remote"
+    click c1 "https://junxnone.github.io/linux/#/0032_Tools_Process"
+    click c2 "https://junxnone.github.io/linux/#/0064_FileSystem"
+    click c3 "https://junxnone.github.io/linux/#/0060_Tools_Networks"
+    click d1 "https://junxnone.github.io/linux/#/0125_Tools_OS_Memory"
+    click e1 "https://junxnone.github.io/linux/#/0086_Linux_IPC"
+    click e2 "https://junxnone.github.io/linux/#/0073_Tools_OS_KernelUpgrade"
+    click f1 "https://junxnone.github.io/linux/#/0005_Driver"
+    click f4 "https://junxnone.github.io/linux/#/0084_Linux_Yocto"
 ```
 
 图中：
@@ -150,39 +150,39 @@ flowchart TB
     classDef done fill:#b7e4c7,stroke:#2d6a4f,color:#1b4332;
     classDef todo fill:#ffe699,stroke:#bf9000,color:#5c4400;
 
-    click A1 "/0001_Linux"
-    click A2 "/0120_Ubuntu"
-    click A4 "/0015_Ubuntu_APT"
-    click A5 "/0119_Ubuntu_APT_Source"
-    click A6 "/0021_Tools_OS_snap"
-    click A7 "/0089_Ubuntu_Upgrade"
-    click A8 "/0104_Ubuntu_UserAdd"
-    click S "/0134_Tools_Shell"
-    click S1 "/0135_Tools_Shell_hotkey"
-    click S2 "/0102_Linux_bashrc"
-    click S3 "/0049_Tools_history"
-    click F "/0077_Tools_File"
-    click F1 "/0023_Tools_File_ls"
-    click F2 "/0043_Tools_File_find"
-    click F3 "/0035_Tools_File_tree"
-    click F4 "/0033_Tools_File_ln"
-    click F5 "/0020_Tools_File_Archiver"
-    click F6 "/0050_Tools_File_rename"
-    click T "/0078_Tools_Text"
-    click T1 "/0025_Tools_Text_grep"
-    click T2 "/0027_Tools_Text_sed"
-    click T3 "/0052_Tools_Text_awk"
-    click T4 "/0031_Tools_Text_sort"
-    click T5 "/0026_Tools_Text_tr"
-    click T6 "/0022_Tools_xargs"
-    click T7 "/0039_Tools_Text_Vi"
-    click T8 "/0042_Tools_Text_json"
-    click M "/0075_Tools_Remote"
-    click M1 "/0011_Tools_Remote_ssh"
-    click M2 "/0010_Tools_Remote_scp"
-    click M3 "/0044_Tools_Remote_rsync"
-    click M4 "/0051_Tools_Remote_tmux"
-    click M5 "/0046_Tools_Remote_Samba"
+    click A1 "https://junxnone.github.io/linux/#/0001_Linux"
+    click A2 "https://junxnone.github.io/linux/#/0120_Ubuntu"
+    click A4 "https://junxnone.github.io/linux/#/0015_Ubuntu_APT"
+    click A5 "https://junxnone.github.io/linux/#/0119_Ubuntu_APT_Source"
+    click A6 "https://junxnone.github.io/linux/#/0021_Tools_OS_snap"
+    click A7 "https://junxnone.github.io/linux/#/0089_Ubuntu_Upgrade"
+    click A8 "https://junxnone.github.io/linux/#/0104_Ubuntu_UserAdd"
+    click S "https://junxnone.github.io/linux/#/0134_Tools_Shell"
+    click S1 "https://junxnone.github.io/linux/#/0135_Tools_Shell_hotkey"
+    click S2 "https://junxnone.github.io/linux/#/0102_Linux_bashrc"
+    click S3 "https://junxnone.github.io/linux/#/0049_Tools_history"
+    click F "https://junxnone.github.io/linux/#/0077_Tools_File"
+    click F1 "https://junxnone.github.io/linux/#/0023_Tools_File_ls"
+    click F2 "https://junxnone.github.io/linux/#/0043_Tools_File_find"
+    click F3 "https://junxnone.github.io/linux/#/0035_Tools_File_tree"
+    click F4 "https://junxnone.github.io/linux/#/0033_Tools_File_ln"
+    click F5 "https://junxnone.github.io/linux/#/0020_Tools_File_Archiver"
+    click F6 "https://junxnone.github.io/linux/#/0050_Tools_File_rename"
+    click T "https://junxnone.github.io/linux/#/0078_Tools_Text"
+    click T1 "https://junxnone.github.io/linux/#/0025_Tools_Text_grep"
+    click T2 "https://junxnone.github.io/linux/#/0027_Tools_Text_sed"
+    click T3 "https://junxnone.github.io/linux/#/0052_Tools_Text_awk"
+    click T4 "https://junxnone.github.io/linux/#/0031_Tools_Text_sort"
+    click T5 "https://junxnone.github.io/linux/#/0026_Tools_Text_tr"
+    click T6 "https://junxnone.github.io/linux/#/0022_Tools_xargs"
+    click T7 "https://junxnone.github.io/linux/#/0039_Tools_Text_Vi"
+    click T8 "https://junxnone.github.io/linux/#/0042_Tools_Text_json"
+    click M "https://junxnone.github.io/linux/#/0075_Tools_Remote"
+    click M1 "https://junxnone.github.io/linux/#/0011_Tools_Remote_ssh"
+    click M2 "https://junxnone.github.io/linux/#/0010_Tools_Remote_scp"
+    click M3 "https://junxnone.github.io/linux/#/0044_Tools_Remote_rsync"
+    click M4 "https://junxnone.github.io/linux/#/0051_Tools_Remote_tmux"
+    click M5 "https://junxnone.github.io/linux/#/0046_Tools_Remote_Samba"
 ```
 
 图中：
@@ -236,34 +236,34 @@ flowchart TB
     classDef done fill:#b7e4c7,stroke:#2d6a4f,color:#1b4332;
     classDef todo fill:#ffe699,stroke:#bf9000,color:#5c4400;
 
-    click P "/0032_Tools_Process"
-    click P1 "/0009_Tools_Process_top"
-    click P2 "/0019_Tools_Process_kill"
-    click P3 "/0034_Tools_Process_taskset"
-    click P4 "/0012_Tools_chrt"
-    click P5 "/0041_Tools_OS_ulimit"
-    click P6 "/0071_Tools_TaskSchedule_crontab"
-    click P7 "/0040_Tools_TaskSchedule"
-    click SV3 "/0061_Tools_OS_ShowBootInfo"
-    click D "/0064_FileSystem"
-    click D1 "/0064_FileSystem"
-    click D2 "/0081_FileSystem_Format"
-    click D3 "/0131_Linux_LVM"
-    click D4 "/0097_Ubuntu_AutoMountDisk"
-    click D5 "/0083_Ubuntu_IncreaseSwap"
-    click D6 "/0137_Tools_OS_Disk_ncdu"
-    click D7 "/0045_Tools_OS_iostat"
-    click N "/0060_Tools_Networks"
-    click N1 "/0133_Tools_OS_Port"
-    click N2 "/0062_Tools_nmap"
-    click N3 "/0048_Tools_Networks_sar"
-    click N4 "/0106_Tools_Networks_PerformanceTools"
-    click N6 "/0080_Tools_Networks_Proxy"
-    click LG "/0136_Logs"
-    click LG1 "/0136_Logs"
-    click LG2 "/0127_Tools_OS_log"
-    click LG3 "/0069_Tools_OS_adduser"
-    click LG4 "/0065_Security_PAM"
+    click P "https://junxnone.github.io/linux/#/0032_Tools_Process"
+    click P1 "https://junxnone.github.io/linux/#/0009_Tools_Process_top"
+    click P2 "https://junxnone.github.io/linux/#/0019_Tools_Process_kill"
+    click P3 "https://junxnone.github.io/linux/#/0034_Tools_Process_taskset"
+    click P4 "https://junxnone.github.io/linux/#/0012_Tools_chrt"
+    click P5 "https://junxnone.github.io/linux/#/0041_Tools_OS_ulimit"
+    click P6 "https://junxnone.github.io/linux/#/0071_Tools_TaskSchedule_crontab"
+    click P7 "https://junxnone.github.io/linux/#/0040_Tools_TaskSchedule"
+    click SV3 "https://junxnone.github.io/linux/#/0061_Tools_OS_ShowBootInfo"
+    click D "https://junxnone.github.io/linux/#/0064_FileSystem"
+    click D1 "https://junxnone.github.io/linux/#/0064_FileSystem"
+    click D2 "https://junxnone.github.io/linux/#/0081_FileSystem_Format"
+    click D3 "https://junxnone.github.io/linux/#/0131_Linux_LVM"
+    click D4 "https://junxnone.github.io/linux/#/0097_Ubuntu_AutoMountDisk"
+    click D5 "https://junxnone.github.io/linux/#/0083_Ubuntu_IncreaseSwap"
+    click D6 "https://junxnone.github.io/linux/#/0137_Tools_OS_Disk_ncdu"
+    click D7 "https://junxnone.github.io/linux/#/0045_Tools_OS_iostat"
+    click N "https://junxnone.github.io/linux/#/0060_Tools_Networks"
+    click N1 "https://junxnone.github.io/linux/#/0133_Tools_OS_Port"
+    click N2 "https://junxnone.github.io/linux/#/0062_Tools_nmap"
+    click N3 "https://junxnone.github.io/linux/#/0048_Tools_Networks_sar"
+    click N4 "https://junxnone.github.io/linux/#/0106_Tools_Networks_PerformanceTools"
+    click N6 "https://junxnone.github.io/linux/#/0080_Tools_Networks_Proxy"
+    click LG "https://junxnone.github.io/linux/#/0136_Logs"
+    click LG1 "https://junxnone.github.io/linux/#/0136_Logs"
+    click LG2 "https://junxnone.github.io/linux/#/0127_Tools_OS_log"
+    click LG3 "https://junxnone.github.io/linux/#/0069_Tools_OS_adduser"
+    click LG4 "https://junxnone.github.io/linux/#/0065_Security_PAM"
 ```
 
 图中：
@@ -313,16 +313,16 @@ flowchart TB
     classDef done fill:#b7e4c7,stroke:#2d6a4f,color:#1b4332;
     classDef todo fill:#ffe699,stroke:#bf9000,color:#5c4400;
 
-    click O1 "/0009_Tools_Process_top"
-    click O2 "/0125_Tools_OS_Memory"
-    click O3 "/0045_Tools_OS_iostat"
-    click O4 "/0048_Tools_Networks_sar"
-    click O5 "/0108_Tools_OS_netdata"
-    click O6 "/0098_Tools_OS_watch"
-    click O7 "/0068_Tools_OS_HardwareInfo"
-    click BM1 "/0129_Tools_Benchmark"
-    click BM2 "/0106_Tools_Networks_PerformanceTools"
-    click ME1 "/0125_Tools_OS_Memory"
+    click O1 "https://junxnone.github.io/linux/#/0009_Tools_Process_top"
+    click O2 "https://junxnone.github.io/linux/#/0125_Tools_OS_Memory"
+    click O3 "https://junxnone.github.io/linux/#/0045_Tools_OS_iostat"
+    click O4 "https://junxnone.github.io/linux/#/0048_Tools_Networks_sar"
+    click O5 "https://junxnone.github.io/linux/#/0108_Tools_OS_netdata"
+    click O6 "https://junxnone.github.io/linux/#/0098_Tools_OS_watch"
+    click O7 "https://junxnone.github.io/linux/#/0068_Tools_OS_HardwareInfo"
+    click BM1 "https://junxnone.github.io/linux/#/0129_Tools_Benchmark"
+    click BM2 "https://junxnone.github.io/linux/#/0106_Tools_Networks_PerformanceTools"
+    click ME1 "https://junxnone.github.io/linux/#/0125_Tools_OS_Memory"
 ```
 
 图中：
@@ -375,18 +375,18 @@ flowchart TB
     classDef done fill:#b7e4c7,stroke:#2d6a4f,color:#1b4332;
     classDef todo fill:#ffe699,stroke:#bf9000,color:#5c4400;
 
-    click K0 "/0013_Linux_Kernel"
-    click B1 "/0114_Ubuntu_SetDefaultKernel"
-    click B2 "/0073_Tools_OS_KernelUpgrade"
-    click B3 "/0061_Tools_OS_ShowBootInfo"
-    click SC3 "/0012_Tools_chrt"
-    click SC4 "/0034_Tools_Process_taskset"
-    click MM4 "/0083_Ubuntu_IncreaseSwap"
-    click FS3 "/0131_Linux_LVM"
-    click IP "/0086_Linux_IPC"
-    click IP1 "/0082_Linux_POSIX与SystemV"
-    click IP2 "/0087_Linux_IPC_SharedMemory"
-    click IP3 "/0088_Linux_IPC_Semaphore"
+    click K0 "https://junxnone.github.io/linux/#/0013_Linux_Kernel"
+    click B1 "https://junxnone.github.io/linux/#/0114_Ubuntu_SetDefaultKernel"
+    click B2 "https://junxnone.github.io/linux/#/0073_Tools_OS_KernelUpgrade"
+    click B3 "https://junxnone.github.io/linux/#/0061_Tools_OS_ShowBootInfo"
+    click SC3 "https://junxnone.github.io/linux/#/0012_Tools_chrt"
+    click SC4 "https://junxnone.github.io/linux/#/0034_Tools_Process_taskset"
+    click MM4 "https://junxnone.github.io/linux/#/0083_Ubuntu_IncreaseSwap"
+    click FS3 "https://junxnone.github.io/linux/#/0131_Linux_LVM"
+    click IP "https://junxnone.github.io/linux/#/0086_Linux_IPC"
+    click IP1 "https://junxnone.github.io/linux/#/0082_Linux_POSIX与SystemV"
+    click IP2 "https://junxnone.github.io/linux/#/0087_Linux_IPC_SharedMemory"
+    click IP3 "https://junxnone.github.io/linux/#/0088_Linux_IPC_Semaphore"
 ```
 
 图中：
@@ -430,11 +430,11 @@ flowchart TB
     classDef done fill:#b7e4c7,stroke:#2d6a4f,color:#1b4332;
     classDef todo fill:#ffe699,stroke:#bf9000,color:#5c4400;
 
-    click D0 "/0005_Driver"
-    click G1 "/0110_Ubuntu_Issues_NVIDIAGPUDriver"
-    click E "/0084_Linux_Yocto"
-    click E1 "/0084_Linux_Yocto"
-    click E2 "/0085_Linux_Yocto_SetStaticIP"
+    click D0 "https://junxnone.github.io/linux/#/0005_Driver"
+    click G1 "https://junxnone.github.io/linux/#/0110_Ubuntu_Issues_NVIDIAGPUDriver"
+    click E "https://junxnone.github.io/linux/#/0084_Linux_Yocto"
+    click E1 "https://junxnone.github.io/linux/#/0084_Linux_Yocto"
+    click E2 "https://junxnone.github.io/linux/#/0085_Linux_Yocto_SetStaticIP"
 ```
 
 图中：
@@ -500,4 +500,5 @@ flowchart TB
 - [Linux Device Drivers, 3rd Edition](https://lwn.net/Kernel/LDD3/)
 - [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/)
 - [Mermaid: Flowchart](https://mermaid.js.org/syntax/flowchart.html)
+
 
