@@ -56,7 +56,7 @@
 - 2024-09-23 22:51&nbsp;&nbsp; [端口占用](/0133_Tools_OS_Port)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:Port
 - 2024-08-27 16:07&nbsp;&nbsp; [Linux 系统过载 无法通过 ssh 连接](/0132_Ubuntu_Issues_sshd)&nbsp;&nbsp; :bookmark:Ubuntu :bookmark:Issues :bookmark:sshd
 - 2024-08-12 08:45&nbsp;&nbsp; [LVM](/0131_Linux_LVM)&nbsp;&nbsp; :bookmark:Linux :bookmark:LVM
-- 2024-06-22 02:04&nbsp;&nbsp; [RoadMap](/0130_Linux_RoadMap)&nbsp;&nbsp; :bookmark:Linux :bookmark:RoadMap
+- 2024-06-22 02:04&nbsp;&nbsp; [Linux RoadMap](/0130_Linux_RoadMap)&nbsp;&nbsp; :bookmark:Linux :bookmark:RoadMap
 - 2024-03-13 10:14&nbsp;&nbsp; [Benchmark Tools](/0129_Tools_Benchmark)&nbsp;&nbsp; :bookmark:Tools :bookmark:Benchmark
 - 2024-03-12 23:42&nbsp;&nbsp; [7z](/0128_Tools_File_Archiver_7z)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:Archiver :bookmark:7z
 - 2023-12-05 11:05&nbsp;&nbsp; [log 相关工具](/0127_Tools_OS_log)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:log
@@ -187,6 +187,7 @@
 
 #### **Updated**
 
+- 2026-11-27 09:53&nbsp;&nbsp; [Linux RoadMap](/0130_Linux_RoadMap)&nbsp;&nbsp; :bookmark:Linux :bookmark:RoadMap
 - 2026-11-27 09:32&nbsp;&nbsp; [Linux](/0001_Linux)&nbsp;&nbsp; :bookmark:Linux
 - 2026-11-26 18:28&nbsp;&nbsp; [ShadowSocks](/0067_Tools_Networks_Proxy_shadowsocks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:shadowsocks
 - 2026-11-26 18:28&nbsp;&nbsp; [V2Ray](/0066_Tools_Networks_Proxy_V2Ray)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray
@@ -254,7 +255,6 @@
 - 2024-08-12 08:50&nbsp;&nbsp; [LVM](/0131_Linux_LVM)&nbsp;&nbsp; :bookmark:Linux :bookmark:LVM
 - 2024-07-19 10:05&nbsp;&nbsp; [sort 排序工具](/0031_Tools_Text_sort)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:sort
 - 2024-07-13 11:42&nbsp;&nbsp; [CentOS 安装桌面](/0107_Desktop_CentOS)&nbsp;&nbsp; :bookmark:Desktop :bookmark:CentOS
-- 2024-06-22 02:04&nbsp;&nbsp; [RoadMap](/0130_Linux_RoadMap)&nbsp;&nbsp; :bookmark:Linux :bookmark:RoadMap
 - 2024-06-21 09:24&nbsp;&nbsp; [hostname 管理](/0072_Tools_OS_hostname)&nbsp;&nbsp; :bookmark:Tools :bookmark:OS :bookmark:hostname
 - 2024-06-12 17:44&nbsp;&nbsp; [awk](/0052_Tools_Text_awk)&nbsp;&nbsp; :bookmark:Tools :bookmark:Text :bookmark:awk
 - 2024-06-06 15:28&nbsp;&nbsp; [压缩解压](/0020_Tools_File_Archiver)&nbsp;&nbsp; :bookmark:Tools :bookmark:File :bookmark:Archiver
