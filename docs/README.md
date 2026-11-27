@@ -1,7 +1,7 @@
 ---
 Title | README
 -- | --
-Updated @ | `2026-11-27T06:41:37Z`
+Updated @ | `2026-11-27T06:44:09Z`
 Edit @ | [here](https://github.com/junxnone/linux/issues/79)
 
 ---
@@ -15,7 +15,7 @@ This is a [Linux] Wiki.  <kbd>[Use this Template](https://github.com/junxnone/tw
 
 ---
 
-<iframe src="https://junxnone.github.io/jstools/mdfishbone/?md=https://junxnone.github.io/linux/0130_Linux_RoadMap.md&amp;base=https://junxnone.github.io/linux/%23" width="100%" height="720" frameborder="0" loading="lazy" title="Linux RoadMap"></iframe>  
+[Index](_sidebar.md ':include')
 
 
 [kg](https://junxnone.github.io/jstools/3dkg/?json=https://junxnone.github.io/linux/kg.json ':include :type=iframe width=100% height=800px')
