@@ -187,6 +187,7 @@
 
 #### **Updated**
 
+- 2026-11-27 09:32&nbsp;&nbsp; [Linux](/0001_Linux)&nbsp;&nbsp; :bookmark:Linux
 - 2026-11-26 18:28&nbsp;&nbsp; [ShadowSocks](/0067_Tools_Networks_Proxy_shadowsocks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:shadowsocks
 - 2026-11-26 18:28&nbsp;&nbsp; [V2Ray](/0066_Tools_Networks_Proxy_V2Ray)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:V2Ray
 - 2026-11-26 18:28&nbsp;&nbsp; [Transport](/0181_Tools_Networks_Proxy_Transport)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks :bookmark:Proxy :bookmark:Transport
@@ -313,7 +314,6 @@
 - 2022-12-21 23:06&nbsp;&nbsp; [多媒体工具](/0076_Tools_Media)&nbsp;&nbsp; :bookmark:Tools :bookmark:Media
 - 2022-12-21 23:01&nbsp;&nbsp; [远程管理工具](/0075_Tools_Remote)&nbsp;&nbsp; :bookmark:Tools :bookmark:Remote
 - 2022-08-23 11:45&nbsp;&nbsp; [Networks](/0060_Tools_Networks)&nbsp;&nbsp; :bookmark:Tools :bookmark:Networks
-- 2022-05-02 22:04&nbsp;&nbsp; [Linux](/0001_Linux)&nbsp;&nbsp; :bookmark:Linux
 - 2021-12-30 10:51&nbsp;&nbsp; [meld 文件对比工具](/0004_Tools_TextCompare_meld)&nbsp;&nbsp; :bookmark:Tools :bookmark:TextCompare :bookmark:meld
 - 2021-11-09 21:32&nbsp;&nbsp; [Driver](/0005_Driver)&nbsp;&nbsp; :bookmark:Driver
 - 2021-11-04 16:32&nbsp;&nbsp; [script 记录终端执行命令历史](/0006_Tools_script)&nbsp;&nbsp; :bookmark:Tools :bookmark:script
