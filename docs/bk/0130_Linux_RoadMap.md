@@ -3,13 +3,13 @@
 | Title     | Linux RoadMap                                        |
 | --------- | ---------------------------------------------------- |
 | Created @ | `2024-06-21T18:04:04Z`                               |
-| Updated @ | `2026-11-27T06:16:01Z`                               |
+| Updated @ | `2026-11-27T08:02:45Z`                               |
 | Labels    | \`\`                                                 |
 | Edit @    | [here](https://github.com/junxnone/linux/issues/130) |
 
 -----
 
-# Linux RoadMap
+# [Linux RoadMap](https://junxnone.github.io/jstools/mdfishbone/?md=https://junxnone.github.io/linux/0130_Linux_RoadMap.md&base=https://junxnone.github.io/linux/%23)
 
 ## 1 入门
 
