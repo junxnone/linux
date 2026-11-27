@@ -2,503 +2,582 @@
 Title | Linux RoadMap
 -- | --
 Created @ | `2024-06-21T18:04:04Z`
-Updated @| `2026-11-27T01:56:24Z`
+Updated @| `2026-11-27T06:16:01Z`
 Labels | ``
 Edit @| [here](https://github.com/junxnone/linux/issues/130)
 
 ---
 # Linux RoadMap
 
-从入门到精通的 Linux 学习路线图。用节点图表示「一路深入」的学习顺序：从上到下越来越深，同一层的节点是并列的主题。
-
-图例：
-
-- 绿色节点：本站已有文章，点击可以跳转 (见下面关于点击的说明)
-- 黄色节点：本站还没有的文章，先不链接，列在文末的「待新增」里
-- 实线箭头：建议的学习顺序；虚线箭头：相关或可选的衔接
-
-```mermaid
-flowchart LR
-    G([已有文章]):::done
-    Y([待新增]):::todo
-    classDef done fill:#b7e4c7,stroke:#2d6a4f,color:#1b4332;
-    classDef todo fill:#ffe699,stroke:#bf9000,color:#5c4400;
-```
-
-图中：左边是已有文章的颜色，右边是待新增的颜色，下面所有图都沿用这套配色。
-
-> 关于点击：绿色节点带有 `click` 链接，在支持的渲染环境里点击会跳转到对应文章；GitHub 的 issue 页面出于安全考虑会禁用 `click`，所以每张图下面都附了同样内容的链接表，任何环境下都可以用。
-
-## 总览：六个层次
-
-下图是整条路线的主干，每一层列出最重要的几个主题，更多细节在后面各层的展开图里：
-
-```mermaid
-flowchart TB
-    L1[1 入门<br>认识 Linux 与基本使用]:::level
-    L2[2 命令行<br>文件 文本 远程 脚本]:::level
-    L3[3 系统管理<br>进程 磁盘 网络 日志 服务]:::level
-    L4[4 性能与排错<br>方法 观测 剖析 追踪]:::level
-    L5[5 内核基础<br>启动 调度 内存 文件系统 IPC]:::level
-    L6[6 驱动与内核开发<br>模块 设备模型 V4L2 调试]:::level
-
-    L1 ==> L2 ==> L3 ==> L4 ==> L5 ==> L6
-
-    L1 --> a1[Linux 概览]:::done
-    L1 --> a2[Ubuntu]:::done
-    L1 --> a3[APT 包管理]:::done
-    L1 --> a4[目录结构与权限]:::todo
-
-    L2 --> b1[文件工具]:::done
-    L2 --> b2[文本处理]:::done
-    L2 --> b3[远程与传输]:::done
-    L2 --> b4[Shell 脚本]:::todo
-
-    L3 --> c1[进程管理]:::done
-    L3 --> c2[磁盘与文件系统]:::done
-    L3 --> c3[网络]:::done
-    L3 --> c4[systemd 与服务]:::todo
-
-    L4 --> d1[内存观测]:::done
-    L4 --> d2[USE 方法]:::todo
-    L4 --> d3[perf 剖析]:::todo
-    L4 --> d4[eBPF 追踪]:::todo
-
-    L5 --> e1[IPC]:::done
-    L5 --> e2[内核升级与启动]:::done
-    L5 --> e3[调度器]:::todo
-    L5 --> e4[内存管理]:::todo
-
-    L6 --> f1[Driver 概览]:::done
-    L6 --> f2[内核模块]:::todo
-    L6 --> f3[V4L2]:::todo
-    L6 --> f4[Yocto 构建]:::done
-
-    classDef level fill:#dbe7ff,stroke:#3b5bdb,color:#1c2f7a,font-weight:bold;
-    classDef done fill:#b7e4c7,stroke:#2d6a4f,color:#1b4332;
-    classDef todo fill:#ffe699,stroke:#bf9000,color:#5c4400;
-
-    click a1 "https://junxnone.github.io/linux/#/0001_Linux"
-    click a2 "https://junxnone.github.io/linux/#/0120_Ubuntu"
-    click a3 "https://junxnone.github.io/linux/#/0015_Ubuntu_APT"
-    click b1 "https://junxnone.github.io/linux/#/0077_Tools_File"
-    click b2 "https://junxnone.github.io/linux/#/0078_Tools_Text"
-    click b3 "https://junxnone.github.io/linux/#/0075_Tools_Remote"
-    click c1 "https://junxnone.github.io/linux/#/0032_Tools_Process"
-    click c2 "https://junxnone.github.io/linux/#/0064_FileSystem"
-    click c3 "https://junxnone.github.io/linux/#/0060_Tools_Networks"
-    click d1 "https://junxnone.github.io/linux/#/0125_Tools_OS_Memory"
-    click e1 "https://junxnone.github.io/linux/#/0086_Linux_IPC"
-    click e2 "https://junxnone.github.io/linux/#/0073_Tools_OS_KernelUpgrade"
-    click f1 "https://junxnone.github.io/linux/#/0005_Driver"
-    click f4 "https://junxnone.github.io/linux/#/0084_Linux_Yocto"
-```
-
-图中：
-
-- 蓝色的大节点是六个层次，粗箭头 (`==>`) 是学习顺序：入门 → 命令行 → 系统管理 → 性能与排错 → 内核基础 → 驱动与内核开发
-- 每层下面是该层最核心的四个主题，绿色表示已有、黄色表示待写；可以看出现有内容集中在第 1～3 层，第 4～6 层大多是黄色，这也是后续补充的重点
-- 性能与排错 (第 4 层) 放在内核之前：先学会用工具观测和定位问题，再去读内核，学习内核时才有具体的问题驱动
-
-## 第 1~2 层：入门与命令行
-
-```mermaid
-flowchart TB
-    R1[入门]:::level --> A1[Linux 概览]:::done
-    R1 --> A2[发行版 Ubuntu]:::done
-    R1 --> A3[目录结构与权限]:::todo
-    A2 --> A4[APT 包管理]:::done
-    A4 --> A5[APT 源]:::done
-    A4 --> A6[snap]:::done
-    A2 --> A7[升级系统]:::done
-    A2 --> A8[用户管理]:::done
-
-    R1 ==> R2[命令行]:::level
-    R2 --> S[Shell]:::done
-    S --> S1[快捷键]:::done
-    S --> S2[bashrc]:::done
-    S --> S3[history]:::done
-    S --> S4[Shell 脚本]:::todo
-    S4 --> S5[管道与重定向]:::todo
-
-    R2 --> F[文件]:::done
-    F --> F1[ls]:::done
-    F --> F2[find]:::done
-    F --> F3[tree]:::done
-    F --> F4[ln]:::done
-    F --> F5[压缩与归档]:::done
-    F --> F6[rename]:::done
-
-    R2 --> T[文本]:::done
-    T --> T1[grep]:::done
-    T --> T2[sed]:::done
-    T --> T3[awk]:::done
-    T --> T4[sort]:::done
-    T --> T5[tr]:::done
-    T --> T6[xargs]:::done
-    T --> T7[Vi]:::done
-    T --> T8[json]:::done
-
-    R2 --> M[远程]:::done
-    M --> M1[ssh]:::done
-    M --> M2[scp]:::done
-    M --> M3[rsync]:::done
-    M --> M4[tmux]:::done
-    M --> M5[Samba]:::done
-
-    classDef level fill:#dbe7ff,stroke:#3b5bdb,color:#1c2f7a,font-weight:bold;
-    classDef done fill:#b7e4c7,stroke:#2d6a4f,color:#1b4332;
-    classDef todo fill:#ffe699,stroke:#bf9000,color:#5c4400;
-
-    click A1 "https://junxnone.github.io/linux/#/0001_Linux"
-    click A2 "https://junxnone.github.io/linux/#/0120_Ubuntu"
-    click A4 "https://junxnone.github.io/linux/#/0015_Ubuntu_APT"
-    click A5 "https://junxnone.github.io/linux/#/0119_Ubuntu_APT_Source"
-    click A6 "https://junxnone.github.io/linux/#/0021_Tools_OS_snap"
-    click A7 "https://junxnone.github.io/linux/#/0089_Ubuntu_Upgrade"
-    click A8 "https://junxnone.github.io/linux/#/0104_Ubuntu_UserAdd"
-    click S "https://junxnone.github.io/linux/#/0134_Tools_Shell"
-    click S1 "https://junxnone.github.io/linux/#/0135_Tools_Shell_hotkey"
-    click S2 "https://junxnone.github.io/linux/#/0102_Linux_bashrc"
-    click S3 "https://junxnone.github.io/linux/#/0049_Tools_history"
-    click F "https://junxnone.github.io/linux/#/0077_Tools_File"
-    click F1 "https://junxnone.github.io/linux/#/0023_Tools_File_ls"
-    click F2 "https://junxnone.github.io/linux/#/0043_Tools_File_find"
-    click F3 "https://junxnone.github.io/linux/#/0035_Tools_File_tree"
-    click F4 "https://junxnone.github.io/linux/#/0033_Tools_File_ln"
-    click F5 "https://junxnone.github.io/linux/#/0020_Tools_File_Archiver"
-    click F6 "https://junxnone.github.io/linux/#/0050_Tools_File_rename"
-    click T "https://junxnone.github.io/linux/#/0078_Tools_Text"
-    click T1 "https://junxnone.github.io/linux/#/0025_Tools_Text_grep"
-    click T2 "https://junxnone.github.io/linux/#/0027_Tools_Text_sed"
-    click T3 "https://junxnone.github.io/linux/#/0052_Tools_Text_awk"
-    click T4 "https://junxnone.github.io/linux/#/0031_Tools_Text_sort"
-    click T5 "https://junxnone.github.io/linux/#/0026_Tools_Text_tr"
-    click T6 "https://junxnone.github.io/linux/#/0022_Tools_xargs"
-    click T7 "https://junxnone.github.io/linux/#/0039_Tools_Text_Vi"
-    click T8 "https://junxnone.github.io/linux/#/0042_Tools_Text_json"
-    click M "https://junxnone.github.io/linux/#/0075_Tools_Remote"
-    click M1 "https://junxnone.github.io/linux/#/0011_Tools_Remote_ssh"
-    click M2 "https://junxnone.github.io/linux/#/0010_Tools_Remote_scp"
-    click M3 "https://junxnone.github.io/linux/#/0044_Tools_Remote_rsync"
-    click M4 "https://junxnone.github.io/linux/#/0051_Tools_Remote_tmux"
-    click M5 "https://junxnone.github.io/linux/#/0046_Tools_Remote_Samba"
-```
-
-图中：
-
-- 上半部分是入门：先认识发行版，再学包管理、升级和用户；下半部分是命令行，分成 Shell、文件、文本、远程四条并列的分支，每条分支下是具体工具
-- 现有笔记几乎覆盖了所有常用工具，缺的是两个「串起工具」的主题：目录结构与权限 (入门的第一步)，以及 Shell 脚本 (把工具组合成自动化)；管道与重定向是脚本的基础，所以挂在脚本下面
-
-## 第 3 层：系统管理
-
-```mermaid
-flowchart TB
-    R3[系统管理]:::level --> P[进程与任务]:::done
-    P --> P1[top]:::done
-    P --> P2[kill]:::done
-    P --> P3[taskset 绑核]:::done
-    P --> P4[chrt 实时优先级]:::done
-    P --> P5[ulimit]:::done
-    P --> P6[crontab]:::done
-    P --> P7[at / batch / jobs]:::done
-    P --> P8[信号详解]:::todo
-
-    R3 --> SV[服务与启动]:::todo
-    SV --> SV1[systemd 与 systemctl]:::todo
-    SV --> SV2[journalctl 日志]:::todo
-    SV --> SV3[启动信息]:::done
-
-    R3 --> D[磁盘与文件系统]:::done
-    D --> D1[目录与 /proc]:::done
-    D --> D2[格式化与文件系统类型]:::done
-    D --> D3[LVM]:::done
-    D --> D4[自动挂载]:::done
-    D --> D5[增加 Swap]:::done
-    D --> D6[ncdu 磁盘占用]:::done
-    D --> D7[iostat]:::done
-
-    R3 --> N[网络]:::done
-    N --> N1[端口]:::done
-    N --> N2[nmap]:::done
-    N --> N3[sar]:::done
-    N --> N4[网络性能工具]:::done
-    N --> N5[ip / ss / tcpdump]:::todo
-    N --> N6[代理系列]:::done
-
-    R3 --> LG[日志与用户]:::done
-    LG --> LG1[Logs 文件对照]:::done
-    LG --> LG2[系统 log]:::done
-    LG --> LG3[adduser]:::done
-    LG --> LG4[PAM]:::done
-
-    classDef level fill:#dbe7ff,stroke:#3b5bdb,color:#1c2f7a,font-weight:bold;
-    classDef done fill:#b7e4c7,stroke:#2d6a4f,color:#1b4332;
-    classDef todo fill:#ffe699,stroke:#bf9000,color:#5c4400;
-
-    click P "https://junxnone.github.io/linux/#/0032_Tools_Process"
-    click P1 "https://junxnone.github.io/linux/#/0009_Tools_Process_top"
-    click P2 "https://junxnone.github.io/linux/#/0019_Tools_Process_kill"
-    click P3 "https://junxnone.github.io/linux/#/0034_Tools_Process_taskset"
-    click P4 "https://junxnone.github.io/linux/#/0012_Tools_chrt"
-    click P5 "https://junxnone.github.io/linux/#/0041_Tools_OS_ulimit"
-    click P6 "https://junxnone.github.io/linux/#/0071_Tools_TaskSchedule_crontab"
-    click P7 "https://junxnone.github.io/linux/#/0040_Tools_TaskSchedule"
-    click SV3 "https://junxnone.github.io/linux/#/0061_Tools_OS_ShowBootInfo"
-    click D "https://junxnone.github.io/linux/#/0064_FileSystem"
-    click D1 "https://junxnone.github.io/linux/#/0064_FileSystem"
-    click D2 "https://junxnone.github.io/linux/#/0081_FileSystem_Format"
-    click D3 "https://junxnone.github.io/linux/#/0131_Linux_LVM"
-    click D4 "https://junxnone.github.io/linux/#/0097_Ubuntu_AutoMountDisk"
-    click D5 "https://junxnone.github.io/linux/#/0083_Ubuntu_IncreaseSwap"
-    click D6 "https://junxnone.github.io/linux/#/0137_Tools_OS_Disk_ncdu"
-    click D7 "https://junxnone.github.io/linux/#/0045_Tools_OS_iostat"
-    click N "https://junxnone.github.io/linux/#/0060_Tools_Networks"
-    click N1 "https://junxnone.github.io/linux/#/0133_Tools_OS_Port"
-    click N2 "https://junxnone.github.io/linux/#/0062_Tools_nmap"
-    click N3 "https://junxnone.github.io/linux/#/0048_Tools_Networks_sar"
-    click N4 "https://junxnone.github.io/linux/#/0106_Tools_Networks_PerformanceTools"
-    click N6 "https://junxnone.github.io/linux/#/0080_Tools_Networks_Proxy"
-    click LG "https://junxnone.github.io/linux/#/0136_Logs"
-    click LG1 "https://junxnone.github.io/linux/#/0136_Logs"
-    click LG2 "https://junxnone.github.io/linux/#/0127_Tools_OS_log"
-    click LG3 "https://junxnone.github.io/linux/#/0069_Tools_OS_adduser"
-    click LG4 "https://junxnone.github.io/linux/#/0065_Security_PAM"
-```
-
-图中：
-
-- 分成五条并列的分支：进程与任务、服务与启动、磁盘与文件系统、网络、日志与用户；分支的根节点颜色表示这一类是否已有总览文章
-- 进程、磁盘、日志几条分支已经比较完整；缺口在 `systemd` (现代发行版管理服务和日志的核心) 和 `ip`/`ss`/`tcpdump` 这组网络排错基本功，以及进程里的「信号详解」
-- 网络分支里的「代理系列」数量很多 (协议、传输、安全等几十篇)，已经形成独立体系，入口是 Proxy 总览
-
-## 第 4 层：性能与排错
-
-```mermaid
-flowchart TB
-    R4[性能与排错]:::level --> M[方法]:::todo
-    M --> M1[USE 方法]:::todo
-    M --> M2[延迟与吞吐]:::todo
-    M --> M3[排错流程]:::todo
-
-    R4 --> O[观测 全局]:::done
-    O --> O1[top / vmstat]:::done
-    O --> O2[free 与内存指标]:::done
-    O --> O3[iostat]:::done
-    O --> O4[sar]:::done
-    O --> O5[netdata]:::done
-    O --> O6[watch]:::done
-    O --> O7[硬件信息]:::done
-
-    R4 --> PR[剖析 CPU]:::todo
-    PR --> PR1[perf stat / record / report]:::todo
-    PR --> PR2[火焰图]:::todo
-    PR --> PR3[valgrind]:::todo
-
-    R4 --> TR[追踪]:::todo
-    TR --> TR1[strace / ltrace]:::todo
-    TR --> TR2[ftrace / trace-cmd]:::todo
-    TR --> TR3[eBPF / bpftrace]:::todo
-
-    R4 --> BM[基准测试]:::done
-    BM --> BM1[Benchmark 工具]:::done
-    BM --> BM2[网络性能测试]:::done
-
-    R4 --> ME[内存专题]:::todo
-    ME --> ME1[VSS RSS PSS USS]:::done
-    ME --> ME2[内存泄漏排查]:::todo
-    ME --> ME3[OOM 与 cgroup 限制]:::todo
-
-    classDef level fill:#dbe7ff,stroke:#3b5bdb,color:#1c2f7a,font-weight:bold;
-    classDef done fill:#b7e4c7,stroke:#2d6a4f,color:#1b4332;
-    classDef todo fill:#ffe699,stroke:#bf9000,color:#5c4400;
-
-    click O1 "https://junxnone.github.io/linux/#/0009_Tools_Process_top"
-    click O2 "https://junxnone.github.io/linux/#/0125_Tools_OS_Memory"
-    click O3 "https://junxnone.github.io/linux/#/0045_Tools_OS_iostat"
-    click O4 "https://junxnone.github.io/linux/#/0048_Tools_Networks_sar"
-    click O5 "https://junxnone.github.io/linux/#/0108_Tools_OS_netdata"
-    click O6 "https://junxnone.github.io/linux/#/0098_Tools_OS_watch"
-    click O7 "https://junxnone.github.io/linux/#/0068_Tools_OS_HardwareInfo"
-    click BM1 "https://junxnone.github.io/linux/#/0129_Tools_Benchmark"
-    click BM2 "https://junxnone.github.io/linux/#/0106_Tools_Networks_PerformanceTools"
-    click ME1 "https://junxnone.github.io/linux/#/0125_Tools_OS_Memory"
-```
-
-图中：
-
-- 这一层的顺序是：先有方法 (USE)，再用全局观测工具缩小范围，之后用剖析 (perf) 和追踪 (strace、ftrace、eBPF) 深入，基准测试和内存专题是两个并列的支线
-- 「观测」和「基准测试」已经有笔记，而「方法」「剖析」「追踪」三条主干全是黄色，这是现在最大的缺口；它们对日常排错的价值最高，建议最先补
-- 内存专题里，指标篇 (VSS/RSS/PSS/USS) 已有，泄漏排查和 OOM 还没有
-
-## 第 5 层：内核基础
-
-```mermaid
-flowchart TB
-    R5[内核基础]:::level --> K0[内核概览]:::done
-    K0 --> K1[内核版本与发布]:::todo
-
-    R5 --> B[启动]:::todo
-    B --> B1[设置默认内核]:::done
-    B --> B2[内核升级]:::done
-    B --> B3[启动信息]:::done
-    B --> B4[UEFI GRUB initramfs 详解]:::todo
-    B --> B5[编译与安装内核]:::todo
-
-    R5 --> SC[系统调用与调度]:::todo
-    SC --> SC1[系统调用路径]:::todo
-    SC --> SC2[调度器 CFS EEVDF]:::todo
-    SC --> SC3[实时调度 chrt]:::done
-    SC --> SC4[CPU 亲和性 taskset]:::done
-
-    R5 --> MM[内存管理]:::todo
-    MM --> MM1[虚拟内存与页表]:::todo
-    MM --> MM2[页缓存与回收]:::todo
-    MM --> MM3[大页与 NUMA]:::todo
-    MM --> MM4[交换区]:::done
-
-    R5 --> FS[文件系统与 I O]:::todo
-    FS --> FS1[VFS 与页缓存写回]:::todo
-    FS --> FS2[块层与 I O 调度]:::todo
-    FS --> FS3[LVM 与文件系统格式]:::done
-
-    R5 --> IP[IPC]:::done
-    IP --> IP1[POSIX 与 System V]:::done
-    IP --> IP2[共享内存]:::done
-    IP --> IP3[信号量]:::done
-
-    R5 --> CG[容器基础]:::todo
-    CG --> CG1[namespace]:::todo
-    CG --> CG2[cgroup v2]:::todo
-
-    classDef level fill:#dbe7ff,stroke:#3b5bdb,color:#1c2f7a,font-weight:bold;
-    classDef done fill:#b7e4c7,stroke:#2d6a4f,color:#1b4332;
-    classDef todo fill:#ffe699,stroke:#bf9000,color:#5c4400;
-
-    click K0 "https://junxnone.github.io/linux/#/0013_Linux_Kernel"
-    click B1 "https://junxnone.github.io/linux/#/0114_Ubuntu_SetDefaultKernel"
-    click B2 "https://junxnone.github.io/linux/#/0073_Tools_OS_KernelUpgrade"
-    click B3 "https://junxnone.github.io/linux/#/0061_Tools_OS_ShowBootInfo"
-    click SC3 "https://junxnone.github.io/linux/#/0012_Tools_chrt"
-    click SC4 "https://junxnone.github.io/linux/#/0034_Tools_Process_taskset"
-    click MM4 "https://junxnone.github.io/linux/#/0083_Ubuntu_IncreaseSwap"
-    click FS3 "https://junxnone.github.io/linux/#/0131_Linux_LVM"
-    click IP "https://junxnone.github.io/linux/#/0086_Linux_IPC"
-    click IP1 "https://junxnone.github.io/linux/#/0082_Linux_POSIX与SystemV"
-    click IP2 "https://junxnone.github.io/linux/#/0087_Linux_IPC_SharedMemory"
-    click IP3 "https://junxnone.github.io/linux/#/0088_Linux_IPC_Semaphore"
-```
-
-图中：
-
-- 内核基础按子系统展开：启动、系统调用与调度、内存管理、文件系统与 I/O、IPC、容器基础 (namespace 与 cgroup)
-- 绿色的叶子节点大多是「用户态怎么用」(设置内核、`chrt`、`taskset`、swap、LVM)，黄色的是对应的「内核里怎么实现」；这是一个有用的提示：每个子系统先有使用层的笔记，再补原理层
-- 内核概览本身 (#13) 目前只有几行，是一篇待充实的入口文章；IPC 是这一层里最完整的分支
-
-## 第 6 层：驱动与内核开发
-
-```mermaid
-flowchart TB
-    R6[驱动与内核开发]:::level --> D0[驱动概览]:::done
-    D0 --> D1[内核模块 insmod modprobe]:::todo
-    D1 --> D2[字符设备与 ioctl]:::todo
-    D2 --> D3[设备模型 sysfs udev]:::todo
-    D3 --> D4[总线 PCI USB platform]:::todo
-    D4 --> D5[设备树]:::todo
-    D2 --> D6[中断与 DMA]:::todo
-
-    D3 --> V[多媒体驱动]:::todo
-    V --> V1[V4L2 相机驱动]:::todo
-    V --> V2[ISP 驱动]:::todo
-
-    R6 --> G[显卡与加速器]:::todo
-    G --> G1[NVIDIA 驱动安装]:::done
-    G --> G2[Intel GPU i915 xe]:::todo
-
-    R6 --> DB[内核调试]:::todo
-    DB --> DB1[printk 与 dmesg]:::todo
-    DB --> DB2[ftrace 与 kprobe]:::todo
-    DB --> DB3[oops 与 crash 分析]:::todo
-    DB --> DB4[QEMU 调试内核]:::todo
-
-    R6 --> E[嵌入式构建]:::done
-    E --> E1[Yocto]:::done
-    E --> E2[Yocto 静态 IP]:::done
-    E --> E3[设备树与 BSP]:::todo
-
-    classDef level fill:#dbe7ff,stroke:#3b5bdb,color:#1c2f7a,font-weight:bold;
-    classDef done fill:#b7e4c7,stroke:#2d6a4f,color:#1b4332;
-    classDef todo fill:#ffe699,stroke:#bf9000,color:#5c4400;
-
-    click D0 "https://junxnone.github.io/linux/#/0005_Driver"
-    click G1 "https://junxnone.github.io/linux/#/0110_Ubuntu_Issues_NVIDIAGPUDriver"
-    click E "https://junxnone.github.io/linux/#/0084_Linux_Yocto"
-    click E1 "https://junxnone.github.io/linux/#/0084_Linux_Yocto"
-    click E2 "https://junxnone.github.io/linux/#/0085_Linux_Yocto_SetStaticIP"
-```
-
-图中：
-
-- 左边主干是写驱动的学习顺序，一路向下：模块 → 字符设备 → 设备模型 → 总线 → 设备树，其中中断与 DMA 从字符设备处分出，多媒体驱动 (V4L2、ISP) 建立在设备模型之上
-- 右边三条支线：显卡与加速器、内核调试、嵌入式构建；调试是写驱动时最需要的能力，建议和模块一起学
-- 已有内容只有驱动概览、NVIDIA 驱动安装笔记和 Yocto 两篇，这一层几乎都是黄色，是最大的空白；V4L2 与 ISP 可以和 Media 系列 (相机、像素格式) 衔接
-
-## 已有文章索引
-
-层次 | 文章
--- | --
-入门 | [Linux](/0001_Linux)、[Ubuntu](/0120_Ubuntu)、[APT](/0015_Ubuntu_APT)、[APT Source](/0119_Ubuntu_APT_Source)、[snap](/0021_Tools_OS_snap)、[升级](/0089_Ubuntu_Upgrade)、[UserAdd](/0104_Ubuntu_UserAdd)
-命令行 | [Shell](/0134_Tools_Shell)、[hotkey](/0135_Tools_Shell_hotkey)、[bashrc](/0102_Linux_bashrc)、[history](/0049_Tools_history)、[File](/0077_Tools_File)、[Text](/0078_Tools_Text)、[Remote](/0075_Tools_Remote)
-系统管理 | [Process](/0032_Tools_Process)、[top](/0009_Tools_Process_top)、[kill](/0019_Tools_Process_kill)、[taskset](/0034_Tools_Process_taskset)、[chrt](/0012_Tools_chrt)、[ulimit](/0041_Tools_OS_ulimit)、[crontab](/0071_Tools_TaskSchedule_crontab)、[FileSystem](/0064_FileSystem)、[Format](/0081_FileSystem_Format)、[LVM](/0131_Linux_LVM)、[AutoMountDisk](/0097_Ubuntu_AutoMountDisk)、[Swap](/0083_Ubuntu_IncreaseSwap)、[ncdu](/0137_Tools_OS_Disk_ncdu)、[Networks](/0060_Tools_Networks)、[Port](/0133_Tools_OS_Port)、[nmap](/0062_Tools_nmap)、[Proxy](/0080_Tools_Networks_Proxy)、[Logs](/0136_Logs)、[log](/0127_Tools_OS_log)、[adduser](/0069_Tools_OS_adduser)、[PAM](/0065_Security_PAM)
-性能与排错 | [Memory](/0125_Tools_OS_Memory)、[iostat](/0045_Tools_OS_iostat)、[sar](/0048_Tools_Networks_sar)、[netdata](/0108_Tools_OS_netdata)、[watch](/0098_Tools_OS_watch)、[HardwareInfo](/0068_Tools_OS_HardwareInfo)、[Benchmark](/0129_Tools_Benchmark)、[网络性能工具](/0106_Tools_Networks_PerformanceTools)
-内核基础 | [Kernel](/0013_Linux_Kernel)、[设置默认 Kernel](/0114_Ubuntu_SetDefaultKernel)、[Kernel 升级](/0073_Tools_OS_KernelUpgrade)、[ShowBootInfo](/0061_Tools_OS_ShowBootInfo)、[IPC](/0086_Linux_IPC)、[POSIX 与 System V](/0082_Linux_POSIX与SystemV)、[共享内存](/0087_Linux_IPC_SharedMemory)、[信号量](/0088_Linux_IPC_Semaphore)
-驱动与构建 | [Driver](/0005_Driver)、[NVIDIA 驱动](/0110_Ubuntu_Issues_NVIDIAGPUDriver)、[Yocto](/0084_Linux_Yocto)、[Yocto 静态 IP](/0085_Linux_Yocto_SetStaticIP)
-
-表中：这是上面各图里绿色节点的文本链接，在任何渲染环境下都可以点击；每一行对应一个层次。
-
-## 待新增的文章
-
-下面是各图中黄色节点按层次归并后的清单，建议的 issue title 沿用现有的命名层级：
-
-<details>
-<summary>展开查看待新增的 24 篇文章 (建议 title 与内容要点)</summary>
-
-层次 | 建议 title | 内容要点
--- | -- | --
-入门 | Linux Basics Hierarchy | 目录结构 (FHS)、文件权限与所有者、`sudo`
-命令行 | Tools Shell Script | 变量、条件、循环、函数、管道与重定向、`set -euo pipefail`
-系统管理 | Tools OS systemd | `systemctl`、unit 文件、依赖与启动顺序
-系统管理 | Tools OS journalctl | 日志查询、过滤、持久化
-系统管理 | Tools Networks ss | `ip`、`ss`、`tcpdump` 常用组合
-系统管理 | Tools Process Signal | 信号种类、`kill`、`trap`、僵尸进程
-性能 | Linux Performance Method | USE 方法、延迟与吞吐、排错流程
-性能 | Linux Performance perf | `perf stat/record/report`、火焰图
-性能 | Linux Performance strace | `strace`、`ltrace` 的使用与解读
-性能 | Linux Performance ftrace | `ftrace`、`trace-cmd`、事件追踪
-性能 | Linux Performance eBPF | `bpftrace`、BCC、常用单行命令
-性能 | Linux Memory Leak | 泄漏排查：`valgrind`、`smem`、`smaps`
-内核 | Linux Kernel Boot | UEFI、GRUB、initramfs、systemd 的启动流程
-内核 | Linux Kernel Build | 配置、编译、安装内核
-内核 | Linux Kernel Syscall | 系统调用路径、seccomp
-内核 | Linux Kernel Scheduler | CFS/EEVDF、实时调度、cgroup CPU 控制
-内核 | Linux Kernel MM | 虚拟内存、页缓存、回收、大页、NUMA
-内核 | Linux Kernel VFS | VFS、写回、块层、I/O 调度
-内核 | Linux Kernel Container | namespace、cgroup v2
-驱动 | Linux Driver Module | 内核模块编写与加载
-驱动 | Linux Driver CharDevice | 字符设备、`file_operations`、`ioctl`
-驱动 | Linux Driver DeviceModel | `sysfs`、`udev`、总线与设备树
-驱动 | Linux Driver V4L2 | V4L2 与 ISP 驱动，衔接 Media 系列
-驱动 | Linux Driver Debug | `printk`、`dmesg`、kprobe、oops 分析、QEMU
-
-表中：`建议 title` 即未来的 issue title；每一行对应图中的一个黄色节点或一组相邻的黄色节点。优先级：先补性能 (方法、perf、eBPF) 和 `systemd`，因为日常最常用；再补内核各子系统，最后补驱动与调试。
-
-</details>
-
-## Reference
-- [Linux kernel documentation](https://docs.kernel.org/)
-- [Brendan Gregg: Linux Performance](https://www.brendangregg.com/linuxperf.html)
-- [Linux Device Drivers, 3rd Edition](https://lwn.net/Kernel/LDD3/)
-- [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/)
-- [Mermaid: Flowchart](https://mermaid.js.org/syntax/flowchart.html)
-
+## 1 入门
+
+- 认识系统
+  - [x] [Linux 概览](/0001_Linux)
+  - [x] [Linux 历史](/0113_Linux_History)
+  - [ ] 内核与发行版的关系
+  - [ ] 开源协议 GPL
+  - [ ] 发行版对比
+- 发行版
+  - [x] [Ubuntu](/0120_Ubuntu)
+  - [x] [CentOS](/0107_Desktop_CentOS)
+  - [ ] Debian 系与 RedHat 系的区别
+- 安装与环境
+  - [ ] 虚拟机安装
+  - [ ] WSL
+  - [ ] 双系统
+  - [ ] 启动盘制作
+  - [x] [升级系统](/0089_Ubuntu_Upgrade)
+- 第一次使用
+  - [ ] 终端与 Shell 的区别
+  - [ ] 目录结构 FHS
+  - [ ] 路径与当前目录
+  - [ ] 帮助系统 man help info
+  - [ ] 环境变量与 PATH
+- 文件权限
+  - [ ] 权限位 rwx
+  - [ ] chmod chown umask
+  - [ ] SUID SGID Sticky
+  - [ ] sudo 与 sudoers
+- 用户与组
+  - [x] [用户管理](/0104_Ubuntu_UserAdd)
+  - [x] [adduser](/0069_Tools_OS_adduser)
+  - [x] [忘记密码](/0093_Ubuntu_ForgetPassword)
+  - [ ] 用户组与 id 命令
+- 软件管理
+  - [x] [APT 包管理](/0015_Ubuntu_APT)
+  - [x] [APT 源](/0119_Ubuntu_APT_Source)
+  - [x] [snap](/0021_Tools_OS_snap)
+  - [x] [update-alternatives](/0016_Tools_OS_updatealternatives)
+  - [ ] dpkg
+  - [ ] yum 与 dnf
+  - [ ] 源码编译 configure make
+  - [ ] pip 与虚拟环境
+
+## 2 命令行
+
+- 总览
+  - [x] [Linux Tools 总览](/0059_Tools)
+- Shell
+  - [x] [Shell](/0134_Tools_Shell)
+  - [x] [快捷键](/0135_Tools_Shell_hotkey)
+  - [x] [bashrc](/0102_Linux_bashrc)
+  - [x] [history](/0049_Tools_history)
+  - [ ] 通配符与引号
+  - [ ] 命令替换与变量
+  - [ ] 标准输入输出与重定向
+  - [ ] 管道
+  - [ ] 别名与函数
+  - [ ] 作业控制与后台运行
+- Shell 脚本
+  - [x] [script 记录终端](/0006_Tools_script)
+  - [ ] 脚本基础与 shebang
+  - [ ] 条件判断
+  - [ ] 循环
+  - [ ] 函数
+  - [ ] 参数与 getopts
+  - [ ] 错误处理 set -euo pipefail
+  - [ ] 脚本调试 set -x
+  - [ ] ShellCheck
+- 文件操作
+  - [x] [文件工具总览](/0077_Tools_File)
+  - [x] [ls](/0023_Tools_File_ls)
+  - [x] [find](/0043_Tools_File_find)
+  - [x] [tree](/0035_Tools_File_tree)
+  - [x] [ln](/0033_Tools_File_ln)
+  - [x] [rename](/0050_Tools_File_rename)
+  - [x] [压缩归档](/0020_Tools_File_Archiver)
+  - [x] [7z](/0128_Tools_File_Archiver_7z)
+  - [ ] cp mv rm mkdir
+  - [ ] cat less head tail
+  - [ ] tar
+  - [ ] file stat touch
+  - [ ] locate 与 updatedb
+  - [ ] du df
+- 文本处理
+  - [x] [文本工具总览](/0078_Tools_Text)
+  - [x] [grep](/0025_Tools_Text_grep)
+  - [x] [sed](/0027_Tools_Text_sed)
+  - [x] [awk](/0052_Tools_Text_awk)
+  - [x] [sort](/0031_Tools_Text_sort)
+  - [x] [tr](/0026_Tools_Text_tr)
+  - [x] [xargs](/0022_Tools_xargs)
+  - [x] [json](/0042_Tools_Text_json)
+  - [ ] 正则表达式
+  - [ ] cut paste join
+  - [ ] uniq wc
+  - [ ] tee
+  - [ ] diff 与 patch
+  - [ ] jq
+- 编辑器
+  - [x] [Vi](/0039_Tools_Text_Vi)
+  - [x] [Vi UseCase](/0018_Tools_Text_Vi_UseCase)
+  - [x] [Vi Plugins](/0017_Tools_Text_Vi_Plugins)
+  - [ ] nano
+  - [ ] Vim 配置
+- 文本对比
+  - [x] [文本对比总览](/0054_Tools_TextCompare)
+  - [x] [meld](/0004_Tools_TextCompare_meld)
+- 远程与传输
+  - [x] [远程工具总览](/0075_Tools_Remote)
+  - [x] [ssh](/0011_Tools_Remote_ssh)
+  - [x] [ssh 连接不稳定](/0100_Tools_Remote_ssh_WorkUnStable)
+  - [x] [sshd 问题](/0132_Ubuntu_Issues_sshd)
+  - [ ] ssh 密钥与免密登录
+  - [ ] ssh config 与跳板机
+  - [ ] ssh 端口转发
+  - [x] [scp](/0010_Tools_Remote_scp)
+  - [x] [rsync](/0044_Tools_Remote_rsync)
+  - [x] [tmux](/0051_Tools_Remote_tmux)
+  - [x] [tmux Arch](/0111_Tools_Remote_tmux_Arch)
+  - [x] [tmux 插件](/0112_Tools_Remote_tmux_plugins)
+  - [ ] screen
+  - [x] [Samba](/0046_Tools_Remote_Samba)
+  - [x] [syncthing](/0029_Tools_Remote_syncthing)
+  - [ ] NFS
+  - [ ] sftp
+- 远程桌面
+  - [x] [远程桌面](/0058_Ubuntu_RemoteDesktop)
+  - [x] [VNC](/0105_Linux_VNC)
+  - [x] [vncserver](/0103_Tools_Remote_vncserver)
+  - [x] [thinclientdrives 问题](/0092_Ubuntu_Issues_thinclientdrives)
+- 下载
+  - [x] [下载工具总览](/0014_Ubuntu_Download)
+  - [x] [aria2](/0091_Ubuntu_Download_aria2)
+  - [x] [磁力链接](/0055_Ubuntu_Download_magnetW)
+  - [x] [Google Drive 命令行下载](/0109_Ubuntu_Download_GoogleDriveFilesCMD)
+  - [ ] curl
+  - [ ] wget
+- 多媒体
+  - [x] [多媒体工具总览](/0076_Tools_Media)
+  - [x] [ffmpeg](/0002_Tools_Media_ffmpeg)
+  - [x] [mediainfo](/0053_Tools_Media_mediainfo)
+  - [x] [image2string](/0036_Tools_Media_image2string)
+  - [x] [live555](/0070_Tools_Media_live555)
+- 开发辅助
+  - [x] [ctags](/0003_Tools_ctags)
+  - [x] [ldd](/0124_Tools_ldd)
+  - [ ] gcc 与 make
+  - [ ] gdb
+  - [ ] git
+  - [ ] cmake
+- 小工具
+  - [x] [date](/0024_Tools_date)
+  - [x] [cal](/0007_Tools_cal)
+  - [x] [bc](/0030_Tools_bc)
+  - [x] [shuf](/0028_Tools_shuf)
+
+## 3 系统管理
+
+- 进程与任务
+  - [x] [进程管理总览](/0032_Tools_Process)
+  - [x] [top](/0009_Tools_Process_top)
+  - [x] [kill](/0019_Tools_Process_kill)
+  - [x] [taskset](/0034_Tools_Process_taskset)
+  - [x] [chrt](/0012_Tools_chrt)
+  - [x] [ulimit](/0041_Tools_OS_ulimit)
+  - [ ] ps 与 pstree
+  - [ ] htop
+  - [ ] nice renice
+  - [ ] 信号详解
+  - [ ] 僵尸进程与孤儿进程
+  - [ ] nohup 与 disown
+  - [ ] lsof
+- 定时任务
+  - [x] [任务调度总览](/0040_Tools_TaskSchedule)
+  - [x] [crontab](/0071_Tools_TaskSchedule_crontab)
+  - [x] [at](/0037_Tools_TaskSchedule_at)
+  - [x] [batch](/0038_Tools_TaskSchedule_batch)
+  - [x] [jobs](/0047_Tools_TaskSchedule_jobs)
+  - [ ] systemd timer
+- 服务管理
+  - [ ] systemd 概念
+  - [ ] systemctl
+  - [ ] unit 文件编写
+  - [ ] target 与启动级别
+  - [ ] 开机自启
+  - [ ] journalctl
+  - [ ] 服务依赖与排错
+- 磁盘与文件系统
+  - [x] [File System](/0064_FileSystem)
+  - [x] [格式化与文件系统类型](/0081_FileSystem_Format)
+  - [x] [LVM](/0131_Linux_LVM)
+  - [x] [自动挂载](/0097_Ubuntu_AutoMountDisk)
+  - [x] [增加 Swap](/0083_Ubuntu_IncreaseSwap)
+  - [x] [大于 2TB 的磁盘](/0099_Ubuntu_Issues_DiskLargerThan2TB)
+  - [x] [ncdu](/0137_Tools_OS_Disk_ncdu)
+  - [ ] fdisk parted
+  - [ ] mount 与 fstab
+  - [ ] ext4 xfs btrfs
+  - [ ] RAID 与 mdadm
+  - [ ] SMART 磁盘健康
+  - [ ] LUKS 磁盘加密
+  - [ ] quota 配额
+- 网络配置
+  - [x] [网络工具总览](/0060_Tools_Networks)
+  - [x] [端口](/0133_Tools_OS_Port)
+  - [x] [端口工具](/0056_Tools_Networks_Port)
+  - [x] [nmap](/0062_Tools_nmap)
+  - [ ] ip 命令
+  - [ ] ss
+  - [ ] ping traceroute mtr
+  - [ ] NetworkManager 与 netplan
+  - [ ] DNS 配置与 dig
+  - [ ] hosts 与 resolv.conf
+  - [ ] 防火墙 ufw iptables nftables
+  - [ ] 路由与 NAT
+  - [ ] tcpdump
+  - [ ] Wireshark
+- 代理
+  - [x] [代理总览](/0080_Tools_Networks_Proxy)
+  - [x] [代理对比](/0180_Tools_Networks_Proxy_Comparison)
+  - [x] [V2Ray](/0066_Tools_Networks_Proxy_V2Ray)
+  - [x] [shadowsocks](/0067_Tools_Networks_Proxy_shadowsocks)
+  - [x] [Xray](/0175_Tools_Networks_Proxy_Xray)
+  - [x] [sing-box](/0176_Tools_Networks_Proxy_sing-box)
+  - [x] [Clash](/0177_Tools_Networks_Proxy_Clash)
+  - [x] [Hysteria](/0178_Tools_Networks_Proxy_Hysteria)
+  - [x] [TUIC](/0179_Tools_Networks_Proxy_TUIC)
+  - [x] [proxychains](/0140_Tools_Networks_Proxy_proxychains)
+  - [x] [Privoxy](/0139_Tools_Networks_Proxy_Privoxy)
+  - [x] [Squid](/0141_Tools_Networks_Proxy_Squid)
+  - [x] [dev-sidecar](/0138_Tools_Networks_Proxy_dev-sidecar)
+  - 协议
+    - [x] [协议总览](/0182_Tools_Networks_Proxy_Protocol)
+    - [x] [VMess](/0142_Tools_Networks_Proxy_Protocol_VMess)
+    - [x] [VLESS](/0143_Tools_Networks_Proxy_Protocol_VLESS)
+    - [x] [Shadowsocks](/0144_Tools_Networks_Proxy_Protocol_Shadowsocks)
+    - [x] [Trojan](/0145_Tools_Networks_Proxy_Protocol_Trojan)
+    - [x] [Socks](/0146_Tools_Networks_Proxy_Protocol_Socks)
+    - [x] [HTTP](/0147_Tools_Networks_Proxy_Protocol_HTTP)
+    - [x] [MTProto](/0148_Tools_Networks_Proxy_Protocol_MTProto)
+    - [x] [Freedom](/0149_Tools_Networks_Proxy_Protocol_Freedom)
+    - [x] [Blackhole](/0150_Tools_Networks_Proxy_Protocol_Blackhole)
+    - [x] [DokodemoDoor](/0151_Tools_Networks_Proxy_Protocol_DokodemoDoor)
+    - [x] [WireGuard](/0152_Tools_Networks_Proxy_Protocol_WireGuard)
+    - [x] [Loopback](/0153_Tools_Networks_Proxy_Protocol_Loopback)
+  - 传输
+    - [x] [传输总览](/0181_Tools_Networks_Proxy_Transport)
+    - [x] [TCP](/0154_Tools_Networks_Proxy_Transport_TCP)
+    - [x] [WebSocket](/0155_Tools_Networks_Proxy_Transport_WebSocket)
+    - [x] [HTTP2](/0156_Tools_Networks_Proxy_Transport_HTTP2)
+    - [x] [gRPC](/0157_Tools_Networks_Proxy_Transport_gRPC)
+    - [x] [mKCP](/0158_Tools_Networks_Proxy_Transport_mKCP)
+    - [x] [QUIC](/0159_Tools_Networks_Proxy_Transport_QUIC)
+    - [x] [DomainSocket](/0160_Tools_Networks_Proxy_Transport_DomainSocket)
+  - 安全
+    - [x] [TLS](/0161_Tools_Networks_Proxy_Security_TLS)
+    - [x] [XTLS](/0162_Tools_Networks_Proxy_Security_XTLS)
+    - [x] [Reality](/0163_Tools_Networks_Proxy_Security_Reality)
+  - V2Ray 配置
+    - [x] [Routing](/0164_Tools_Networks_Proxy_V2Ray_Routing)
+    - [x] [DNS](/0165_Tools_Networks_Proxy_V2Ray_DNS)
+    - [x] [Sniffing](/0166_Tools_Networks_Proxy_V2Ray_Sniffing)
+    - [x] [Mux](/0167_Tools_Networks_Proxy_V2Ray_Mux)
+    - [x] [Policy](/0168_Tools_Networks_Proxy_V2Ray_Policy)
+    - [x] [API](/0169_Tools_Networks_Proxy_V2Ray_API)
+    - [x] [Transparent](/0170_Tools_Networks_Proxy_V2Ray_Transparent)
+    - [x] [Systemd](/0171_Tools_Networks_Proxy_V2Ray_Systemd)
+    - [x] [Nginx](/0172_Tools_Networks_Proxy_V2Ray_Nginx)
+    - [x] [Client](/0173_Tools_Networks_Proxy_V2Ray_Client)
+    - [x] [Troubleshooting](/0174_Tools_Networks_Proxy_V2Ray_Troubleshooting)
+- 日志与启动信息
+  - [x] [Logs 对照](/0136_Logs)
+  - [x] [系统 log](/0127_Tools_OS_log)
+  - [x] [启动信息](/0061_Tools_OS_ShowBootInfo)
+  - [ ] rsyslog
+  - [ ] logrotate
+  - [ ] dmesg
+  - [ ] last 与 lastb
+- 时间与主机
+  - [x] [hostname](/0072_Tools_OS_hostname)
+  - [x] [wall](/0115_Tools_OS_wall)
+  - [x] [write](/0116_Tools_OS_write)
+  - [ ] 时区与 timedatectl
+  - [ ] NTP 与 chrony
+- 硬件信息
+  - [x] [OS 工具总览](/0122_Tools_OS)
+  - [x] [硬件信息](/0068_Tools_OS_HardwareInfo)
+  - [ ] lscpu lsmem lsblk
+  - [ ] lspci lsusb
+  - [ ] dmidecode
+  - [ ] sensors 温度
+- 桌面与外设
+  - [x] [桌面总览](/0057_Desktop)
+  - [x] [GNOME](/0118_Desktop_GNOME)
+  - [x] [KDE](/0117_Desktop_KDE)
+  - [x] [安装桌面](/0094_Ubuntu_InstallDesktop)
+  - [x] [桌面显示问题](/0095_Ubuntu_Issues_DesktopDisplay)
+  - [x] [xset](/0008_Tools_OS_xset)
+  - [x] [键盘 tab 延迟](/0126_Ubuntu_Issues_tabdelay)
+  - [x] [USB 耳机无声](/0096_Ubuntu_Issues_USBHeadphoneNoSound)
+  - [x] [前置耳机无声](/0101_Ubuntu_Issues_FrontHeadPhoneNotWorking)
+  - [x] [Google 拼音](/0090_Ubuntu_InstallGooglePinyin)
+  - [x] [Steam](/0063_Ubuntu_InstallSteam)
+  - [ ] X11 与 Wayland
+  - [ ] 显示管理器
+- 安全
+  - [x] [Security 总览](/0123_Security)
+  - [x] [PAM 认证](/0065_Security_PAM)
+  - [ ] ACL
+  - [ ] SELinux 与 AppArmor
+  - [ ] 防火墙与 fail2ban
+  - [ ] 系统加固
+  - [ ] 审计 auditd
+- 备份与恢复
+  - [x] [rsync](/0044_Tools_Remote_rsync)
+  - [ ] tar 备份
+  - [ ] 快照
+  - [ ] 系统恢复与救援模式
+- 常见问题
+  - [x] [Ubuntu 问题总览](/0121_Ubuntu_Issues)
+- 容器与虚拟化
+  - [ ] Docker 基础
+  - [ ] 镜像与容器
+  - [ ] Docker 网络与存储
+  - [ ] KVM 与 QEMU
+  - [ ] libvirt
+
+## 4 性能与排错
+
+- 方法
+  - [ ] USE 方法
+  - [ ] 延迟与吞吐
+  - [ ] 排错流程
+  - [ ] 基线与对比
+  - [ ] 负载与 load average
+  - [ ] 采样与追踪的区别
+- 全局观测
+  - [x] [top](/0009_Tools_Process_top)
+  - [x] [iostat](/0045_Tools_OS_iostat)
+  - [x] [sar](/0048_Tools_Networks_sar)
+  - [x] [netdata](/0108_Tools_OS_netdata)
+  - [x] [watch](/0098_Tools_OS_watch)
+  - [ ] uptime
+  - [ ] vmstat
+  - [ ] mpstat
+  - [ ] pidstat
+  - [ ] htop 与 btop
+- CPU
+  - [ ] CPU 使用率分解 us sy wa
+  - [ ] 上下文切换
+  - [ ] 运行队列与调度延迟
+  - [ ] CPU 频率与功耗 turbostat
+  - [ ] CPU 缓存与 perf 计数器
+- 内存
+  - [x] [Memory 指标](/0125_Tools_OS_Memory)
+  - [ ] free 与 available
+  - [ ] slabtop
+  - [ ] smem
+  - [ ] 内存泄漏排查
+  - [ ] valgrind
+  - [ ] OOM 分析
+  - [ ] cgroup 内存限制
+  - [ ] 内存带宽测试
+- 磁盘与 I/O
+  - [ ] iostat 详解
+  - [ ] iotop
+  - [ ] blktrace
+  - [ ] 文件系统缓存与 drop_caches
+  - [ ] fio
+- 网络
+  - [x] [网络性能工具](/0106_Tools_Networks_PerformanceTools)
+  - [ ] ss 详解
+  - [ ] sar 网络指标
+  - [ ] iperf
+  - [ ] tcpdump 排错
+  - [ ] 丢包与重传分析
+- 基准测试
+  - [x] [Benchmark](/0129_Tools_Benchmark)
+  - [ ] sysbench
+  - [ ] stress-ng
+  - [ ] Phoronix Test Suite
+  - [ ] 基准测试的注意事项
+- 剖析
+  - [ ] perf stat
+  - [ ] perf record 与 report
+  - [ ] perf top
+  - [ ] 火焰图
+  - [ ] off-CPU 分析
+  - [ ] Intel VTune
+- 追踪
+  - [ ] strace
+  - [ ] ltrace
+  - [ ] ftrace 与 trace-cmd
+  - [ ] uprobe 与 kprobe
+  - [ ] eBPF 与 bpftrace
+  - [ ] BCC 工具集
+- 崩溃分析
+  - [ ] core dump
+  - [ ] gdb 调试
+  - [ ] kdump 与 crash
+  - [ ] 死锁与卡死排查
+
+## 5 内核基础
+
+- 内核与版本
+  - [x] [Kernel 概览](/0013_Linux_Kernel)
+  - [x] [设置默认内核](/0114_Ubuntu_SetDefaultKernel)
+  - [x] [内核升级](/0073_Tools_OS_KernelUpgrade)
+  - [ ] 内核源码树结构
+  - [ ] 内核版本与 LTS
+  - [ ] 内核配置 menuconfig
+  - [ ] 编译与安装内核
+  - [ ] 内核启动参数
+  - [ ] sysctl 参数
+  - [ ] proc 与 sys 文件系统
+- 启动流程
+  - [x] [启动信息](/0061_Tools_OS_ShowBootInfo)
+  - [ ] UEFI 与 BIOS
+  - [ ] GRUB
+  - [ ] initramfs
+  - [ ] init 与 systemd
+- 系统调用
+  - [ ] 用户态与内核态
+  - [ ] 系统调用路径
+  - [ ] vDSO
+  - [ ] seccomp
+- 进程与线程
+  - [ ] task_struct
+  - [ ] fork exec clone
+  - [ ] 线程与 futex
+  - [ ] 信号机制
+  - [ ] 进程的虚拟地址空间
+- 调度
+  - [x] [chrt](/0012_Tools_chrt)
+  - [x] [taskset](/0034_Tools_Process_taskset)
+  - [ ] CFS 与 EEVDF
+  - [ ] 实时调度 FIFO RR DEADLINE
+  - [ ] 抢占模型
+  - [ ] CPU 亲和与 NUMA 调度
+  - [ ] cgroup CPU 控制
+- 中断与时间
+  - [ ] 硬中断与软中断
+  - [ ] tasklet 与 workqueue
+  - [ ] 时钟与定时器
+  - [ ] hrtimer
+- 内存管理
+  - [x] [增加 Swap](/0083_Ubuntu_IncreaseSwap)
+  - [ ] 虚拟内存与页表
+  - [ ] 缺页异常
+  - [ ] 伙伴系统与 slab
+  - [ ] 页缓存
+  - [ ] 内存回收与 kswapd
+  - [ ] 交换与 zswap
+  - [ ] 大页与透明大页
+  - [ ] NUMA
+  - [ ] mmap 与 brk
+  - [ ] OOM killer
+- 文件系统与存储
+  - [x] [File System](/0064_FileSystem)
+  - [x] [LVM](/0131_Linux_LVM)
+  - [ ] VFS
+  - [ ] inode 与 dentry
+  - [ ] 页缓存与写回
+  - [ ] ext4 实现
+  - [ ] 块层与 I/O 调度
+  - [ ] NVMe
+  - [ ] device mapper
+- 网络协议栈
+  - [ ] sk_buff
+  - [ ] socket 与 TCP
+  - [ ] netfilter 与 iptables
+  - [ ] epoll
+  - [ ] io_uring
+  - [ ] 网络设备与 NAPI
+- IPC
+  - [x] [IPC 总览](/0086_Linux_IPC)
+  - [x] [POSIX 与 System V](/0082_Linux_POSIX与SystemV)
+  - [x] [共享内存](/0087_Linux_IPC_SharedMemory)
+  - [x] [信号量](/0088_Linux_IPC_Semaphore)
+  - [ ] 管道与 FIFO
+  - [ ] 消息队列
+  - [ ] Unix domain socket
+- 同步与并发
+  - [ ] 自旋锁与互斥锁
+  - [ ] RCU
+  - [ ] 原子操作与内存屏障
+  - [ ] 死锁与 lockdep
+- 容器基础
+  - [ ] namespace
+  - [ ] cgroup v2
+  - [ ] capabilities
+  - [ ] chroot 与 pivot_root
+- 安全机制
+  - [ ] LSM
+  - [ ] SELinux 与 AppArmor 原理
+  - [ ] 内核加固
+- 追踪基础设施
+  - [ ] tracepoint
+  - [ ] ftrace 原理
+  - [ ] perf events
+  - [ ] eBPF 原理
+
+## 6 驱动与内核开发
+
+- 驱动概览
+  - [x] [Driver 概览](/0005_Driver)
+  - [ ] 字符设备 块设备 网络设备
+  - [ ] 用户态驱动
+- 内核模块
+  - [ ] 最小内核模块
+  - [ ] insmod rmmod modprobe
+  - [ ] 模块参数
+  - [ ] 模块依赖与导出符号
+  - [ ] DKMS
+- 字符设备
+  - [ ] file_operations
+  - [ ] cdev 与设备号
+  - [ ] ioctl
+  - [ ] copy_to_user 与 copy_from_user
+  - [ ] poll 与 select
+  - [ ] mmap 驱动
+- 设备模型
+  - [ ] kobject 与 sysfs
+  - [ ] 总线 设备 驱动
+  - [ ] platform 驱动
+  - [ ] udev 规则
+  - [ ] 设备树
+  - [ ] ACPI
+- 硬件接口
+  - [ ] 中断处理
+  - [ ] DMA
+  - [ ] I2C
+  - [ ] SPI
+  - [ ] GPIO
+  - [ ] PCIe
+  - [ ] USB 驱动
+  - [ ] 电源管理
+  - [ ] 固件加载
+- 多媒体与显示
+  - [ ] V4L2 框架
+  - [ ] V4L2 相机驱动
+  - [ ] ISP 驱动
+  - [ ] DRM 与 KMS
+  - [ ] ALSA 音频
+  - [ ] framebuffer
+- 显卡与加速器
+  - [x] [NVIDIA 驱动](/0110_Ubuntu_Issues_NVIDIAGPUDriver)
+  - [ ] Intel GPU i915 与 xe
+  - [ ] Intel Media Driver 与 VA-API
+  - [ ] 计算加速器框架
+- 内核调试
+  - [ ] printk 与 dmesg
+  - [ ] dynamic debug
+  - [ ] kprobe 与 ftrace
+  - [ ] oops 与 panic 分析
+  - [ ] kgdb
+  - [ ] QEMU 调试内核
+  - [ ] KASAN 与 lockdep
+- 内核开发流程
+  - [ ] 代码风格 checkpatch
+  - [ ] git 与补丁
+  - [ ] 邮件列表与 send-email
+  - [ ] kselftest
+  - [ ] Rust for Linux
+- 嵌入式构建
+  - [x] [Yocto](/0084_Linux_Yocto)
+  - [x] [Yocto 静态 IP](/0085_Linux_Yocto_SetStaticIP)
+  - [ ] Buildroot
+  - [ ] U-Boot
+  - [ ] BSP
 
